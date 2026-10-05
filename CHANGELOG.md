@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1 — 2026-10-06
+
+- Redraw Stieleiche (Pedunculate oak) in both variants with fuller ascending lobes, an irregular rounded outline and a more integrated auriculate base.
+- Reposition the Detail lateral veins at the lobe margins and retain two sinus veins; simplify Compact to six lateral veins with more space around its heavier strokes.
+- Refresh sprites, gallery, manifest, overview and botanical notes. The other 54 source SVGs are unchanged.
+
 ## 1.0.0 — 2026-10-05
 
 Initial release.

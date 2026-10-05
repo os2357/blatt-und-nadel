@@ -16,7 +16,7 @@ git push -u origin main
 
 The archive excludes Git history, development dependencies and temporary review files. The included GitHub Actions workflow checks pull requests and pushes to `main`.
 
-After publishing, add the real source URL to README/attribution examples and optionally create a `v1.0.0` tag and GitHub Release. The prebuilt `index.html` can be hosted as a static gallery. If using GitHub Pages, set the repository’s Pages source to the root of `main`; the gallery’s asset links are relative. Deployment is not configured automatically.
+After publishing, add the real source URL to README/attribution examples and optionally create a `v1.0.1` tag and GitHub Release. The prebuilt `index.html` can be hosted as a static gallery. If using GitHub Pages, set the repository’s Pages source to the root of `main`; the gallery’s asset links are relative. Deployment is not configured automatically.
 
 `package.json` uses `private: true`: this repository distributes reusable assets directly and is not an npm package release.
 
