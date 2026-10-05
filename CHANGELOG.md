@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.2 — 2026-10-06
+
+- Redraw Schwarzpappel (Black poplar) in both variants with convex flanks, rounded shoulders, a prolonged apex and a curved, finely toothed margin.
+- Curve the lateral veins and adjust Compact vein spacing and endpoints for small sizes.
+- Refresh sprites, gallery, manifest, overview and botanical notes. The other 54 source SVGs, including the 1.0.1 Stieleiche redraw, are unchanged.
+
 ## 1.0.1 — 2026-10-06
 
 - Redraw Stieleiche (Pedunculate oak) in both variants with fuller ascending lobes, an irregular rounded outline and a more integrated auriculate base.

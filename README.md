@@ -1,6 +1,6 @@
 # Blatt & Nadel
 
-**28 Central European tree and shrub species · 56 SVG icons · v1.0.1**
+**28 Central European tree and shrub species · 56 SVG icons · v1.0.2**
 
 Leaf, needle and twig icons for nature websites, species profiles and filters. Two optical sizes pair distinctive botanical forms with clear, consistent linework.
 

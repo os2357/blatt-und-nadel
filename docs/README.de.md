@@ -1,6 +1,6 @@
 # Blatt & Nadel
 
-**28 Gehölzarten · 56 SVG-Icons · v1.0.1**
+**28 Gehölzarten · 56 SVG-Icons · v1.0.2**
 
 Blätter, Nadeln und Zweige für Naturwebseiten, Artenporträts und Baumfilter. Zwei optisch abgestimmte Varianten verbinden charakteristische Pflanzenformen mit einer einheitlichen Zeichensprache.
 

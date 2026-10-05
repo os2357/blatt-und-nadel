@@ -1,6 +1,6 @@
 # Quality checks
 
-Release **1.0.1** · 6 October 2026
+Release **1.0.2** · 6 October 2026
 
 ## Artwork review
 
@@ -8,11 +8,17 @@ All 28 species were inspected in Detail and Compact, enlarged and at 24/32 px Co
 
 Compact uses separately simplified geometry, including all three maples. The [botanical notes](BOTANY.md) document the chosen forms, references and deliberate reductions.
 
+## Black poplar review
+
+The 1.0.2 review redraws only Black poplar (Schwarzpappel), in Detail and Compact. The botanical references are linked in [BOTANY.md](BOTANY.md). Both variants were inspected at 480 px, at 24/32 px Compact and 48/64 px Detail, on light and dark backgrounds. The revision replaces the straight-sided triangular silhouette with convex flanks, rounded shoulders, an elongated tip and a curved, finely toothed margin. Curved lateral veins have separate endpoints for the heavier Compact strokes.
+
+The other 54 source SVGs are byte-identical to 1.0.1, including the redrawn Pedunculate oak. Geometry, generated assets, archive integrity and both browser workflows were checked again for 1.0.2.
+
 ## Pedunculate oak review
 
 The 1.0.1 review redraws only Pedunculate oak (Stieleiche), in Detail and Compact. The outline and venation were compared with the Info Flora description and LWF photographic oak comparison linked in [BOTANY.md](BOTANY.md). Both variants were inspected at 480 px, at 24/32 px Compact and 48/64 px Detail, on light and dark backgrounds. The rounded ascending lobes, unequal spacing, basal auricles, very short petiole and two Detail sinus veins are retained. Compact uses six shortened lateral veins and a separately adjusted midrib for legibility.
 
-The other 54 source SVGs are byte-identical to the clean 1.0.0 release. Geometry, generated assets, archive integrity and both browser workflows were checked again for this release.
+In 1.0.1, the other 54 source SVGs were byte-identical to the clean 1.0.0 release. Geometry, generated assets, archive integrity and both browser workflows passed for that release.
 
 ## Wych elm review
 
@@ -32,7 +38,7 @@ Both outlines have no detected self-crossings. Full-stroke containment at 1536 �
 - Blade, filled-needle and sheath contours explicitly close and contain no detected proper self-crossings.
 - Each of the 14 conifer SVGs forms one connected painted component: no detached needle or twig fragments.
 - Separate leaf blades have no detected crossings, nesting or overlaps between their painted outlines.
-- All **340 internal vein and midrib paths** remain inside the leaf blades within the stated numerical tolerance.
+- All **344 internal vein and midrib paths** remain inside the leaf blades within the stated numerical tolerance.
 - Rendered strokes do not touch the canvas edge.
 - Generated sprites, the manifest, gallery and SVG overview match the current sources.
 
