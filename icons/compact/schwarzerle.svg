@@ -1,0 +1,13 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Schwarzerle · Alnus glutinosa">
+  <title>Schwarzerle · Alnus glutinosa</title>
+  <path class="leaf-blade" d="M48 24 L41.11 18.47 L36.58 17.44 L32.46 15.91 L27.96 17.42 L23.69 18.51 L20.9 22.35 L17.85 25.49 L17.03 30.12 L15.3 34.11 L15.91 38.76 L15.28 43.05 L16.98 47.41 L17.27 51.71 L19.65 55.73 L20.61 59.95 L23.68 63.47 L25.41 67.43 L29.12 70.28 L31.65 73.81 L35.91 75.76 L39.32 78.35 L43.87 79.27 L48 80 L56.61 77.96 L60.42 75.31 L64.5 73.79 L67.53 70.21 L71.16 67.81 L73.27 63.61 L76.21 60.4 L77.23 55.81 L79.31 51.99 L79.43 47.33 L81.05 43.29 L80.37 38.63 L80.89 34.31 L78.91 30.02 L78.01 25.74 L74.62 22.44 L72.03 18.88 L67.48 17.53 L63.4 15.83 L58.84 17.18 L54.6 18.07 L51.09 21.15 L48 24 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path d="M46 91 Q47 85 48 80" fill="none" stroke="currentColor" stroke-width="3.3" class="leaf-petiole"/>
+  <path d="M48 80 Q50 54 48 28" fill="none" stroke="currentColor" stroke-width="3.3" class="leaf-midrib"/>
+  <path d="M48.62 37.972 Q39.45 34.75 29 25" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M48.62 37.972 Q57 35 68 26" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M48.946 60.016 Q38.1 58.5 26 54" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M48.946 60.016 Q59.7 58 74 52" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+</svg>

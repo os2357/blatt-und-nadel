@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Rotbuche · Fagus sylvatica">
+  <title>Rotbuche · Fagus sylvatica</title>
+  <path class="leaf-blade" d="M48 12 C43 22 35 22 31 29 C28 34 24 38 24 44 C24 50 21 54 25 61 C28 66 28 72 34 75 C39 78 42 81 48 81 C54 80 60 77 65 72 C70 67 70 61 72 55 C74 49 71 43 68 38 C65 31 58 27 55 22 Q51 17 48 12 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path d="M46 90 Q47 85 48 81" fill="none" stroke="currentColor" stroke-width="3.3" class="leaf-petiole"/>
+  <path d="M48 81 Q50 50 48 17" fill="none" stroke="currentColor" stroke-width="3.3" class="leaf-midrib"/>
+  <path d="M48.67 30.976 Q43.05 29.5 37 25" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M48.67 30.976 Q52.05 29.75 57 26" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M48.997 51.002 Q38.55 49.25 27 44" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M48.997 51.002 Q57.45 49 69 43" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M48.579 70.024 Q40.8 69.75 32 69" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M48.579 70.024 Q55.65 68.5 65 64" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+</svg>

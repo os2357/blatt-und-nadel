@@ -1,0 +1,33 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Robinie · Robinia pseudoacacia">
+  <title>Robinie · Robinia pseudoacacia</title>
+  <path class="leaf-rachis" d="M48 91 L48 27" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M48 78 L44 78" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-blade" d="M44 78 C44.008 70.405 25.528 63.365 23 70 C20.472 76.635 38.952 83.675 44 78 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M44 78 L25.94 71.12" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-petiole" d="M48 78 L52 78" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-blade" d="M52 78 C57.048 83.675 75.528 76.635 73 70 C70.472 63.365 51.992 70.405 52 78 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M52 78 L70.06 71.12" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-petiole" d="M48 63 L44 63" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-blade" d="M44 63 C43.405 55.24 21.405 47.32 19 54 C16.595 60.68 38.595 68.6 44 63 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M44 63 L22.5 55.26" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-petiole" d="M48 63 L52 63" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-blade" d="M52 63 C57.405 68.6 79.405 60.68 77 54 C74.595 47.32 52.595 55.24 52 63 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M52 63 L73.5 55.26" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-petiole" d="M48 48 L44 48" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-blade" d="M44 48 C44.048 40.349 24.688 32.429 22 39 C19.312 45.571 38.672 53.491 44 48 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M44 48 L25.08 40.26" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-petiole" d="M48 48 L52 48" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-blade" d="M52 48 C57.328 53.491 76.688 45.571 74 39 C71.312 32.429 51.952 40.349 52 48 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M52 48 L70.92 40.26" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-petiole" d="M48 33 L44 33" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-blade" d="M44 33 C45.202 25.726 32.002 19.566 29 26 C25.998 32.434 39.198 38.594 44 33 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M44 33 L31.1 26.98" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-petiole" d="M48 33 L52 33" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-blade" d="M52 33 C56.802 38.594 70.002 32.434 67 26 C63.998 19.566 50.798 25.726 52 33 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M52 33 L64.9 26.98" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-blade" d="M48 27 C53.7 24.72 53.7 8 48 8 C42.3 8 42.3 24.72 48 27 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M48 27 L48 11" fill="none" stroke="currentColor" stroke-width="1.12"/>
+</svg>

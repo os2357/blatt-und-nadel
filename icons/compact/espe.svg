@@ -1,0 +1,13 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Espe · Zitterpappel · Populus tremula">
+  <title>Espe · Zitterpappel · Populus tremula</title>
+  <path class="leaf-blade" d="M55 9 Q51.35 12.85 49.16 10.54 Q44.78 9 43.32 13.62 Q38.21 12.08 37.48 18.24 Q31.64 17.47 33.1 23.63 Q27.26 25.94 31.64 31.33 Q26.53 35.95 31.64 39.8 Q29.45 45.96 35.29 47.5 Q34.56 53.66 41.13 53.66 Q43.32 59.05 49.16 55.97 Q53.54 60.59 57.19 56.74 Q61.57 59.82 65.22 55.2 Q71.06 57.51 72.52 51.35 Q78.36 51.35 77.63 44.42 Q82.74 42.11 79.09 36.72 Q83.47 32.1 79.09 28.25 Q80.55 22.09 74.71 20.55 Q76.17 14.39 69.6 14.39 Q67.41 9 63.03 12.08 Q57.92 12.08 55 9 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path d="M55 51.35 Q41.86 45.19 36.75 39.03" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M55 51.35 Q68.87 45.96 75.44 39.03" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M55 28.25 Q49.16 20.55 44.78 15.93" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M55 28.25 Q61.57 19.78 66.68 15.93" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M25 90 Q48 79 55 56.7" fill="none" stroke="currentColor" stroke-width="3.3" class="leaf-petiole"/>
+  <path d="M55 56.7 L55 14" fill="none" stroke="currentColor" stroke-width="3.3" class="leaf-midrib"/>
+</svg>

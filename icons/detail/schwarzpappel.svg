@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Schwarzpappel · Populus nigra">
+  <title>Schwarzpappel · Populus nigra</title>
+  <path class="leaf-blade" d="M48 10 L46.52 12.96 L46.08 14.62 L44.88 15.83 L44.61 17.59 L43.15 18.65 L43.01 20.49 L41.51 21.5 L41.3 23.34 L39.77 24.32 L39.52 26.15 L37.96 27.09 L37.66 28.92 L36.09 29.84 L35.76 31.66 L34.18 32.56 L33.82 34.38 L32.23 35.26 L31.86 37.08 L30.26 37.95 L29.88 39.77 L28.28 40.64 L27.9 42.46 L26.29 43.34 L25.92 45.15 L24.32 46.04 L23.96 47.86 L22.37 48.76 L22.03 50.58 L20.45 51.5 L20.14 53.33 L18.57 54.27 L19.98 55.81 L20.94 57.31 L22.92 57.58 L24.02 58.99 L26.01 59.1 L27.22 60.43 L29.23 60.41 L30.54 61.64 L32.53 61.48 L33.93 62.64 L35.91 62.35 L37.4 63.4 L39.34 62.97 L40.94 63.72 L42.83 63.35 L44.5 63.69 L46.32 63.41 L48 63.3 L51.51 63.69 L53.34 63.41 L55.07 63.88 L56.86 63.23 L58.63 63.79 L60.35 62.82 L62.17 63.27 L63.8 62.18 L65.65 62.48 L67.17 61.25 L69.05 61.37 L70.41 60 L72.31 59.89 L73.45 58.33 L75.3 57.93 L76.1 56.18 L77.65 54.62 L76.01 53.48 L75.81 51.75 L74.17 50.68 L73.95 48.96 L72.31 47.9 L72.08 46.18 L70.42 45.14 L70.18 43.41 L68.52 42.37 L68.28 40.65 L66.62 39.62 L66.37 37.9 L64.71 36.86 L64.46 35.14 L62.81 34.11 L62.56 32.39 L60.92 31.34 L60.68 29.62 L59.04 28.56 L58.82 26.84 L57.2 25.78 L56.99 24.05 L55.37 22.97 L55.2 21.24 L53.61 20.14 L53.46 18.41 L51.88 17.28 L51.59 15.64 L50.24 14.38 L49.74 12.85 L48.7 11.44 L48 10 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path d="M48 62.48 Q33.04 51.82 26 51.82" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
+  <path d="M48 61.66 Q62.96 51.82 70.88 51" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
+  <path d="M48 50.18 Q40.96 39.52 35.68 35.42" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
+  <path d="M48 50.18 Q57.68 39.52 61.2 34.6" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
+  <path d="M48 56.74 Q41.84 50.18 37.44 45.26" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
+  <path d="M48 57.56 Q57.68 50.18 62.08 45.26" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
+  <path d="M36 90 Q46 77 48 63.3" fill="none" stroke="currentColor" stroke-width="1.9" class="leaf-petiole"/>
+  <path d="M48 63.3 L48 15" fill="none" stroke="currentColor" stroke-width="1.9" class="leaf-midrib"/>
+</svg>

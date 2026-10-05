@@ -1,0 +1,13 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Feldahorn · Acer campestre">
+  <title>Feldahorn · Acer campestre</title>
+  <path class="leaf-blade" d="M48 10 C43 10 40 16 39 20 C36 20 33 18 31 20 Q30 27 34 35 Q36 39 34 40 C29 29 18 24 13 27 Q11 31 16 36 Q13 37 14 41 C18 47 24 48 28 51 Q31 53 28 55 Q22 51 16 54 C12 57 16 63 22 66 C30 71 38 71 43 68 Q46 66 48 68 Q50 66 53 68 C58 71 66 71 74 66 C80 63 84 57 80 54 Q74 51 68 55 Q65 53 68 51 C72 48 78 47 82 41 Q83 37 80 36 Q85 31 83 27 C78 24 67 29 62 40 Q60 39 62 35 Q66 27 65 20 C63 18 60 20 57 20 C56 16 53 10 48 10 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M39 91 Q46 81 48 68" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M48 68 L48 15" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 68 Q37 46 18 31" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 68 Q59 46 78 31" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 67 Q36 60 22 59" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 67 Q60 60 74 59" fill="none" stroke="currentColor" stroke-width="1.12"/>
+</svg>

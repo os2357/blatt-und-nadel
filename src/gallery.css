@@ -1,0 +1,374 @@
+/* SPDX-FileCopyrightText: 2026 Oliver Simon
+ * SPDX-License-Identifier: MIT */
+:root {
+  --bg: #f7f7f0;
+  --paper: #fbfcf7;
+  --ink: #203d32;
+  --muted: #657565;
+  --rule: #d3dbce;
+  --accent: #34573e;
+  --icon-size: 112px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font:
+    15px/1.5 system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+}
+body.dark {
+  --bg: #14271f;
+  --paper: #1b3228;
+  --ink: #e5e9d9;
+  --muted: #b0bead;
+  --rule: #3d5446;
+  --accent: #d4dfbd;
+}
+button,
+input,
+select {
+  font: inherit;
+}
+button,
+a,
+input,
+select {
+  touch-action: manipulation;
+}
+button {
+  cursor: pointer;
+}
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 3px solid #b58b47;
+  outline-offset: 4px;
+}
+header,
+main,
+footer {
+  max-width: 1464px;
+  margin: auto;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+header {
+  padding-top: 52px;
+}
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 11px;
+  color: var(--muted);
+}
+h1 {
+  font:
+    normal clamp(48px, 7vw, 84px)/1.1 Georgia,
+    serif;
+  letter-spacing: -0.035em;
+  margin: 20px 0;
+}
+header p {
+  max-width: 740px;
+  color: var(--muted);
+  margin-bottom: 30px;
+}
+.meta {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--rule);
+  padding-top: 18px;
+  color: var(--muted);
+  font-size: 12px;
+}
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: end;
+  margin: 26px 0 32px;
+  padding: 20px;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+}
+.controls label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+.controls input,
+.controls select,
+.controls button {
+  height: 38px;
+  border: 1px solid var(--rule);
+  border-radius: 5px;
+  background: var(--bg);
+  color: var(--ink);
+  padding: 6px 10px;
+}
+.controls input[type='search'] {
+  width: 245px;
+}
+.controls input[type='color'] {
+  width: 52px;
+  padding: 3px;
+}
+.controls input[type='range'] {
+  padding: 0;
+  width: 120px;
+}
+.controls .grow {
+  margin-left: auto;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.card {
+  border-top: 1px solid var(--rule);
+  padding: 18px 24px 26px;
+}
+.card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--muted);
+  font-size: 10px;
+}
+.copy {
+  background: transparent;
+  border: 0;
+  color: var(--muted);
+  font-size: 11px;
+  padding: 5px;
+}
+.copy:hover {
+  text-decoration: underline;
+}
+.art {
+  height: 158px;
+  display: grid;
+  place-items: center;
+  color: var(--icon-color, var(--accent));
+}
+.specimen {
+  width: var(--icon-size);
+  height: var(--icon-size);
+  overflow: visible;
+}
+[hidden] {
+  display: none !important;
+}
+h2 {
+  font-size: 16px;
+  font-weight: 550;
+  margin: 5px 0;
+}
+.latin {
+  font:
+    italic 16px Georgia,
+    serif;
+  color: var(--muted);
+  margin: 4px 0 12px;
+}
+.note {
+  font-size: 12px;
+  min-height: 38px;
+  color: var(--muted);
+  margin: 0 0 15px;
+}
+.size-test {
+  display: flex;
+  align-items: flex-end;
+  gap: 24px;
+  height: 74px;
+  color: var(--icon-color, var(--accent));
+}
+.size-test span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+.size-test small {
+  font-size: 9px;
+  color: var(--muted);
+}
+.download {
+  display: inline-block;
+  margin-top: 20px;
+  color: var(--muted);
+  font-size: 11px;
+  text-decoration: none;
+}
+.download:hover {
+  text-decoration: underline;
+}
+.empty {
+  display: none;
+  padding: 60px;
+  text-align: center;
+}
+.count {
+  border: 0;
+  padding: 0 0 14px;
+}
+.implementation {
+  border-top: 1px solid var(--rule);
+  margin-top: 36px;
+  padding: 28px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.implementation h2 {
+  font:
+    28px Georgia,
+    serif;
+}
+.implementation p {
+  font-size: 13px;
+  color: var(--muted);
+  max-width: 580px;
+}
+code {
+  font:
+    12px/1.7 ui-monospace,
+    monospace;
+}
+pre {
+  white-space: pre-wrap;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  padding: 20px;
+  border-radius: 6px;
+}
+.status {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--ink);
+  color: var(--bg);
+  padding: 10px 20px;
+  border-radius: 5px;
+  max-width: 90vw;
+  box-shadow: 0 8px 30px #0002;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  color: var(--muted);
+  font-size: 11px;
+}
+@media (max-width: 1080px) {
+  .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (max-width: 760px) {
+  header,
+  main,
+  footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .card {
+    padding: 15px 10px 22px;
+  }
+  .implementation {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .meta {
+    gap: 20px;
+  }
+  .controls .grow {
+    margin-left: 0;
+  }
+  .controls input[type='search'] {
+    width: 100%;
+  }
+  .controls .search {
+    width: 100%;
+  }
+  .art {
+    height: 145px;
+  }
+  .note {
+    min-height: 56px;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  button,
+  a {
+    transition:
+      color 0.15s,
+      background 0.15s;
+  }
+}
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .meta {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .note {
+    min-height: 0;
+  }
+  pre {
+    overflow-wrap: anywhere;
+  }
+}
+@media print {
+  .controls,
+  .copy,
+  .download,
+  .implementation,
+  .status {
+    display: none;
+  }
+  header {
+    padding-top: 0;
+  }
+  .grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .card {
+    break-inside: avoid;
+  }
+  .art {
+    height: 120px;
+  }
+  .size-test {
+    display: none;
+  }
+  .note {
+    min-height: 0;
+  }
+  .card {
+    padding-bottom: 12px;
+  }
+  body {
+    background: white;
+  }
+}

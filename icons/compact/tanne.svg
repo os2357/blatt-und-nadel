@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Weißtanne · Abies alba">
+  <title>Weißtanne · Abies alba</title>
+  <path d="M47 85 Q49 58 49 18" fill="none" stroke="currentColor" stroke-width="3.3" class="leaf-axis"/>
+  <path d="M48.025 71.419 C46.901 71 45.601 69.335 43.727 68.636 L21.603 60.384 C20.853 60.104 19.648 63.337 20.397 63.616 L42.521 71.869 C44.395 72.568 46.468 72.162 47.592 72.581 Z" fill="currentColor" stroke="none" class="leaf-needle"/>
+  <path d="M48.11 70.586 C49.245 70.196 51.307 70.656 53.198 70.006 L77.561 61.631 C78.317 61.371 77.196 58.109 76.439 58.369 L52.076 66.743 C50.185 67.393 48.842 69.024 47.707 69.414 Z" fill="currentColor" stroke="none" class="leaf-needle"/>
+  <path d="M48.642 56.418 C47.515 56.006 46.202 54.352 44.323 53.667 L21.591 45.379 C20.839 45.105 19.658 48.347 20.409 48.621 L43.142 56.908 C45.021 57.593 47.09 57.171 48.218 57.582 Z" fill="currentColor" stroke="none" class="leaf-needle"/>
+  <path d="M48.698 55.585 C49.83 55.188 51.894 55.635 53.782 54.973 L77.571 46.628 C78.326 46.363 77.184 43.107 76.429 43.372 L52.64 51.717 C50.752 52.379 49.42 54.018 48.287 54.415 Z" fill="currentColor" stroke="none" class="leaf-needle"/>
+  <path d="M49.01 41.417 C47.881 41.01 46.561 39.361 44.679 38.684 L21.584 30.377 C20.831 30.106 19.663 33.352 20.416 33.623 L43.511 41.931 C45.393 42.608 47.461 42.177 48.59 42.583 Z" fill="currentColor" stroke="none" class="leaf-needle"/>
+  <path d="M49.041 40.584 C50.172 40.183 52.238 40.622 54.122 39.953 L77.577 31.626 C78.331 31.358 77.177 28.107 76.423 28.374 L52.968 36.702 C51.083 37.371 49.757 39.014 48.626 39.416 Z" fill="currentColor" stroke="none" class="leaf-needle"/>
+  <path d="M49.221 26.432 C48.121 25.953 46.911 24.221 45.078 23.423 L26.688 15.418 C25.955 15.099 24.578 18.262 25.312 18.582 L43.701 26.586 C45.535 27.384 47.626 27.09 48.726 27.568 Z" fill="currentColor" stroke="none" class="leaf-needle"/>
+  <path d="M49.231 25.569 C50.332 25.09 52.423 25.387 54.257 24.59 L72.687 16.582 C73.421 16.263 72.046 13.099 71.313 13.418 L52.883 21.425 C51.048 22.222 49.838 23.953 48.737 24.431 Z" fill="currentColor" stroke="none" class="leaf-needle"/>
+</svg>

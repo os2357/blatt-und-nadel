@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Winterlinde · Tilia cordata">
+  <title>Winterlinde · Tilia cordata</title>
+  <path class="leaf-blade" d="M48.92 9 L47.29 12.36 L46.73 14.22 L45.15 15.4 L44.54 17.32 L42.57 18.09 L41.79 20.03 L39.7 20.5 L38.62 22.33 L36.46 22.59 L35.18 24.32 L33 24.46 L31.66 26.18 L29.48 26.36 L28.21 28.15 L26.04 28.5 L25.03 30.45 L22.95 31.15 L22.41 33.24 L20.56 34.37 L20.57 36.53 L19.06 38 L19.56 40.08 L18.16 41.59 L18.62 43.67 L17.34 45.28 L18.04 47.3 L16.99 49.06 L17.99 50.98 L17.23 52.87 L18.57 54.63 L18.2 56.61 L19.93 58.09 L20.11 60.09 L22.21 61.12 L23.04 63.01 L25.4 63.38 L26.88 64.92 L29.24 64.59 L31.15 65.64 L33.31 64.7 L35.44 65.28 L37.29 63.94 L39.41 63.93 L41.05 62.53 L42.96 61.96 L44.57 60.65 L46.16 59.63 L49.09 62.29 L51.11 63.04 L52.6 64.43 L54.89 64.49 L56.64 65.76 L58.93 65.13 L60.95 66 L63.02 64.9 L65.22 65.32 L66.95 63.81 L69.19 63.76 L70.49 61.95 L72.67 61.45 L73.49 59.42 L75.5 58.51 L75.82 56.38 L77.57 55.11 L77.39 52.96 L78.82 51.4 L78.19 49.32 L79.27 47.55 L78.24 45.61 L78.96 43.71 L77.6 41.95 L78 39.97 L76.32 38.43 L76.28 36.41 L74.3 35.2 L73.88 33.23 L71.73 32.31 L71.04 30.41 L68.81 29.71 L67.97 27.87 L65.71 27.26 L64.83 25.44 L62.57 24.86 L61.72 23.04 L59.49 22.41 L58.74 20.56 L56.56 19.81 L55.97 17.92 L53.88 17 L53.31 15.19 L51.55 13.94 L50.91 12.24 L49.66 10.65 L48.92 9 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path d="M46.309 58.706 Q29.6 52.16 24.08 38.88" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
+  <path d="M46.322 58.595 Q67.32 52.99 74.68 39.71" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
+  <path d="M46.322 58.595 Q35.12 62.95 28.68 58.8" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
+  <path d="M46.322 58.595 Q61.8 63.78 68.24 57.97" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
+  <path d="M47.811 43.773 Q38.8 35.56 32.36 30.58" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
+  <path d="M47.811 43.773 Q59.96 36.39 66.4 31.41" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
+  <path d="M35 90 Q43 80 46.2 59.6" fill="none" stroke="currentColor" stroke-width="1.9" class="leaf-petiole"/>
+  <path d="M46.2 59.6 Q49 37 48.9 15" fill="none" stroke="currentColor" stroke-width="1.9" class="leaf-midrib"/>
+</svg>

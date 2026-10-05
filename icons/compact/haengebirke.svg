@@ -1,0 +1,13 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Hängebirke · Betula pendula">
+  <title>Hängebirke · Betula pendula</title>
+  <path class="leaf-blade" d="M53.88 8 L50.88 13.74 L49.6 16.96 L47.35 18.98 L45.86 22.12 L43.46 23.88 L41.8 26.92 L39.36 28.61 L37.69 31.66 L35.28 33.45 L33.77 36.62 L31.51 38.68 L30.34 42.07 L28.39 44.54 L27.88 48.15 L28.44 51.52 L30.75 54 L32.22 56.93 L35 58.54 L36.98 60.99 L39.96 61.9 L42.33 63.71 L45.33 64.24 L48 65 L53.45 62.89 L55.9 60.76 L58.64 59.93 L60.84 57.4 L63.47 56.12 L65.25 53.13 L67.56 51.1 L68.48 47.58 L69.13 44.24 L67.27 41.35 L66.59 38.08 L64.52 35.41 L63.68 32.21 L61.56 29.61 L60.74 26.41 L58.71 23.74 L58.08 20.49 L56.27 17.61 L55.84 14.35 L54.48 11.18 L53.88 8 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path d="M37.08 89 Q44.64 82 48 65" fill="none" stroke="currentColor" stroke-width="3.3" class="leaf-petiole"/>
+  <path d="M48 65 Q50.52 40 53.04 16" fill="none" stroke="currentColor" stroke-width="3.3" class="leaf-midrib"/>
+  <path d="M50.741 38.109 Q43.8 32 40.44 30" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M50.741 38.109 Q57.24 32 59.76 30" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M48.701 58.071 Q37.08 51 30.36 50" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M48.701 58.071 Q59.76 51 66.48 49" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+</svg>

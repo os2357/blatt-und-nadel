@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Hasel · Corylus avellana">
+  <title>Hasel · Corylus avellana</title>
+  <path class="leaf-blade" d="M49 12 L43.32 18.2 L39.92 21.19 L35.84 22.41 L32.28 25.36 L28.21 26.74 L25.01 30.13 L21.3 32.37 L19.25 36.59 L16.6 40.05 L16.32 44.73 L15 48.79 L15.66 53.41 L15.06 57.69 L16.87 62 L17.47 66.29 L20.48 69.88 L22.46 73.75 L26.58 76.01 L29.97 78.75 L34.68 78.95 L38.94 79.56 L43.23 77.8 L47 76 L55.11 79.83 L59.82 79.67 L64.25 80.07 L68.35 77.57 L72.43 75.83 L74.95 71.77 L77.99 68.56 L78.97 63.9 L80.97 59.99 L80.8 55.24 L81.94 51.01 L80.95 46.39 L81.17 41.96 L78.66 37.89 L77.06 33.76 L73.2 30.96 L70.47 27.53 L66.16 25.58 L63.1 22.48 L58.77 20.68 L55.74 17.64 L51.84 15.16 L49 12 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path d="M46 91 Q47 84 47 76" fill="none" stroke="currentColor" stroke-width="3.3" class="leaf-petiole"/>
+  <path d="M47 76 Q50 48 49 19" fill="none" stroke="currentColor" stroke-width="3.3" class="leaf-midrib"/>
+  <path d="M49.249 34.003 Q42.15 32.5 35 28" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M49.249 34.003 Q55.2 33 64 30" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M48.678 55.037 Q35.4 53.25 20 48" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M48.678 55.037 Q61.5 53.25 78 48" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M47.216 73.921 Q41.25 73.75 33 73" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M47.216 73.921 Q56.1 73.75 66 73" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+</svg>

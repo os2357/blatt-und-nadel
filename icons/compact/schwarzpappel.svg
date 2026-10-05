@@ -1,0 +1,13 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Schwarzpappel · Populus nigra">
+  <title>Schwarzpappel · Populus nigra</title>
+  <path class="leaf-blade" d="M48 10 L44.57 16.67 L43.12 20.3 L40.77 23.14 L39.14 26.73 L36.62 29.45 L34.84 32.97 L32.23 35.63 L30.37 39.11 L27.73 41.74 L25.87 45.23 L23.25 47.88 L21.46 51.4 L18.93 54.13 L21.64 56.85 L24.69 59.09 L28.72 60.22 L32.14 61.93 L36.3 62.43 L40 63.5 L44.18 63.41 L48 63.3 L56.03 63.73 L60.12 62.86 L64.02 62.68 L67.85 61.02 L71.62 60.01 L74.78 57.37 L77.27 54.42 L74.63 51.38 L73.09 48.06 L70.38 45.06 L68.79 41.77 L66.05 38.8 L64.45 35.5 L61.73 32.53 L60.16 29.22 L57.48 26.22 L55.98 22.88 L53.39 19.81 L51.95 16.48 L49.63 13.24 L48 10 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path d="M48 62.48 Q33.04 51.82 26 51.82" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M48 61.66 Q62.96 51.82 70.88 51" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M48 56.74 Q41.84 50.18 37.44 45.26" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M48 57.56 Q57.68 50.18 62.08 45.26" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M36 90 Q46 77 48 63.3" fill="none" stroke="currentColor" stroke-width="3.3" class="leaf-petiole"/>
+  <path d="M48 63.3 L48 15" fill="none" stroke="currentColor" stroke-width="3.3" class="leaf-midrib"/>
+</svg>

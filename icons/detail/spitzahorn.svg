@@ -1,0 +1,13 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Spitzahorn · Acer platanoides">
+  <title>Spitzahorn · Acer platanoides</title>
+  <path class="leaf-blade" d="M48 9 L54.37 24.2 L59.83 21 L58.92 33 Q63.47 32.2 69.84 25 L77.12 23.4 L75.3 34.6 L83.49 33 L78.03 41 L83.49 45 L66.2 50.6 Q63.47 53 63.47 56.2 L70.75 61.8 L58.92 61.8 Q50.73 61 48 63.4 Q44.36 61 36.17 62.6 L24.34 62.6 L30.71 55.4 Q30.71 52.2 27.07 51.4 L12.51 45.8 L17.97 41 L12.51 33 L21.61 34.6 L19.79 23.4 L28.89 26.6 Q34.35 32.2 37.99 33 L36.17 21.8 L41.63 24.2 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path d="M48 62.6 L48 16.2" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
+  <path d="M48 62.6 Q37.99 43.4 23.43 30.6" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
+  <path d="M48 62.6 Q58.92 43.4 73.48 30.6" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
+  <path d="M48 62.6 Q35 48 20.7 46.6" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
+  <path d="M48 62.6 Q61 47 76.21 45.8" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
+  <path d="M38 90 Q47 79 48 63.4" fill="none" stroke="currentColor" stroke-width="1.9" class="leaf-petiole"/>
+</svg>

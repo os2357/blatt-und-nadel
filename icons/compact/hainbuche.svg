@@ -1,0 +1,21 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Hainbuche · Carpinus betulus">
+  <title>Hainbuche · Carpinus betulus</title>
+  <path class="leaf-blade" d="M49 9 L39.22 20.52 L36.96 24.94 L32.61 31.03 L32.04 35.45 L29.23 41.54 L30.34 45.96 L29.53 52.06 L32.07 56.47 L33.15 62.57 L36.94 66.98 L39.52 73.08 L44.26 77.5 L47 81 L49.93 77.5 L54.92 73.08 L57.84 66.98 L61.87 62.57 L63.29 56.47 L66.07 52.06 L65.61 45.96 L66.96 41.54 L64.49 35.45 L64.17 31.03 L60.16 24.94 L58.14 20.52 L49 9 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path d="M48.596 27.523 Q43.86 22.82 39.22 20.52" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M48.283 38.033 Q40.4 33.33 32.61 31.03" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M47.969 48.542 Q38.56 43.84 29.23 41.54" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M47.655 59.061 Q38.57 54.36 29.53 52.06" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M47.341 69.571 Q40.23 64.87 33.15 62.57" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M47.09 78 Q43.3 74.34 39.52 73.08" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M48.596 27.523 Q53.31 22.82 58.14 20.52" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M48.283 38.033 Q56.18 33.33 64.17 31.03" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M47.969 48.542 Q57.43 43.84 66.96 41.54" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M47.655 59.061 Q56.84 54.36 66.07 52.06" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M47.341 69.571 Q54.59 64.87 61.87 62.57" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M47.09 78 Q51 74.34 54.92 73.08" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M45 91 Q46 86 47 81" fill="none" stroke="currentColor" stroke-width="3.3" class="leaf-petiole"/>
+  <path d="M47 81 L49 14" fill="none" stroke="currentColor" stroke-width="3.3" class="leaf-midrib"/>
+</svg>

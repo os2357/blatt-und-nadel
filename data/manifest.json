@@ -1,0 +1,496 @@
+{
+  "name": "Blatt & Nadel",
+  "version": "1.0.0",
+  "author": "Oliver Simon",
+  "copyright": "Copyright 2026 Oliver Simon",
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "updated": "2026-10-05",
+  "viewBox": "0 0 96 96",
+  "variants": {
+    "compact": {
+      "recommendedSize": "24–40 px"
+    },
+    "detail": {
+      "recommendedSize": "48 px and larger; 64 px for fine detail"
+    }
+  },
+  "icons": [
+    {
+      "id": "fichte",
+      "name": {
+        "en": "Norway spruce",
+        "de": "Fichte"
+      },
+      "scientificName": "Picea abies",
+      "group": "conifer",
+      "description": "Schmale, spitze Einzelnadeln in räumlich angedeuteter Spiralstellung um den Zweig; 31 Nadeln in Detail, 17 in Compact.",
+      "source": "https://www.infoflora.ch/de/flora/picea-abies.html",
+      "since": "1.0.0",
+      "symbol": "leaf-fichte",
+      "files": {
+        "detail": "icons/detail/fichte.svg",
+        "compact": "icons/compact/fichte.svg"
+      }
+    },
+    {
+      "id": "kiefer",
+      "name": {
+        "en": "Scots pine",
+        "de": "Waldkiefer"
+      },
+      "scientificName": "Pinus sylvestris",
+      "group": "conifer",
+      "description": "Drei dargestellte Kurztriebe mit jeweils zwei schmalen, zugespitzten Nadeln aus einer gemeinsamen Nadelscheide.",
+      "source": "https://www.infoflora.ch/de/flora/pinus-sylvestris.html",
+      "since": "1.0.0",
+      "symbol": "leaf-kiefer",
+      "files": {
+        "detail": "icons/detail/kiefer.svg",
+        "compact": "icons/compact/kiefer.svg"
+      }
+    },
+    {
+      "id": "laerche",
+      "name": {
+        "en": "European larch",
+        "de": "Europäische Lärche"
+      },
+      "scientificName": "Larix decidua",
+      "group": "conifer",
+      "description": "Weiche Nadeln in getrennten Büscheln an Kurztrieben; 11 gezeichnete Nadeln je Büschel in Detail, 7 in Compact.",
+      "source": "https://www.infoflora.ch/de/flora/larix-decidua.html",
+      "since": "1.0.0",
+      "symbol": "leaf-laerche",
+      "files": {
+        "detail": "icons/detail/laerche.svg",
+        "compact": "icons/compact/laerche.svg"
+      }
+    },
+    {
+      "id": "tanne",
+      "name": {
+        "en": "Silver fir",
+        "de": "Weißtanne"
+      },
+      "scientificName": "Abies alba",
+      "group": "conifer",
+      "description": "Flache, nahezu parallelrandige Nadeln am gescheitelten Schattenzweig; in Detail ausgerandete, in Compact stumpfe Spitzen.",
+      "source": "https://www.infoflora.ch/de/flora/abies-alba.html",
+      "since": "1.0.0",
+      "symbol": "leaf-tanne",
+      "files": {
+        "detail": "icons/detail/tanne.svg",
+        "compact": "icons/compact/tanne.svg"
+      }
+    },
+    {
+      "id": "douglasie",
+      "name": {
+        "en": "Douglas fir",
+        "de": "Douglasie"
+      },
+      "scientificName": "Pseudotsuga menziesii",
+      "group": "conifer",
+      "description": "Flache, leicht gebogene Einzelnadeln mit schmalem Ansatz; lockerer, seitlich gerichteter Fächer.",
+      "source": "https://www.infoflora.ch/de/flora/pseudotsuga-menziesii.html",
+      "since": "1.0.0",
+      "symbol": "leaf-douglasie",
+      "files": {
+        "detail": "icons/detail/douglasie.svg",
+        "compact": "icons/compact/douglasie.svg"
+      }
+    },
+    {
+      "id": "eibe",
+      "name": {
+        "en": "English yew",
+        "de": "Eibe"
+      },
+      "scientificName": "Taxus baccata",
+      "group": "conifer",
+      "description": "Flache, zugespitzte Nadeln mit schmaler Basis.",
+      "source": "https://www.infoflora.ch/de/flora/taxus-baccata.html",
+      "since": "1.0.0",
+      "symbol": "leaf-eibe",
+      "files": {
+        "detail": "icons/detail/eibe.svg",
+        "compact": "icons/compact/eibe.svg"
+      }
+    },
+    {
+      "id": "wacholder",
+      "name": {
+        "en": "Common juniper",
+        "de": "Wacholder"
+      },
+      "scientificName": "Juniperus communis",
+      "group": "conifer",
+      "description": "Stechende Nadeln in Dreierquirlen.",
+      "source": "https://www.infoflora.ch/de/flora/juniperus-communis.html",
+      "since": "1.0.0",
+      "symbol": "leaf-wacholder",
+      "files": {
+        "detail": "icons/detail/wacholder.svg",
+        "compact": "icons/compact/wacholder.svg"
+      }
+    },
+    {
+      "id": "stieleiche",
+      "name": {
+        "en": "Pedunculate oak",
+        "de": "Stieleiche"
+      },
+      "scientificName": "Quercus robur",
+      "group": "broadleaf",
+      "description": "Längliche, oben breitere Spreite mit versetzten, rundlichen Lappen, kleinen Öhrchen und sehr kurzem Stiel; im Detail auch Nerven zu einzelnen Buchten.",
+      "source": "https://www.infoflora.ch/de/flora/quercus-robur.html",
+      "since": "1.0.0",
+      "symbol": "leaf-stieleiche",
+      "files": {
+        "detail": "icons/detail/stieleiche.svg",
+        "compact": "icons/compact/stieleiche.svg"
+      }
+    },
+    {
+      "id": "traubeneiche",
+      "name": {
+        "en": "Sessile oak",
+        "de": "Traubeneiche"
+      },
+      "scientificName": "Quercus petraea",
+      "group": "broadleaf",
+      "description": "Längliche Spreite mit flacheren Buchten, keilförmigem Grund ohne Öhrchen und längerem Stiel; Nerven führen in die Lappen.",
+      "source": "https://www.infoflora.ch/de/flora/quercus-petraea.html",
+      "since": "1.0.0",
+      "symbol": "leaf-traubeneiche",
+      "files": {
+        "detail": "icons/detail/traubeneiche.svg",
+        "compact": "icons/compact/traubeneiche.svg"
+      }
+    },
+    {
+      "id": "rotbuche",
+      "name": {
+        "en": "European beech",
+        "de": "Rotbuche"
+      },
+      "scientificName": "Fagus sylvatica",
+      "group": "broadleaf",
+      "description": "Ovale Spreite mit sanftem Blattrand.",
+      "source": "https://www.infoflora.ch/de/flora/fagus-sylvatica.html",
+      "since": "1.0.0",
+      "symbol": "leaf-rotbuche",
+      "files": {
+        "detail": "icons/detail/rotbuche.svg",
+        "compact": "icons/compact/rotbuche.svg"
+      }
+    },
+    {
+      "id": "haengebirke",
+      "name": {
+        "en": "Silver birch",
+        "de": "Hängebirke"
+      },
+      "scientificName": "Betula pendula",
+      "group": "broadleaf",
+      "description": "Dreieckig-rautenförmig, doppelt gesägt, lang zugespitzt; deutlich längerer Blattstiel.",
+      "source": "https://www.infoflora.ch/de/flora/betula-pendula.html",
+      "since": "1.0.0",
+      "symbol": "leaf-haengebirke",
+      "files": {
+        "detail": "icons/detail/haengebirke.svg",
+        "compact": "icons/compact/haengebirke.svg"
+      }
+    },
+    {
+      "id": "schwarzpappel",
+      "name": {
+        "en": "Black poplar",
+        "de": "Schwarzpappel"
+      },
+      "scientificName": "Populus nigra",
+      "group": "broadleaf",
+      "description": "Dreieckige Spreite mit ausgezogener Spitze und ausgeprägtem Blattstiel.",
+      "source": "https://www.infoflora.ch/de/flora/populus-nigra.html",
+      "since": "1.0.0",
+      "symbol": "leaf-schwarzpappel",
+      "files": {
+        "detail": "icons/detail/schwarzpappel.svg",
+        "compact": "icons/compact/schwarzpappel.svg"
+      }
+    },
+    {
+      "id": "espe",
+      "name": {
+        "en": "European aspen",
+        "de": "Espe · Zitterpappel"
+      },
+      "scientificName": "Populus tremula",
+      "group": "broadleaf",
+      "description": "Rundliches Kurztriebblatt, grob gekerbt; langer, seitlich abgeflachter Blattstiel etwa von Spreitenlänge.",
+      "source": "https://www.infoflora.ch/de/flora/populus-tremula.html",
+      "since": "1.0.0",
+      "symbol": "leaf-espe",
+      "files": {
+        "detail": "icons/detail/espe.svg",
+        "compact": "icons/compact/espe.svg"
+      }
+    },
+    {
+      "id": "schwarzerle",
+      "name": {
+        "en": "Black alder",
+        "de": "Schwarzerle"
+      },
+      "scientificName": "Alnus glutinosa",
+      "group": "broadleaf",
+      "description": "Breite Spreite mit ausgerandeter Spitze.",
+      "source": "https://www.infoflora.ch/de/flora/alnus-glutinosa.html",
+      "since": "1.0.0",
+      "symbol": "leaf-schwarzerle",
+      "files": {
+        "detail": "icons/detail/schwarzerle.svg",
+        "compact": "icons/compact/schwarzerle.svg"
+      }
+    },
+    {
+      "id": "hainbuche",
+      "name": {
+        "en": "European hornbeam",
+        "de": "Hainbuche"
+      },
+      "scientificName": "Carpinus betulus",
+      "group": "broadleaf",
+      "description": "Länglich-eiförmig, doppelt gesägt; zwölf deutliche Seitennervenpaare in der Detailstufe.",
+      "source": "https://www.infoflora.ch/de/flora/carpinus-betulus.html",
+      "since": "1.0.0",
+      "symbol": "leaf-hainbuche",
+      "files": {
+        "detail": "icons/detail/hainbuche.svg",
+        "compact": "icons/compact/hainbuche.svg"
+      }
+    },
+    {
+      "id": "winterlinde",
+      "name": {
+        "en": "Small-leaved lime",
+        "de": "Winterlinde"
+      },
+      "scientificName": "Tilia cordata",
+      "group": "broadleaf",
+      "description": "Herzförmig, leicht schiefer Grund und ausgezogene Spitze; deutlich sichtbarer Blattstiel.",
+      "source": "https://www.infoflora.ch/de/flora/tilia-cordata.html",
+      "since": "1.0.0",
+      "symbol": "leaf-winterlinde",
+      "files": {
+        "detail": "icons/detail/winterlinde.svg",
+        "compact": "icons/compact/winterlinde.svg"
+      }
+    },
+    {
+      "id": "hasel",
+      "name": {
+        "en": "Common hazel",
+        "de": "Hasel"
+      },
+      "scientificName": "Corylus avellana",
+      "group": "broadleaf",
+      "description": "Breit rundlich, kurz zugespitzt, doppelt gezähnt.",
+      "source": "https://www.infoflora.ch/de/flora/corylus-avellana.html",
+      "since": "1.0.0",
+      "symbol": "leaf-hasel",
+      "files": {
+        "detail": "icons/detail/hasel.svg",
+        "compact": "icons/compact/hasel.svg"
+      }
+    },
+    {
+      "id": "bergahorn",
+      "name": {
+        "en": "Sycamore maple",
+        "de": "Bergahorn"
+      },
+      "scientificName": "Acer pseudoplatanus",
+      "group": "broadleaf",
+      "description": "Fünflappig mit kurzen Spitzen, spitzen Buchten und unregelmäßig gesägtem Rand; in Compact stärker vereinfacht.",
+      "source": "https://www.infoflora.ch/de/flora/acer-pseudoplatanus.html",
+      "since": "1.0.0",
+      "symbol": "leaf-bergahorn",
+      "files": {
+        "detail": "icons/detail/bergahorn.svg",
+        "compact": "icons/compact/bergahorn.svg"
+      }
+    },
+    {
+      "id": "spitzahorn",
+      "name": {
+        "en": "Norway maple",
+        "de": "Spitzahorn"
+      },
+      "scientificName": "Acer platanoides",
+      "group": "broadleaf",
+      "description": "Fünflappig mit lang ausgezogenen Spitzen, breiten Buchten und langem Stiel; eigene reduzierte Compact-Kontur.",
+      "source": "https://www.infoflora.ch/de/flora/acer-platanoides.html",
+      "since": "1.0.0",
+      "symbol": "leaf-spitzahorn",
+      "files": {
+        "detail": "icons/detail/spitzahorn.svg",
+        "compact": "icons/compact/spitzahorn.svg"
+      }
+    },
+    {
+      "id": "feldahorn",
+      "name": {
+        "en": "Field maple",
+        "de": "Feldahorn"
+      },
+      "scientificName": "Acer campestre",
+      "group": "broadleaf",
+      "description": "Breit zusammenhängende, handförmige Spreite mit fünf stumpfen, ganzrandigen Lappen und langem Stiel.",
+      "source": "https://www.infoflora.ch/de/flora/acer-campestre.html",
+      "since": "1.0.0",
+      "symbol": "leaf-feldahorn",
+      "files": {
+        "detail": "icons/detail/feldahorn.svg",
+        "compact": "icons/compact/feldahorn.svg"
+      }
+    },
+    {
+      "id": "esche",
+      "name": {
+        "en": "European ash",
+        "de": "Gemeine Esche"
+      },
+      "scientificName": "Fraxinus excelsior",
+      "group": "broadleaf",
+      "description": "Neun lanzettliche, gesägte Teilblätter in vier Paaren und einer Endfieder; schräg aufwärts gerichtet.",
+      "source": "https://www.infoflora.ch/de/flora/fraxinus-excelsior.html",
+      "since": "1.0.0",
+      "symbol": "leaf-esche",
+      "files": {
+        "detail": "icons/detail/esche.svg",
+        "compact": "icons/compact/esche.svg"
+      }
+    },
+    {
+      "id": "bergulme",
+      "name": {
+        "en": "Wych elm",
+        "de": "Bergulme"
+      },
+      "scientificName": "Ulmus glabra",
+      "group": "broadleaf",
+      "description": "Längliche, oberhalb der Mitte breitere Spreite, doppelte Zähnung, leicht schiefer Grund und sehr kurzer Stiel; Detail mit 13 Seitennerven je Seite und sechs oberen Gabelungen, deren Enden in Randzähne laufen.",
+      "source": "https://www.infoflora.ch/de/flora/ulmus-glabra.html",
+      "since": "1.0.0",
+      "symbol": "leaf-bergulme",
+      "files": {
+        "detail": "icons/detail/bergulme.svg",
+        "compact": "icons/compact/bergulme.svg"
+      }
+    },
+    {
+      "id": "salweide",
+      "name": {
+        "en": "Goat willow",
+        "de": "Salweide"
+      },
+      "scientificName": "Salix caprea",
+      "group": "broadleaf",
+      "description": "Breites ovales Blatt mit leicht gewelltem Rand.",
+      "source": "https://www.infoflora.ch/de/flora/salix-caprea.html",
+      "since": "1.0.0",
+      "symbol": "leaf-salweide",
+      "files": {
+        "detail": "icons/detail/salweide.svg",
+        "compact": "icons/compact/salweide.svg"
+      }
+    },
+    {
+      "id": "silberweide",
+      "name": {
+        "en": "White willow",
+        "de": "Silberweide"
+      },
+      "scientificName": "Salix alba",
+      "group": "broadleaf",
+      "description": "Schmal lanzettliche, beidseits zugespitzte Spreite; feine Zähne in Detail, geglätteter Rand in Compact.",
+      "source": "https://www.infoflora.ch/de/flora/salix-alba.html",
+      "since": "1.0.0",
+      "symbol": "leaf-silberweide",
+      "files": {
+        "detail": "icons/detail/silberweide.svg",
+        "compact": "icons/compact/silberweide.svg"
+      }
+    },
+    {
+      "id": "rosskastanie",
+      "name": {
+        "en": "Horse chestnut",
+        "de": "Rosskastanie"
+      },
+      "scientificName": "Aesculus hippocastanum",
+      "group": "broadleaf",
+      "description": "Sieben handförmig angeordnete, verkehrt-eiförmige Teilblätter; mittleres Teilblatt am größten, langer Blattstiel.",
+      "source": "https://www.infoflora.ch/de/flora/aesculus-hippocastanum.html",
+      "since": "1.0.0",
+      "symbol": "leaf-rosskastanie",
+      "files": {
+        "detail": "icons/detail/rosskastanie.svg",
+        "compact": "icons/compact/rosskastanie.svg"
+      }
+    },
+    {
+      "id": "edelkastanie",
+      "name": {
+        "en": "Sweet chestnut",
+        "de": "Edelkastanie"
+      },
+      "scientificName": "Castanea sativa",
+      "group": "broadleaf",
+      "description": "Länglich-lanzettlich und kräftig gesägt; jeder gezeichnete Hauptseitennerv endet in einem Randzahn.",
+      "source": "https://www.infoflora.ch/de/flora/castanea-sativa.html",
+      "since": "1.0.0",
+      "symbol": "leaf-edelkastanie",
+      "files": {
+        "detail": "icons/detail/edelkastanie.svg",
+        "compact": "icons/compact/edelkastanie.svg"
+      }
+    },
+    {
+      "id": "vogelbeere",
+      "name": {
+        "en": "Rowan",
+        "de": "Vogelbeere"
+      },
+      "scientificName": "Sorbus aucuparia",
+      "group": "broadleaf",
+      "description": "Elf schmale, seitlich ausgebreitete Teilblätter; gesägter Rand, an der Teilblattbasis weitgehend glatt.",
+      "source": "https://www.infoflora.ch/de/flora/sorbus-aucuparia.html",
+      "since": "1.0.0",
+      "symbol": "leaf-vogelbeere",
+      "files": {
+        "detail": "icons/detail/vogelbeere.svg",
+        "compact": "icons/compact/vogelbeere.svg"
+      }
+    },
+    {
+      "id": "robinie",
+      "name": {
+        "en": "Black locust",
+        "de": "Robinie"
+      },
+      "scientificName": "Robinia pseudoacacia",
+      "group": "broadleaf",
+      "description": "Neun ovale, ganzrandige Teilblätter mit Endfieder; deutlich getrennte Teilblattkonturen.",
+      "source": "https://www.infoflora.ch/de/flora/robinia-pseudoacacia.html",
+      "since": "1.0.0",
+      "symbol": "leaf-robinie",
+      "files": {
+        "detail": "icons/detail/robinie.svg",
+        "compact": "icons/compact/robinie.svg"
+      }
+    }
+  ]
+}

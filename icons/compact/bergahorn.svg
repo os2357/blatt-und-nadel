@@ -1,0 +1,13 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Bergahorn · Acer pseudoplatanus">
+  <title>Bergahorn · Acer pseudoplatanus</title>
+  <path class="leaf-blade" d="M48 11 L39 21 Q38 23 41 25 Q34 28 37 33 L39 42 Q39 44 36 41 L28 34 L21 29 L21 35 L15 38 L20 44 L21 49 L31 54 Q35 56 33 58 L25 59 L26 63 Q34 68 42 65 Q46 64 48 66 Q50 64 54 65 Q62 68 70 63 L71 59 L63 58 Q61 56 65 54 L75 49 L76 44 L81 38 L75 35 L75 29 L68 34 L60 41 Q57 44 57 42 L59 33 Q62 28 55 25 Q58 23 57 21 L48 11 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M39 90 Q46 81 48 66" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48 66 L48 18" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 66 Q36 44 24 35" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 66 Q60 44 72 35" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 65 Q40 60 29 61" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 65 Q56 60 67 61" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

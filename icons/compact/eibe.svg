@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Eibe · Taxus baccata">
+  <title>Eibe · Taxus baccata</title>
+  <path d="M47 85 Q49 55 48 16" fill="none" stroke="currentColor" stroke-width="3.3" class="leaf-axis"/>
+  <path d="M48.38 71.5 Q33.82 58.24 20 51 Q30.82 62.24 47.63 72.5 Z" fill="currentColor" stroke="none" class="leaf-needle"/>
+  <path d="M49.38 69.5 Q66.75 58.67 78 47 Q63.73 54.69 48.62 68.5 Z" fill="currentColor" stroke="none" class="leaf-needle"/>
+  <path d="M48.38 55.5 Q33.82 42.24 20 35 Q30.82 46.24 47.63 56.5 Z" fill="currentColor" stroke="none" class="leaf-needle"/>
+  <path d="M49.38 53.5 Q66.75 42.67 78 31 Q63.73 38.69 48.62 52.5 Z" fill="currentColor" stroke="none" class="leaf-needle"/>
+  <path d="M48.38 39.5 Q33.82 26.24 20 19 Q30.82 30.24 47.63 40.5 Z" fill="currentColor" stroke="none" class="leaf-needle"/>
+  <path d="M49.38 37.5 Q66.75 26.67 78 15 Q63.73 22.69 48.62 36.5 Z" fill="currentColor" stroke="none" class="leaf-needle"/>
+  <path d="M48.31 25.46 Q35.82 16 24 12 Q33.3 20.32 47.69 26.54 Z" fill="currentColor" stroke="none" class="leaf-needle"/>
+  <path d="M49.33 23.53 Q63.76 16.72 73 8 Q61.12 12.48 48.67 22.47 Z" fill="currentColor" stroke="none" class="leaf-needle"/>
+</svg>

@@ -1,0 +1,13 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Winterlinde · Tilia cordata">
+  <title>Winterlinde · Tilia cordata</title>
+  <path class="leaf-blade" d="M48.92 9 L45.23 15.46 L43.18 18.79 L39.79 20.6 L36.85 23.4 L33.08 24.57 L29.85 27.18 L26.12 28.6 L23.57 31.83 L20.69 34.43 L19.95 38.36 L18.29 41.61 L18.27 45.55 L17.12 49.06 L18.2 52.89 L18.33 56.57 L21 59.74 L23.13 62.91 L27.35 64.15 L31.16 65.51 L35.41 64.39 L39.37 63.85 L42.91 61.61 L46.16 59.63 L52.64 64.34 L56.97 64.93 L60.95 65.88 L65.1 64.44 L69.12 63.66 L72.13 60.71 L75.38 58.43 L76.74 54.63 L78.69 51.37 L78.3 47.4 L78.83 43.73 L77.03 40.09 L76.16 36.47 L73.02 33.66 L70.94 30.51 L67.21 28.42 L64.74 25.54 L60.95 23.6 L58.64 20.65 L55.13 18.38 L53.23 15.24 L50.51 12.26 L48.92 9 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path d="M46.309 58.706 Q29.6 52.16 24.08 38.88" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M46.322 58.595 Q67.32 52.99 74.68 39.71" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M47.811 43.773 Q38.8 35.56 32.36 30.58" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M47.811 43.773 Q59.96 36.39 66.4 31.41" fill="none" stroke="currentColor" stroke-width="2.25" class="leaf-vein"/>
+  <path d="M35 90 Q43 80 46.2 59.6" fill="none" stroke="currentColor" stroke-width="3.3" class="leaf-petiole"/>
+  <path d="M46.2 59.6 Q49 37 48.9 15" fill="none" stroke="currentColor" stroke-width="3.3" class="leaf-midrib"/>
+</svg>
