@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "icons": [
     {
       "id": "fichte",
@@ -21,7 +21,7 @@
       },
       "scientificName": "Pinus sylvestris",
       "group": "conifer",
-      "description": "Drei dargestellte Kurztriebe mit jeweils zwei schmalen, zugespitzten Nadeln aus einer gemeinsamen Nadelscheide.",
+      "description": "Drei räumlich getrennte Kurztriebe mit jeweils zwei annähernd parallelen, zugespitzten Nadeln aus einer gemeinsamen Nadelscheide.",
       "source": "https://www.infoflora.ch/de/flora/pinus-sylvestris.html",
       "since": "1.0.0"
     },
@@ -57,7 +57,7 @@
       },
       "scientificName": "Pseudotsuga menziesii",
       "group": "conifer",
-      "description": "Flache, leicht gebogene Einzelnadeln mit schmalem Ansatz; lockerer, seitlich gerichteter Fächer.",
+      "description": "Flache, leicht gebogene Nadeln in räumlich angedeuteter Spiralstellung um den Zweig, mit spitzer Endknospe; 28 Nadeln in Detail, 19 in Compact.",
       "source": "https://www.infoflora.ch/de/flora/pseudotsuga-menziesii.html",
       "since": "1.0.0"
     },
@@ -81,7 +81,7 @@
       },
       "scientificName": "Juniperus communis",
       "group": "conifer",
-      "description": "Stechende Nadeln in Dreierquirlen.",
+      "description": "Steife, abstehende Nadeln in Dreierquirlen; sechs dargestellte Quirle in Detail, vier in Compact, mit wechselnder räumlicher Projektion.",
       "source": "https://www.infoflora.ch/de/flora/juniperus-communis.html",
       "since": "1.0.0"
     },
@@ -141,7 +141,7 @@
       },
       "scientificName": "Populus nigra",
       "group": "broadleaf",
-      "description": "Dreieckig-eiförmige bis rautenförmige Spreite mit gewölbten Flanken, lang ausgezogener Spitze, fein gekerbtem bis gesägtem Rand und langem Blattstiel.",
+      "description": "Breit dreieckig-eiförmige bis rautenförmige Spreite mit gewölbten Flanken, breitem Grund, lang ausgezogener Spitze, fein gekerbtem bis gesägtem Rand und langem Blattstiel.",
       "source": "https://www.infoflora.ch/de/flora/populus-nigra.html",
       "since": "1.0.0"
     },
@@ -165,7 +165,7 @@
       },
       "scientificName": "Alnus glutinosa",
       "group": "broadleaf",
-      "description": "Breite Spreite mit ausgerandeter Spitze.",
+      "description": "Verkehrt-eiförmige Spreite mit breit abgestumpfter, nur flach ausgerandeter Spitze und keilförmigem Grund; fünf Nervenpaare in Detail, drei in Compact.",
       "source": "https://www.infoflora.ch/de/flora/alnus-glutinosa.html",
       "since": "1.0.0"
     },
@@ -213,7 +213,7 @@
       },
       "scientificName": "Acer pseudoplatanus",
       "group": "broadleaf",
-      "description": "Fünflappig mit kurzen Spitzen, spitzen Buchten und unregelmäßig gesägtem Rand; in Compact stärker vereinfacht.",
+      "description": "Fünf breite Lappen mit kurzen Spitzen, spitzen Buchten und groben, stumpf geschulterten Randzähnen; weich ausgearbeitete Grundlappen.",
       "source": "https://www.infoflora.ch/de/flora/acer-pseudoplatanus.html",
       "since": "1.0.0"
     },
@@ -285,7 +285,7 @@
       },
       "scientificName": "Salix alba",
       "group": "broadleaf",
-      "description": "Schmal lanzettliche, beidseits zugespitzte Spreite; feine Zähne in Detail, geglätteter Rand in Compact.",
+      "description": "Schmal lanzettliche, beidseits gleichmäßig entwickelte und zugespitzte Spreite; feine Sägung in Detail, optisch verbreiterte Compact-Form mit glattem Rand.",
       "source": "https://www.infoflora.ch/de/flora/salix-alba.html",
       "since": "1.0.0"
     },
@@ -309,7 +309,7 @@
       },
       "scientificName": "Castanea sativa",
       "group": "broadleaf",
-      "description": "Länglich-lanzettlich und kräftig gesägt; jeder gezeichnete Hauptseitennerv endet in einem Randzahn.",
+      "description": "Schlank lanzettliche Spreite mit scharfen Randzähnen; jeder gezeichnete Hauptseitennerv endet in einem Zahn, zwölf Paare in Detail und sechs in Compact.",
       "source": "https://www.infoflora.ch/de/flora/castanea-sativa.html",
       "since": "1.0.0"
     },

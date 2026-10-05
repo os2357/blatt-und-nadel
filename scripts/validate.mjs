@@ -138,11 +138,14 @@ for (const variant of variants) {
             'leaf-axis',
             'leaf-needle',
             'leaf-sheath',
+            'leaf-bud',
           ].includes(node.attributes.class),
           name + ': every path needs an explicit drawing role',
         );
         const subpaths = flattenPath(node.attributes.d);
-        if (['leaf-blade', 'leaf-needle', 'leaf-sheath'].includes(node.attributes.class)) {
+        if (
+          ['leaf-blade', 'leaf-needle', 'leaf-sheath', 'leaf-bud'].includes(node.attributes.class)
+        ) {
           for (const subpath of subpaths) {
             assert.ok(subpath.closed, name + ': filled or blade contour must explicitly close');
             assert.equal(

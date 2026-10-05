@@ -16,13 +16,13 @@ git push -u origin main
 
 The archive excludes Git history, development dependencies and temporary review files. The included GitHub Actions workflow checks pull requests and pushes to `main`.
 
-After publishing, add the real source URL to README/attribution examples and optionally create a `v1.0.2` tag and GitHub Release. The prebuilt `index.html` can be hosted as a static gallery. If using GitHub Pages, set the repository’s Pages source to the root of `main`; the gallery’s asset links are relative. Deployment is not configured automatically.
+After publishing, add the real source URL to README/attribution examples and optionally create a `v1.1.0` tag and GitHub Release. The prebuilt `index.html` can be hosted as a static gallery. If using GitHub Pages, set the repository’s Pages source to the root of `main`; the gallery’s asset links are relative. Deployment is not configured automatically.
 
 `package.json` uses `private: true`: this repository distributes reusable assets directly and is not an npm package release.
 
 ## Versioning
 
-The initial release is `1.0.0` (v1.0). Future compatible corrections increment the patch version; additions increment the minor version; breaking changes increment the major version. Each release gets a dated `CHANGELOG.md` entry with concrete changes. Keep package/lock versions, both READMEs, quality notes and release archive names in sync, then rebuild the generated gallery, manifest, sprites and previews. Species `since` fields record their first introduction and remain unchanged for redraws.
+The initial release is `1.0.0` (v1.0). Future compatible corrections increment the patch version; additions or coordinated artwork refreshes increment the minor version; breaking changes increment the major version. Version 1.1.0 is a compatible eight-species artwork refresh: all species IDs and paths remain stable. Each release gets a dated `CHANGELOG.md` entry with concrete changes. Keep package/lock versions, both READMEs, quality notes and release archive names in sync, then rebuild the generated gallery, manifest, sprites and previews. Species `since` fields record their first introduction and remain unchanged for redraws.
 
 ## Build a release archive
 

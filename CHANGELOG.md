@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.1.0 — 2026-10-06
+
+Compatible artwork refresh: species IDs, paths and the 28-species catalog are unchanged.
+
+- Redraw both variants of Silberweide with a balanced lanceolate blade, retaining fine serration in Detail.
+- Give Douglasie a less regular, spatially suggested needle arrangement and a pointed terminal bud; validate the new closed bud contour.
+- Broaden Schwarzpappel's base while preserving the curved flanks introduced in 1.0.2.
+- Reshape Schwarzerle as an obovate blade with a wedge-shaped base and a much shallower apical notch.
+- Make Edelkastanie more slender with sharper marginal teeth, retaining its vein-tooth connections.
+- Clarify Waldkiefer's three shared-sheath needle pairs through closer grouping and separation along the twig.
+- Smooth Bergahorn's basal lobes and coarse teeth while retaining the botanically supported acute sinuses.
+- Increase Wacholder to six depicted triple whorls in Detail and four in Compact, with alternating spatial projections.
+- Refresh sprites, gallery, manifest, README overviews and size previews; document the botanical assessment and optical reductions.
+- Preserve the other 40 source SVGs byte-for-byte from 1.0.2, including Stieleiche and Bergulme.
+
 ## 1.0.2 — 2026-10-06
 
 - Redraw Schwarzpappel (Black poplar) in both variants with convex flanks, rounded shoulders, a prolonged apex and a curved, finely toothed margin.

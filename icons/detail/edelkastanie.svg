@@ -3,31 +3,31 @@
      Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
 <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Edelkastanie · Castanea sativa">
   <title>Edelkastanie · Castanea sativa</title>
-  <path class="leaf-blade" d="M51 8 L43.57 20 L43.25 22.09 L40.53 24.98 L41.06 27.07 L38.22 29.95 L39.27 32.05 L36.69 34.93 L37.93 37.02 L35.61 39.91 L37.06 42 L35.04 44.89 L36.69 46.98 L34.96 49.86 L36.83 51.95 L35.38 54.84 L37.45 56.93 L36.27 59.82 L38.53 61.91 L37.61 64.8 L40.03 66.89 L39.33 69.77 L41.9 71.86 L41.39 74.75 L44.09 76.84 L47 83 L50.56 76.84 L53.49 74.75 L53.29 71.86 L56.08 69.77 L55.68 66.89 L58.34 64.8 L57.72 61.91 L60.2 59.82 L59.33 56.93 L61.62 54.84 L60.48 51.95 L62.57 49.86 L61.15 46.98 L63.03 44.89 L61.31 42 L62.98 39.91 L60.98 37.02 L62.44 34.93 L60.16 32.05 L61.44 29.95 L58.9 27.07 L59.65 24.98 L57.25 22.09 L57.15 20 L51 8 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
-  <path d="M50.199 27.012 Q46.78 22.3 43.57 20" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
-  <path d="M49.915 31.991 Q45.13 27.28 40.53 24.98" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
-  <path d="M49.631 36.96 Q43.84 32.25 38.22 29.95" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
-  <path d="M49.346 41.939 Q42.94 37.23 36.69 34.93" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
-  <path d="M49.062 46.918 Q42.27 42.21 35.61 39.91" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
-  <path d="M48.777 51.897 Q41.85 47.19 35.04 44.89" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
-  <path d="M48.493 56.866 Q41.67 52.16 34.96 49.86" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
-  <path d="M48.209 61.845 Q41.76 57.14 35.38 54.84" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
-  <path d="M47.924 66.824 Q42.06 62.12 36.27 59.82" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
-  <path d="M47.64 71.802 Q42.61 67.1 37.61 64.8" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
-  <path d="M47.356 76.771 Q43.33 72.07 39.33 69.77" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
-  <path d="M47.171 80.001 Q44.27 76.17 41.39 74.75" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
-  <path d="M50.199 27.012 Q53.57 22.3 57.15 20" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
-  <path d="M49.915 31.991 Q54.69 27.28 59.65 24.98" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
-  <path d="M49.631 36.96 Q55.45 32.25 61.44 29.95" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
-  <path d="M49.346 41.939 Q55.81 37.23 62.44 34.93" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
-  <path d="M49.062 46.918 Q55.95 42.21 62.98 39.91" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
-  <path d="M48.777 51.897 Q55.84 47.19 63.03 44.89" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
-  <path d="M48.493 56.866 Q55.48 52.16 62.57 49.86" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
-  <path d="M48.209 61.845 Q54.88 57.14 61.62 54.84" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
-  <path d="M47.924 66.824 Q54.03 62.12 60.2 59.82" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
-  <path d="M47.64 71.802 Q52.97 67.1 58.34 64.8" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
-  <path d="M47.356 76.771 Q51.7 72.07 56.08 69.77" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
-  <path d="M47.171 80.001 Q50.33 76.17 53.49 74.75" fill="none" stroke="currentColor" stroke-width="1.12" class="leaf-vein"/>
-  <path d="M45 91 Q46 87 47 83" fill="none" stroke="currentColor" stroke-width="1.9" class="leaf-petiole"/>
-  <path d="M47 83 L51 13" fill="none" stroke="currentColor" stroke-width="1.9" class="leaf-midrib"/>
+  <path class="leaf-blade" d="M51 8 Q49.6 14.2 43.925 19 L45.579 21.472 Q43.558 22.965 42.095 24.045 L43.935 26.518 Q42.019 28.01 40.632 29.091 L42.636 31.563 Q40.816 33.056 39.498 34.136 L41.659 36.609 Q39.932 38.101 38.681 39.182 L40.996 41.654 Q39.361 43.147 38.178 44.227 L40.645 46.7 Q39.103 48.192 37.986 49.273 L40.606 51.745 Q39.156 53.237 38.106 54.318 L40.879 56.79 Q39.523 58.283 38.541 59.364 L41.47 61.836 Q40.21 63.328 39.297 64.409 L42.391 66.881 Q41.234 68.374 40.397 69.455 L43.676 71.927 Q42.647 73.419 41.901 74.5 Q43.5 78.8 47 83 Q51 79 53.006 74.5 L51.505 71.927 L55.048 69.455 L53.328 66.881 L56.686 64.409 L54.787 61.836 L57.98 59.364 L55.916 56.79 L58.953 54.318 L56.728 51.745 L59.612 49.273 L57.227 46.7 L59.958 44.227 L57.415 41.654 L59.993 39.182 L57.29 36.609 L59.714 34.136 L56.851 31.563 L59.119 29.091 L56.089 26.518 L58.193 24.045 L54.984 21.472 L56.902 19 Q54 14 51 8 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M45 91 Q46 87 47 83" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M47 83 L50.7 13.5" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M50.088 25 C46.698 20.8 45.325 19.45 43.925 19" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M50.088 25 C53.836 20.8 55.502 19.45 56.902 19" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.819 30.045 C45.571 25.845 43.495 24.495 42.095 24.045" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.819 30.045 C54.425 25.845 56.793 24.495 58.193 24.045" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.551 35.091 C44.645 30.891 42.032 29.541 40.632 29.091" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.551 35.091 C54.813 30.891 57.719 29.541 59.119 29.091" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.282 40.136 C43.901 35.936 40.898 34.586 39.498 34.136" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.282 40.136 C55.02 35.936 58.314 34.586 59.714 34.136" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.013 45.182 C43.331 40.982 40.081 39.632 38.681 39.182" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.013 45.182 C55.052 40.982 58.593 39.632 59.993 39.182" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.745 50.227 C42.933 46.027 39.578 44.677 38.178 44.227" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.745 50.227 C54.912 46.027 58.558 44.677 59.958 44.227" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.476 55.273 C42.707 51.073 39.386 49.723 37.986 49.273" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.476 55.273 C54.601 51.073 58.212 49.723 59.612 49.273" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.208 60.318 C42.652 56.118 39.506 54.768 38.106 54.318" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.208 60.318 C54.118 56.118 57.553 54.768 58.953 54.318" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M47.939 65.364 C42.77 61.164 39.941 59.814 38.541 59.364" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M47.939 65.364 C53.462 61.164 56.58 59.814 57.98 59.364" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M47.67 70.409 C43.065 66.209 40.697 64.859 39.297 64.409" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M47.67 70.409 C52.629 66.209 55.286 64.859 56.686 64.409" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M47.402 75.455 C43.549 71.255 41.797 69.905 40.397 69.455" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M47.402 75.455 C51.607 71.255 53.648 69.905 55.048 69.455" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M47.149 80.2 C44.263 76.165 43.301 74.95 41.901 74.5" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M47.149 80.2 C50.37 76.165 51.606 74.95 53.006 74.5" fill="none" stroke="currentColor" stroke-width="1.12"/>
 </svg>

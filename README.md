@@ -1,6 +1,6 @@
 # Blatt & Nadel
 
-**28 Central European tree and shrub species · 56 SVG icons · v1.0.2**
+**28 Central European tree and shrub species · 56 SVG icons · v1.1.0**
 
 Leaf, needle and twig icons for nature websites, species profiles and filters. Two optical sizes pair distinctive botanical forms with clear, consistent linework.
 
@@ -55,7 +55,7 @@ npm test
 npm run format:check
 ```
 
-`npm test` checks XML, labels, license notices, catalog consistency, rendering, clipping, blade/needle self-intersections, separation of leaflet outlines, vein/midrib containment, complete stroke footprints, connected conifer shoots and generated-file freshness. Regression tests exercise the geometry checker. Browser checks cover Chromium and Firefox:
+`npm test` checks XML, labels, license notices, catalog consistency, rendering, clipping, blade/needle/bud self-intersections, separation of leaflet outlines, vein/midrib containment, complete stroke footprints, connected conifer shoots and generated-file freshness. Regression tests exercise the geometry checker. Browser checks cover Chromium and Firefox:
 
 ```sh
 npx playwright install --with-deps chromium firefox

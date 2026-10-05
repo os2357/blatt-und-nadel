@@ -1,6 +1,6 @@
 # Quality checks
 
-Release **1.0.2** · 6 October 2026
+Release **1.1.0** · 6 October 2026
 
 ## Artwork review
 
@@ -8,11 +8,17 @@ All 28 species were inspected in Detail and Compact, enlarged and at 24/32 px Co
 
 Compact uses separately simplified geometry, including all three maples. The [botanical notes](BOTANY.md) document the chosen forms, references and deliberate reductions.
 
-## Black poplar review
+## v1.1 focused review
 
-The 1.0.2 review redraws only Black poplar (Schwarzpappel), in Detail and Compact. The botanical references are linked in [BOTANY.md](BOTANY.md). Both variants were inspected at 480 px, at 24/32 px Compact and 48/64 px Detail, on light and dark backgrounds. The revision replaces the straight-sided triangular silhouette with convex flanks, rounded shoulders, an elongated tip and a curved, finely toothed margin. Curved lateral veins have separate endpoints for the heavier Compact strokes.
+Sixteen source SVGs were revised: both variants of White willow, Douglas fir, Black poplar, Black alder, Sweet chestnut, Scots pine, Sycamore maple and Common juniper. Each was inspected enlarged, at 24/32 px Compact and 48/64 px Detail, on light and dark backgrounds. Related leaves and conifers were compared together. The assessment and reference-supported choices are recorded in [BOTANY.md](BOTANY.md#v11-morphology-and-legibility-review).
 
-The other 54 source SVGs are byte-identical to 1.0.1, including the redrawn Pedunculate oak. Geometry, generated assets, archive integrity and both browser workflows were checked again for 1.0.2.
+A byte comparison against the verified v1.0.2 release archive confirms that the other 40 source SVGs are unchanged, including both Pedunculate oak and Wych elm variants. Existing pine pairs, juniper whorls and chestnut vein-tooth relationships were retained; their presentation was improved. Sycamore maple retains acute sinuses.
+
+## Black poplar review (v1.0.2)
+
+The 1.0.2 review redrew only Black poplar (Schwarzpappel), in Detail and Compact. The botanical references are linked in [BOTANY.md](BOTANY.md). Both variants were inspected at 480 px, at 24/32 px Compact and 48/64 px Detail, on light and dark backgrounds. That revision replaced the straight-sided triangular silhouette with convex flanks, rounded shoulders, an elongated tip and a curved, finely toothed margin. Curved lateral veins have separate endpoints for the heavier Compact strokes.
+
+In 1.0.2, the other 54 source SVGs were byte-identical to 1.0.1, including the redrawn Pedunculate oak. Geometry, generated assets, archive integrity and both browser workflows passed for that release.
 
 ## Pedunculate oak review
 
@@ -35,10 +41,10 @@ Both outlines have no detected self-crossings. Full-stroke containment at 1536 �
 - Every source has the expected dimensions, viewBox, image role, accessible name and exactly one matching title before the paths.
 - Geometry is nonempty; license notices are present.
 - No embedded images, scripts, event handlers, remote references or editor-specific objects are included.
-- Blade, filled-needle and sheath contours explicitly close and contain no detected proper self-crossings.
+- Blade, filled-needle, sheath and bud contours explicitly close and contain no detected proper self-crossings.
 - Each of the 14 conifer SVGs forms one connected painted component: no detached needle or twig fragments.
 - Separate leaf blades have no detected crossings, nesting or overlaps between their painted outlines.
-- All **344 internal vein and midrib paths** remain inside the leaf blades within the stated numerical tolerance.
+- All **357 internal vein and midrib paths** remain inside the leaf blades within the stated numerical tolerance.
 - Rendered strokes do not touch the canvas edge.
 - Generated sprites, the manifest, gallery and SVG overview match the current sources.
 
