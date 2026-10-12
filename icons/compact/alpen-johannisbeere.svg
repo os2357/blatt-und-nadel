@@ -1,0 +1,11 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Alpen-Johannisbeere · Ribes alpinum">
+  <title>Alpen-Johannisbeere · Ribes alpinum</title>
+  <path class="leaf-blade" d="M48 71 C40 68 39 77 30 71 Q23.707 67.157 21.736 65.769 L20.622 63.314 Q16.917 56.925 15.591 54.875 L15.759 52.127 Q14.226 44.914 13.549 42.629 L14 40 Q20.684 39.597 22.897 39.396 L25.017 40.716 Q31.024 43.655 32.966 44.728 L34 47 C39 44 33 34 36 29 Q37.175 24.725 37.366 23.253 L38.667 22.164 Q40.859 18.295 41.33 16.825 L43.066 16.297 Q46.334 13.298 47.307 12.173 L49 12 Q53.296 14.206 54.808 14.738 L55.75 16.301 Q59.399 19.49 60.813 20.397 L60.966 22.334 Q62.896 26.767 63.565 28.251 L63 30 C64 37 60 44 65 46 Q69.899 42.044 71.419 40.614 L73.771 40.393 Q79.905 38.987 82.006 38.701 L84 40 Q83.27 47.378 83.179 49.78 L81.85 52.118 Q79.291 59.092 78.579 61.444 L76.333 63.075 Q71.267 68.488 69.582 70.219 L67 71 C57 76 57 69 48 71 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M43 87 Q47 80 48 71" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 71 Q48 43.5 49 16" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48 71 Q34 55 18 43" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 71 Q64 56 80 43" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Gewöhnlicher Pfeifenstrauch · Philadelphus coronarius">
+  <title>Gewöhnlicher Pfeifenstrauch · Philadelphus coronarius</title>
+  <path class="leaf-blade" d="M48 80 Q38.97 75.049 36.18 73.265 L33.96 70.346 Q28.494 61.637 27.158 58.542 L27.557 54.813 Q28.36 44.54 28.67 41.207 L30.611 38.034 Q34.809 28.621 36.228 25.602 L39.091 23.233 Q45.645 15.294 47.432 12.562 L50 10 L51.896 12.962 Q53.045 15.908 58.108 24.507 L60.664 27.039 Q61.839 30.039 66.042 39.115 L68 42.184 Q68.195 45.443 68.345 55.44 L68.479 59.076 Q66.966 61.98 61.389 70.269 L59.271 73.131 Q56.6 74.91 48 80 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M46 87 Q48 83 48 80" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 80 L49.88 14.2" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.28 70.2 Q40.011 67.24 33.246 63.623" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.28 70.2 Q56.061 67.308 62.427 63.772" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.71 55.15 Q39.53 51.086 32.019 46.12" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.71 55.15 Q57.517 51.402 64.723 46.822" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.14 40.1 Q42.71 35.261 37.45 29.347" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.14 40.1 Q54.877 35.78 59.571 30.499" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

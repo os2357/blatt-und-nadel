@@ -1,0 +1,35 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Schneeheide · Erica carnea">
+  <title>Schneeheide · Erica carnea</title>
+  <path class="leaf-axis" d="M45 84 C48 65 49 36 52 12" fill="none" stroke="currentColor" stroke-width="1.7"/>
+  <path class="leaf-needle" d="M46.116 74.265 Q33.233 70.533 23.376 65.517 Q35.566 67.533 46.636 72.769 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M45.648 73.829 Q40.048 62.558 37.376 52.517 Q43.806 62.189 47.104 73.205 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M45.684 73.132 Q50.565 62.888 56.376 55.517 Q53.212 65.537 47.069 73.901 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M46.049 72.796 Q57.856 66.651 68.376 63.517 Q58.245 70.428 46.704 74.238 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M46.766 66.47 Q35.385 60.782 27.104 54.323 Q38.174 58.23 47.552 65.095 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M46.474 66.18 Q40.083 56.555 36.654 47.638 Q43.724 55.658 47.845 65.386 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M46.415 65.512 Q49.952 53.715 54.799 44.773 Q52.953 55.996 47.904 66.054 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M46.938 65.023 Q59.345 60.666 70.079 59.098 Q59.207 64.456 47.381 66.543 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.615 58.354 Q35.871 55.019 26.946 50.326 Q38.1 51.982 48.136 56.858 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.148 57.918 Q41.992 47.686 39.686 38.496 Q45.711 47.224 48.604 57.294 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.183 57.221 Q51.569 47.868 56.976 41.226 Q54.261 50.436 48.568 57.99 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.548 56.885 Q58.266 51.235 67.896 48.506 Q58.755 54.968 48.203 58.327 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M48.167 49.804 Q37.825 44.71 30.395 38.737 Q40.519 42.103 48.953 48.429 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.875 49.514 Q42.029 40.829 39.045 32.682 Q45.62 39.847 49.245 48.72 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.816 48.846 Q50.956 38.138 55.48 30.087 Q53.994 40.319 49.304 49.387 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M48.338 48.356 Q59.558 44.347 69.32 43.062 Q59.528 48.105 48.782 49.877 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M48.987 41.195 Q38.382 38.255 30.388 33.887 Q40.507 35.183 49.508 39.699 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M48.52 40.759 Q43.81 31.566 41.868 23.227 Q47.488 31.009 49.975 40.135 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M48.555 40.062 Q52.446 31.6 57.448 25.687 Q55.183 34.086 49.94 40.831 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M48.92 39.726 Q58.549 34.571 67.288 32.247 Q59.136 38.258 49.575 41.168 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M49.58 32.414 Q40.278 27.914 33.698 22.426 Q42.877 25.253 50.366 31.039 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M49.288 32.123 Q43.986 24.379 41.448 17.001 Q47.528 23.312 50.658 31.329 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M49.229 31.456 Q51.973 21.836 56.173 14.676 Q55.047 23.919 50.717 31.997 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M49.751 30.966 Q59.783 27.303 68.573 26.301 Q59.861 31.03 50.195 32.487 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M50.511 23.835 Q41.044 21.292 33.981 17.247 Q43.066 18.183 51.032 22.339 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M50.044 23.399 Q45.779 15.246 44.201 7.757 Q49.417 14.595 51.499 22.775 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M50.079 22.702 Q53.475 15.131 58.071 9.947 Q56.257 17.537 51.464 23.472 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M50.444 22.366 Q58.984 17.706 66.831 15.787 Q59.67 21.349 51.099 23.808 Z" fill="currentColor" stroke="none"/>
+</svg>

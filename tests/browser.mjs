@@ -107,6 +107,20 @@ try {
         catalog.icons.filter((icon) => icon.group === 'conifer').length,
       );
       await page.locator('#group').selectOption('');
+      await page.locator('#group').selectOption('Heidezweige');
+      assert.equal(
+        await page.locator('.card:visible').count(),
+        catalog.icons.filter((icon) => icon.group === 'heath').length,
+      );
+      assert.deepEqual(
+        (
+          await page
+            .locator('.card:visible')
+            .evaluateAll((cards) => cards.map((card) => card.dataset.id))
+        ).sort(),
+        ['besenheide', 'schneeheide'],
+      );
+      await page.locator('#group').selectOption('');
       await page.locator('#variant').selectOption('compact');
       assert.equal(
         await page.locator('.specimen [data-compact]:visible').count(),

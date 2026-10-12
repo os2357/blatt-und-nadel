@@ -1,0 +1,16 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Besenginster · Cytisus scoparius">
+  <title>Besenginster · Cytisus scoparius</title>
+  <path class="leaf-petiole" d="M43 86 Q48 75 48 60" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-rachis" d="M48 60 L48 56" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-blade" d="M48 56 C45.781 48.025 35.823 37.234 38.523 24.088 C39.942 14.436 46.361 11.94 49 12 C51.639 12.06 57.938 14.844 58.917 24.552 C61.017 37.806 50.579 48.135 48 56 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-midrib" d="M48 56 L48.88 17.28" fill="none" stroke="currentColor" stroke-width="2.2"/>
+  <path class="leaf-rachis" d="M48 60 L44 60" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-blade" d="M44 60 C37.474 56.312 24.964 55.34 17.57 45.588 C11.843 38.752 13.564 33.488 15 32 C16.436 30.512 21.637 28.608 28.67 34.092 C38.676 41.14 40.086 53.608 44 60 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-midrib" d="M44 60 L18.48 35.36" fill="none" stroke="currentColor" stroke-width="2.2"/>
+  <path class="leaf-rachis" d="M48 60 L52 60" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-blade" d="M52 60 C55.84 53.266 56.933 40.394 67.013 32.729 C74.083 26.796 79.481 28.532 81 30 C82.519 31.468 84.437 36.804 78.747 44.071 C71.427 54.406 58.6 55.934 52 60 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-midrib" d="M52 60 L77.52 33.6" fill="none" stroke="currentColor" stroke-width="2.2"/>
+</svg>

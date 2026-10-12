@@ -1,0 +1,23 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Hopfenbuche · Ostrya carpinifolia">
+  <title>Hopfenbuche · Ostrya carpinifolia</title>
+  <path class="leaf-blade" d="M48 82 Q40.538 79.935 38.27 78.833 L36.522 76.65 Q31.674 70.56 30.099 68.544 L29.835 65.693 Q27.682 58.201 26.791 55.79 L27.607 52.996 Q27.816 45.203 27.648 42.63 L29.295 40.21 Q31.253 32.667 31.672 30.121 L33.778 28.112 Q37.904 21.509 39.063 19.258 L41.462 17.725 Q46.555 11.86 47.914 9.795 L50 8 L52.056 9.812 Q53.341 11.909 58.078 18.002 L60.356 19.686 Q61.336 22.005 64.919 28.857 L66.876 30.988 Q67.135 33.53 68.926 41.051 L70.491 43.505 Q70.222 46.059 70.023 53.803 L70.656 56.623 Q69.597 58.959 66.874 66.206 L66.383 69.013 Q64.662 70.875 59.446 76.585 L57.63 78.685 Q55.36 79.731 48 82 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M46 91 Q48 87 48 82" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 82 L50 12" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.029 81 Q43.149 79.617 38.27 78.833" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.184 75.544 Q39.142 71.744 30.099 68.544" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.549 62.79 Q37.67 58.99 26.791 55.79" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.925 49.63 Q38.286 45.83 27.648 42.63" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.282 37.121 Q40.477 33.321 31.672 30.121" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.593 26.258 Q44.328 22.458 39.063 19.258" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.863 16.795 Q48.888 12.995 47.914 9.795" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.029 81 Q52.829 79.542 57.63 78.685" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.171 76.013 Q57.277 72.213 66.383 69.013" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.525 63.623 Q59.591 59.823 70.656 56.623" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.9 50.505 Q59.696 46.705 70.491 43.505" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.257 37.988 Q58.067 34.188 66.876 30.988" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.58 26.686 Q54.968 22.886 60.356 19.686" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.863 16.812 Q50.959 13.012 52.056 9.812" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

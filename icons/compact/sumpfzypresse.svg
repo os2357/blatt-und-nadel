@@ -1,0 +1,27 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Sumpfzypresse · Taxodium distichum">
+  <title>Sumpfzypresse · Taxodium distichum</title>
+  <path class="leaf-axis" d="M48 91 C47 61 50 26 52 7" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-needle" d="M47.428 81.889 C49.123 80.317 53.717 78.835 55.824 79.294 C54.55 80.74 50.123 82.604 48.22 83.699 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.487 79.541 C44.844 78.4 38.839 76.457 36.922 74.954 C39.5 74.485 45.638 76.034 48.116 77.667 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.556 73.435 C50.776 71.753 58.435 70.128 61.512 70.587 C58.991 72.133 51.443 74.158 48.084 75.339 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.645 71.116 C43.608 69.896 34.587 67.788 31.504 66.206 C35.075 65.766 44.194 67.469 48.109 69.196 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.759 64.956 C52.313 63.188 62.789 61.405 66.83 61.821 C63.231 63.438 52.843 65.627 48.179 66.887 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.898 62.664 C42.671 61.366 31.054 59.094 26.996 57.445 C31.465 57.055 43.164 58.919 48.289 60.727 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M48.062 56.519 C53.678 54.673 66.436 52.727 71.28 53.09 C66.826 54.77 54.146 57.124 48.433 58.46 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M48.249 54.287 C42.138 52.914 28.585 50.477 23.81 48.766 C28.963 48.432 42.592 50.459 48.609 52.344 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M48.458 48.213 C54.777 46.29 69.066 44.181 74.457 44.485 C69.439 46.227 55.224 48.746 48.811 50.157 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M48.684 46.082 C42.073 44.633 27.423 42.032 22.246 40.26 C27.796 39.985 42.521 42.178 49.038 44.138 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M48.927 40.13 C55.532 38.133 70.457 35.858 76.083 36.102 C70.836 37.903 55.987 40.587 49.287 42.073 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M49.182 38.143 C42.502 36.619 27.694 33.853 22.468 32.022 C28.085 31.81 42.971 34.168 49.554 36.202 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M49.448 32.364 C55.895 30.294 70.503 27.853 76.029 28.033 C70.912 29.892 56.386 32.741 49.837 34.301 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M49.72 30.562 C43.407 28.964 29.396 26.032 24.477 24.145 C29.832 23.999 43.93 26.524 50.133 28.629 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M49.995 25.009 C55.85 22.869 69.22 20.26 74.328 20.372 C69.69 22.286 56.415 25.3 50.442 26.934 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M50.27 23.43 C44.73 21.76 32.395 18.663 28.119 16.723 C32.913 16.648 45.351 19.343 50.761 21.516 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M50.539 18.163 C55.415 15.958 66.743 13.177 71.165 13.212 C67.322 15.175 56.11 18.356 51.089 20.061 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M50.797 16.836 C46.368 15.096 36.435 11.832 33.09 9.85 C37.097 9.86 47.163 12.73 51.426 14.963 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M51.038 11.93 C54.62 9.675 63.302 6.713 66.865 6.647 C64.076 8.644 55.549 11.992 51.773 13.764 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M51.252 10.851 C48.178 9.049 41.149 5.617 38.968 3.617 C42.078 3.755 49.292 6.816 52.134 9.083 Z" fill="currentColor" stroke="none"/>
+</svg>

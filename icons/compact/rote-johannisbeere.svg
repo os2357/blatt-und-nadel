@@ -1,0 +1,13 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Rote Johannisbeere · Ribes rubrum">
+  <title>Rote Johannisbeere · Ribes rubrum</title>
+  <path class="leaf-blade" d="M48 64 C42 62 43 74 31 70 Q24.804 68.024 22.777 67.246 L21.527 65.155 Q17.392 60.125 16.039 58.44 L16 56 C21 54 22 54 21 50 Q15.945 45.884 14.572 44.145 L14.684 41.671 Q14.47 35.117 14.484 32.933 L16 31 Q21.623 31.411 23.51 31.454 L25.076 32.92 Q29.871 35.883 31.477 36.908 L32 39 C36 38 32 31 35 27 Q35.987 22.917 36.123 21.507 L37.381 20.479 Q39.571 16.874 40.125 15.485 L41.849 15.196 Q45.314 12.819 46.38 11.891 L48 12 Q51.77 14.143 53.15 14.562 L54.01 15.981 Q57.566 18.497 58.973 19.075 L59.324 20.827 Q61.945 24.295 62.964 25.334 L63 27 C64 33 60 38 65 39 Q69.043 34.831 70.367 33.403 L72.571 33.206 Q78.244 32 80.189 31.734 L82 33 Q82.69 38.918 82.828 40.922 L81.426 42.701 Q78.306 47.771 77.186 49.427 L75 50 C73 54 77 54 80 57 Q76.611 63.003 75.499 64.987 L73.189 66.09 Q67.497 69.985 65.566 71.219 L63 71 C52 74 55 62 48 64 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M39 87 Q46 77 48 64" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 64 Q48 40 48 16" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48 64 Q35 48 19 35" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 64 Q61 49 79 36" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 64 Q31 58 21 58" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 64 Q64 59 75 59" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

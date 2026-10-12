@@ -3,19 +3,25 @@
      Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
 <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Edelkastanie · Castanea sativa">
   <title>Edelkastanie · Castanea sativa</title>
-  <path class="leaf-blade" d="M51 8 Q49.6 14.2 43.449 19 L44.27 24.439 Q41.611 27.722 39.686 30.1 L41.384 35.539 Q39.219 38.822 37.651 41.2 L40.148 46.639 Q38.462 49.922 37.241 52.3 L40.534 57.739 Q39.333 61.022 38.464 63.4 L42.592 68.839 Q41.955 72.122 41.493 74.5 Q43.5 78.8 47 83 Q51 79 53.413 74.5 L52.919 68.839 L57.626 63.4 L56.161 57.739 L60.033 52.3 L57.731 46.639 L60.808 41.2 L57.679 35.539 L59.957 30.1 L55.976 24.439 L57.378 19 Q54 14 51 8 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
-  <path class="leaf-petiole" d="M45 91 Q46 87 47 83" fill="none" stroke="currentColor" stroke-width="3.3"/>
-  <path class="leaf-midrib" d="M47 83 L50.7 13.5" fill="none" stroke="currentColor" stroke-width="3.3"/>
-  <path class="leaf-vein" d="M50.024 26.2 C46.407 21.34 44.849 19.45 43.449 19" fill="none" stroke="currentColor" stroke-width="2.25"/>
-  <path class="leaf-vein" d="M50.024 26.2 C54.069 21.34 55.978 19.45 57.378 19" fill="none" stroke="currentColor" stroke-width="2.25"/>
-  <path class="leaf-vein" d="M49.433 37.3 C44.072 32.44 41.086 30.55 39.686 30.1" fill="none" stroke="currentColor" stroke-width="2.25"/>
-  <path class="leaf-vein" d="M49.433 37.3 C55.221 32.44 58.557 30.55 59.957 30.1" fill="none" stroke="currentColor" stroke-width="2.25"/>
-  <path class="leaf-vein" d="M48.842 48.4 C42.687 43.54 39.051 41.65 37.651 41.2" fill="none" stroke="currentColor" stroke-width="2.25"/>
-  <path class="leaf-vein" d="M48.842 48.4 C55.423 43.54 59.408 41.65 60.808 41.2" fill="none" stroke="currentColor" stroke-width="2.25"/>
-  <path class="leaf-vein" d="M48.251 59.5 C42.196 54.64 38.641 52.75 37.241 52.3" fill="none" stroke="currentColor" stroke-width="2.25"/>
-  <path class="leaf-vein" d="M48.251 59.5 C54.731 54.64 58.633 52.75 60.033 52.3" fill="none" stroke="currentColor" stroke-width="2.25"/>
-  <path class="leaf-vein" d="M47.66 70.6 C42.602 65.74 39.864 63.85 38.464 63.4" fill="none" stroke="currentColor" stroke-width="2.25"/>
-  <path class="leaf-vein" d="M47.66 70.6 C53.142 65.74 56.226 63.85 57.626 63.4" fill="none" stroke="currentColor" stroke-width="2.25"/>
-  <path class="leaf-vein" d="M47.149 80.2 C44.038 76.165 42.893 74.95 41.493 74.5" fill="none" stroke="currentColor" stroke-width="2.25"/>
-  <path class="leaf-vein" d="M47.149 80.2 C50.594 76.165 52.013 74.95 53.413 74.5" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-blade" d="M48 83 Q44.97 78.86 43.961 77.563 L43.416 75.677 Q41.172 70.838 40.27 69.377 L40.242 67.306 Q38.709 62.069 37.947 60.465 L38.316 58.384 Q37.456 52.919 36.864 51.196 L37.555 49.203 Q37.372 43.644 36.982 41.825 L37.93 39.986 Q38.441 34.456 38.292 32.598 L39.44 30.944 Q40.66 25.585 40.79 23.735 L42.071 22.292 Q43.998 17.257 44.427 15.51 L45.777 14.248 Q48.382 9.698 49.136 8.168 L50.46 7 L51.679 8.303 Q52.299 9.908 54.485 14.721 L55.707 16.135 Q55.979 17.918 57.438 23.133 L58.58 24.717 Q58.548 26.561 59.308 31.996 L60.315 33.753 Q60.021 35.578 60.122 41.094 L60.941 43.009 Q60.434 44.761 59.911 50.243 L60.489 52.266 Q59.802 53.927 58.676 59.27 L58.949 61.352 Q58.117 62.891 56.371 67.979 L56.26 70.035 Q55.306 71.422 52.881 76.073 L52.263 77.908 Q51.204 79.125 48 83 Z" fill="none" stroke="currentColor" stroke-width="2.8"/>
+  <path class="leaf-petiole" d="M46.36 91 Q47.18 87 48 83" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 83 L50.411 8.52" fill="none" stroke="currentColor" stroke-width="2"/>
+  <path class="leaf-vein" d="M48.106 79.738 Q45.619 78.433 43.961 77.563" fill="none" stroke="currentColor" stroke-width="1.45"/>
+  <path class="leaf-vein" d="M48.265 74.826 Q43.468 71.557 40.27 69.377" fill="none" stroke="currentColor" stroke-width="1.45"/>
+  <path class="leaf-vein" d="M48.535 66.465 Q42.182 62.865 37.947 60.465" fill="none" stroke="currentColor" stroke-width="1.45"/>
+  <path class="leaf-vein" d="M48.836 57.196 Q41.652 53.596 36.864 51.196" fill="none" stroke="currentColor" stroke-width="1.45"/>
+  <path class="leaf-vein" d="M49.138 47.825 Q41.845 44.225 36.982 41.825" fill="none" stroke="currentColor" stroke-width="1.45"/>
+  <path class="leaf-vein" d="M49.437 38.598 Q42.75 34.998 38.292 32.598" fill="none" stroke="currentColor" stroke-width="1.45"/>
+  <path class="leaf-vein" d="M49.724 29.735 Q44.363 26.135 40.79 23.735" fill="none" stroke="currentColor" stroke-width="1.45"/>
+  <path class="leaf-vein" d="M49.99 21.51 Q46.653 17.91 44.427 15.51" fill="none" stroke="currentColor" stroke-width="1.45"/>
+  <path class="leaf-vein" d="M50.228 14.168 Q49.573 10.568 49.136 8.168" fill="none" stroke="currentColor" stroke-width="1.45"/>
+  <path class="leaf-vein" d="M48.099 79.945 Q50.597 78.723 52.263 77.908" fill="none" stroke="currentColor" stroke-width="1.45"/>
+  <path class="leaf-vein" d="M48.252 75.221 Q53.056 72.109 56.26 70.035" fill="none" stroke="currentColor" stroke-width="1.45"/>
+  <path class="leaf-vein" d="M48.507 67.352 Q54.772 63.752 58.949 61.352" fill="none" stroke="currentColor" stroke-width="1.45"/>
+  <path class="leaf-vein" d="M48.8 58.266 Q55.814 54.666 60.489 52.266" fill="none" stroke="currentColor" stroke-width="1.45"/>
+  <path class="leaf-vein" d="M49.1 49.009 Q56.205 45.409 60.941 43.009" fill="none" stroke="currentColor" stroke-width="1.45"/>
+  <path class="leaf-vein" d="M49.4 39.753 Q55.949 36.153 60.315 33.753" fill="none" stroke="currentColor" stroke-width="1.45"/>
+  <path class="leaf-vein" d="M49.692 30.717 Q55.025 27.117 58.58 24.717" fill="none" stroke="currentColor" stroke-width="1.45"/>
+  <path class="leaf-vein" d="M49.97 22.135 Q53.413 18.535 55.707 16.135" fill="none" stroke="currentColor" stroke-width="1.45"/>
+  <path class="leaf-vein" d="M50.224 14.303 Q51.097 10.703 51.679 8.303" fill="none" stroke="currentColor" stroke-width="1.45"/>
 </svg>

@@ -39,14 +39,78 @@ test('compound additions retain their selected leaflet counts in both optical si
       himbeere: 3,
       goetterbaum: 9,
       essigbaum: 11,
+      mahonie: 7,
+      kratzbeere: 3,
+      besenginster: 3,
+      waldrebe: 5,
+      gleditschie: 16,
     }))
       assert.equal(counts(id, variant)['leaf-blade'], expected, `${id}/${variant}`);
 });
 
 test('petiolar glands are retained in Detail and deliberately omitted in Compact', () => {
-  for (const id of ['vogelkirsche', 'traubenkirsche', 'gewoehnlicher-schneeball']) {
+  for (const id of ['vogelkirsche', 'traubenkirsche', 'gewoehnlicher-schneeball', 'pfirsich']) {
     assert.equal(counts(id, 'detail')['leaf-gland'], 2, id);
     assert.equal(counts(id, 'compact')['leaf-gland'] || 0, 0, id);
+  }
+});
+
+test('heath shoots preserve four-needle whorls versus successive opposite scale pairs', () => {
+  for (const variant of variants) {
+    for (const [id, role, perNode] of [
+      ['schneeheide', 'leaf-needle', 4],
+      ['besenheide', 'leaf-scale', 2],
+    ]) {
+      const groups = [];
+      for (const path of paths(id, variant).filter((p) => p.class === role)) {
+        const points = flattenPath(path.d)[0].points;
+        const base = points[0].map((v, i) => (v + points.at(-2)[i]) / 2);
+        const group = groups.find((g) => Math.hypot(g[0][0] - base[0], g[0][1] - base[1]) < 0.03);
+        if (group) group.push(base);
+        else groups.push([base]);
+      }
+      assert.ok(groups.length > 3, 'Several distinct insertion nodes are represented');
+      assert.ok(
+        groups.every((g) => g.length === perNode),
+        `${id}/${variant}: node membership`,
+      );
+    }
+  }
+});
+
+test('selected Ginkgo fan narrows well before the basal insertion', () => {
+  for (const variant of variants) {
+    const points = flattenPath(paths('ginkgo', variant).find((p) => p.class === 'leaf-blade').d)[0]
+      .points;
+    const xs = points.map((p) => p[0]),
+      ys = points.map((p) => p[1]);
+    const fullWidth = Math.max(...xs) - Math.min(...xs);
+    const lowerLevel = Math.max(...ys) - 20;
+    const crossings = [];
+    for (let i = 1; i < points.length; i++) {
+      const [a, b] = [points[i - 1], points[i]];
+      if (a[1] > lowerLevel === b[1] > lowerLevel) continue;
+      crossings.push(a[0] + ((b[0] - a[0]) * (lowerLevel - a[1])) / (b[1] - a[1]));
+    }
+    assert.equal(crossings.length, 2);
+    const ratio = (Math.max(...crossings) - Math.min(...crossings)) / fullWidth;
+    assert.ok(ratio < 0.83, `${variant}: lower fan must taper, not retain the old vertical walls`);
+  }
+});
+
+test('the selected even-pinnate honey locust leaf has no terminal leaflet', () => {
+  for (const variant of variants) {
+    const blades = paths('gleditschie', variant).filter((p) => p.class === 'leaf-blade');
+    let left = 0,
+      right = 0;
+    for (const blade of blades) {
+      const xs = flattenPath(blade.d)[0].points.map((p) => p[0]);
+      if (Math.max(...xs) < 48) left++;
+      else if (Math.min(...xs) > 48) right++;
+      else assert.fail('No blade may straddle the terminal rachis axis');
+    }
+    assert.equal(left, right);
+    assert.equal(left, 8, 'Selected eight-pair form, not a universal species count');
   }
 });
 
@@ -99,7 +163,7 @@ test('Ginkgo has a branching vein tree without a dicot midrib or isolated branch
       assert.ok(n.incoming <= 1, 'No merging of separate nerves');
       assert.ok(n.outgoing === 0 || n.outgoing === 2, 'Each branching node bifurcates');
     }
-    assert.equal(degrees.filter((n) => n.outgoing === 0).length, variant === 'detail' ? 8 : 4);
+    assert.equal(degrees.filter((n) => n.outgoing === 0).length, variant === 'detail' ? 16 : 8);
   }
 });
 
@@ -119,6 +183,8 @@ test('pine fascicles preserve five- versus two-needle groups in both sizes', () 
     for (const [id, perBundle, bundleCount] of [
       ['zirbelkiefer', 5, 3],
       ['bergkiefer', 2, 4],
+      ['kiefer', 2, 3],
+      ['schwarzkiefer', 2, 3],
     ]) {
       const groups = [];
       for (const { base } of needleBases(id, variant)) {
@@ -133,11 +199,73 @@ test('pine fascicles preserve five- versus two-needle groups in both sizes', () 
       );
     }
     assert.equal(counts('bergkiefer', variant)['leaf-sheath'], 4);
+    assert.equal(counts('kiefer', variant)['leaf-sheath'], 3);
+    assert.equal(counts('schwarzkiefer', variant)['leaf-sheath'], 3);
     assert.equal(
       counts('zirbelkiefer', variant)['leaf-sheath'] || 0,
       0,
       'Selected mature fascicles',
     );
+  }
+});
+
+test('bald cypress keeps individually alternating insertions with separate origins', () => {
+  for (const variant of variants) {
+    const needles = needleBases('sumpfzypresse', variant).sort((a, b) => a.base[1] - b.base[1]);
+    assert.equal(needles.length, variant === 'detail' ? 30 : 20);
+    let previousSide;
+    for (let i = 0; i < needles.length; i++) {
+      const { base, points } = needles[i];
+      if (i)
+        assert.ok(base[1] - needles[i - 1].base[1] > 1, 'Insertion levels must remain separate');
+      const tip = points.reduce((a, b) =>
+        Math.abs(a[0] - base[0]) > Math.abs(b[0] - base[0]) ? a : b,
+      );
+      const side = Math.sign(tip[0] - base[0]);
+      if (i) assert.notEqual(side, previousSide, 'Successive needles alternate sides');
+      previousSide = side;
+    }
+  }
+});
+
+test('chestnut and hop hornbeam primary veins reach the selected marginal teeth', () => {
+  for (const [id, detail, compact] of [
+    ['edelkastanie', 18, 9],
+    ['hopfenbuche', 16, 7],
+  ]) {
+    for (const variant of variants) {
+      const artwork = paths(id, variant);
+      const outline = artwork
+        .filter((p) => p.class === 'leaf-blade')
+        .flatMap((p) => flattenPath(p.d).flatMap((s) => s.points));
+      const veins = artwork.filter((p) => p.class === 'leaf-vein');
+      assert.equal(veins.length, (variant === 'detail' ? detail : compact) * 2);
+      for (const vein of veins) {
+        const end = flattenPath(vein.d)[0].points.at(-1);
+        assert.ok(
+          outline.some((p) => Math.hypot(p[0] - end[0], p[1] - end[1]) < 0.02),
+          `${id}/${variant}: endpoint at a contour vertex`,
+        );
+      }
+    }
+  }
+});
+
+test('selected fan and lanceolate proportions resist accidental outline replacement', () => {
+  for (const variant of variants) {
+    for (const [id, min, max] of [
+      ['ginkgo', 1.4, 1.8],
+      ['edelkastanie', 0.25, 0.37],
+      ['silberweide', 0.14, 0.23],
+    ]) {
+      const points = paths(id, variant)
+        .filter((p) => p.class === 'leaf-blade')
+        .flatMap((p) => flattenPath(p.d).flatMap((s) => s.points));
+      const xs = points.map((p) => p[0]),
+        ys = points.map((p) => p[1]);
+      const ratio = (Math.max(...xs) - Math.min(...xs)) / (Math.max(...ys) - Math.min(...ys));
+      assert.ok(ratio >= min && ratio <= max, `${id}/${variant}: selected width/height ${ratio}`);
+    }
   }
 });
 

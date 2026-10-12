@@ -80,7 +80,9 @@ output(
 );
 
 function card(icon, index) {
-  const group = icon.group === 'conifer' ? 'Nadelgehölze' : 'Laubgehölze';
+  const group = { conifer: 'Nadelgehölze', broadleaf: 'Laubgehölze', heath: 'Heidezweige' }[
+    icon.group
+  ];
   const search = esc(
     [icon.name, icon.names.en, icon.latin, icon.description].join(' '),
   ).toLocaleLowerCase('de');

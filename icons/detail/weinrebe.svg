@@ -1,0 +1,19 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Weinrebe · Vitis vinifera">
+  <title>Weinrebe · Vitis vinifera</title>
+  <path class="leaf-blade" d="M48 64 C41 61 43 73 35 75 Q31.453 75.111 30.294 75.202 L29.144 74.572 Q25.727 73.574 24.533 73.396 L23.751 72.247 Q20.797 70.259 19.682 69.769 L19.301 68.405 Q17.002 65.691 16.083 64.917 L16.003 63.532 Q14.506 60.314 13.934 59.304 L14 58 C17 55 22 57 22 51 Q17.885 49.708 16.576 49.087 L15.875 47.634 Q13.66 43.921 12.833 42.727 L13.08 41.088 Q12.165 36.873 11.689 35.553 L12 34 Q15.365 34.127 16.449 33.942 L17.587 34.463 Q20.96 34.58 22.075 34.311 L23.155 35.107 Q26.495 35.65 27.662 35.627 L28.514 36.682 Q31.432 38.38 32.431 38.876 L33 40 C36 40 34 27 33 25 Q35.653 23.041 36.314 22.193 L37.475 21.802 Q39.81 19.465 40.287 18.455 L41.55 18.103 Q43.7 15.591 44.116 14.552 L45.358 14.128 Q47.447 11.567 47.926 10.6 L49 10 Q51.212 12.358 52.086 12.955 L52.507 14.084 Q54.823 16.342 55.815 16.803 L56.152 18.046 Q58.663 20.07 59.701 20.386 L60.226 21.555 Q63.069 23.06 64.098 23.216 L65 24 C63 31 62 38 65 39 Q67.387 36.78 68.101 35.97 L69.305 35.748 Q72.188 34.208 73.046 33.485 L74.327 33.759 Q77.453 32.823 78.402 32.24 L79.629 32.679 Q82.831 32.101 83.822 31.709 L85 32 Q84.373 36.542 84.292 38.036 L83.345 39.426 Q81.663 43.703 81.256 45.183 L79.784 46.132 Q76.678 49.507 75.649 50.61 L74 51 C73 55 79 55 82 58 Q80.916 61.291 80.611 62.387 L79.647 63.226 Q77.69 66.096 77.213 67.171 L75.929 67.607 Q73.427 70.017 72.781 71.013 L71.409 71.163 Q68.537 73.111 67.731 73.961 L66.379 73.957 Q63.232 75.401 62.275 75.998 L61 76 C52 75 56 61 48 64 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M40 87 Q47 77 48 64" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M48 64 Q48 38.5 49 13" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M48 64 Q37 49 16 37" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 64 Q58 47 81 35" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 64 Q32 58 18 60" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 64 Q64 58 78 61" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.5 43 Q42 32 36 29" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.5 43 Q56 31 62 28" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M34 50 Q25 46 18 42" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M63 48 Q72 45 79 39" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M31 63 Q28 67 29 70" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M65 64 Q69 67 68 70" fill="none" stroke="currentColor" stroke-width="1.12"/>
+</svg>

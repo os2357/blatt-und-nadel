@@ -1,0 +1,17 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Flieder · Syringa vulgaris">
+  <title>Flieder · Syringa vulgaris</title>
+  <path class="leaf-blade" d="M48 66 C37 78 19 72 16 56 C12 39 28 29 39 22 Q46 16 50 8 Q53 19 62 25 C76 34 84 46 79 58 C75 73 59 76 48 66 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M37 91 Q45 82 48 66" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M48 66 Q49 39 50 14" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M48 65 C32 67 23 57 21 48" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.4 55 Q31 45 27 36" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.7 42 Q38 31 37 27" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.1 29 L45 23" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 65 C64 67 73 57 76 48" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.4 55 Q66 46 70 39" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.7 42 Q61 31 61 29" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.1 29 L55 24" fill="none" stroke="currentColor" stroke-width="1.12"/>
+</svg>

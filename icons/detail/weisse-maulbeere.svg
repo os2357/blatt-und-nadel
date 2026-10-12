@@ -1,0 +1,19 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Weiße Maulbeere · Morus alba">
+  <title>Weiße Maulbeere · Morus alba</title>
+  <path class="leaf-blade" d="M48 66 Q45.881 67.223 45.179 67.553 L44.388 67.882 Q42.054 68.616 41.297 68.784 L40.453 68.932 Q38.018 69.309 37.226 69.629 L36.384 69.091 Q33.919 68.956 33.067 69.146 L32.376 68.363 Q29.99 67.722 29.096 67.76 L28.618 66.794 Q26.415 65.668 25.514 65.535 L25.288 64.45 Q23.373 62.878 22.504 62.567 L22.553 61.432 Q21.025 59.48 20.229 58.993 L20.555 57.884 Q19.483 55.648 18.796 55.003 L19.371 53.987 Q18.78 51.578 18.224 50.817 L19.005 49.929 Q18.999 47.452 18.629 46.577 L19.591 45.895 Q19.988 43.452 19.759 42.532 L20.818 42.008 Q21.582 39.654 21.489 38.719 L22.603 38.341 Q23.666 36.109 23.691 35.176 L24.825 34.921 Q26.115 32.816 26.236 31.899 L27.37 31.732 Q28.825 29.741 29.02 28.851 L30.139 28.736 Q31.711 26.839 31.965 25.978 L33.06 25.885 Q34.709 24.06 35.008 23.233 L36.071 23.131 Q37.768 21.354 38.101 20.56 L39.124 20.423 Q40.839 18.668 41.2 17.91 L42.17 17.707 Q43.876 15.947 44.26 15.228 L45.153 14.923 Q46.822 13.132 47.24 12.462 L48 12 L48.701 12.528 Q49.047 13.224 50.554 15.112 L51.417 15.462 Q51.753 16.193 53.356 18.004 L54.308 18.233 Q54.638 18.993 56.287 20.766 L57.299 20.911 Q57.614 21.701 59.274 23.468 L60.328 23.562 Q60.62 24.381 62.26 26.171 L63.346 26.241 Q63.606 27.09 65.195 28.929 L66.308 29.005 Q66.522 29.88 68.024 31.795 L69.156 31.905 Q69.309 32.807 70.679 34.822 L71.818 35.005 Q71.889 35.927 73.065 38.065 L74.192 38.363 Q74.153 39.293 75.047 41.568 L76.128 42.02 Q75.949 42.941 76.457 45.335 L77.441 45.972 Q77.097 46.851 77.139 49.298 L77.974 50.122 Q77.464 50.911 76.983 53.313 L77.59 54.308 Q76.92 54.959 75.875 57.175 L76.198 58.276 Q75.396 58.748 73.837 60.636 L73.854 61.762 Q72.976 62.035 71.015 63.496 L70.741 64.563 Q69.844 64.642 67.613 65.637 L67.098 66.574 Q66.219 66.491 63.841 67.028 L63.141 67.788 Q62.306 67.577 59.874 67.696 L59.055 68.246 Q58.268 67.947 55.851 67.697 L55.009 67.619 Q54.249 67.528 51.87 67.106 L51.046 66.914 Q50.306 66.721 48 66 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M38 89 Q47 77 48 66" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M48 66 Q48 39 48 14.16" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M48 66 C34 55 24 44 26 37" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 66 C62 56 72 43 69 37" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 66 Q33 66 25 61" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 66 Q63 66 70 60" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 48 Q39 36 34 31" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 48 Q60 35 63 31" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 34 Q43 26 42 23" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 34 Q54 27 55 24" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M34 54 Q27 54 23 49" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M63 54 Q70 53 74 48" fill="none" stroke="currentColor" stroke-width="1.12"/>
+</svg>

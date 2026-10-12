@@ -1,0 +1,19 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Färber-Ginster · Genista tinctoria">
+  <title>Färber-Ginster · Genista tinctoria</title>
+  <path class="leaf-blade" d="M48 79 C37 65 35 53 38 40 C41 26 47 18 50 10 C51 16 55 20 58 33 C63 48 61 62 48 79 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M46 86 Q48 82 48 79" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M48 79 L49.88 14.14" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M48.16 73.48 Q43.889 69.484 40.394 64.6" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.16 73.48 Q52.367 69.561 55.809 64.772" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.435 63.992 Q42.788 59.843 38.168 54.771" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.435 63.992 Q54.051 60.019 58.645 55.163" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.71 54.505 Q43 50.075 38.328 44.66" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.71 54.505 Q54.537 50.29 59.304 45.139" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.985 45.017 Q44.233 40.397 40.345 34.749" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.985 45.017 Q53.803 40.611 57.745 35.225" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.26 35.53 Q46.132 30.879 43.573 25.195" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.26 35.53 Q52.549 31.024 55.239 25.517" fill="none" stroke="currentColor" stroke-width="1.12"/>
+</svg>

@@ -1,0 +1,19 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Rostblättrige Alpenrose · Rhododendron ferrugineum">
+  <title>Rostblättrige Alpenrose · Rhododendron ferrugineum</title>
+  <path class="leaf-blade" d="M48 83 C39 73 32 54 33 37 C34 23 43 15 49 12 C56 15 64 23 65 36 C66 52 58 73 48 83 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M46 91 Q48 87 48 83" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M48 83 L49 18" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M48.08 77.32 Q43.411 72.933 39.59 67.57" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.08 77.32 Q53.05 73.019 57.117 67.763" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.218 67.558 Q41.739 62.877 36.438 57.157" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.218 67.558 Q55.097 62.975 60.725 57.373" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.355 57.795 Q40.858 52.658 34.724 46.379" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.355 57.795 Q56.368 52.74 62.925 46.562" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.492 48.032 Q40.921 42.374 34.726 35.458" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.492 48.032 Q56.638 42.406 63.303 35.529" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.63 38.27 Q42.596 32.304 37.659 25.012" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.63 38.27 Q55.202 32.256 60.58 24.905" fill="none" stroke="currentColor" stroke-width="1.12"/>
+</svg>

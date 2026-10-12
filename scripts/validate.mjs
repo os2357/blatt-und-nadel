@@ -57,7 +57,7 @@ for (const variant of variants) {
   for (const icon of catalog.icons) {
     assert.match(icon.id, /^[a-z][a-z0-9-]*$/);
     assert.ok(icon.name.en && icon.name.de && icon.scientificName && icon.source);
-    assert.ok(['conifer', 'broadleaf'].includes(icon.group));
+    assert.ok(['conifer', 'broadleaf', 'heath'].includes(icon.group));
     const name = 'icons/' + variant + '/' + icon.id + '.svg';
     const source = read(name);
     assert.ok(source.includes('SPDX-FileCopyrightText: 2026 Oliver Simon'), name + ': copyright');
@@ -114,7 +114,7 @@ for (const variant of variants) {
       if (node.name === 'path') {
         paths++;
         geometry.push(node.attributes);
-        const filled = ['leaf-needle', 'leaf-sheath'].includes(node.attributes.class);
+        const filled = ['leaf-needle', 'leaf-sheath', 'leaf-scale'].includes(node.attributes.class);
         assert.equal(node.attributes.fill, filled ? 'currentColor' : 'none', name + ': fill');
         assert.equal(node.attributes.stroke, filled ? 'none' : 'currentColor', name + ': stroke');
         if (!filled)
@@ -137,6 +137,7 @@ for (const variant of variants) {
             'leaf-rachis',
             'leaf-axis',
             'leaf-needle',
+            'leaf-scale',
             'leaf-sheath',
             'leaf-bud',
             'leaf-gland',
@@ -149,6 +150,7 @@ for (const variant of variants) {
           [
             'leaf-blade',
             'leaf-needle',
+            'leaf-scale',
             'leaf-sheath',
             'leaf-bud',
             'leaf-gland',
@@ -179,7 +181,7 @@ for (const variant of variants) {
     assert.equal(titles, 1, name + ': exactly one title');
     assert.equal(title, expectedLabel, name + ': title matches catalog');
     assert.ok(paths > 0, name + ': empty icon');
-    if (icon.group === 'conifer') {
+    if (['conifer', 'heath'].includes(icon.group)) {
       const components = await paintedComponents(source);
       assert.equal(
         components.length,

@@ -1,0 +1,13 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Schwarze Johannisbeere · Ribes nigrum">
+  <title>Schwarze Johannisbeere · Ribes nigrum</title>
+  <path class="leaf-blade" d="M48 65 Q43.777 67.956 42.399 68.892 L40.584 69.241 Q35.581 70.517 33.933 70.928 L32.138 70.273 Q27.087 69.19 25.415 68.851 L24.117 67.428 Q19.974 64.347 18.59 63.376 L17.872 61.613 Q15.123 57.252 14.264 55.829 L14 54  Q12.579 50.574 12.068 49.476 L12.238 48.122 Q11.829 44.429 11.496 43.232 L12.173 41.972 Q12.513 38.276 12.385 37.042 L13.246 35.908 Q14.113 32.306 14.225 31.111 L15 30  Q19.203 30.482 20.58 30.479 L21.919 31.255 Q26.014 32.35 27.415 32.509 L28.508 33.693 Q32.146 35.862 33.347 36.576 L34 38  Q35.497 34.534 35.83 33.361 L36.751 32.349 Q38.381 28.94 38.66 27.722 L39.791 26.847 Q41.535 23.494 41.825 22.269 L43.031 21.462 Q44.895 18.175 45.252 16.98 L46.436 16.178 Q48.452 12.986 48.948 11.874 L50 11  Q51.869 14.086 52.628 14.968 L52.938 16.242 Q54.859 19.3 55.72 20.131 L55.844 21.501 Q57.716 24.593 58.584 25.435 L58.611 26.835 Q60.321 30.019 61.105 30.929 L61.09 32.308 Q62.451 35.653 63.009 36.683 L63 38  Q66.424 35.233 67.46 34.245 L69.021 33.861 Q72.934 31.829 74.127 30.984 L75.785 31.097 Q80.06 30.047 81.433 29.62 L83 30  Q84.28 33.898 84.742 35.135 L84.711 36.601 Q85.265 40.671 85.589 41.974 L85.101 43.409 Q84.892 47.516 85.017 48.873 L84.172 50.165 Q83.181 54.159 83.063 55.522 L81.935 56.607 Q80.143 60.311 79.733 61.623 L78.398 62.433 Q75.794 65.617 75.063 66.767 L73.59 67.258 Q70.219 69.612 69.168 70.459 L67.656 70.59 Q63.73 71.782 62.465 72.159 L61 72  Q57.864 71.933 56.822 72.038 L55.85 71.351 Q52.856 70.373 51.778 70.179 L51.225 69.036 Q48.953 66.87 48.154 66.185 L48 65 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M35 91 Q45 80 48 65" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 65 Q49 35 50 16" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48 65 Q31 45 20 35" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 65 Q29 65 20 59" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 65 Q67 44 79 35" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 65 Q67 68 77 59" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

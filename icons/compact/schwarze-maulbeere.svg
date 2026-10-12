@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Schwarze Maulbeere · Morus nigra">
+  <title>Schwarze Maulbeere · Morus nigra</title>
+  <path class="leaf-blade" d="M48 74 Q44.737 77.423 43.505 78.282 L42.051 79.082 Q37.538 80.568 36.038 80.971 L34.361 80.528 Q29.657 79.806 28.104 79.6 L26.796 78.418 Q22.706 75.977 21.303 75.249 L20.558 73.626 Q17.592 69.895 16.512 68.726 L16.444 66.924 Q15.009 62.376 14.396 60.9 L15.003 59.19 Q14.598 54.442 14.24 52.89 L15.13 51.302 Q15.973 46.61 16.053 45.02 L17.345 43.736 Q19.431 39.452 19.931 37.944 L21.489 37.023 Q24.528 33.357 25.351 32.012 L27.04 31.408 Q30.716 28.386 31.768 27.23 L33.505 26.866 Q37.603 24.453 38.774 23.518 L40.388 23.003 Q43.687 19.625 44.375 18.283 L45.641 17.149 Q47.713 12.889 48.137 11.442 L49 10 L49.601 11.528 Q49.803 12.989 51.315 17.37 L52.438 18.597 Q52.981 19.967 56.068 23.382 L57.71 23.823 Q58.773 24.9 62.549 27.619 L64.228 28.068 Q65.194 29.252 68.718 32.296 L70.38 32.871 Q71.195 34.179 74.303 37.652 L75.89 38.446 Q76.475 39.886 78.865 43.891 L80.252 45.018 Q80.464 46.571 81.614 51.095 L82.559 52.621 Q82.225 54.158 81.728 58.802 L82.119 60.539 Q81.346 61.897 79.545 66.203 L79.388 67.965 Q78.276 69.05 75.305 72.649 L74.593 74.248 Q73.224 74.969 69.268 77.439 L68.019 78.633 Q66.497 78.863 61.902 79.636 L60.264 80.097 Q58.793 79.712 54.336 78.369 L52.869 77.669 Q51.602 76.922 48 74 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M44 88 Q47 83 48 74" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 74 Q48 42 48.96 12.56" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48 74 C33 62 24 49 25 40" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 74 C64 61 75 49 73 41" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 74 Q33 78 23 68" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 74 Q65 78 74 67" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 54 Q36 42 31 34" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 54 Q62 40 67 35" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

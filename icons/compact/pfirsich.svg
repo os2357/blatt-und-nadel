@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Pfirsich · Prunus persica">
+  <title>Pfirsich · Prunus persica</title>
+  <path class="leaf-blade" d="M47 77 Q44.996 74.55 44.31 73.807 L43.834 72.788 Q42.064 70.161 41.398 69.382 L41.142 68.258 Q39.672 65.45 39.062 64.611 L39.016 63.438 Q37.902 60.469 37.375 59.564 L37.535 58.383 Q36.82 55.292 36.397 54.326 L36.753 53.174 Q36.455 50.014 36.151 49 L36.681 47.907 Q36.794 44.735 36.614 43.69 L37.288 42.674 Q37.784 39.54 37.727 38.481 L38.512 37.549 Q39.374 34.497 39.434 33.446 L40.29 32.588 Q41.332 29.595 41.447 28.553 L42.315 27.721 Q43.489 24.779 43.668 23.753 L44.536 22.941 Q45.838 20.054 46.082 19.05 L46.931 18.244 Q48.334 15.407 48.642 14.433 L49.442 13.609 Q50.918 10.811 51.299 9.877 L52 9 L52.367 10.074 Q52.451 11.09 53.23 14.201 L53.869 15.17 Q54.017 16.191 55.063 19.226 L55.832 20.125 Q55.992 21.158 57.105 24.171 L57.933 25.044 Q58.065 26.09 59.136 29.121 L59.981 29.996 Q60.069 31.054 61.046 34.118 L61.904 35.001 Q61.944 36.072 62.669 39.211 L63.397 40.211 Q63.263 41.281 63.438 44.498 L63.971 45.615 Q63.638 46.642 63.183 49.833 L63.475 51.031 Q62.955 51.974 61.91 55.022 L61.962 56.243 Q61.303 57.085 59.802 59.935 L59.651 61.133 Q58.909 61.889 57.095 64.547 L56.78 65.691 Q55.996 66.39 53.979 68.894 L53.523 69.966 Q52.731 70.637 50.584 73.029 L49.985 73.998 Q49.219 74.678 47 77 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M45 85 Q47 81 47 77" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M47 77 L51.7 13.08" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M47.7 67.48 Q43.19 63.371 39.5 58.349" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M47.7 67.48 Q53.216 63.942 57.73 59.618" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M48.775 52.86 Q43.664 48.33 39.481 42.794" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M48.775 52.86 Q55.457 49.003 60.925 44.29" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M49.85 38.24 Q46.531 33.57 43.815 27.861" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M49.85 38.24 Q54.098 34.085 57.574 29.008" fill="none" stroke="currentColor" stroke-width="1.9"/>
+</svg>

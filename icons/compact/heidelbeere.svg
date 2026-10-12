@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Heidelbeere · Vaccinium myrtillus">
+  <title>Heidelbeere · Vaccinium myrtillus</title>
+  <path class="leaf-blade" d="M48 84 Q44.488 82.486 43.356 82.021 L42.31 81.158 Q39.126 79.032 38.055 78.414 L37.287 77.259 Q34.584 74.545 33.62 73.749 L33.17 72.413 Q31.059 69.214 30.242 68.257 L30.117 66.834 Q28.652 63.291 28.004 62.204 L28.185 60.774 Q27.37 57.027 26.903 55.846 L27.351 54.467 Q27.164 50.637 26.888 49.396 L27.562 48.108 Q27.978 44.297 27.895 43.028 L28.759 41.857 Q29.507 38.1 29.525 36.829 L30.465 35.725 Q31.781 32.125 32.031 30.886 L33.122 29.945 Q35.018 26.616 35.476 25.446 L36.661 24.656 Q39.001 21.625 39.619 20.545 L40.84 19.852 Q43.462 17.066 44.186 16.071 L45.389 15.394 Q48.123 12.723 48.903 11.79 L50 11 L51.012 11.857 Q51.69 12.838 54.094 15.71 L55.199 16.492 Q55.795 17.542 58.04 20.544 L59.16 21.347 Q59.64 22.469 61.604 25.664 L62.691 26.541 Q63.027 27.726 64.625 31.122 L65.646 32.098 Q65.823 33.324 67.012 36.884 L67.939 37.962 Q67.962 39.204 68.728 42.88 L69.519 44.071 Q69.358 45.31 69.529 49.063 L70.117 50.366 Q69.757 51.561 69.31 55.292 L69.663 56.671 Q69.117 57.794 68.057 61.398 L68.147 62.811 Q67.435 63.829 65.78 67.201 L65.588 68.589 Q64.733 69.478 62.521 72.513 L62.044 73.808 Q61.072 74.556 58.374 77.165 L57.621 78.297 Q56.569 78.899 53.475 81.019 L52.473 81.895 Q51.379 82.381 48 84 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M47 91 Q48 87 48 84" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 84 L50 17" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.28 73.78 Q40.128 70.411 33.458 66.293" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.28 73.78 Q56.188 70.545 62.657 66.591" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.71 58.085 Q39.2 53.575 31.419 48.064" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.71 58.085 Q58.127 53.928 65.832 48.847" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.14 42.39 Q41.958 36.949 36.081 30.3" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.14 42.39 Q56.139 37.383 61.866 31.264" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

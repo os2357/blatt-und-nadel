@@ -1,0 +1,13 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Färber-Ginster · Genista tinctoria">
+  <title>Färber-Ginster · Genista tinctoria</title>
+  <path class="leaf-blade" d="M48 79 C37 65 35 53 38 40 C41 26 47 18 50 10 C51 16 55 20 58 33 C63 48 61 62 48 79 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M46 86 Q48 82 48 79" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 79 L49.88 14.14" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.28 69.34 Q43.712 65.282 39.975 60.322" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.28 69.34 Q52.805 65.393 56.507 60.569" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.14 39.67 Q45.588 35.037 42.682 29.374" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.14 39.67 Q52.789 35.211 55.775 29.76" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

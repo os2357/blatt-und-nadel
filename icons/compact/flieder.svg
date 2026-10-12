@@ -1,0 +1,11 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Flieder · Syringa vulgaris">
+  <title>Flieder · Syringa vulgaris</title>
+  <path class="leaf-blade" d="M48 66 C37 78 19 72 16 56 C12 39 28 29 39 22 Q46 16 50 8 Q53 19 62 25 C76 34 84 46 79 58 C75 73 59 76 48 66 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M37 91 Q45 82 48 66" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 66 Q49 39 50 14" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48 65 C32 64 25 51 23 40" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 65 C62 64 73 53 73 43" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

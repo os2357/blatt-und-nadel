@@ -3,15 +3,17 @@
      Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
 <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Bergahorn · Acer pseudoplatanus">
   <title>Bergahorn · Acer pseudoplatanus</title>
-  <path class="leaf-blade" d="M48 10 Q43 14 39 19 Q38.7 20.2 41 22 Q36 23 35 27 Q34.8 28.2 37.5 29 Q34.5 31 35.2 33 Q36.5 37 38 42 L29 35 Q26 31 22 28 Q20.4 27.8 21.3 32 Q17.2 31.7 17 34.2 Q17 37 19.1 38.7 Q14.4 38.5 13.5 41 Q16 45 20 46.5 Q18.6 49.3 22 50.2 L33 54.7 L28.8 59 Q26 56.6 22.7 57.7 Q20.5 58.6 22.5 61 Q18.6 61.5 19.3 63.6 Q22 67 27.3 67.5 Q26.8 70 30 70.3 Q37.5 72 43 66 Q46 64.8 48 68 Q50 64.8 53 66 Q58.5 72 66 70.3 Q69.2 70 68.7 67.5 Q74 67 76.7 63.6 Q77.4 61.5 73.5 61 Q75.5 58.6 73.3 57.7 Q70 56.6 67.2 59 L63 54.7 L74 50.2 Q77.4 49.3 76 46.5 Q80 45 82.5 41 Q81.6 38.5 76.9 38.7 Q79 37 79 34.2 Q78.8 31.7 74.7 32 Q75.6 27.8 74 28 Q70 31 67 35 L58 42 Q59.5 37 60.8 33 Q61.5 31 58.5 29 Q61.2 28.2 61 27 Q60 23 55 22 Q57.3 20.2 57 19 Q53 14 48 10 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
-  <path class="leaf-petiole" d="M39 91 Q46 81 48 68" fill="none" stroke="currentColor" stroke-width="1.9"/>
-  <path class="leaf-midrib" d="M48 68 L48 15" fill="none" stroke="currentColor" stroke-width="1.9"/>
-  <path class="leaf-vein" d="M48 68 Q36 46 23.4 33.5" fill="none" stroke="currentColor" stroke-width="1.12"/>
-  <path class="leaf-vein" d="M48 68 Q60 46 72.6 33.5" fill="none" stroke="currentColor" stroke-width="1.12"/>
-  <path class="leaf-vein" d="M48 63.5 Q37 58.8 25.5 60.8" fill="none" stroke="currentColor" stroke-width="1.12"/>
-  <path class="leaf-vein" d="M48 63.5 Q59 58.8 70.5 60.8" fill="none" stroke="currentColor" stroke-width="1.12"/>
-  <path class="leaf-vein" d="M48 32 Q43 27 39.5 22.8" fill="none" stroke="currentColor" stroke-width="1.12"/>
-  <path class="leaf-vein" d="M48 45 Q43 39 38 33" fill="none" stroke="currentColor" stroke-width="1.12"/>
-  <path class="leaf-vein" d="M48 32 Q53 27 56.5 22.8" fill="none" stroke="currentColor" stroke-width="1.12"/>
-  <path class="leaf-vein" d="M48 45 Q53 39 58 33" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-blade" d="M48 9 Q44 14 42 18 Q38 16 38 19 L39 23 Q33 22 34 26 L35 30 Q30 30 32 34 L34 41 L24 33 Q23 28 20 28 L20 32 Q15 29 15 33 L17 37 Q11 36 12 40 L15 44 Q9 45 12 49 L24 54 Q16 54 15 58 Q9 59 12 62 Q22 72 34 72 Q42 72 48 67 Q54 72 64 71 Q76 70 85 61 Q88 58 81 57 Q80 53 74 53 L84 47 Q88 43 81 43 L84 38 Q84 35 78 36 L80 31 Q79 28 75 31 L74 28 Q70 29 69 33 L62 41 L64 32 Q65 29 60 29 L62 25 Q62 22 57 23 L58 19 Q58 16 54 18 Q51 13 48 9 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M38 91 Q45 80 48 67" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M48 67 L48 14" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M48 67 Q34 48 22 34" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 67 Q62 48 73 34" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 67 Q31 66 16 61" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 67 Q65 65 80 60" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 30 Q44 25 40 22" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 30 Q53 25 56 22" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 42 Q41 36 35 31" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 42 Q55 36 62 31" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M35 49 Q23 48 16 45" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M61 49 Q73 47 81 43" fill="none" stroke="currentColor" stroke-width="1.12"/>
 </svg>

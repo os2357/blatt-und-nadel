@@ -1,14 +1,25 @@
 # Quality checks
 
-Release **1.4.0** · 12 October 2026
+Release **1.6.0** · 13 October 2026
 
 ## Artwork review
 
-All 68 existing species were reviewed again against botanical descriptions and inspected in both sizes, enlarged and at 24/32 px Compact and 48/64 px Detail on light and dark backgrounds. The [complete existing-set audit](AUDIT-1.4.md) records every species. SHA-256 checks against the canonical v1.3.0 ZIP confirm all **136 existing source SVGs unchanged**. Earlier focused records remain below.
+All 117 species were inspected in both variants enlarged and at Compact 24/32 px and Detail 48/64 px on light/dark backgrounds. Existing descriptions and reference photographs from v1.5 were reused for the 100-species re-review; the 17 additions and Ginkgo received focused new research. The [per-species audit](AUDIT-1.6.md) and [machine-readable record](audit-1.6.json) distinguish the selected forms, omissions, measurements and actual changed files.
 
-Sixteen additions were then drawn in two successive groups of eight. The first passed source, visual and geometry checks before the second was drawn. [EXPANSION-1.4.md](EXPANSION-1.4.md) records the selected forms, references and concrete drawing corrections. All 168 current SVGs were included in the automated and browser runs.
+The Ginkgo was initially accepted again despite its box-like silhouette. User feedback exposed that failure. It is now redrawn with oblique flanks, two unequal fan lobes and revised dichotomous nerve trajectories; the [comparison image](ginkgo-1.6.png) makes the change reviewable. A morphological checkbox and a passing geometry test cannot establish a convincing whole-leaf shape. Previously criticized icons now require a before/after record and a separate written silhouette assessment.
 
-Compact retains characteristic outlines and simplifies veins and teeth separately. Surface hairs, texture, three-dimensional structures and most shoot insertion patterns are outside the scope of isolated monochrome leaves. Closely related species can remain similar; no invented distinction is added to force uniqueness.
+SHA-256 checks against the canonical v1.5.0 ZIP confirm **198 source SVGs unchanged**. Only the two Ginkgo variants changed; 34 files were added in [two reviewed groups and a targeted European plum addition](EXPANSION-1.6.md). No previous oak, elm, poplar or pine correction was rolled back.
+
+### Required review gates
+
+1. **Reference gate:** name the taxon and selected leaf/shoot form; compare a primary botanical description and foliage photographs. Resolve contradictory accounts rather than silently averaging them. Use additional references for ambiguous or previously criticized characters.
+2. **Morphology gate:** inspect the whole silhouette, blade proportions, maximum-width position, base, apex, petiole relationship, margin and vein course. Inspect actual needle origins, leaflet insertion and any omitted diagnostic characters separately. A plausible feature count alone is insufficient.
+3. **Neighbor gate:** compare similar species side by side. Preserve overlap where nature overlaps; do not invent distinctive anatomy. Ginkgo, maples, oaks, elms, willows, pines and the two deciduous cypresses receive focused comparison.
+4. **Optical gate:** inspect every Detail and Compact SVG independently, enlarged and at the intended sizes on light/dark backgrounds. Check narrow interiors, leaflet gaps and dense teeth. State each intentional reduction.
+5. **Technical gate:** pass the geometry, stroke-footprint, rendering, metadata and browser checks below. These establish drawing and integration properties, not botanical certification.
+6. **Preservation gate:** compare existing artwork with the canonical release baseline, list every changed species and retain old review records. Resolve all known defects before packaging.
+
+A review result means the selected stylization is supported by the reviewed references, within the documented reductions. It is not an independent specialist determination, a measured specimen drawing or a universal template for every leaf of that species.
 
 ## v1.1 focused review
 
@@ -38,15 +49,15 @@ Both outlines have no detected self-crossings. Full-stroke containment at 1536 �
 
 `npm test` verifies:
 
-- The catalog and both icon directories agree: 84 species and 168 files.
+- The catalog and both icon directories agree: 117 species and 234 files.
 - XML uses the supported element and attribute allowlists, with valid nesting and no unchecked transforms.
 - Every source has the expected dimensions, viewBox, image role, accessible name and exactly one matching title before the paths.
 - Geometry is nonempty; license notices are present.
 - No embedded images, scripts, event handlers, remote references or editor-specific objects are included.
-- Blade, filled-needle, sheath, bud, gland and stipule contours explicitly close and contain no detected proper self-crossings.
-- Each of the 20 conifer SVGs forms one connected painted component: no detached needle or twig fragments.
+- Blade, filled-needle, scale, sheath, bud, gland and stipule contours explicitly close and contain no detected proper self-crossings.
+- Each of the 24 conifer and four heath SVGs forms one connected painted component: no detached needle or twig fragments.
 - Separate leaf blades have no detected crossings, nesting or overlaps between their painted outlines.
-- All **1611 internal vein and midrib paths** remain inside the leaf blades within the stated numerical tolerance.
+- All **2233 internal vein and midrib paths** remain inside the leaf blades within the stated numerical tolerance.
 - Rendered strokes do not touch the canvas edge.
 - Generated sprites, the manifest, gallery and SVG overview match the current sources.
 
@@ -54,9 +65,9 @@ The checker adaptively flattens Bezier curves to a 0.01-unit error bound and sam
 
 Twelve regression tests cover concave notches, curves with in-bounds endpoints that bulge outside, independent subpaths, relative/smooth paths, malformed input, self-crossings, numerical tolerance, midrib coverage, thick strokes protruding despite in-bounds centerlines, inter-leaflet crossings/nesting and overlap caused by outline width, a rounded needle cap folding across its return edge, and a needle that misses a curved twig. For separate blades, the checker compares flattened contour segments, tests containment and subtracts the combined half-widths of the outlines from their minimum distance. A clearance below −0.06 units fails. External connecting stalks are excluded intentionally. The checker accepts line and Bezier geometry; elliptical arcs must first be converted.
 
-The conifer connectivity check rasterizes at 1536 × 1536 px, uses alpha ≥ 64 and eight-neighbour connectivity, and ignores isolated specks smaller than 0.05 viewBox square units. It detects unintended gaps between needles and their supporting twig. It does not validate phyllotaxis, confirm specimen identity or treat legitimate overlaps between projected needles as errors.
+The shoot connectivity check rasterizes at 1536 × 1536 px, uses alpha ≥ 64 and eight-neighbour connectivity, and ignores isolated specks smaller than 0.05 viewBox square units. It detects unintended gaps between needles and their supporting twig. It does not validate phyllotaxis, confirm specimen identity or treat legitimate overlaps between projected needles as errors.
 
-Seven artwork regressions additionally protect the selected compound-leaf counts, including the new 5/3/9/11 forms, the two petiolar glands in each relevant Detail icon and their deliberate Compact omission, the paired rose stipules, and the declared vein counts for both dogwoods, buckthorn, alder buckthorn, white elm, bird cherry, grey alder, whitebeam, Turkish hazel and field elm. Ginkgo additionally has no midrib, one connected vein origin, bifurcating branch nodes and eight/four terminal veins; the regression rejects detached branches or merged nerves. New checks also verify five-needle origins in Swiss stone pine, paired origins and four shared sheaths in Mountain pine, and exactly opposite insertion levels in Dawn redwood. The conifer gallery filter uses the catalog count, not the former hardcoded seven. These lock intentional drawing choices; they do not claim that every natural specimen has those counts.
+Thirteen artwork regressions additionally protect the selected compound-leaf counts, including the new 5/3/9/11 forms, the two petiolar glands in each relevant Detail icon and their deliberate Compact omission, the paired rose stipules, and the declared vein counts for both dogwoods, buckthorn, alder buckthorn, white elm, bird cherry, grey alder, whitebeam, Turkish hazel and field elm. Ginkgo additionally has no midrib, one connected vein origin, bifurcating branch nodes and sixteen/eight terminal veins; the regression rejects detached branches or merged nerves. New checks also verify five-needle origins in Swiss stone pine, paired origins and four shared sheaths in Mountain pine, and exactly opposite insertion levels in Dawn redwood. The conifer gallery filter uses the catalog count, not the former hardcoded seven. The 1.5 checks additionally verify alternating Bald cypress insertions, two-needle Black pine fascicles, the new compound-leaf counts, actual vein endpoints at marginal teeth in Sweet chestnut and Hop-hornbeam, and broad fan versus narrow lanceolate proportions. The 1.6 regressions also check four-needle Erica whorls, paired Calluna scale origins, no terminal Gleditsia leaflet, the selected Ginkgo lower-fan taper and the new compound counts/glands. Both browser workflows exercise the new Heidezweige filter. These lock intentional drawing choices; they do not claim that every natural specimen has those counts.
 
 ## Browser checks
 
@@ -67,7 +78,7 @@ Seven artwork regressions additionally protect the selected compound-leaf counts
 - Copy feedback; clipboard contents additionally verified in Chromium.
 - Size/color controls, dark mode and initial keyboard focus.
 - Layout at 1440, 768, 480, 375 and 320 CSS pixels, including card contents.
-- All 168 external sprite symbols compared with their inline rendering in the same browser.
+- All 234 external sprite symbols compared with their inline rendering in the same browser.
 - A standalone SVG via `<img>` and a light icon on a dark background.
 - No uncaught JavaScript errors.
 
@@ -80,7 +91,7 @@ Sprite and inline captures use the same device-pixel origin. The comparison allo
 | Chromium, headless | 153.0.8010.0 | Passed |
 | Firefox, headless  | 153.0        | Passed |
 
-Both engines completed the workflow above. The 168-file geometry checks, all twelve geometry regressions and seven semantic artwork regressions passed.
+Both engines completed the workflow above. The 234-file geometry checks, all twelve geometry regressions and thirteen semantic artwork regressions passed.
 
 ## Release archive checks
 

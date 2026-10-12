@@ -1,0 +1,19 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Gewöhnlicher Pfeifenstrauch · Philadelphus coronarius">
+  <title>Gewöhnlicher Pfeifenstrauch · Philadelphus coronarius</title>
+  <path class="leaf-blade" d="M48 80 Q42.217 77.162 40.323 76.317 L38.734 74.644 Q33.772 70.518 32.074 69.232 L31.348 66.95 Q28.343 61.228 27.263 59.352 L27.739 56.949 Q27.334 50.498 26.973 48.371 L28.294 46.288 Q29.659 39.981 29.684 37.839 L31.346 36.02 Q33.893 30.085 34.49 28.03 L36.488 26.641 Q40.267 21.418 41.237 19.559 L43.267 18.338 Q47.298 13.328 48.311 11.545 L50 10 L51.274 11.819 Q51.857 13.719 54.774 19.23 L56.545 20.696 Q57.203 22.616 60.315 28.036 L62.189 29.472 Q62.68 31.482 65.22 37.203 L66.962 38.888 Q67.038 40.98 68.177 47.145 L69.376 49.232 Q68.878 51.279 68.01 57.493 L68.321 59.859 Q67.137 61.594 63.962 67.003 L63.239 69.215 Q61.578 70.441 56.815 74.506 L55.325 76.183 Q53.511 77.052 48 80 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M46 87 Q48 83 48 80" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M48 80 L49.88 14.2" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M48.16 74.4 Q40.466 71.651 34.171 68.291" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.16 74.4 Q55.388 71.643 61.303 68.272" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.435 64.775 Q38.283 61.594 29.977 57.707" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.435 64.775 Q58.027 61.796 65.874 58.155" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.71 55.15 Q38.62 51.12 30.364 46.195" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.71 55.15 Q58.361 51.467 66.258 46.965" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.985 45.525 Q40.47 40.833 33.504 35.097" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.985 45.525 Q56.822 41.331 63.233 36.205" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.26 35.9 Q43.584 31.01 38.94 25.034" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.26 35.9 Q54.206 31.557 58.253 26.249" fill="none" stroke="currentColor" stroke-width="1.12"/>
+</svg>

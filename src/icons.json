@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "icons": [
     {
       "id": "fichte",
@@ -201,7 +201,7 @@
       },
       "scientificName": "Corylus avellana",
       "group": "broadleaf",
-      "description": "Breit rundlich, kurz zugespitzt, doppelt gezähnt.",
+      "description": "Breit rundlich-eiförmige, deutlich herzgrundige Spreite mit kurzer Spitze und doppelter Zahnung in Detail.",
       "source": "https://www.infoflora.ch/de/flora/corylus-avellana.html",
       "since": "1.0.0"
     },
@@ -213,7 +213,7 @@
       },
       "scientificName": "Acer pseudoplatanus",
       "group": "broadleaf",
-      "description": "Fünf breite Lappen mit kurzen Spitzen, spitzen Buchten und groben, stumpf geschulterten Randzähnen; weich ausgearbeitete Grundlappen.",
+      "description": "Fünf breite, zusammenhängende Lappen mit kurzen Spitzen, spitzen Buchten und groben, stumpf geschulterten Randzähnen; breitere Grundlappen.",
       "source": "https://www.infoflora.ch/de/flora/acer-pseudoplatanus.html",
       "since": "1.0.0"
     },
@@ -237,7 +237,7 @@
       },
       "scientificName": "Acer campestre",
       "group": "broadleaf",
-      "description": "Breit zusammenhängende, handförmige Spreite mit fünf stumpfen, ganzrandigen Lappen und langem Stiel.",
+      "description": "Fünflappige Spreite mit breiten, stumpfen Lappen und wenigen gerundeten Nebenlappen; zusammenhängender Blattkörper und langer Stiel.",
       "source": "https://www.infoflora.ch/de/flora/acer-campestre.html",
       "since": "1.0.0"
     },
@@ -309,7 +309,7 @@
       },
       "scientificName": "Castanea sativa",
       "group": "broadleaf",
-      "description": "Schlank lanzettliche Spreite mit scharfen Randzähnen; jeder gezeichnete Hauptseitennerv endet in einem Zahn, zwölf Paare in Detail und sechs in Compact.",
+      "description": "Lanzettliche, rund dreimal so lange wie breite Spreite mit vorwärts gerichteten, spitzen Zähnen; 18 Nervenpaare in Detail, neun in Compact, jeweils bis zum zugehörigen Randzahn.",
       "source": "https://www.infoflora.ch/de/flora/castanea-sativa.html",
       "since": "1.0.0"
     },
@@ -537,8 +537,8 @@
       },
       "scientificName": "Acer monspessulanum",
       "group": "broadleaf",
-      "description": "Breite, dreilappige Spreite mit ganzrandigen Lappen und langem Blattstiel; ausgewählte typische Form.",
-      "source": "https://www.infoflora.ch/de/flora/acer-monspessulanum.html",
+      "description": "Breite, dreilappige Spreite mit ganzrandigen, breit dreieckigen Lappen, gerundeten Flanken, flach herzförmigem Grund und langem Stiel.",
+      "source": "https://landscapeplants.oregonstate.edu/plants/acer-monspessulanum",
       "since": "1.2.0"
     },
     {
@@ -729,7 +729,7 @@
       },
       "scientificName": "Ginkgo biloba",
       "group": "broadleaf",
-      "description": "Fächerförmige, leicht zweilappige Spreite am langen Stiel; dichotom gegabelte Nervatur ohne Mittelrippe. Nacktsamer, in der Galerie nach Blattform gruppiert.",
+      "description": "Ausgewählte zweilappige Fächerspreite mit ausladenden, leicht ungleichen Lappen, deutlicher Mittelkerbe und keilförmig verjüngtem Grund; dichotome Nervatur ohne Mittelrippe.",
       "source": "https://floranorthamerica.org/Ginkgo_biloba",
       "since": "1.3.0"
     },
@@ -1008,6 +1008,402 @@
       "description": "Verkehrt-eilanzettliche bis länglich-elliptische, kurz zugespitzte Spreite mit sehr feinem Rand und kurzem Stiel; unterseitige Drüsen bleiben in der Oberansicht ausgelassen.",
       "source": "https://www.infoflora.ch/de/flora/prunus-laurocerasus.html",
       "since": "1.4.0"
+    },
+    {
+      "id": "buchsbaum",
+      "name": {
+        "en": "Common box",
+        "de": "Buchsbaum"
+      },
+      "scientificName": "Buxus sempervirens",
+      "group": "broadleaf",
+      "description": "Ovales, ganzrandiges Blatt mit abgerundeter Spitze, keiligem Grund und sehr kurzem Stiel; die feine Netznervatur ist reduziert.",
+      "source": "https://www.infoflora.ch/de/flora/buxus-sempervirens.html",
+      "since": "1.5.0"
+    },
+    {
+      "id": "flieder",
+      "name": {
+        "en": "Common lilac",
+        "de": "Flieder"
+      },
+      "scientificName": "Syringa vulgaris",
+      "group": "broadleaf",
+      "description": "Ganzrandige, breit herzförmige Spreite mit ausgezogener Spitze und langem Stiel; ausgewählte herzförmige statt eiförmige Blattform.",
+      "source": "https://www.infoflora.ch/de/flora/syringa-vulgaris.html",
+      "since": "1.5.0"
+    },
+    {
+      "id": "seidelbast",
+      "name": {
+        "en": "Mezereon",
+        "de": "Echter Seidelbast"
+      },
+      "scientificName": "Daphne mezereum",
+      "group": "broadleaf",
+      "description": "Verkehrt-lanzettliche, ganzrandige Spreite mit größter Breite oberhalb der Mitte, lang keilig auslaufendem Grund und sehr kurzem Stiel.",
+      "source": "https://www.infoflora.ch/de/flora/daphne-mezereum.html",
+      "since": "1.5.0"
+    },
+    {
+      "id": "purpurweide",
+      "name": {
+        "en": "Purple willow",
+        "de": "Purpurweide"
+      },
+      "scientificName": "Salix purpurea",
+      "group": "broadleaf",
+      "description": "Schmal verkehrt-lanzettliche Spreite, im vorderen Drittel am breitesten; nur die oberen zwei Drittel fein gesägt, keine Nebenblätter.",
+      "source": "https://www.infoflora.ch/de/flora/salix-purpurea.html",
+      "since": "1.5.0"
+    },
+    {
+      "id": "korbweide",
+      "name": {
+        "en": "Basket willow",
+        "de": "Korbweide"
+      },
+      "scientificName": "Salix viminalis",
+      "group": "broadleaf",
+      "description": "Sehr schmale, beidseits lang zugespitzte Sommerblattspreite mit größter Breite unterhalb der Mitte und fast ganzrandigem, schwach welligem Rand.",
+      "source": "https://www.floraweb.de/php/artenhome.php?suchnr=5206",
+      "since": "1.5.0"
+    },
+    {
+      "id": "mahonie",
+      "name": {
+        "en": "Oregon grape",
+        "de": "Mahonie"
+      },
+      "scientificName": "Mahonia aquifolium",
+      "group": "broadleaf",
+      "description": "Unpaarig gefiedertes Blatt mit sieben stachelig gezähnten, breiten Teilblättern; das Endteilblatt trägt einen deutlich längeren Stiel.",
+      "source": "https://www.infoflora.ch/de/flora/mahonia-aquifolium.html",
+      "since": "1.5.0"
+    },
+    {
+      "id": "kratzbeere",
+      "name": {
+        "en": "European dewberry",
+        "de": "Kratzbeere"
+      },
+      "scientificName": "Rubus caesius",
+      "group": "broadleaf",
+      "description": "Dreizähliges Blatt mit breiten, grob ungleich gezähnten Teilblättern; nur das größere Endteilblatt ist deutlich gestielt. Kein Sammelicon für die Brombeer-Aggregate.",
+      "source": "https://www.infoflora.ch/de/flora/rubus-caesius.html",
+      "since": "1.5.0"
+    },
+    {
+      "id": "schwarze-johannisbeere",
+      "name": {
+        "en": "Blackcurrant",
+        "de": "Schwarze Johannisbeere"
+      },
+      "scientificName": "Ribes nigrum",
+      "group": "broadleaf",
+      "description": "Breite, flach dreilappige Spreite mit fein bis grob gesägtem Rand, herzförmigem Grund und handförmigen Hauptnerven; fünfteilige Formen kommen ebenfalls vor.",
+      "source": "https://www.infoflora.ch/de/flora/ribes-nigrum.html",
+      "since": "1.5.0"
+    },
+    {
+      "id": "heidelbeere",
+      "name": {
+        "en": "Bilberry",
+        "de": "Heidelbeere"
+      },
+      "scientificName": "Vaccinium myrtillus",
+      "group": "broadleaf",
+      "description": "Eiförmig-lanzettliche, kurz zugespitzte und fein gesägte Spreite mit sehr kurzem Stiel; ein sommergrünes Blatt ohne Darstellung der kantigen Triebachse.",
+      "source": "https://www.infoflora.ch/de/flora/vaccinium-myrtillus.html",
+      "since": "1.5.0"
+    },
+    {
+      "id": "preiselbeere",
+      "name": {
+        "en": "Lingonberry",
+        "de": "Preiselbeere"
+      },
+      "scientificName": "Vaccinium vitis-idaea",
+      "group": "broadleaf",
+      "description": "Ganzrandige, verkehrt-eiförmige bis ovale Spreite mit stumpfer, seicht ausgerandeter Spitze und kurzem Stiel; die Unterseitendrüsen sind nicht als Oberseitenpunkte gezeichnet.",
+      "source": "https://www.infoflora.ch/de/flora/vaccinium-vitis-idaea.html",
+      "since": "1.5.0"
+    },
+    {
+      "id": "rostblaettrige-alpenrose",
+      "name": {
+        "en": "Rusty-leaved alpenrose",
+        "de": "Rostblättrige Alpenrose"
+      },
+      "scientificName": "Rhododendron ferrugineum",
+      "group": "broadleaf",
+      "description": "Ganzrandige, länglich-elliptische Spreite mit kurzer Spitze und kurzem Stiel; der eingerollte Rand und der rostbraune Unterseitenbelag werden nicht durch zusätzliche Oberseitenlinien ersetzt.",
+      "source": "https://www.infoflora.ch/de/flora/rhododendron-ferrugineum.html",
+      "since": "1.5.0"
+    },
+    {
+      "id": "stachelbeere",
+      "name": {
+        "en": "Gooseberry",
+        "de": "Stachelbeere"
+      },
+      "scientificName": "Ribes uva-crispa",
+      "group": "broadleaf",
+      "description": "Rundliche, handförmig fünflappige Spreite mit gekerbten bis eingeschnitten gezähnten Lappen, herzförmigem Grund und deutlichem Stiel; Sprossstacheln gehören nicht an den Blattrand.",
+      "source": "https://www.infoflora.ch/de/flora/ribes-uva-crispa.html",
+      "since": "1.5.0"
+    },
+    {
+      "id": "zuergelbaum",
+      "name": {
+        "en": "European nettle tree",
+        "de": "Europäischer Zürgelbaum"
+      },
+      "scientificName": "Celtis australis",
+      "group": "broadleaf",
+      "description": "Breit-lanzettliche, lang zugespitzte Spreite mit deutlich ungleichem Grund, gesägtem Rand und drei kräftigen, vom Grund ausgehenden Hauptnerven.",
+      "source": "https://www.infoflora.ch/de/flora/celtis-australis.html",
+      "since": "1.5.0"
+    },
+    {
+      "id": "hopfenbuche",
+      "name": {
+        "en": "European hop-hornbeam",
+        "de": "Hopfenbuche"
+      },
+      "scientificName": "Ostrya carpinifolia",
+      "group": "broadleaf",
+      "description": "Eiförmige, zugespitzte und doppelt gesägte Spreite mit kurzem Stiel; Detail erhält 16 deutliche Seitennervenpaare, deren Enden zu den Hauptzähnen führen.",
+      "source": "https://www.infoflora.ch/de/flora/ostrya-carpinifolia.html",
+      "since": "1.5.0"
+    },
+    {
+      "id": "schwarzkiefer",
+      "name": {
+        "en": "European black pine",
+        "de": "Schwarzkiefer"
+      },
+      "scientificName": "Pinus nigra",
+      "group": "conifer",
+      "description": "Drei Kurztriebe mit jeweils zwei langen, derben Nadeln aus einer gemeinsamen Scheide; längere Nadeln relativ zum dargestellten Zweigabschnitt als bei der Waldkiefer.",
+      "source": "https://www.infoflora.ch/de/flora/pinus-nigra.html",
+      "since": "1.5.0"
+    },
+    {
+      "id": "sumpfzypresse",
+      "name": {
+        "en": "Bald cypress",
+        "de": "Sumpfzypresse"
+      },
+      "scientificName": "Taxodium distichum",
+      "group": "conifer",
+      "description": "Flach wirkender, sommergrüner Seitenzweig mit versetzt inserierten, zweizeilig ausgerichteten und spitz endenden Nadeln; keine gegenständigen Nadelpaare.",
+      "source": "https://landscapeplants.oregonstate.edu/plants/taxodium-distichum",
+      "since": "1.5.0"
+    },
+    {
+      "id": "besenheide",
+      "name": {
+        "en": "Common heather",
+        "de": "Besenheide"
+      },
+      "scientificName": "Calluna vulgaris",
+      "group": "heath",
+      "description": "Verzweigter Trieb mit anliegenden, gegenständigen Schuppenblättern in vier Reihen; perspektivisch verkürzt.",
+      "source": "https://www.infoflora.ch/de/flora/calluna-vulgaris.html",
+      "since": "1.6.0"
+    },
+    {
+      "id": "schneeheide",
+      "name": {
+        "en": "Winter heath",
+        "de": "Schneeheide"
+      },
+      "scientificName": "Erica carnea",
+      "group": "heath",
+      "description": "Nadelförmige Blätter zu viert am gemeinsamen Knoten; räumliche Quirle in vereinfachter Projektion.",
+      "source": "https://www.infoflora.ch/de/flora/erica-carnea.html",
+      "since": "1.6.0"
+    },
+    {
+      "id": "besenginster",
+      "name": {
+        "en": "Common broom",
+        "de": "Besenginster"
+      },
+      "scientificName": "Cytisus scoparius",
+      "group": "broadleaf",
+      "description": "Dreizähliges Blatt eines älteren Triebs; ganzrandige verkehrt-eiförmige Teilblätter, das mittlere größer. Obere Blätter können einfach sein.",
+      "source": "https://www.infoflora.ch/de/flora/cytisus-scoparius.html",
+      "since": "1.6.0"
+    },
+    {
+      "id": "faerberginster",
+      "name": {
+        "en": "Dyer’s greenweed",
+        "de": "Färber-Ginster"
+      },
+      "scientificName": "Genista tinctoria",
+      "group": "broadleaf",
+      "description": "Einfaches, ganzrandiges, kurz gestieltes lanzettliches Blatt. Die unscheinbaren Nebenblätter sind im Icon ausgelassen.",
+      "source": "https://www.infoflora.ch/de/flora/genista-tinctoria.html",
+      "since": "1.6.0"
+    },
+    {
+      "id": "waldrebe",
+      "name": {
+        "en": "Traveller’s joy",
+        "de": "Gewöhnliche Waldrebe"
+      },
+      "scientificName": "Clematis vitalba",
+      "group": "broadleaf",
+      "description": "Fünf gestielte eiförmige Teilblätter mit groben Zähnen und zugespitztem Ende; schwach herzförmiger Grund.",
+      "source": "https://www.infoflora.ch/de/flora/clematis-vitalba.html",
+      "since": "1.6.0"
+    },
+    {
+      "id": "weinrebe",
+      "name": {
+        "en": "Common grapevine",
+        "de": "Weinrebe"
+      },
+      "scientificName": "Vitis vinifera",
+      "group": "broadleaf",
+      "description": "Ausgewählte fünflappige Kulturform mit gezähntem Rand, handförmiger Nervatur und offener enger Stielbucht; stark sortenabhängig.",
+      "source": "https://www.infoflora.ch/de/flora/vitis-vinifera.html",
+      "since": "1.6.0"
+    },
+    {
+      "id": "rote-johannisbeere",
+      "name": {
+        "en": "Red currant",
+        "de": "Rote Johannisbeere"
+      },
+      "scientificName": "Ribes rubrum",
+      "group": "broadleaf",
+      "description": "Ausgewählte fünflappige, breit herzförmige Spreite mit relativ rundlichen Lappen und gesägtem Rand; Blattumrisse überschneiden sich mit anderen Johannisbeeren.",
+      "source": "https://www.infoflora.ch/de/flora/ribes-rubrum.html",
+      "since": "1.6.0"
+    },
+    {
+      "id": "alpen-johannisbeere",
+      "name": {
+        "en": "Alpine currant",
+        "de": "Alpen-Johannisbeere"
+      },
+      "scientificName": "Ribes alpinum",
+      "group": "broadleaf",
+      "description": "Ausgewählte dreilappige Spreite mit breiten gezähnten Lappen und flach herzförmigem Grund; keine sichere Arttrennung allein am Umriss.",
+      "source": "https://www.infoflora.ch/de/flora/ribes-alpinum.html",
+      "since": "1.6.0"
+    },
+    {
+      "id": "sommerflieder",
+      "name": {
+        "en": "Butterfly bush",
+        "de": "Sommerflieder"
+      },
+      "scientificName": "Buddleja davidii",
+      "group": "broadleaf",
+      "description": "Lang zugespitzte lanzettliche Spreite mit feiner Sägung und kurzem Stiel; Unterseitenfilz und gegenständige Blattstellung sind nicht dargestellt.",
+      "source": "https://www.infoflora.ch/de/flora/buddleja-davidii.html",
+      "since": "1.6.0"
+    },
+    {
+      "id": "pfeifenstrauch",
+      "name": {
+        "en": "Sweet mock orange",
+        "de": "Gewöhnlicher Pfeifenstrauch"
+      },
+      "scientificName": "Philadelphus coronarius",
+      "group": "broadleaf",
+      "description": "Breit lanzettlich-eiförmige, kurz gestielte Spreite mit wenigen entfernt stehenden Zähnen; zugespitztes Ende.",
+      "source": "https://www.infoflora.ch/de/flora/philadelphus-coronarius.html",
+      "since": "1.6.0"
+    },
+    {
+      "id": "trompetenbaum",
+      "name": {
+        "en": "Southern catalpa",
+        "de": "Gewöhnlicher Trompetenbaum"
+      },
+      "scientificName": "Catalpa bignonioides",
+      "group": "broadleaf",
+      "description": "Ganzrandige eiförmige Spreite mit flach herzförmigem Grund, aufgesetzter Spitze und langem Stiel; ausgewählte ungelappte Form.",
+      "source": "https://landscapeplants.oregonstate.edu/plants/catalpa-bignonioides",
+      "since": "1.6.0"
+    },
+    {
+      "id": "blauglockenbaum",
+      "name": {
+        "en": "Empress tree",
+        "de": "Blauglockenbaum"
+      },
+      "scientificName": "Paulownia tomentosa",
+      "group": "broadleaf",
+      "description": "Breit herzförmiges, ganzrandiges Blatt mit langem Stiel und kräftigen Grundnerven; ausgewählte ungelappte Form.",
+      "source": "https://www.infoflora.ch/de/flora/paulownia-tomentosa.html",
+      "since": "1.6.0"
+    },
+    {
+      "id": "weisse-maulbeere",
+      "name": {
+        "en": "White mulberry",
+        "de": "Weiße Maulbeere"
+      },
+      "scientificName": "Morus alba",
+      "group": "broadleaf",
+      "description": "Ausgewählte ungelappte, eiförmige Spreite mit seicht herzförmigem Grund, grober Sägung und längerem Stiel. Auch unregelmäßig gelappte Blätter sind häufig.",
+      "source": "https://www.infoflora.ch/de/flora/morus-alba.html",
+      "since": "1.6.0"
+    },
+    {
+      "id": "schwarze-maulbeere",
+      "name": {
+        "en": "Black mulberry",
+        "de": "Schwarze Maulbeere"
+      },
+      "scientificName": "Morus nigra",
+      "group": "broadleaf",
+      "description": "Ausgewählte ungelappte breit eiförmige Spreite mit tief herzförmigem Grund, gezähntem Rand und kurzem Stiel; Rauheit bleibt außerhalb der Darstellung.",
+      "source": "https://www.infoflora.ch/de/flora/morus-nigra.html",
+      "since": "1.6.0"
+    },
+    {
+      "id": "gleditschie",
+      "name": {
+        "en": "Honey locust",
+        "de": "Gleditschie"
+      },
+      "scientificName": "Gleditsia triacanthos",
+      "group": "broadleaf",
+      "description": "Ausgewähltes einfach und paarig gefiedertes Blatt mit 16 länglichen Teilblättchen; auch doppelt gefiederte Blätter kommen vor.",
+      "source": "https://www.infoflora.ch/de/flora/gleditsia-triacanthos.html",
+      "since": "1.6.0"
+    },
+    {
+      "id": "pfirsich",
+      "name": {
+        "en": "Peach",
+        "de": "Pfirsich"
+      },
+      "scientificName": "Prunus persica",
+      "group": "broadleaf",
+      "description": "Lanzettliche, allmählich zugespitzte Spreite mit feiner Sägung und kurzem Stiel; Detail zeigt zwei ausgewählte Stieldrüsen.",
+      "source": "https://www.infoflora.ch/de/flora/prunus-persica.html",
+      "since": "1.6.0"
+    },
+    {
+      "id": "pflaume",
+      "name": {
+        "en": "European plum",
+        "de": "Pflaume"
+      },
+      "scientificName": "Prunus domestica",
+      "group": "broadleaf",
+      "description": "Ausgewählte elliptisch bis verkehrt-eiförmige Spreite mit keiligem Grund, kurzer Spitze, feinem gekerbt-gesägtem Rand und kurzem Stiel; Kulturformen variieren.",
+      "source": "https://floranorthamerica.org/Prunus_domestica",
+      "since": "1.6.0"
     }
   ]
 }

@@ -1,5 +1,55 @@
 # Changelog
 
+## 1.6.0 — 2026-10-13
+
+Expansion from 100 to 117 species: 234 standalone SVGs. Both variants of every existing species were visually revisited with the retained reference material. Ginkgo is redrawn; the other 198 existing SVGs are byte-identical to v1.5.0. All existing IDs and file paths remain stable.
+
+### Added
+
+- First reviewed group: Common heather, Winter heath, Common broom, Dyer’s greenweed, Traveller’s joy, Common grapevine, Red currant and Alpine currant.
+- Second reviewed group: Butterfly bush, Sweet mock orange, Southern catalpa, Empress tree, White mulberry, Black mulberry, Honey locust and Peach.
+- Targeted addition after user feedback: European plum (`pflaume`), separately compared with primary descriptions, three foliage photographs and the existing Prunus icons.
+- Additive `heath` catalog group and Heidezweige gallery filter for the two flowering heath shoots; `leaf-scale` path role for Calluna scale leaves. Consumers that enumerate groups should accept this third value.
+- [Full review](docs/AUDIT-1.6.md), [per-file audit](docs/audit-1.6.json), [expansion decisions](docs/EXPANSION-1.6.md) and [Ginkgo before/after](docs/ginkgo-1.6.png).
+- Regressions for heath insertion nodes, the selected Ginkgo fan taper and the even-pinnate Honey locust; expanded compound-leaf and gland checks. Both browser workflows cover the new filter.
+
+### Corrected
+
+- Ginkgo: replaced the still box-like v1.5 fan with spreading oblique flanks, a wedge-shaped base, unequal lobes and a clearer selected cleft; rebuilt nerve trajectories and independently simplified Compact. Source variation is documented rather than claiming one universal leaf.
+- Before accepting the new icons, increased Calluna scale density and Erica needle visibility, corrected Clematis vein overshoots and Compact leaflet overlap, and rerouted basal Vitis/Ribes nerves inside the blade. Corrected slight lower-right Ginkgo nerve excursions.
+- Updated gallery, sprites, manifest, both READMEs, botanical notes, overview and size reference. Preserved historical changelog/audit records and prior oak, elm, poplar and pine corrections.
+
+### Review limits
+
+The Ginkgo feedback showed that the first renewed acceptance was still too lenient. Previously criticized icons now need a visible before/after comparison and a distinct silhouette assessment. Technical tests and this internal source-guided review do not constitute independent botanical certification.
+
+## 1.5.0 — 2026-10-12
+
+Compatible expansion from 84 to 100 species: 200 standalone SVGs in two optical sizes. All 100 species received a description-and-photograph comparison. Six existing species are redrawn in both sizes; the other 156 source SVGs are byte-identical to v1.4.0, including Pedunculate oak and Wych elm.
+
+### Added
+
+- First group: Common box, Common lilac, Mezereon, Purple willow, Common osier, Oregon grape, European dewberry and Blackcurrant.
+- Second group: Bilberry, Lingonberry, Rusty-leaved alpenrose, Gooseberry, European nettle tree, European hop-hornbeam, European black pine and Bald cypress.
+- A [100-species audit](docs/AUDIT-1.5.md), source-photo provenance and SVG measurements in [audit-1.5.json](docs/audit-1.5.json), a [two-round expansion review](docs/EXPANSION-1.5.md) and explicit [collection scope](docs/SCOPE.md).
+- Regressions for alternating Bald cypress insertions, new pine fascicles and compound leaflets, vein-tooth endpoints in Sweet chestnut and Hop-hornbeam, and selected fan/lanceolate proportions.
+
+### Corrected
+
+- Ginkgo: broader fan with concave lower flanks, more natural spreading vein trajectories and sixteen/eight terminal nerves instead of eight/four. The review no longer treats a correct branching count as proof of a correct overall drawing.
+- Common hazel: clearer cordate base and redistributed venation.
+- Sycamore maple and Field maple: broader connected lobes and revised margins; Sycamore maple retains acute sinuses supported by the flora.
+- Montpellier maple: rounded flanks, shorter broad lobe tips and clearer shallow cordate base.
+- Sweet chestnut: finer forward teeth and eighteen/nine coordinated vein-tooth pairs on an approximately 3.1:1 blade.
+
+### Review refinements
+
+- Broadened the new Oregon grape leaflets and reduced overly deep prickles; corrected Compact leaflet clearance.
+- Replaced geometric Blackcurrant and Gooseberry margins with a broader three-lobed Blackcurrant form and curved Gooseberry crenations.
+- Reduced Compact Mezereon venation in the tapering base and shortened a Purple willow vein.
+- Corrected two Hop-hornbeam vein curves that exceeded the blade stroke.
+- Updated both READMEs, botanical notes, gallery, sprites, manifest, overview and size reference. No IDs or public asset paths were removed.
+
 ## 1.4.0 — 2026-10-12
 
 Compatible expansion from 68 to 84 species: 168 standalone SVGs in two optical sizes. All 68 previous species were reviewed again; their 136 source SVGs are byte-identical to v1.3.0. No existing artwork was replaced.

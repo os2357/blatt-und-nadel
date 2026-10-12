@@ -1,0 +1,23 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Sommerflieder · Buddleja davidii">
+  <title>Sommerflieder · Buddleja davidii</title>
+  <path class="leaf-blade" d="M47 78 Q45.55 76.699 45.044 76.333 L44.668 75.745 Q43.267 74.389 42.737 74.035 L42.464 73.364 Q41.132 71.938 40.593 71.575 L40.412 70.852 Q39.163 69.35 38.626 68.968 L38.534 68.207 Q37.388 66.624 36.861 66.214 L36.86 65.429 Q35.836 63.763 35.327 63.318 L35.42 62.522 Q34.54 60.775 34.058 60.29 L34.249 59.497 Q33.535 57.675 33.09 57.147 L33.38 56.373 Q32.85 54.488 32.452 53.917 L32.839 53.175 Q32.511 51.244 32.17 50.633 L32.648 49.938 Q32.529 47.982 32.252 47.337 L32.81 46.699 Q32.902 44.742 32.692 44.071 L33.318 43.496 Q33.613 41.56 33.472 40.872 L34.152 40.362 Q34.633 38.463 34.554 37.776 L35.255 37.312 Q35.814 35.437 35.761 34.743 L36.48 34.308 Q37.134 32.464 37.12 31.772 L37.847 31.365 Q38.582 29.554 38.604 28.867 L39.332 28.481 Q40.135 26.7 40.191 26.021 L40.911 25.647 Q41.77 23.893 41.855 23.224 L42.562 22.854 Q43.462 21.122 43.574 20.466 L44.26 20.089 Q45.188 18.373 45.325 17.731 L45.98 17.338 Q46.923 15.632 47.082 15.005 L47.696 14.584 Q48.641 12.88 48.825 12.273 L49.38 11.811 Q50.317 10.105 50.539 9.522 L51 9 L51.236 9.634 Q51.24 10.239 51.587 12.098 L51.986 12.675 Q51.999 13.291 52.5 15.116 L53.006 15.636 Q53.033 16.263 53.639 18.058 L54.216 18.531 Q54.247 19.169 54.907 20.946 L55.532 21.388 Q55.556 22.037 56.231 23.81 L56.886 24.236 Q56.894 24.893 57.552 26.674 L58.227 27.097 Q58.212 27.762 58.832 29.558 L59.515 29.988 Q59.473 30.658 60.038 32.473 L60.724 32.917 Q60.652 33.589 61.139 35.429 L61.802 35.921 Q61.666 36.591 61.962 38.473 L62.585 39.025 Q62.383 39.679 62.5 41.58 L63.073 42.186 Q62.807 42.82 62.74 44.724 L63.252 45.383 Q62.927 45.988 62.681 47.877 L63.123 48.582 Q62.745 49.153 62.324 51.011 L62.694 51.749 Q62.271 52.286 61.689 54.1 L61.98 54.866 Q61.52 55.364 60.793 57.124 L61.007 57.904 Q60.518 58.368 59.66 60.067 L59.795 60.854 Q59.286 61.285 58.315 62.92 L58.375 63.701 Q57.851 64.104 56.783 65.677 L56.767 66.444 Q56.237 66.824 55.085 68.336 L54.994 69.079 Q54.463 69.441 53.241 70.895 L53.075 71.604 Q52.549 71.956 51.269 73.357 L51.022 74.018 Q50.511 74.37 49.184 75.724 L48.84 76.31 Q48.359 76.681 47 78 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M45 86 Q47 82 47 78" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M47 78 L50.76 13.14" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M47.32 72.48 Q41.874 68.725 37.417 64.135" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M47.32 72.48 Q52.349 68.848 56.463 64.41" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M47.687 66.155 Q40.789 62.269 35.146 57.519" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M47.687 66.155 Q53.994 62.544 59.155 58.13" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.053 59.83 Q40.463 55.652 34.253 50.545" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.053 59.83 Q55.096 56.076 60.859 51.487" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.42 53.505 Q40.975 49.017 34.884 43.531" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.42 53.505 Q55.539 49.514 61.364 44.637" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.787 47.18 Q42.235 42.503 36.874 36.787" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.787 47.18 Q55.269 42.97 60.573 37.824" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.153 40.855 Q43.875 36.107 39.556 30.304" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.153 40.855 Q54.338 36.552 58.581 31.292" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.52 34.53 Q45.776 29.817 42.714 24.057" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.52 34.53 Q53.136 30.217 56.094 24.946" fill="none" stroke="currentColor" stroke-width="1.12"/>
+</svg>

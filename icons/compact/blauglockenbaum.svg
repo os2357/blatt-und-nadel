@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Blauglockenbaum · Paulownia tomentosa">
+  <title>Blauglockenbaum · Paulownia tomentosa</title>
+  <path class="leaf-blade" d="M48 64 C31 82 11 64 14 47 C15 30 31 26 40 20 C45 16 47 12 49 9 C50 12 53 17 58 20 C65 25 82 31 83 48 C84 66 64 81 48 64 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M37 89 Q46 77 48 64" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 64 Q48 36.5 48.96 11.2" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48 64 C30 58 22 45 22 37" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 64 C65 59 75 46 75 38" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 64 Q29 69 20 59" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 64 Q67 70 78 59" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.3 43 Q37 34 31 30" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.3 43 Q60 33 67 31" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

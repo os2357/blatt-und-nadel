@@ -1,0 +1,13 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Europäischer Zürgelbaum · Celtis australis">
+  <title>Europäischer Zürgelbaum · Celtis australis</title>
+  <path class="leaf-blade" d="M48 79 Q43.699 79.343 42.333 79.282 L40.832 79.101 Q36.699 77.888 35.475 77.279 L34.189 76.484 Q30.887 73.684 29.815 72.76 L29.326 71.249 Q27.326 67.406 26.599 66.186 L26.675 64.587 Q25.833 60.337 25.414 58.975 L25.911 57.445 Q26.024 53.113 25.882 51.693 L26.7 50.3 Q27.449 46.036 27.478 44.608 L28.473 43.329 Q29.963 39.261 30.276 37.87 L31.488 36.803 Q33.669 33.063 34.196 31.747 L35.522 30.845 Q38.089 27.363 38.724 26.11 L40.068 25.263 Q42.741 21.866 43.402 20.639 L44.69 19.743 Q47.268 16.277 47.907 15.05 L49.073 14.032 Q51.431 10.414 52.04 9.184 L53 8 L53.623 9.216 Q53.906 10.412 55.324 14.007 L56.212 15.079 Q56.556 16.271 58.288 19.727 L59.331 20.686 Q59.711 21.881 61.563 25.278 L62.67 26.197 Q63.018 27.414 64.748 30.88 L65.831 31.851 Q66.066 33.107 67.419 36.741 L68.392 37.838 Q68.439 39.123 69.212 42.924 L70 44.163 Q69.83 45.439 69.967 49.317 L70.54 50.666 Q70.117 51.91 69.275 55.699 L69.401 57.158 Q68.673 58.222 66.839 61.642 L66.526 63.058 Q65.558 63.894 62.925 66.744 L62.264 68.007 Q61.173 68.647 58.11 71.02 L57.039 71.847 Q56.06 72.584 52.951 74.883 L51.871 75.698 Q50.905 76.451 48 79 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M45 91 Q48 85 48 79" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 79 Q50 45 53 15" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48 78 C33 74 30 52 35 38" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 78 C63 67 67 52 64 38" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M50 46 Q43 35 43 29" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M50 46 Q60 36 60 30" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

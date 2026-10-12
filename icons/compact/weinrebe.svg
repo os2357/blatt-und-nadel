@@ -1,0 +1,13 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Weinrebe · Vitis vinifera">
+  <title>Weinrebe · Vitis vinifera</title>
+  <path class="leaf-blade" d="M48 64 C41 61 43 73 35 75 Q29.088 74.796 27.132 74.65 L25.461 73.215 Q20.446 70.051 18.696 69.079 L18.068 66.874 Q14.969 61.834 13.913 60.191 L14 58 C17 55 22 57 22 51 Q16.142 48.364 14.466 46.942 L14.128 44.515 Q12.272 38.313 11.488 36.343 L12 34 Q18.729 34.296 20.911 34.02 L23.155 35.107 Q29.639 36.981 31.731 37.823 L33 40 C36 40 34 27 33 25 Q38.142 20.889 39.355 19.136 L41.55 18.103 Q45.897 13.132 46.907 11.24 L49 10 Q53.419 14.715 55.153 15.889 L56.152 18.046 Q61.265 21.923 63.243 22.453 L65 24 C63 31 62 38 65 39 Q70.151 35.009 71.896 33.729 L74.327 33.759 Q80.664 32.257 82.649 31.496 L85 32 Q83.845 38.787 83.555 41.037 L81.831 42.921 Q77.921 48.585 76.502 50.389 L74 51 C73 55 79 55 82 58 Q79.839 63.353 79.102 65.113 L77.278 66.242 Q73.169 70.319 71.985 71.862 L69.779 72.177 Q64.705 74.936 63.138 75.992 L61 76 C52 75 56 61 48 64 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M40 87 Q47 77 48 64" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 64 Q48 38.5 49 13" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48 64 Q37 49 16 37" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 64 Q58 47 81 35" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 64 Q32 58 18 60" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 64 Q64 58 78 61" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

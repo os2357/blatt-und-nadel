@@ -1,0 +1,13 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Preiselbeere · Vaccinium vitis-idaea">
+  <title>Preiselbeere · Vaccinium vitis-idaea</title>
+  <path class="leaf-blade" d="M48 83 C36 77 26 57 26 39 C25 22 37 11 47 15 Q49 17 51 15 C62 10 71 23 70 39 C69 57 59 78 48 83 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M47 91 Q48 87 48 83" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 83 Q49 53 49 22" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.5 51 Q38.5 47 31.5 44" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M48.5 51 Q58.5 47 65.5 44" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M48.5 69 Q38.5 65 36.5 62" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M48.5 69 Q58.5 65 60.5 62" fill="none" stroke="currentColor" stroke-width="1.9"/>
+</svg>
