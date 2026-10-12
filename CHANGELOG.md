@@ -1,5 +1,23 @@
 # Changelog
 
+## 1.3.0 — 2026-10-12
+
+Compatible expansion from 52 to 68 species: 136 standalone SVGs in two optical sizes. All 104 previous source SVGs are byte-identical to v1.2.0, including both Pedunculate oak and Wych elm variants.
+
+### Added
+
+- First review round: Field elm, Grey alder, Common whitebeam, European crab apple, Wild pear, Wayfaring tree, White poplar and Service tree.
+- Second review round: Ginkgo, London plane, Tulip tree, American sweetgum, Japanese maple, Italian maple, Common ivy and Turkish hazel. The collection now includes seven Acer species.
+- Species-specific morphology and optical-size limits in the botanical notes, plus a [two-round expansion review](docs/EXPANSION-1.3.md).
+- Artwork regression coverage for Service tree leaflet counts, the additional declared vein counts and Ginkgo’s bifurcating vein structure without a midrib.
+
+### Updated
+
+- Both READMEs, searchable gallery, sprites, manifest, overview and size reference for all 68 species. Long overview labels wrap inside their cells.
+- Browser screenshots are divided into bounded sections when needed, avoiding Firefox’s image-height limit for the longer mobile gallery. All icons still undergo layout and sprite comparison checks.
+- Clarify selected shoot forms for White poplar and Common ivy, and leaf-form grouping for Ginkgo.
+- Gallery description covers all three poplars and the expanded woody-plant scope; the displayed review date derives from the catalog.
+
 ## 1.2.0 — 2026-10-12
 
 Compatible expansion from 28 to 52 species: 104 standalone SVGs in two optical sizes. All 56 existing source SVGs are byte-identical to v1.1.0.

@@ -146,6 +146,12 @@ const substitutions = {
   count: icons.length,
   files: icons.length * variants.length,
   version: pkg.version,
+  updated: new Intl.DateTimeFormat('de-DE', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+    timeZone: 'UTC',
+  }).format(new Date(catalog.updated)),
 };
 for (const [key, value] of Object.entries(substitutions))
   html = html.replaceAll('{{' + key + '}}', String(value));

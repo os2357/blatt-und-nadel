@@ -1,6 +1,6 @@
 {
   "name": "Blatt & Nadel",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "author": "Oliver Simon",
   "copyright": "Copyright 2026 Oliver Simon",
   "license": "CC-BY-4.0",
@@ -898,6 +898,278 @@
       "files": {
         "detail": "icons/detail/traubenkirsche.svg",
         "compact": "icons/compact/traubenkirsche.svg"
+      }
+    },
+    {
+      "id": "feldulme",
+      "name": {
+        "en": "Field elm",
+        "de": "Feldulme"
+      },
+      "scientificName": "Ulmus minor",
+      "group": "broadleaf",
+      "description": "Einspitzige, doppelt gesägte Spreite mit deutlich schiefem Grund und längerem Stiel; Detail mit zwölf Nervenpaaren und vier oberen Nervengabeln.",
+      "source": "https://www.infoflora.ch/de/flora/ulmus-minor.html",
+      "since": "1.3.0",
+      "symbol": "leaf-feldulme",
+      "files": {
+        "detail": "icons/detail/feldulme.svg",
+        "compact": "icons/compact/feldulme.svg"
+      }
+    },
+    {
+      "id": "grauerle",
+      "name": {
+        "en": "Grey alder",
+        "de": "Grauerle"
+      },
+      "scientificName": "Alnus incana",
+      "group": "broadleaf",
+      "description": "Eiförmige, doppelt gezähnte Spreite mit deutlicher Spitze und größter Breite unterhalb der Mitte; zwölf Nervenpaare in Detail, sechs in Compact.",
+      "source": "https://www.infoflora.ch/de/flora/alnus-incana.html",
+      "since": "1.3.0",
+      "symbol": "leaf-grauerle",
+      "files": {
+        "detail": "icons/detail/grauerle.svg",
+        "compact": "icons/compact/grauerle.svg"
+      }
+    },
+    {
+      "id": "mehlbeere",
+      "name": {
+        "en": "Common whitebeam",
+        "de": "Mehlbeere"
+      },
+      "scientificName": "Sorbus aria",
+      "group": "broadleaf",
+      "description": "Ungeteilte, ovale Spreite mit doppelt gezähntem Rand; zwölf Seitennervenpaare in Detail, sechs in Compact. Der weiße Filz der Unterseite bleibt unkodiert.",
+      "source": "https://www.infoflora.ch/de/flora/sorbus-aria.html",
+      "since": "1.3.0",
+      "symbol": "leaf-mehlbeere",
+      "files": {
+        "detail": "icons/detail/mehlbeere.svg",
+        "compact": "icons/compact/mehlbeere.svg"
+      }
+    },
+    {
+      "id": "wildapfel",
+      "name": {
+        "en": "European crab apple",
+        "de": "Wildapfel"
+      },
+      "scientificName": "Malus sylvestris",
+      "group": "broadleaf",
+      "description": "Breit-eiförmige, fein gezähnte Spreite mit kurzer Spitze und langem Blattstiel; die Reliefmerkmale und die Abgrenzung zu Kulturäpfeln sind nicht vollständig abgebildet.",
+      "source": "https://www.infoflora.ch/de/flora/malus-sylvestris.html",
+      "since": "1.3.0",
+      "symbol": "leaf-wildapfel",
+      "files": {
+        "detail": "icons/detail/wildapfel.svg",
+        "compact": "icons/compact/wildapfel.svg"
+      }
+    },
+    {
+      "id": "wildbirne",
+      "name": {
+        "en": "Wild pear",
+        "de": "Wildbirne"
+      },
+      "scientificName": "Pyrus pyraster",
+      "group": "broadleaf",
+      "description": "Breit-ovale bis rundliche Spreite mit kurzer aufgesetzter Spitze, feinem Blattrand und langem Stiel; ausgewählte fein gezähnte Form.",
+      "source": "https://www.infoflora.ch/de/flora/pyrus-pyraster.html",
+      "since": "1.3.0",
+      "symbol": "leaf-wildbirne",
+      "files": {
+        "detail": "icons/detail/wildbirne.svg",
+        "compact": "icons/compact/wildbirne.svg"
+      }
+    },
+    {
+      "id": "wolliger-schneeball",
+      "name": {
+        "en": "Wayfaring tree",
+        "de": "Wolliger Schneeball"
+      },
+      "scientificName": "Viburnum lantana",
+      "group": "broadleaf",
+      "description": "Ungeteilte, breit-eiförmige Spreite mit regelmäßig fein gezähntem Rand und kurzer Spitze; Filz und runzelige Oberfläche werden nicht nachgeahmt.",
+      "source": "https://www.infoflora.ch/de/flora/viburnum-lantana.html",
+      "since": "1.3.0",
+      "symbol": "leaf-wolliger-schneeball",
+      "files": {
+        "detail": "icons/detail/wolliger-schneeball.svg",
+        "compact": "icons/compact/wolliger-schneeball.svg"
+      }
+    },
+    {
+      "id": "silberpappel",
+      "name": {
+        "en": "White poplar",
+        "de": "Silberpappel"
+      },
+      "scientificName": "Populus alba",
+      "group": "broadleaf",
+      "description": "Ausgewähltes fünflappiges Blatt eines kräftigen Austriebs, mit ungleichen stumpfen Randzähnen und langem Stiel; Kurztriebblätter sind oft schwächer gelappt.",
+      "source": "https://www.infoflora.ch/de/flora/populus-alba.html",
+      "since": "1.3.0",
+      "symbol": "leaf-silberpappel",
+      "files": {
+        "detail": "icons/detail/silberpappel.svg",
+        "compact": "icons/compact/silberpappel.svg"
+      }
+    },
+    {
+      "id": "speierling",
+      "name": {
+        "en": "Service tree",
+        "de": "Speierling"
+      },
+      "scientificName": "Sorbus domestica",
+      "group": "broadleaf",
+      "description": "Unpaarig gefiedertes Blatt mit dreizehn Teilblättern; unteres Teilblattdrittel ganzrandig. Die zahlreichen feinen Seitennerven der Teilblätter bleiben ausgelassen.",
+      "source": "https://www.infoflora.ch/de/flora/sorbus-domestica.html",
+      "since": "1.3.0",
+      "symbol": "leaf-speierling",
+      "files": {
+        "detail": "icons/detail/speierling.svg",
+        "compact": "icons/compact/speierling.svg"
+      }
+    },
+    {
+      "id": "ginkgo",
+      "name": {
+        "en": "Ginkgo",
+        "de": "Ginkgo"
+      },
+      "scientificName": "Ginkgo biloba",
+      "group": "broadleaf",
+      "description": "Fächerförmige, leicht zweilappige Spreite am langen Stiel; dichotom gegabelte Nervatur ohne Mittelrippe. Nacktsamer, in der Galerie nach Blattform gruppiert.",
+      "source": "https://www.efloras.org/florataxon.aspx?flora_id=1&taxon_id=200005235",
+      "since": "1.3.0",
+      "symbol": "leaf-ginkgo",
+      "files": {
+        "detail": "icons/detail/ginkgo.svg",
+        "compact": "icons/compact/ginkgo.svg"
+      }
+    },
+    {
+      "id": "ahornblaettrige-platane",
+      "name": {
+        "en": "London plane",
+        "de": "Ahornblättrige Platane"
+      },
+      "scientificName": "Platanus × hispanica",
+      "group": "broadleaf",
+      "description": "Breite, fünflappige Spreite mit groben Randzähnen, breitem Mittellappen und gestutztem bis schwach herzförmigem Grund; die Hybridform variiert stark.",
+      "source": "https://www.infoflora.ch/de/flora/platanus-%C3%97hispanica.html",
+      "since": "1.3.0",
+      "symbol": "leaf-ahornblaettrige-platane",
+      "files": {
+        "detail": "icons/detail/ahornblaettrige-platane.svg",
+        "compact": "icons/compact/ahornblaettrige-platane.svg"
+      }
+    },
+    {
+      "id": "tulpenbaum",
+      "name": {
+        "en": "Tulip tree",
+        "de": "Tulpenbaum"
+      },
+      "scientificName": "Liriodendron tulipifera",
+      "group": "broadleaf",
+      "description": "Vierlappige, ganzrandige Spreite mit flach eingekerbter Spitze, deutlicher Mittelrippe und fiederförmiger Nervatur; langer Blattstiel.",
+      "source": "https://www.infoflora.ch/de/flora/liriodendron-tulipifera.html",
+      "since": "1.3.0",
+      "symbol": "leaf-tulpenbaum",
+      "files": {
+        "detail": "icons/detail/tulpenbaum.svg",
+        "compact": "icons/compact/tulpenbaum.svg"
+      }
+    },
+    {
+      "id": "amberbaum",
+      "name": {
+        "en": "American sweetgum",
+        "de": "Amberbaum"
+      },
+      "scientificName": "Liquidambar styraciflua",
+      "group": "broadleaf",
+      "description": "Sternförmige, fünflappige Spreite mit zugespitzten Lappen, feiner Sägung und langem Blattstiel; handförmige Hauptnerven.",
+      "source": "https://botanischer-garten-hoexter.de/pflanze-liquidambar_styraciflua.html",
+      "since": "1.3.0",
+      "symbol": "leaf-amberbaum",
+      "files": {
+        "detail": "icons/detail/amberbaum.svg",
+        "compact": "icons/compact/amberbaum.svg"
+      }
+    },
+    {
+      "id": "faecherahorn",
+      "name": {
+        "en": "Japanese maple",
+        "de": "Fächerahorn"
+      },
+      "scientificName": "Acer palmatum",
+      "group": "broadleaf",
+      "description": "Ausgewählte siebenlappige Form mit lanzettlichen, lang zugespitzten Lappen und unregelmäßig doppelt gesägtem Rand; keine Dissectum-Sorte.",
+      "source": "https://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200013064",
+      "since": "1.3.0",
+      "symbol": "leaf-faecherahorn",
+      "files": {
+        "detail": "icons/detail/faecherahorn.svg",
+        "compact": "icons/compact/faecherahorn.svg"
+      }
+    },
+    {
+      "id": "schneeballblaettriger-ahorn",
+      "name": {
+        "en": "Italian maple",
+        "de": "Schneeballblättriger Ahorn"
+      },
+      "scientificName": "Acer opalus",
+      "group": "broadleaf",
+      "description": "Breite, nur im äußeren Drittel gelappte Spreite; fünf kurze, stumpfe bis spitzliche Lappen mit wenigen welligen Zähnen.",
+      "source": "https://www.infoflora.ch/de/flora/acer-opalus.html",
+      "since": "1.3.0",
+      "symbol": "leaf-schneeballblaettriger-ahorn",
+      "files": {
+        "detail": "icons/detail/schneeballblaettriger-ahorn.svg",
+        "compact": "icons/compact/schneeballblaettriger-ahorn.svg"
+      }
+    },
+    {
+      "id": "efeu",
+      "name": {
+        "en": "Common ivy",
+        "de": "Efeu"
+      },
+      "scientificName": "Hedera helix",
+      "group": "broadleaf",
+      "description": "Fünflappiges, ganzrandiges Jugendblatt eines nichtblühenden Klettertriebs; Blätter blühender Triebe sind ungeteilt.",
+      "source": "https://www.infoflora.ch/de/flora/hedera-helix.html",
+      "since": "1.3.0",
+      "symbol": "leaf-efeu",
+      "files": {
+        "detail": "icons/detail/efeu.svg",
+        "compact": "icons/compact/efeu.svg"
+      }
+    },
+    {
+      "id": "baumhasel",
+      "name": {
+        "en": "Turkish hazel",
+        "de": "Baumhasel"
+      },
+      "scientificName": "Corylus colurna",
+      "group": "broadleaf",
+      "description": "Breit-eiförmige, am Grund herzförmige Spreite mit ausgezogener Spitze und doppelt gezähntem Rand; sechs Nervenpaare in Detail.",
+      "source": "https://www.infoflora.ch/de/flora/corylus-colurna.html",
+      "since": "1.3.0",
+      "symbol": "leaf-baumhasel",
+      "files": {
+        "detail": "icons/detail/baumhasel.svg",
+        "compact": "icons/compact/baumhasel.svg"
       }
     }
   ]

@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Wildapfel · Malus sylvestris">
+  <title>Wildapfel · Malus sylvestris</title>
+  <path class="leaf-blade" d="M48 60 Q44.814 60.093 43.792 60.196 L42.705 59.822 Q39.542 59.379 38.487 59.366 L37.555 58.602 Q34.581 57.421 33.528 57.175 L32.904 56.092 Q30.407 54.083 29.445 53.544 L29.255 52.275 Q27.502 49.589 26.719 48.792 L26.966 47.513 Q26.029 44.446 25.464 43.478 L26.06 42.301 Q25.872 39.1 25.525 38.031 L26.377 37.016 Q26.844 33.847 26.712 32.736 L27.743 31.899 Q28.8 28.869 28.949 27.752 L30.151 27.194 Q32.083 24.636 32.556 23.63 L33.839 23.405 Q36.315 21.383 36.96 20.509 L38.225 20.427 Q40.832 18.597 41.487 17.766 L42.7 17.581 Q45.124 15.529 45.683 14.659 L46.77 14.192 Q48.753 11.713 49.186 10.796 L50 10 L50.764 10.795 Q51.135 11.703 52.873 14.233 L53.887 14.775 Q54.326 15.678 56.39 17.95 L57.536 18.283 Q58.036 19.18 60.259 21.307 L61.469 21.538 Q61.963 22.465 64.126 24.664 L65.358 24.948 Q65.748 25.946 67.583 28.435 L68.778 28.997 Q68.846 30.086 69.785 33.035 L70.764 33.888 Q70.558 34.961 70.744 38.053 L71.483 39.118 Q71.017 40.11 70.435 43.152 L70.871 44.365 Q70.186 45.21 68.876 48.018 L68.974 49.284 Q68.12 49.947 66.173 52.353 L65.918 53.572 Q64.953 54.023 62.482 55.884 L61.891 56.942 Q60.872 57.18 58.031 58.393 L57.166 59.178 Q56.145 59.222 53.107 59.759 L52.071 60.159 Q51.077 60.075 48 60 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M33 91 C42 81 48 73 48 60" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 60 L49.88 13" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.28 53 Q39.741 52.182 32.754 51.182" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.28 53 Q56.363 52.209 62.976 51.242" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.71 42.25 Q38.665 39.752 30.447 36.698" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.71 42.25 Q58.675 40.134 66.829 37.548" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.14 31.5 Q42.286 27.934 36.678 23.575" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.14 31.5 Q55.91 28.398 61.448 24.606" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

@@ -1,0 +1,21 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Grauerle · Alnus incana">
+  <title>Grauerle · Alnus incana</title>
+  <path class="leaf-blade" d="M48 77 Q45.014 77.131 44.055 77.291 L43.031 76.905 Q40.043 76.676 39.042 76.808 L38.135 76.068 Q35.219 75.349 34.173 75.352 L33.485 74.331 Q30.776 73.016 29.72 72.826 L29.349 71.592 Q27.028 69.668 26.012 69.243 L26.023 67.913 Q24.239 65.48 23.323 64.834 L23.705 63.527 Q22.511 60.754 21.731 59.94 L22.422 58.731 Q21.787 55.781 21.15 54.838 L22.077 53.776 Q21.937 50.762 21.445 49.737 L22.538 48.829 Q22.828 45.83 22.476 44.742 L23.684 43.994 Q24.402 41.063 24.229 39.934 L25.535 39.384 Q26.687 36.6 26.677 35.467 L28.031 35.086 Q29.522 32.472 29.651 31.36 L31.01 31.107 Q32.74 28.651 32.97 27.573 L34.31 27.387 Q36.18 25.042 36.476 24.004 L37.778 23.824 Q39.708 21.533 40.041 20.532 L41.289 20.301 Q43.21 18.01 43.561 17.044 L44.732 16.712 Q46.587 14.373 46.948 13.443 L48.001 12.966 Q49.752 10.55 50.146 9.673 L51 9 L51.7 9.813 Q51.915 10.737 53.2 13.384 L54.157 14.008 Q54.367 14.967 55.871 17.497 L56.985 17.951 Q57.219 18.937 58.884 21.37 L60.099 21.693 Q60.343 22.705 62.081 25.093 L63.36 25.343 Q63.584 26.387 65.293 28.803 L66.611 29.05 Q66.776 30.129 68.346 32.644 L69.682 32.962 Q69.741 34.069 71.058 36.731 L72.379 37.178 Q72.296 38.298 73.263 41.111 L74.531 41.725 Q74.289 42.828 74.828 45.757 L75.99 46.559 Q75.57 47.617 75.624 50.593 L76.63 51.582 Q76.043 52.55 75.588 55.494 L76.389 56.644 Q75.651 57.493 74.675 60.309 L75.219 61.579 Q74.351 62.28 72.855 64.857 L73.093 66.192 Q72.126 66.716 70.135 68.93 L70.041 70.244 Q69.008 70.575 66.593 72.311 L66.169 73.511 Q65.115 73.644 62.391 74.827 L61.681 75.822 Q60.652 75.779 57.755 76.411 L56.843 77.119 Q55.857 76.96 52.902 77.095 L51.878 77.445 Q50.939 77.251 48 77 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M44 90 Q47.5 84 48 77" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 77 L50.91 11.04" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.132 74 C48.132 72 36.367 70.908 30.032 69.243" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.444 66.94 C48.444 64.94 34.242 62.39 26.595 59.94" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.894 56.737 C48.894 54.737 34.3 52.187 26.441 49.737" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.326 46.934 C49.326 44.934 35.985 42.384 28.802 39.934" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.705 38.36 C49.705 36.36 39.052 33.81 33.316 31.36" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M50.029 31.004 C50.029 29.004 42.841 26.454 38.971 24.004" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.132 74 C48.132 72 59.829 71.559 66.127 70.244" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.371 68.579 C48.371 66.579 62.717 64.029 70.442 61.579" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.813 58.582 C48.813 56.582 63.675 54.032 71.678 51.582" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.247 48.725 C49.247 46.725 62.76 44.175 70.036 41.725" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.634 39.962 C49.634 37.962 60.356 35.412 66.129 32.962" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.97 32.343 C49.97 30.343 57.143 27.793 61.005 25.343" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

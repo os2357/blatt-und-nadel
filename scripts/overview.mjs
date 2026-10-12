@@ -17,6 +17,21 @@ export function overview(icons, geometry, esc, version) {
   icons.forEach((i, n) => {
     const x = 56 + (n % 7) * 200,
       y = 290 + Math.floor(n / 7) * 221;
+    const lines = [''];
+    for (const word of i.name.split(' ')) {
+      if ((lines.at(-1) + ' ' + word).trim().length > 24 && lines.at(-1)) lines.push(word);
+      else lines[lines.length - 1] = (lines.at(-1) + ' ' + word).trim();
+    }
+    const label = lines
+      .map(
+        (line, index) =>
+          '<tspan x="100" y="' +
+          (lines.length > 1 ? 149 + index * 17 : 157) +
+          '">' +
+          esc(line) +
+          '</tspan>',
+      )
+      .join('');
     sheet +=
       '<g transform="translate(' +
       x +
@@ -27,8 +42,10 @@ export function overview(icons, geometry, esc, version) {
       '</text><svg x="43" y="15" width="114" height="114" viewBox="0 0 96 96" color="#294b3a" stroke-linecap="round" stroke-linejoin="round">' +
       geometry(i) +
       '</svg><text x="100" y="157" text-anchor="middle" font-family="DejaVu Sans" font-size="13" fill="#203d32">' +
-      esc(i.name) +
-      '</text><text x="100" y="179" text-anchor="middle" font-family="P052,Georgia,serif" font-style="italic" font-size="14" fill="#738070">' +
+      label +
+      '</text><text x="100" y="' +
+      (lines.length > 1 ? 188 : 179) +
+      '" text-anchor="middle" font-family="P052,Georgia,serif" font-style="italic" font-size="14" fill="#738070">' +
       esc(i.latin) +
       '</text><line x1="0" x2="200" y1="205" y2="205" stroke="#dce1d5"/></g>';
   });

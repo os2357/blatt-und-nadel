@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Wildbirne · Pyrus pyraster">
+  <title>Wildbirne · Pyrus pyraster</title>
+  <path class="leaf-blade" d="M48 60 Q45.033 60.534 44.092 60.75 L43.025 60.627 Q40.008 60.708 39.03 60.828 L38.02 60.379 Q35.048 59.83 34.05 59.759 L33.21 58.996 Q30.487 57.677 29.529 57.347 L28.985 56.324 Q26.781 54.247 25.945 53.654 L25.773 52.493 Q24.265 49.867 23.613 49.074 L23.792 47.898 Q23.004 44.975 22.551 44.051 L23.02 42.951 Q22.897 39.926 22.642 38.926 L23.337 37.95 Q23.813 34.957 23.807 33.918 L24.729 33.146 Q26.034 30.412 26.31 29.415 L27.395 28.912 Q29.383 26.628 29.915 25.749 L31.079 25.523 Q33.567 23.802 34.294 23.088 L35.465 23.106 Q38.275 21.988 39.144 21.475 L40.275 21.709 Q43.27 21.293 44.246 21.061 L45.272 21.558 Q47.907 21.203 48.344 20.37 L49.159 19.662 Q50.287 16.877 50.482 15.937 L51 15 L51.582 15.871 Q51.784 16.786 52.75 19.542 L53.475 20.307 Q53.794 21.163 56.343 21.822 L57.416 21.53 Q58.299 21.946 61.074 22.898 L62.198 22.856 Q62.94 23.497 65.457 25.003 L66.592 25.138 Q67.185 25.931 69.357 27.906 L70.464 28.246 Q70.869 29.158 72.557 31.562 L73.574 32.134 Q73.75 33.124 74.702 35.909 L75.512 36.759 Q75.374 37.758 75.533 40.693 L76.094 41.723 Q75.699 42.653 75.079 45.527 L75.336 46.667 Q74.713 47.457 73.356 50.066 L73.287 51.226 Q72.493 51.832 70.514 54.004 L70.135 55.083 Q69.224 55.485 66.777 57.107 L66.126 58.027 Q65.163 58.221 62.413 59.242 L61.558 59.937 Q60.586 59.948 57.687 60.383 L56.702 60.814 Q55.756 60.684 52.829 60.594 L51.794 60.725 Q50.879 60.514 48 60 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M33 91 Q47 76 48 60" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 60 L50.82 17.7" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.42 53.7 Q38.819 53.411 30.964 53.057" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.42 53.7 Q57.727 53.847 65.342 54.027" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.065 44.025 Q37.503 41.273 28.044 37.91" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.065 44.025 Q61.044 42.285 70.845 40.159" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.71 34.35 Q42.189 30.145 36.035 25.006" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.71 34.35 Q57.871 30.955 64.548 26.806" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

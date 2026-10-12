@@ -1,14 +1,14 @@
 # Blatt & Nadel
 
-**52 Gehölzarten · 104 SVG-Icons · v1.2.0**
+**68 Gehölzarten · 136 SVG-Icons · v1.3.0**
 
 Blätter, Nadeln und Zweige für Naturwebseiten, Artenporträts und Baumfilter. Zwei optisch abgestimmte Varianten verbinden charakteristische Pflanzenformen mit einer einheitlichen Zeichensprache.
 
 [English](../README.md) · [Einbau](USAGE.md) · [Botanische Hinweise](BOTANY.md) · [Qualitätsprüfung](QUALITY.md) · [Changelog](../CHANGELOG.md)
 
-![Alle 52 Arten in der Detail-Variante](preview.png)
+![Alle 68 Arten in der Detail-Variante](preview.png)
 
-Version 1.2 ergänzt 24 Arten, darunter zahlreiche Sträucher, Flatterulme, Walnuss und zwei weitere Ahorne. Die bisherigen 56 Original-SVGs bleiben unverändert. [Prüfbericht zur Erweiterung](EXPANSION-1.2.md).
+Version 1.3 ergänzt 16 Arten in zwei geprüften Runden, darunter Feldulme, Speierling, Ginkgo, Platane und zwei weitere Ahorne. Alle bisherigen 104 Original-SVGs bleiben unverändert. [Prüfbericht zur Erweiterung](EXPANSION-1.3.md).
 
 ## Sofort verwenden
 
@@ -61,13 +61,13 @@ npx playwright install --with-deps chromium firefox
 npm run test:browser
 ```
 
-Die automatischen Prüfungen erfassen unter anderem XML, Metadaten, Konturüberschneidungen und überlappende Teilblattstriche, aus der Blattfläche herausragende Adern und Mittelrippen einschließlich ihrer Strichbreite, unbeabsichtigt freistehende Nadeln, abgeschnittene Zeichnungen und veraltete generierte Dateien. Die Browserprüfung kontrolliert die Galerie und alle 104 Sprite-Symbole in Chromium und Firefox. [Prüfumfang und Grenzen](QUALITY.md).
+Die automatischen Prüfungen erfassen unter anderem XML, Metadaten, Konturüberschneidungen und überlappende Teilblattstriche, aus der Blattfläche herausragende Adern und Mittelrippen einschließlich ihrer Strichbreite, unbeabsichtigt freistehende Nadeln, abgeschnittene Zeichnungen und veraltete generierte Dateien. Die Browserprüfung kontrolliert die Galerie und alle 136 Sprite-Symbole in Chromium und Firefox. [Prüfumfang und Grenzen](QUALITY.md).
 
 Ein geprüftes Release-Archiv erzeugen `npm run test:release` und `npm run release`. Die [Release-Anleitung](PUBLISHING.md) erklärt den Ablauf.
 
 ## Botanische Einordnung
 
-Die Sammlung umfasst heimische, eingebürgerte und gepflanzte Gehölze Mitteleuropas. Die Zeichnungen betonen Blattform, Blattstellung, Lappen und relative Stiellängen. Sie zeigen jeweils eine typische Ausprägung und bleiben botanisch informierte Stilisierungen. Natürliche Variation, Nadelquerschnitte, Behaarung und vollständige Nerven- oder Nadelzahlen sind in kleinen Icons nicht vollständig darstellbar. Die [botanischen Hinweise](BOTANY.md) dokumentieren für alle 52 Arten die Quellen sowie die erhaltenen und ausgelassenen Merkmale beider Varianten. Das Set ist keine unabhängig begutachtete wissenschaftliche Bildtafelserie und kein vollständiger Bestimmungsschlüssel.
+Die Sammlung umfasst heimische, eingebürgerte und gepflanzte Bäume, Sträucher und mit Efeu ein Klettergehölz Mitteleuropas. Die Kataloggruppe `broadleaf` ordnet nach flächigen Blättern, nicht nach Abstammung; sie enthält auch den nacktsamigen Ginkgo. Die Zeichnungen betonen Blattform, Blattstellung, Lappen und relative Stiellängen. Sie zeigen jeweils eine typische Ausprägung und bleiben botanisch informierte Stilisierungen. Natürliche Variation, Nadelquerschnitte, Behaarung und vollständige Nerven- oder Nadelzahlen sind in kleinen Icons nicht vollständig darstellbar. Die [botanischen Hinweise](BOTANY.md) dokumentieren für alle 68 Arten die Quellen sowie die erhaltenen und ausgelassenen Merkmale beider Varianten. Das Set ist keine unabhängig begutachtete wissenschaftliche Bildtafelserie und kein vollständiger Bestimmungsschlüssel.
 
 ## Lizenz
 

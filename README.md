@@ -1,14 +1,14 @@
 # Blatt & Nadel
 
-**52 Central European tree and shrub species · 104 SVG icons · v1.2.0**
+**68 woody species found in Central Europe · 136 SVG icons · v1.3.0**
 
 Leaf, needle and twig icons for nature websites, species profiles and filters. Two optical sizes pair distinctive botanical forms with clear, consistent linework.
 
 [Deutsch](docs/README.de.md) · [Usage](docs/USAGE.md) · [Botanical notes](docs/BOTANY.md) · [Quality checks](docs/QUALITY.md) · [Changelog](CHANGELOG.md)
 
-![All 52 species in the Detail variant](docs/preview.png)
+![All 68 species in the Detail variant](docs/preview.png)
 
-Version 1.2 adds 24 species, including shrubs, European white elm, walnut and two more maples. The 56 existing source SVGs are unchanged. [Expansion review](docs/EXPANSION-1.2.md).
+Version 1.3 adds 16 species in two reviewed rounds, including Field elm, Service tree, Ginkgo, London plane and two more maples. All 104 existing source SVGs are unchanged. [Expansion review](docs/EXPANSION-1.3.md).
 
 ## Use the icons
 
@@ -89,64 +89,80 @@ Generated assets are included so the collection is ready to use. Drawing and con
 
 IDs use stable German ASCII names. The manifest includes English and German common names, scientific names, paths, references and `since` version fields. Gallery controls and short botanical descriptions are in German.
 
-| ID                         | English            | Deutsch                 | Scientific name          |
-| -------------------------- | ------------------ | ----------------------- | ------------------------ |
-| `fichte`                   | Norway spruce      | Fichte                  | _Picea abies_            |
-| `kiefer`                   | Scots pine         | Waldkiefer              | _Pinus sylvestris_       |
-| `laerche`                  | European larch     | Europäische Lärche      | _Larix decidua_          |
-| `tanne`                    | Silver fir         | Weißtanne               | _Abies alba_             |
-| `douglasie`                | Douglas fir        | Douglasie               | _Pseudotsuga menziesii_  |
-| `eibe`                     | English yew        | Eibe                    | _Taxus baccata_          |
-| `wacholder`                | Common juniper     | Wacholder               | _Juniperus communis_     |
-| `stieleiche`               | Pedunculate oak    | Stieleiche              | _Quercus robur_          |
-| `traubeneiche`             | Sessile oak        | Traubeneiche            | _Quercus petraea_        |
-| `rotbuche`                 | European beech     | Rotbuche                | _Fagus sylvatica_        |
-| `haengebirke`              | Silver birch       | Hängebirke              | _Betula pendula_         |
-| `schwarzpappel`            | Black poplar       | Schwarzpappel           | _Populus nigra_          |
-| `espe`                     | European aspen     | Espe · Zitterpappel     | _Populus tremula_        |
-| `schwarzerle`              | Black alder        | Schwarzerle             | _Alnus glutinosa_        |
-| `hainbuche`                | European hornbeam  | Hainbuche               | _Carpinus betulus_       |
-| `winterlinde`              | Small-leaved lime  | Winterlinde             | _Tilia cordata_          |
-| `hasel`                    | Common hazel       | Hasel                   | _Corylus avellana_       |
-| `bergahorn`                | Sycamore maple     | Bergahorn               | _Acer pseudoplatanus_    |
-| `spitzahorn`               | Norway maple       | Spitzahorn              | _Acer platanoides_       |
-| `feldahorn`                | Field maple        | Feldahorn               | _Acer campestre_         |
-| `esche`                    | European ash       | Gemeine Esche           | _Fraxinus excelsior_     |
-| `bergulme`                 | Wych elm           | Bergulme                | _Ulmus glabra_           |
-| `salweide`                 | Goat willow        | Salweide                | _Salix caprea_           |
-| `silberweide`              | White willow       | Silberweide             | _Salix alba_             |
-| `rosskastanie`             | Horse chestnut     | Rosskastanie            | _Aesculus hippocastanum_ |
-| `edelkastanie`             | Sweet chestnut     | Edelkastanie            | _Castanea sativa_        |
-| `vogelbeere`               | Rowan              | Vogelbeere              | _Sorbus aucuparia_       |
-| `robinie`                  | Black locust       | Robinie                 | _Robinia pseudoacacia_   |
-| `schwarzer-holunder`       | Black elder        | Schwarzer Holunder      | _Sambucus nigra_         |
-| `eingriffeliger-weissdorn` | Common hawthorn    | Eingriffeliger Weißdorn | _Crataegus monogyna_     |
-| `schlehe`                  | Blackthorn         | Schlehe                 | _Prunus spinosa_         |
-| `roter-hartriegel`         | Common dogwood     | Roter Hartriegel        | _Cornus sanguinea_       |
-| `gewoehnlicher-schneeball` | Guelder rose       | Gewöhnlicher Schneeball | _Viburnum opulus_        |
-| `stechpalme`               | European holly     | Stechpalme              | _Ilex aquifolium_        |
-| `faulbaum`                 | Alder buckthorn    | Faulbaum                | _Frangula alnus_         |
-| `pfaffenhuetchen`          | European spindle   | Pfaffenhütchen          | _Euonymus europaeus_     |
-| `hundsrose`                | Dog rose           | Hundsrose               | _Rosa canina_            |
-| `kornelkirsche`            | Cornelian cherry   | Kornelkirsche           | _Cornus mas_             |
-| `vogelkirsche`             | Wild cherry        | Vogelkirsche            | _Prunus avium_           |
-| `sommerlinde`              | Large-leaved lime  | Sommerlinde             | _Tilia platyphyllos_     |
-| `walnuss`                  | Common walnut      | Walnuss                 | _Juglans regia_          |
-| `moorbirke`                | Downy birch        | Moorbirke               | _Betula pubescens_       |
-| `flatterulme`              | European white elm | Flatterulme             | _Ulmus laevis_           |
-| `elsbeere`                 | Wild service tree  | Elsbeere                | _Sorbus torminalis_      |
-| `franzoesischer-ahorn`     | Montpellier maple  | Französischer Ahorn     | _Acer monspessulanum_    |
-| `eschenahorn`              | Box elder          | Eschenahorn             | _Acer negundo_           |
-| `liguster`                 | Wild privet        | Liguster                | _Ligustrum vulgare_      |
-| `berberitze`               | Common barberry    | Berberitze              | _Berberis vulgaris_      |
-| `rote-heckenkirsche`       | Fly honeysuckle    | Rote Heckenkirsche      | _Lonicera xylosteum_     |
-| `kreuzdorn`                | Common buckthorn   | Kreuzdorn               | _Rhamnus cathartica_     |
-| `felsenbirne`              | Snowy mespilus     | Felsenbirne             | _Amelanchier ovalis_     |
-| `traubenkirsche`           | Bird cherry        | Traubenkirsche          | _Prunus padus_           |
+| ID                            | English             | Deutsch                    | Scientific name           |
+| ----------------------------- | ------------------- | -------------------------- | ------------------------- |
+| `fichte`                      | Norway spruce       | Fichte                     | _Picea abies_             |
+| `kiefer`                      | Scots pine          | Waldkiefer                 | _Pinus sylvestris_        |
+| `laerche`                     | European larch      | Europäische Lärche         | _Larix decidua_           |
+| `tanne`                       | Silver fir          | Weißtanne                  | _Abies alba_              |
+| `douglasie`                   | Douglas fir         | Douglasie                  | _Pseudotsuga menziesii_   |
+| `eibe`                        | English yew         | Eibe                       | _Taxus baccata_           |
+| `wacholder`                   | Common juniper      | Wacholder                  | _Juniperus communis_      |
+| `stieleiche`                  | Pedunculate oak     | Stieleiche                 | _Quercus robur_           |
+| `traubeneiche`                | Sessile oak         | Traubeneiche               | _Quercus petraea_         |
+| `rotbuche`                    | European beech      | Rotbuche                   | _Fagus sylvatica_         |
+| `haengebirke`                 | Silver birch        | Hängebirke                 | _Betula pendula_          |
+| `schwarzpappel`               | Black poplar        | Schwarzpappel              | _Populus nigra_           |
+| `espe`                        | European aspen      | Espe · Zitterpappel        | _Populus tremula_         |
+| `schwarzerle`                 | Black alder         | Schwarzerle                | _Alnus glutinosa_         |
+| `hainbuche`                   | European hornbeam   | Hainbuche                  | _Carpinus betulus_        |
+| `winterlinde`                 | Small-leaved lime   | Winterlinde                | _Tilia cordata_           |
+| `hasel`                       | Common hazel        | Hasel                      | _Corylus avellana_        |
+| `bergahorn`                   | Sycamore maple      | Bergahorn                  | _Acer pseudoplatanus_     |
+| `spitzahorn`                  | Norway maple        | Spitzahorn                 | _Acer platanoides_        |
+| `feldahorn`                   | Field maple         | Feldahorn                  | _Acer campestre_          |
+| `esche`                       | European ash        | Gemeine Esche              | _Fraxinus excelsior_      |
+| `bergulme`                    | Wych elm            | Bergulme                   | _Ulmus glabra_            |
+| `salweide`                    | Goat willow         | Salweide                   | _Salix caprea_            |
+| `silberweide`                 | White willow        | Silberweide                | _Salix alba_              |
+| `rosskastanie`                | Horse chestnut      | Rosskastanie               | _Aesculus hippocastanum_  |
+| `edelkastanie`                | Sweet chestnut      | Edelkastanie               | _Castanea sativa_         |
+| `vogelbeere`                  | Rowan               | Vogelbeere                 | _Sorbus aucuparia_        |
+| `robinie`                     | Black locust        | Robinie                    | _Robinia pseudoacacia_    |
+| `schwarzer-holunder`          | Black elder         | Schwarzer Holunder         | _Sambucus nigra_          |
+| `eingriffeliger-weissdorn`    | Common hawthorn     | Eingriffeliger Weißdorn    | _Crataegus monogyna_      |
+| `schlehe`                     | Blackthorn          | Schlehe                    | _Prunus spinosa_          |
+| `roter-hartriegel`            | Common dogwood      | Roter Hartriegel           | _Cornus sanguinea_        |
+| `gewoehnlicher-schneeball`    | Guelder rose        | Gewöhnlicher Schneeball    | _Viburnum opulus_         |
+| `stechpalme`                  | European holly      | Stechpalme                 | _Ilex aquifolium_         |
+| `faulbaum`                    | Alder buckthorn     | Faulbaum                   | _Frangula alnus_          |
+| `pfaffenhuetchen`             | European spindle    | Pfaffenhütchen             | _Euonymus europaeus_      |
+| `hundsrose`                   | Dog rose            | Hundsrose                  | _Rosa canina_             |
+| `kornelkirsche`               | Cornelian cherry    | Kornelkirsche              | _Cornus mas_              |
+| `vogelkirsche`                | Wild cherry         | Vogelkirsche               | _Prunus avium_            |
+| `sommerlinde`                 | Large-leaved lime   | Sommerlinde                | _Tilia platyphyllos_      |
+| `walnuss`                     | Common walnut       | Walnuss                    | _Juglans regia_           |
+| `moorbirke`                   | Downy birch         | Moorbirke                  | _Betula pubescens_        |
+| `flatterulme`                 | European white elm  | Flatterulme                | _Ulmus laevis_            |
+| `elsbeere`                    | Wild service tree   | Elsbeere                   | _Sorbus torminalis_       |
+| `franzoesischer-ahorn`        | Montpellier maple   | Französischer Ahorn        | _Acer monspessulanum_     |
+| `eschenahorn`                 | Box elder           | Eschenahorn                | _Acer negundo_            |
+| `liguster`                    | Wild privet         | Liguster                   | _Ligustrum vulgare_       |
+| `berberitze`                  | Common barberry     | Berberitze                 | _Berberis vulgaris_       |
+| `rote-heckenkirsche`          | Fly honeysuckle     | Rote Heckenkirsche         | _Lonicera xylosteum_      |
+| `kreuzdorn`                   | Common buckthorn    | Kreuzdorn                  | _Rhamnus cathartica_      |
+| `felsenbirne`                 | Snowy mespilus      | Felsenbirne                | _Amelanchier ovalis_      |
+| `traubenkirsche`              | Bird cherry         | Traubenkirsche             | _Prunus padus_            |
+| `feldulme`                    | Field elm           | Feldulme                   | _Ulmus minor_             |
+| `grauerle`                    | Grey alder          | Grauerle                   | _Alnus incana_            |
+| `mehlbeere`                   | Common whitebeam    | Mehlbeere                  | _Sorbus aria_             |
+| `wildapfel`                   | European crab apple | Wildapfel                  | _Malus sylvestris_        |
+| `wildbirne`                   | Wild pear           | Wildbirne                  | _Pyrus pyraster_          |
+| `wolliger-schneeball`         | Wayfaring tree      | Wolliger Schneeball        | _Viburnum lantana_        |
+| `silberpappel`                | White poplar        | Silberpappel               | _Populus alba_            |
+| `speierling`                  | Service tree        | Speierling                 | _Sorbus domestica_        |
+| `ginkgo`                      | Ginkgo              | Ginkgo                     | _Ginkgo biloba_           |
+| `ahornblaettrige-platane`     | London plane        | Ahornblättrige Platane     | _Platanus × hispanica_    |
+| `tulpenbaum`                  | Tulip tree          | Tulpenbaum                 | _Liriodendron tulipifera_ |
+| `amberbaum`                   | American sweetgum   | Amberbaum                  | _Liquidambar styraciflua_ |
+| `faecherahorn`                | Japanese maple      | Fächerahorn                | _Acer palmatum_           |
+| `schneeballblaettriger-ahorn` | Italian maple       | Schneeballblättriger Ahorn | _Acer opalus_             |
+| `efeu`                        | Common ivy          | Efeu                       | _Hedera helix_            |
+| `baumhasel`                   | Turkish hazel       | Baumhasel                  | _Corylus colurna_         |
 
 ## Botanical scope
 
-The collection includes native, naturalized and planted species found in Central Europe. The drawings preserve characteristic leaf shapes, arrangements, lobes and relative petiole lengths. They depict selected typical forms: for example, a rounded short-shoot leaf for aspen and a comb-like shade shoot for silver fir. Each species is scaled independently.
+The collection includes native, naturalized and planted trees, shrubs and a woody climber found in Central Europe. The `broadleaf` catalog group describes blade-bearing foliage; it includes Ginkgo, a gymnosperm, and is not an angiosperm classification. The drawings preserve characteristic leaf shapes, arrangements, lobes and relative petiole lengths. They depict selected typical forms: for example, a rounded short-shoot leaf for aspen and a comb-like shade shoot for silver fir. Each species is scaled independently.
 
 These are botanically informed stylizations. Veins, teeth and needle counts are simplified for legibility; natural variation, surface hairs and three-dimensional features are not fully represented. Each species has a documented source and variant-specific limits. The collection is not a complete identification key or an independently reviewed scientific plate series. [Botanical notes](docs/BOTANY.md) explain the choices and sources.
 

@@ -1,0 +1,17 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Wolliger Schneeball · Viburnum lantana">
+  <title>Wolliger Schneeball · Viburnum lantana</title>
+  <path class="leaf-blade" d="M48 78 Q44.73 78.354 43.686 78.55 L42.538 78.251 Q39.247 78.08 38.156 78.174 L37.13 77.473 Q33.951 76.582 32.835 76.46 L32.074 75.418 Q29.245 73.704 28.179 73.306 L27.803 72.026 Q25.567 69.586 24.62 68.926 L24.663 67.564 Q23.118 64.637 22.328 63.775 L22.73 62.455 Q21.84 59.268 21.219 58.274 L21.899 57.052 Q21.584 53.76 21.125 52.675 L22.012 51.585 Q22.205 48.283 21.903 47.149 L22.944 46.196 Q23.592 42.955 23.451 41.787 L24.602 40.983 Q25.65 37.848 25.671 36.677 L26.906 36.023 Q28.446 33.097 28.675 31.959 L29.974 31.497 Q31.961 28.858 32.372 27.789 L33.689 27.481 Q35.995 25.124 36.536 24.137 L37.834 23.908 Q40.312 21.742 40.922 20.825 L42.173 20.572 Q44.657 18.422 45.264 17.536 L46.417 17.116 Q48.634 14.704 49.132 13.786 L50 13 L50.81 13.826 Q51.228 14.767 53.186 17.333 L54.283 17.844 Q54.797 18.767 57.064 21.073 L58.28 21.4 Q58.816 22.343 61.128 24.614 L62.4 24.896 Q62.879 25.897 65.036 28.325 L66.325 28.684 Q66.671 29.76 68.483 32.462 L69.743 32.989 Q69.891 34.128 71.197 37.111 L72.37 37.846 Q72.291 38.987 73.247 42.095 L74.366 42.92 Q74.183 44.064 74.706 47.279 L75.704 48.254 Q75.355 49.362 75.386 52.621 L76.214 53.741 Q75.692 54.783 75.173 58 L75.765 59.248 Q75.072 60.182 73.938 63.237 L74.228 64.571 Q73.369 65.345 71.584 68.072 L71.51 69.418 Q70.517 69.974 68.119 72.181 L67.667 73.413 Q66.586 73.73 63.718 75.268 L62.94 76.272 Q61.838 76.36 58.699 77.202 L57.69 77.903 Q56.622 77.818 53.385 78.054 L52.263 78.387 Q51.23 78.226 48 78 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M44 90 Q47 84 48 78" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 78 L49.88 16.9" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.28 68.9 Q37.839 67.945 29.296 66.778" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.28 68.9 Q58.607 68.113 67.057 67.151" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.567 59.583 Q36.541 57.344 26.703 54.607" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.567 59.583 Q60.665 57.705 70.563 55.409" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.853 50.267 Q37.702 46.637 28.578 42.201" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.853 50.267 Q60.101 47.045 69.303 43.108" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.14 40.95 Q40.767 36.483 33.916 31.022" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.14 40.95 Q57.669 36.832 64.648 31.798" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

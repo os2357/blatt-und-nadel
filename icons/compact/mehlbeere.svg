@@ -1,0 +1,21 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Mehlbeere · Sorbus aria">
+  <title>Mehlbeere · Sorbus aria</title>
+  <path class="leaf-blade" d="M48 78 Q45.444 77.086 44.576 76.917 L43.847 76.229 Q41.366 75.113 40.452 74.956 L39.908 74.024 Q37.545 72.664 36.608 72.466 L36.254 71.374 Q34.056 69.752 33.109 69.476 L32.967 68.282 Q30.986 66.395 30.046 66.019 L30.13 64.772 Q28.418 62.636 27.506 62.141 L27.821 60.895 Q26.422 58.537 25.568 57.925 L26.1 56.723 Q25.054 54.188 24.278 53.463 L25.01 52.344 Q24.333 49.687 23.658 48.854 L24.558 47.854 Q24.258 45.127 23.699 44.216 L24.732 43.345 Q24.799 40.602 24.366 39.629 L25.496 38.896 Q25.974 36.183 25.748 35.149 L26.979 34.641 Q27.88 32.056 27.775 31.014 L29.025 30.617 Q30.2 28.146 30.229 27.115 L31.48 26.828 Q32.934 24.514 33.106 23.516 L34.338 23.334 Q36.06 21.216 36.374 20.279 L37.57 20.182 Q39.537 18.295 39.986 17.448 L41.13 17.406 Q43.307 15.775 43.881 15.05 L44.959 15.015 Q47.315 13.665 48.006 13.113 L49 13 L49.974 13.207 Q50.609 13.817 52.841 15.343 L53.911 15.447 Q54.436 16.203 56.52 17.934 L57.657 18.017 Q58.074 18.875 59.987 20.8 L61.178 20.909 Q61.48 21.846 63.191 23.958 L64.422 24.131 Q64.598 25.124 66.072 27.413 L67.325 27.678 Q67.367 28.707 68.571 31.153 L69.824 31.534 Q69.728 32.576 70.634 35.15 L71.87 35.683 Q71.599 36.722 72.014 39.424 L73.132 40.181 Q72.671 41.145 72.612 43.879 L73.593 44.813 Q72.976 45.683 72.478 48.373 L73.296 49.444 Q72.558 50.209 71.67 52.796 L72.309 53.967 Q71.482 54.622 70.255 57.064 L70.706 58.298 Q69.817 58.846 68.297 61.113 L68.556 62.369 Q67.628 62.819 65.854 64.889 L65.916 66.129 Q64.97 66.489 62.976 68.345 L62.833 69.534 Q61.888 69.807 59.704 71.431 L59.365 72.523 Q58.429 72.728 56.086 74.102 L55.549 75.035 Q54.64 75.194 52.166 76.306 L51.437 76.988 Q50.567 77.147 48 78 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M44 90 Q47 84 48 78" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 78 L48.97 14.95" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.077 73.019 C48.077 71.019 38.479 68.469 33.311 66.019" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.201 64.925 C48.201 62.925 36.151 60.375 29.662 57.925" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.341 55.854 C48.341 53.854 35.197 51.304 28.12 48.854" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.483 46.629 C48.483 44.629 35.641 42.079 28.726 39.629" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.615 38.014 C48.615 36.014 37.52 33.464 31.546 31.014" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.731 30.516 C48.731 28.516 40.415 25.966 35.937 23.516" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.075 73.129 C48.075 71.129 57.597 68.579 62.724 66.129" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.195 65.298 C48.195 63.298 60.206 60.748 66.673 58.298" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.332 56.444 C48.332 54.444 61.65 51.894 68.822 49.444" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.474 47.181 C48.474 45.181 61.63 42.631 68.713 40.181" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.607 38.534 C48.607 36.534 59.928 33.984 66.024 31.534" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.721 31.131 C48.721 29.131 57.102 26.581 61.615 24.131" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

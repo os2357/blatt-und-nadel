@@ -1,12 +1,12 @@
 # Quality checks
 
-Release **1.2.0** · 12 October 2026
+Release **1.3.0** · 12 October 2026
 
 ## Artwork review
 
-The 24 additions were compared with their species-specific Info Flora / Flora Helvetica descriptions on 12 October 2026. The 16-species first round was reviewed before drawing the eight-species second round, which received the same review. Both optical sizes were inspected enlarged, then at 24/32 px Compact and 48/64 px Detail on light and dark backgrounds. Similar species were compared together, including both elms, both birches, both limes, lobed leaves and compound leaves. [The expansion review](EXPANSION-1.2.md) records the choices, corrections and additional sources.
+The sixteen v1.3 additions were compared with botanical descriptions on 12 October 2026 in two successive rounds of eight. The first round passed source comparison, enlarged and small-size inspection, and geometry checks before the second round was drawn. Both optical sizes were inspected at 24/32 px Compact and 48/64 px Detail on light and dark backgrounds. Comparison groups included all three European elms, the two alders and hazels, apple and pear, rowan and service tree, the three poplars, both viburnums and related lobed leaves. [The v1.3 expansion review](EXPANSION-1.3.md) records sources, selected forms, omissions and corrections.
 
-The original 28 species retain their earlier botanical review below. A byte comparison against the canonical v1.1.0 archive confirms that all 56 existing source SVGs are unchanged, including Stieleiche and Bergulme. All 104 current files were included in the automated geometry and browser checks.
+The 24 species introduced in v1.2 retain their [earlier review](EXPANSION-1.2.md); the original 28 retain the focused records below. A SHA-256 comparison against the canonical v1.2.0 ZIP confirms all **104 existing source SVGs unchanged**, including Stieleiche and Bergulme. All 136 current files were included in automated geometry and browser checks.
 
 Compact retains characteristic outlines and simplifies veins and teeth separately. Surface hairs, texture, three-dimensional structures and most shoot insertion patterns are outside the scope of isolated monochrome leaves. Closely related species can remain similar; no invented distinction is added to force uniqueness.
 
@@ -38,7 +38,7 @@ Both outlines have no detected self-crossings. Full-stroke containment at 1536 �
 
 `npm test` verifies:
 
-- The catalog and both icon directories agree: 52 species and 104 files.
+- The catalog and both icon directories agree: 68 species and 136 files.
 - XML uses the supported element and attribute allowlists, with valid nesting and no unchecked transforms.
 - Every source has the expected dimensions, viewBox, image role, accessible name and exactly one matching title before the paths.
 - Geometry is nonempty; license notices are present.
@@ -46,7 +46,7 @@ Both outlines have no detected self-crossings. Full-stroke containment at 1536 �
 - Blade, filled-needle, sheath, bud, gland and stipule contours explicitly close and contain no detected proper self-crossings.
 - Each of the 14 conifer SVGs forms one connected painted component: no detached needle or twig fragments.
 - Separate leaf blades have no detected crossings, nesting or overlaps between their painted outlines.
-- All **912 internal vein and midrib paths** remain inside the leaf blades within the stated numerical tolerance.
+- All **1241 internal vein and midrib paths** remain inside the leaf blades within the stated numerical tolerance.
 - Rendered strokes do not touch the canvas edge.
 - Generated sprites, the manifest, gallery and SVG overview match the current sources.
 
@@ -56,7 +56,7 @@ Twelve regression tests cover concave notches, curves with in-bounds endpoints t
 
 The conifer connectivity check rasterizes at 1536 × 1536 px, uses alpha ≥ 64 and eight-neighbour connectivity, and ignores isolated specks smaller than 0.05 viewBox square units. It detects unintended gaps between needles and their supporting twig. It does not validate phyllotaxis, confirm specimen identity or treat legitimate overlaps between projected needles as errors.
 
-Four artwork regressions additionally protect the selected 5/7/7/3 leaflet counts, the two petiolar glands in each relevant Detail icon and their deliberate Compact omission, the paired rose stipules, and the declared vein counts for both dogwoods, buckthorn, alder buckthorn, white elm and bird cherry. These lock intentional drawing choices; they do not claim that every natural specimen has those counts.
+Five artwork regressions additionally protect the selected 5/7/7/3/13 leaflet counts, the two petiolar glands in each relevant Detail icon and their deliberate Compact omission, the paired rose stipules, and the declared vein counts for both dogwoods, buckthorn, alder buckthorn, white elm, bird cherry, grey alder, whitebeam, Turkish hazel and field elm. Ginkgo additionally has no midrib, one connected vein origin, bifurcating branch nodes and eight/four terminal veins; the regression rejects detached branches or merged nerves. These lock intentional drawing choices; they do not claim that every natural specimen has those counts.
 
 ## Browser checks
 
@@ -67,11 +67,11 @@ Four artwork regressions additionally protect the selected 5/7/7/3 leaflet count
 - Copy feedback; clipboard contents additionally verified in Chromium.
 - Size/color controls, dark mode and initial keyboard focus.
 - Layout at 1440, 768, 480, 375 and 320 CSS pixels, including card contents.
-- All 104 external sprite symbols compared with their inline rendering in the same browser.
+- All 136 external sprite symbols compared with their inline rendering in the same browser.
 - A standalone SVG via `<img>` and a light icon on a dark background.
 - No uncaught JavaScript errors.
 
-Sprite and inline captures use the same device-pixel origin. The comparison allows small antialiasing differences: average channel difference below 0.6 on a 0–255 scale, and fewer than 0.3% of channels differing by more than 32. It also checks that symbols contain visible colored pixels. Screenshots and a machine-readable report are written to ignored `test-results/`.
+Sprite and inline captures use the same device-pixel origin. The comparison allows small antialiasing differences: average channel difference below 0.6 on a 0–255 scale, and fewer than 0.3% of channels differing by more than 32. It also checks that symbols contain visible colored pixels. Screenshots and a machine-readable report are written to ignored `test-results/`. Long gallery screenshots are captured in bounded 12,000 px-high sections, preserving the tested viewport and covering all rows. This avoids Firefox’s screenshot dimension limit as the collection grows; layout and sprite checks still cover every icon.
 
 ## Release run
 
@@ -80,7 +80,7 @@ Sprite and inline captures use the same device-pixel origin. The comparison allo
 | Chromium, headless | 153.0.8010.0 | Passed |
 | Firefox, headless  | 153.0        | Passed |
 
-Both engines completed the workflow above. The 104-file geometry checks, all twelve geometry regressions and four semantic artwork regressions passed.
+Both engines completed the workflow above. The 136-file geometry checks, all twelve geometry regressions and five semantic artwork regressions passed.
 
 ## Release archive checks
 

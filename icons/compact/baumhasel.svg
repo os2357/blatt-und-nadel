@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Baumhasel · Corylus colurna">
+  <title>Baumhasel · Corylus colurna</title>
+  <path class="leaf-blade" d="M48 71 Q45.012 72.648 44.088 73.245 L42.866 73.408 Q39.621 74.488 38.594 74.976 L37.343 74.66 Q33.92 74.841 32.775 75.06 L31.705 74.246 Q28.415 73.264 27.234 73.106 L26.573 71.891 Q23.818 69.838 22.729 69.326 L22.547 67.921 Q20.514 65.151 19.579 64.381 L19.816 62.96 Q18.487 59.792 17.718 58.844 L18.282 57.502 Q17.583 54.14 16.984 53.076 L17.799 51.851 Q17.661 48.421 17.25 47.25 L18.29 46.203 Q18.823 42.81 18.643 41.592 L19.862 40.756 Q21.067 37.537 21.153 36.312 L22.512 35.745 Q24.387 32.868 24.744 31.7 L26.176 31.421 Q28.61 29.002 29.201 27.949 L30.636 27.92 Q33.47 25.991 34.239 25.082 L35.636 25.24 Q38.729 23.772 39.624 23.017 L40.967 23.294 Q44.01 21.918 44.539 20.977 L45.721 20.478 Q47.196 17.429 47.311 16.326 L48.149 15.368 Q49.131 12.103 49.312 11.02 L50 10 L50.674 10.982 Q50.844 12.031 51.789 15.188 L52.609 16.114 Q52.702 17.186 54.06 20.168 L55.196 20.695 Q55.642 21.649 58.451 23.226 L59.781 23.157 Q60.514 24.022 63.277 25.838 L64.648 25.83 Q65.274 26.801 67.796 28.948 L69.19 29.085 Q69.655 30.162 71.811 32.682 L73.192 33.024 Q73.453 34.181 75.118 37.053 L76.433 37.632 Q76.463 38.826 77.551 41.964 L78.745 42.775 Q78.545 43.956 79.037 47.24 L80.035 48.289 Q79.58 49.4 79.297 52.712 L80.03 53.953 Q79.355 54.939 78.355 58.108 L78.775 59.472 Q77.91 60.288 76.236 63.159 L76.307 64.563 Q75.298 65.174 73.015 67.587 L72.713 68.934 Q71.612 69.311 68.812 71.094 L68.145 72.26 Q66.998 72.373 63.829 73.352 L62.838 74.201 Q61.722 74.035 58.409 74.079 L57.22 74.488 Q56.199 74.081 53.006 73.221 L51.817 73.122 Q50.903 72.566 48 71 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M39 91 Q46 81 48 71" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 71 L49.9 14" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.119 67 Q34.385 63.359 23.149 60.38" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.681 50.223 Q34.67 46.373 23.207 43.223" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.14 36.219 Q39.496 32.369 31.605 29.219" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.105 67 Q62.029 63.587 73.421 60.794" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.644 51.357 Q62.724 47.507 74.245 44.357" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.103 37.364 Q58.73 33.514 66.607 30.364" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

@@ -37,6 +37,22 @@ const address = await new Promise((resolve, reject) => {
 });
 const report = [];
 
+// Long one-column galleries exceed Firefox's screenshot dimension limit.
+// Capture every row in bounded clips while leaving the tested viewport intact.
+async function galleryScreenshot(page, filename) {
+  const height = await page.evaluate(() => document.documentElement.scrollHeight);
+  const width = page.viewportSize().width;
+  const tileHeight = 12000;
+  if (height <= tileHeight) return page.screenshot({ path: filename, fullPage: true });
+  for (let y = 0, part = 1; y < height; y += tileHeight, part++) {
+    await page.screenshot({
+      path: filename.replace(/\.png$/, '-part-' + part + '.png'),
+      fullPage: true,
+      clip: { x: 0, y, width, height: Math.min(tileHeight, height - y) },
+    });
+  }
+}
+
 async function ink(buffer) {
   const { data, info } = await sharp(buffer)
     .removeAlpha()
@@ -141,7 +157,7 @@ try {
         'rgb(139, 75, 50)',
       );
       await page.locator('#color').fill('#34573e');
-      await page.screenshot({ path: path.join(output, name + '-desktop.png'), fullPage: true });
+      await galleryScreenshot(page, path.join(output, name + '-desktop.png'));
       await page.locator('#theme').click();
       assert.equal(await page.locator('#theme').getAttribute('aria-pressed'), 'true');
       assert.equal(
@@ -151,7 +167,7 @@ try {
           .evaluate((el) => getComputedStyle(el).color),
         'rgb(212, 223, 189)',
       );
-      await page.screenshot({ path: path.join(output, name + '-dark.png'), fullPage: true });
+      await galleryScreenshot(page, path.join(output, name + '-dark.png'));
       await page.locator('#theme').click();
       for (const width of [1440, 768, 480, 375, 320]) {
         await page.setViewportSize({ width, height: 900 });
@@ -175,7 +191,7 @@ try {
           name + ': card overflow at ' + width,
         );
       }
-      await page.screenshot({ path: path.join(output, name + '-mobile.png'), fullPage: true });
+      await galleryScreenshot(page, path.join(output, name + '-mobile.png'));
       await page.setViewportSize({ width: 1440, height: 1000 });
       // Check all external symbols against their inline counterpart in the same engine.
       const icons = loadIcons();

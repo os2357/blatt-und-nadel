@@ -1,0 +1,21 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Feldulme · Ulmus minor">
+  <title>Feldulme · Ulmus minor</title>
+  <path class="leaf-blade" d="M50 74 Q47.475 75.38 46.642 75.835 L45.582 75.725 Q42.698 75.895 41.721 76.05 L40.858 75.298 Q38.121 74.358 37.108 74.24 L36.605 73.152 Q34.206 71.533 33.209 71.229 L33.024 69.995 Q30.962 67.962 29.998 67.52 L30.081 66.231 Q28.344 63.913 27.423 63.349 L27.744 62.063 Q26.345 59.524 25.487 58.841 L26.033 57.601 Q25.018 54.882 24.258 54.075 L25.026 52.93 Q24.492 50.074 23.886 49.131 L24.88 48.158 Q24.826 45.262 24.341 44.256 L25.446 43.41 Q25.779 40.527 25.454 39.465 L26.667 38.79 Q27.409 35.987 27.238 34.899 L28.512 34.381 Q29.597 31.695 29.566 30.607 L30.863 30.218 Q32.23 27.668 32.323 26.6 L33.616 26.308 Q35.21 23.898 35.416 22.867 L36.683 22.64 Q38.464 20.369 38.772 19.389 L39.999 19.194 Q41.938 17.062 42.341 16.146 L43.514 15.951 Q45.59 13.958 46.089 13.127 L47.19 12.892 Q49.397 11.051 50.006 10.346 L51 10 L51.767 10.455 Q52.093 11.165 53.566 13.053 L54.497 13.348 Q54.754 14.132 56.219 16.031 L57.248 16.232 Q57.449 17.07 58.873 19.008 L59.97 19.168 Q60.108 20.052 61.439 22.061 L62.587 22.229 Q62.641 23.151 63.817 25.262 L64.997 25.493 Q64.943 26.439 65.887 28.668 L67.074 29.013 Q66.884 29.963 67.517 32.305 L68.672 32.808 Q68.329 33.727 68.589 36.142 L69.667 36.815 Q69.173 37.674 69.044 40.1 L70.012 40.935 Q69.389 41.701 68.845 44.076 L69.627 45.08 Q68.872 45.713 67.955 47.961 L68.585 49.05 Q67.767 49.585 66.582 51.703 L67.05 52.846 Q66.193 53.287 64.787 55.262 L65.096 56.422 Q64.22 56.789 62.646 58.625 L62.805 59.775 Q61.934 60.084 60.239 61.804 L60.265 62.914 Q59.414 63.196 57.648 64.836 L57.556 65.881 Q56.741 66.168 54.958 67.78 L54.763 68.738 Q54.01 69.075 52.295 70.749 L52.002 71.589 Q51.38 72.057 50 74 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M43 91 Q48 83 50 74" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M50 74 L50.97 11.92" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M50.047 71 C50.047 69 39.367 68.738 33.617 67.52" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M50.127 65.841 C50.127 63.841 37.007 61.291 29.942 58.841" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M50.279 56.131 C50.279 54.131 36.224 51.581 28.656 49.131" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M50.43 46.465 C50.43 44.465 37.131 41.915 29.97 39.465" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M50.569 37.607 C50.569 35.607 39.387 33.057 33.366 30.607" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M50.69 29.867 C50.69 27.867 42.561 25.317 38.185 22.867" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M50.113 66.775 C50.113 64.775 56.89 62.225 60.54 59.775" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M50.221 59.846 C50.221 57.846 59.204 55.296 64.04 52.846" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M50.342 52.08 C50.342 50.08 60.634 47.53 66.176 45.08" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M50.472 43.815 C50.472 41.815 60.716 39.265 66.232 36.815" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M50.594 36.013 C50.594 34.013 59.39 31.463 64.127 29.013" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M50.7 29.229 C50.7 27.229 57.048 24.679 60.467 22.229" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>
