@@ -1404,6 +1404,18 @@
       "description": "Ausgewählte elliptisch bis verkehrt-eiförmige Spreite mit keiligem Grund, kurzer Spitze, feinem gekerbt-gesägtem Rand und kurzem Stiel; Kulturformen variieren.",
       "source": "https://floranorthamerica.org/Prunus_domestica",
       "since": "1.6.0"
+    },
+    {
+      "id": "kulturapfel",
+      "name": {
+        "en": "Cultivated apple",
+        "de": "Kulturapfel"
+      },
+      "scientificName": "Malus domestica",
+      "group": "broadleaf",
+      "description": "Ausgewählte breit-eiförmige, stumpf gesägte Spreite mit rundlichem Grund, spitzem Ende und deutlich ausgeprägtem Stiel; Sortenvariation und Behaarung sind nicht vollständig dargestellt.",
+      "source": "https://floranorthamerica.org/Malus_domestica",
+      "since": "1.6.1"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "name": "Blatt & Nadel",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "author": "Oliver Simon",
   "copyright": "Copyright 2026 Oliver Simon",
   "license": "CC-BY-4.0",
@@ -2003,6 +2003,23 @@
       "files": {
         "detail": "icons/detail/pflaume.svg",
         "compact": "icons/compact/pflaume.svg"
+      }
+    },
+    {
+      "id": "kulturapfel",
+      "name": {
+        "en": "Cultivated apple",
+        "de": "Kulturapfel"
+      },
+      "scientificName": "Malus domestica",
+      "group": "broadleaf",
+      "description": "Ausgewählte breit-eiförmige, stumpf gesägte Spreite mit rundlichem Grund, spitzem Ende und deutlich ausgeprägtem Stiel; Sortenvariation und Behaarung sind nicht vollständig dargestellt.",
+      "source": "https://floranorthamerica.org/Malus_domestica",
+      "since": "1.6.1",
+      "symbol": "leaf-kulturapfel",
+      "files": {
+        "detail": "icons/detail/kulturapfel.svg",
+        "compact": "icons/compact/kulturapfel.svg"
       }
     }
   ]

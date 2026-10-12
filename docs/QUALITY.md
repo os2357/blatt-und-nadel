@@ -1,14 +1,12 @@
 # Quality checks
 
-Release **1.6.0** Â· 13 October 2026
+Release **1.6.1** Â· 13 October 2026
 
 ## Artwork review
 
-All 117 species were inspected in both variants enlarged and at Compact 24/32 px and Detail 48/64 px on light/dark backgrounds. Existing descriptions and reference photographs from v1.5 were reused for the 100-species re-review; the 17 additions and Ginkgo received focused new research. The [per-species audit](AUDIT-1.6.md) and [machine-readable record](audit-1.6.json) distinguish the selected forms, omissions, measurements and actual changed files.
+The current release contains 118 species / 236 source SVGs. The two new Cultivated apple variants received a focused primary-description and photograph review, an enlarged comparison with neighboring fruit-tree icons, and target-size inspection on light/dark backgrounds. The [v1.6.1 review](AUDIT-1.6.1.md) and [machine-readable record](audit-1.6.1.json) document the selected form, omitted characters and current hashes.
 
-The Ginkgo was initially accepted again despite its box-like silhouette. User feedback exposed that failure. It is now redrawn with oblique flanks, two unequal fan lobes and revised dichotomous nerve trajectories; the [comparison image](ginkgo-1.6.png) makes the change reviewable. A morphological checkbox and a passing geometry test cannot establish a convincing whole-leaf shape. Previously criticized icons now require a before/after record and a separate written silhouette assessment.
-
-SHA-256 checks against the canonical v1.5.0 ZIP confirm **198 source SVGs unchanged**. Only the two Ginkgo variants changed; 34 files were added in [two reviewed groups and a targeted European plum addition](EXPANSION-1.6.md). No previous oak, elm, poplar or pine correction was rolled back.
+All 234 existing source SVGs are byte-identical to v1.6.0. Their botanical and optical review is inherited from the [full v1.6 review](AUDIT-1.6.md), not claimed as a new full collection review. That release corrected Ginkgo after the earlier visual acceptance proved too lenient. The silhouette and before/after requirements below remain in force.
 
 ### Required review gates
 
@@ -49,7 +47,7 @@ Both outlines have no detected self-crossings. Full-stroke containment at 1536 Ã
 
 `npm test` verifies:
 
-- The catalog and both icon directories agree: 117 species and 234 files.
+- The catalog and both icon directories agree: 118 species and 236 files.
 - XML uses the supported element and attribute allowlists, with valid nesting and no unchecked transforms.
 - Every source has the expected dimensions, viewBox, image role, accessible name and exactly one matching title before the paths.
 - Geometry is nonempty; license notices are present.
@@ -57,7 +55,7 @@ Both outlines have no detected self-crossings. Full-stroke containment at 1536 Ã
 - Blade, filled-needle, scale, sheath, bud, gland and stipule contours explicitly close and contain no detected proper self-crossings.
 - Each of the 24 conifer and four heath SVGs forms one connected painted component: no detached needle or twig fragments.
 - Separate leaf blades have no detected crossings, nesting or overlaps between their painted outlines.
-- All **2233 internal vein and midrib paths** remain inside the leaf blades within the stated numerical tolerance.
+- All **2255 internal vein and midrib paths** remain inside the leaf blades within the stated numerical tolerance.
 - Rendered strokes do not touch the canvas edge.
 - Generated sprites, the manifest, gallery and SVG overview match the current sources.
 
@@ -78,7 +76,7 @@ Thirteen artwork regressions additionally protect the selected compound-leaf cou
 - Copy feedback; clipboard contents additionally verified in Chromium.
 - Size/color controls, dark mode and initial keyboard focus.
 - Layout at 1440, 768, 480, 375 and 320 CSS pixels, including card contents.
-- All 234 external sprite symbols compared with their inline rendering in the same browser.
+- All 236 external sprite symbols compared with their inline rendering in the same browser.
 - A standalone SVG via `<img>` and a light icon on a dark background.
 - No uncaught JavaScript errors.
 
@@ -91,7 +89,7 @@ Sprite and inline captures use the same device-pixel origin. The comparison allo
 | Chromium, headless | 153.0.8010.0 | Passed |
 | Firefox, headless  | 153.0        | Passed |
 
-Both engines completed the workflow above. The 234-file geometry checks, all twelve geometry regressions and thirteen semantic artwork regressions passed.
+Both engines completed the workflow above. The 236-file geometry checks, all twelve geometry regressions and thirteen semantic artwork regressions passed.
 
 ## Release archive checks
 

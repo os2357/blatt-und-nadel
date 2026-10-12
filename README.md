@@ -1,14 +1,14 @@
 # Blatt & Nadel
 
-**117 woody species found in Central Europe · 234 SVG icons · v1.6.0**
+**118 woody species found in Central Europe · 236 SVG icons · v1.6.1**
 
 Leaf, needle and twig icons for nature websites, species profiles and filters. Two optical sizes pair distinctive botanical forms with clear, consistent linework.
 
 [Deutsch](docs/README.de.md) · [Usage](docs/USAGE.md) · [Botanical notes](docs/BOTANY.md) · [Quality checks](docs/QUALITY.md) · [Changelog](CHANGELOG.md)
 
-![All 117 species in the Detail variant](docs/preview.png)
+![All 118 species in the Detail variant](docs/preview.png)
 
-Version 1.6 adds 17 species through two reviewed groups and a separately reviewed European plum, revisits every existing icon and redraws Ginkgo with a more natural spreading fan. [Per-species audit](docs/AUDIT-1.6.md) · [Expansion review](docs/EXPANSION-1.6.md) · [Ginkgo comparison](docs/ginkgo-1.6.png) · [Collection scope](docs/SCOPE.md).
+Version 1.6.1 adds Cultivated apple (`kulturapfel`) in both optical sizes. All existing artwork remains unchanged. [Apple review](docs/AUDIT-1.6.1.md) · [Full collection review from v1.6.0](docs/AUDIT-1.6.md) · [Collection scope](docs/SCOPE.md).
 
 ## Use the icons
 
@@ -208,6 +208,7 @@ IDs use stable German ASCII names. The manifest includes English and German comm
 | `gleditschie`                 | Honey locust           | Gleditschie                 | _Gleditsia triacanthos_        |
 | `pfirsich`                    | Peach                  | Pfirsich                    | _Prunus persica_               |
 | `pflaume`                     | European plum          | Pflaume                     | _Prunus domestica_             |
+| `kulturapfel`                 | Cultivated apple       | Kulturapfel                 | _Malus domestica_              |
 
 ## Botanical scope
 

@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.6.1 — 2026-10-13
+
+### Added
+
+- Cultivated apple / Kulturapfel (`kulturapfel`, _Malus domestica_) in Detail and Compact, bringing the collection to **118 species / 236 standalone SVGs**.
+- Source and foliage comparison, neighboring-fruit-tree review and documented optical reductions in [AUDIT-1.6.1.md](docs/AUDIT-1.6.1.md); current hashes in [audit-1.6.1.json](docs/audit-1.6.1.json).
+- Updated catalog, sprites, gallery, manifest, overview, size reference and both READMEs.
+
+### Preserved
+
+- All **234 existing SVGs are byte-identical to v1.6.0**. No earlier Ginkgo, oak, elm, poplar, pine or plum artwork was replaced.
+- Existing licenses, species IDs, optical-size conventions and accessibility metadata remain in place.
+
+The requested patch version is used for this targeted addition. Both new drawings are source-guided stylizations of a variable cultivated species, not cultivar identifiers.
+
 ## 1.6.0 — 2026-10-13
 
 Expansion from 100 to 117 species: 234 standalone SVGs. Both variants of every existing species were visually revisited with the retained reference material. Ginkgo is redrawn; the other 198 existing SVGs are byte-identical to v1.5.0. All existing IDs and file paths remain stable.
