@@ -1,5 +1,29 @@
 # Changelog
 
+## 1.4.0 — 2026-10-12
+
+Compatible expansion from 68 to 84 species: 168 standalone SVGs in two optical sizes. All 68 previous species were reviewed again; their 136 source SVGs are byte-identical to v1.3.0. No existing artwork was replaced.
+
+### Added
+
+- First reviewed group: Northern red oak, Downy oak, Turkey oak, Silver lime, Red elder, Midland hawthorn, Red raspberry and Sea buckthorn.
+- Second reviewed group: Swiss stone pine, Mountain pine, Dawn redwood, Tree of heaven, Staghorn sumac, Silver maple, Red maple and Cherry laurel. The set now contains nine maples and ten conifers.
+- [Full 68-species audit](docs/AUDIT-1.4.md), a machine-readable source hash record and a [two-round expansion review](docs/EXPANSION-1.4.md).
+- Regression checks for five- versus two-needle fascicle origins, opposite Dawn redwood needles and the new compound-leaf counts.
+
+### Updated
+
+- Both READMEs, catalog, sprites, gallery, overview and size reference for all 84 species.
+- Conifer gallery test derives its expected count from the catalog.
+- Botanical documentation corrects stale file/path totals and uses directly accessible primary references for Ginkgo and Japanese maple.
+- Contribution guidance protects prior drawings with a verified release baseline and explicitly records changed species.
+
+### Review corrections before release
+
+- New oak and Sea buckthorn veins shortened where they exceeded their blades; Sea buckthorn Compact midrib lightened.
+- Red elder and Tree-of-heaven terminal leaflet clearances increased.
+- Silver maple's main vein adjusted through the connected blade between deep sinuses. No clipping masks conceal geometry errors.
+
 ## 1.3.0 — 2026-10-12
 
 Compatible expansion from 52 to 68 species: 136 standalone SVGs in two optical sizes. All 104 previous source SVGs are byte-identical to v1.2.0, including both Pedunculate oak and Wych elm variants.

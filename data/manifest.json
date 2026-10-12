@@ -1,6 +1,6 @@
 {
   "name": "Blatt & Nadel",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "author": "Oliver Simon",
   "copyright": "Copyright 2026 Oliver Simon",
   "license": "CC-BY-4.0",
@@ -1045,7 +1045,7 @@
       "scientificName": "Ginkgo biloba",
       "group": "broadleaf",
       "description": "Fächerförmige, leicht zweilappige Spreite am langen Stiel; dichotom gegabelte Nervatur ohne Mittelrippe. Nacktsamer, in der Galerie nach Blattform gruppiert.",
-      "source": "https://www.efloras.org/florataxon.aspx?flora_id=1&taxon_id=200005235",
+      "source": "https://floranorthamerica.org/Ginkgo_biloba",
       "since": "1.3.0",
       "symbol": "leaf-ginkgo",
       "files": {
@@ -1113,7 +1113,7 @@
       "scientificName": "Acer palmatum",
       "group": "broadleaf",
       "description": "Ausgewählte siebenlappige Form mit lanzettlichen, lang zugespitzten Lappen und unregelmäßig doppelt gesägtem Rand; keine Dissectum-Sorte.",
-      "source": "https://www.efloras.org/florataxon.aspx?flora_id=2&taxon_id=200013064",
+      "source": "https://www.iplant.cn/foc/pdf/Acer.pdf",
       "since": "1.3.0",
       "symbol": "leaf-faecherahorn",
       "files": {
@@ -1170,6 +1170,278 @@
       "files": {
         "detail": "icons/detail/baumhasel.svg",
         "compact": "icons/compact/baumhasel.svg"
+      }
+    },
+    {
+      "id": "roteiche",
+      "name": {
+        "en": "Northern red oak",
+        "de": "Roteiche"
+      },
+      "scientificName": "Quercus rubra",
+      "group": "broadleaf",
+      "description": "Breite, buchtig-fiederspaltige Spreite mit vier Paaren vorwärts gerichteter, grannenspitziger Lappen und deutlich gestieltem, keiligem Grund.",
+      "source": "https://www.infoflora.ch/de/flora/quercus-rubra.html",
+      "since": "1.4.0",
+      "symbol": "leaf-roteiche",
+      "files": {
+        "detail": "icons/detail/roteiche.svg",
+        "compact": "icons/compact/roteiche.svg"
+      }
+    },
+    {
+      "id": "flaumeiche",
+      "name": {
+        "en": "Downy oak",
+        "de": "Flaumeiche"
+      },
+      "scientificName": "Quercus pubescens",
+      "group": "broadleaf",
+      "description": "Ausgewählte flach gerundete Lappenform mit kurzem Stiel und kurz keiligem Grund. Der diagnostische Haarfilz ist im monochromen Oberseitenicon nicht abgebildet.",
+      "source": "https://www.infoflora.ch/de/flora/quercus-pubescens.html",
+      "since": "1.4.0",
+      "symbol": "leaf-flaumeiche",
+      "files": {
+        "detail": "icons/detail/flaumeiche.svg",
+        "compact": "icons/compact/flaumeiche.svg"
+      }
+    },
+    {
+      "id": "zerreiche",
+      "name": {
+        "en": "Turkey oak",
+        "de": "Zerreiche"
+      },
+      "scientificName": "Quercus cerris",
+      "group": "broadleaf",
+      "description": "Längliche Spreite mit ungleichen, spitz gezähnten Lappen, knorpelig zugespitzten Enden und kurzem Stiel; Detail zeigt zwei fadenförmige Nebenblätter.",
+      "source": "https://www.infoflora.ch/de/flora/quercus-cerris.html",
+      "since": "1.4.0",
+      "symbol": "leaf-zerreiche",
+      "files": {
+        "detail": "icons/detail/zerreiche.svg",
+        "compact": "icons/compact/zerreiche.svg"
+      }
+    },
+    {
+      "id": "silberlinde",
+      "name": {
+        "en": "Silver lime",
+        "de": "Silberlinde"
+      },
+      "scientificName": "Tilia tomentosa",
+      "group": "broadleaf",
+      "description": "Breit herzförmige, zugespitzte und gesägte Spreite mit leicht ungleichem Grund und handförmigen Basalnerven; der silbrige Haarfilz der Unterseite bleibt unkodiert.",
+      "source": "https://www.infoflora.ch/de/flora/tilia-tomentosa.html",
+      "since": "1.4.0",
+      "symbol": "leaf-silberlinde",
+      "files": {
+        "detail": "icons/detail/silberlinde.svg",
+        "compact": "icons/compact/silberlinde.svg"
+      }
+    },
+    {
+      "id": "roter-holunder",
+      "name": {
+        "en": "Red elder",
+        "de": "Roter Holunder"
+      },
+      "scientificName": "Sambucus racemosa",
+      "group": "broadleaf",
+      "description": "Unpaarig gefiedertes Blatt mit fünf zugespitzten, fein gesägten Teilblättern. Die Laubform allein trennt roten und schwarzen Holunder nicht sicher.",
+      "source": "https://www.infoflora.ch/de/flora/sambucus-racemosa.html",
+      "since": "1.4.0",
+      "symbol": "leaf-roter-holunder",
+      "files": {
+        "detail": "icons/detail/roter-holunder.svg",
+        "compact": "icons/compact/roter-holunder.svg"
+      }
+    },
+    {
+      "id": "zweigriffeliger-weissdorn",
+      "name": {
+        "en": "Midland hawthorn",
+        "de": "Zweigriffeliger Weißdorn"
+      },
+      "scientificName": "Crataegus laevigata",
+      "group": "broadleaf",
+      "description": "Breite, nur außen flach dreilappige Spreite mit schmalen Buchten, kurzen Randzähnen, keiligem Grund und nach innen gebogener Nervatur.",
+      "source": "https://www.infoflora.ch/de/flora/crataegus-laevigata.html",
+      "since": "1.4.0",
+      "symbol": "leaf-zweigriffeliger-weissdorn",
+      "files": {
+        "detail": "icons/detail/zweigriffeliger-weissdorn.svg",
+        "compact": "icons/compact/zweigriffeliger-weissdorn.svg"
+      }
+    },
+    {
+      "id": "himbeere",
+      "name": {
+        "en": "Red raspberry",
+        "de": "Himbeere"
+      },
+      "scientificName": "Rubus idaeus",
+      "group": "broadleaf",
+      "description": "Ausgewähltes dreizähliges Blatt mit größerem, lang gestieltem Endteilblatt und doppelt gesägten Teilblättern; Schösslinge können fünf oder sieben tragen.",
+      "source": "https://www.infoflora.ch/de/flora/rubus-idaeus.html",
+      "since": "1.4.0",
+      "symbol": "leaf-himbeere",
+      "files": {
+        "detail": "icons/detail/himbeere.svg",
+        "compact": "icons/compact/himbeere.svg"
+      }
+    },
+    {
+      "id": "sanddorn",
+      "name": {
+        "en": "Sea buckthorn",
+        "de": "Sanddorn"
+      },
+      "scientificName": "Hippophae rhamnoides",
+      "group": "broadleaf",
+      "description": "Schmal-lanzettliche, ganzrandige Spreite mit kurzem Stiel; silbrige Schildhaare und eingerollter Rand sind in der Oberansicht nicht texturiert.",
+      "source": "https://www.infoflora.ch/de/flora/hippopha%C3%AB-rhamnoides.html",
+      "since": "1.4.0",
+      "symbol": "leaf-sanddorn",
+      "files": {
+        "detail": "icons/detail/sanddorn.svg",
+        "compact": "icons/compact/sanddorn.svg"
+      }
+    },
+    {
+      "id": "zirbelkiefer",
+      "name": {
+        "en": "Swiss stone pine",
+        "de": "Zirbelkiefer · Arve"
+      },
+      "scientificName": "Pinus cembra",
+      "group": "conifer",
+      "description": "Drei Kurztriebe mit je fünf spitzen Nadeln; die Büschelzahl ist schematisch, die Fünferbündel bleiben in beiden Größen erhalten. Ausgewählte ältere Bündel ohne vergängliche Scheide.",
+      "source": "https://www.infoflora.ch/de/flora/pinus-cembra.html",
+      "since": "1.4.0",
+      "symbol": "leaf-zirbelkiefer",
+      "files": {
+        "detail": "icons/detail/zirbelkiefer.svg",
+        "compact": "icons/compact/zirbelkiefer.svg"
+      }
+    },
+    {
+      "id": "bergkiefer",
+      "name": {
+        "en": "Mountain pine",
+        "de": "Bergkiefer"
+      },
+      "scientificName": "Pinus mugo",
+      "group": "conifer",
+      "description": "Vier Kurztriebe mit klaren Zweierbündeln und gemeinsamer Scheide; kurze, derbe, leicht gebogene Nadeln. Die Form steht für Pinus mugo im weiteren Sinn.",
+      "source": "https://www.infoflora.ch/de/flora/pinus-mugo.html",
+      "since": "1.4.0",
+      "symbol": "leaf-bergkiefer",
+      "files": {
+        "detail": "icons/detail/bergkiefer.svg",
+        "compact": "icons/compact/bergkiefer.svg"
+      }
+    },
+    {
+      "id": "urweltmammutbaum",
+      "name": {
+        "en": "Dawn redwood",
+        "de": "Urweltmammutbaum"
+      },
+      "scientificName": "Metasequoia glyptostroboides",
+      "group": "conifer",
+      "description": "Ein sommergrüner Seitenzweig mit gegenständigen, flachen und stumpfen Nadeln; 14 Paare in Detail, neun in Compact, mit wechselnden Nadellängen.",
+      "source": "https://plantdatabase.kpu.ca/PlantPrint/megl",
+      "since": "1.4.0",
+      "symbol": "leaf-urweltmammutbaum",
+      "files": {
+        "detail": "icons/detail/urweltmammutbaum.svg",
+        "compact": "icons/compact/urweltmammutbaum.svg"
+      }
+    },
+    {
+      "id": "goetterbaum",
+      "name": {
+        "en": "Tree of heaven",
+        "de": "Götterbaum"
+      },
+      "scientificName": "Ailanthus altissima",
+      "group": "broadleaf",
+      "description": "Unpaarig gefiedertes Blatt mit neun Teilblättern; weitgehend glatte Ränder mit einzelnen markanten Basalzähnen. Unterseitige Drüsenflächen werden nicht als Oberseitenpunkte vorgetäuscht.",
+      "source": "https://www.infoflora.ch/de/flora/ailanthus-altissima.html",
+      "since": "1.4.0",
+      "symbol": "leaf-goetterbaum",
+      "files": {
+        "detail": "icons/detail/goetterbaum.svg",
+        "compact": "icons/compact/goetterbaum.svg"
+      }
+    },
+    {
+      "id": "essigbaum",
+      "name": {
+        "en": "Staghorn sumac",
+        "de": "Essigbaum"
+      },
+      "scientificName": "Rhus typhina",
+      "group": "broadleaf",
+      "description": "Unpaarig gefiedertes Blatt mit elf lanzettlichen, spitz gesägten Teilblättern; die ungeflügelte Blattspindel bleibt sichtbar.",
+      "source": "https://www.infoflora.ch/de/flora/rhus-typhina.html",
+      "since": "1.4.0",
+      "symbol": "leaf-essigbaum",
+      "files": {
+        "detail": "icons/detail/essigbaum.svg",
+        "compact": "icons/compact/essigbaum.svg"
+      }
+    },
+    {
+      "id": "silberahorn",
+      "name": {
+        "en": "Silver maple",
+        "de": "Silberahorn"
+      },
+      "scientificName": "Acer saccharinum",
+      "group": "broadleaf",
+      "description": "Fünflappige Spreite mit tiefen, schmalen, am Grund gerundeten Buchten und einem basal verschmälerten Mittellappen; grobe Zähne sitzen überwiegend im äußeren Lappenbereich.",
+      "source": "https://www.infoflora.ch/de/flora/acer-saccharinum.html",
+      "since": "1.4.0",
+      "symbol": "leaf-silberahorn",
+      "files": {
+        "detail": "icons/detail/silberahorn.svg",
+        "compact": "icons/compact/silberahorn.svg"
+      }
+    },
+    {
+      "id": "rotahorn",
+      "name": {
+        "en": "Red maple",
+        "de": "Rotahorn"
+      },
+      "scientificName": "Acer rubrum",
+      "group": "broadleaf",
+      "description": "Ausgewählte dreilappige Spreite mit breiten, spitzen Buchten, gesägten Lappen und langem Stiel; der Mittellappen wird zur Basis breiter.",
+      "source": "https://www.infoflora.ch/de/flora/acer-rubrum.html",
+      "since": "1.4.0",
+      "symbol": "leaf-rotahorn",
+      "files": {
+        "detail": "icons/detail/rotahorn.svg",
+        "compact": "icons/compact/rotahorn.svg"
+      }
+    },
+    {
+      "id": "kirschlorbeer",
+      "name": {
+        "en": "Cherry laurel",
+        "de": "Kirschlorbeer"
+      },
+      "scientificName": "Prunus laurocerasus",
+      "group": "broadleaf",
+      "description": "Verkehrt-eilanzettliche bis länglich-elliptische, kurz zugespitzte Spreite mit sehr feinem Rand und kurzem Stiel; unterseitige Drüsen bleiben in der Oberansicht ausgelassen.",
+      "source": "https://www.infoflora.ch/de/flora/prunus-laurocerasus.html",
+      "since": "1.4.0",
+      "symbol": "leaf-kirschlorbeer",
+      "files": {
+        "detail": "icons/detail/kirschlorbeer.svg",
+        "compact": "icons/compact/kirschlorbeer.svg"
       }
     }
   ]

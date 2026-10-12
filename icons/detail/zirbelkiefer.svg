@@ -1,0 +1,25 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Zirbelkiefer · Arve · Pinus cembra">
+  <title>Zirbelkiefer · Arve · Pinus cembra</title>
+  <path class="leaf-axis" d="M18 91 Q26 85 29 81 Q40 75 49 65 Q62 58 69 49 L73 45" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-axis" d="M29 81 L29 78" fill="none" stroke="currentColor" stroke-width="2"/>
+  <path class="leaf-needle" d="M28.599 78.226 C22.973 69.595 14.478 53.733 11 46 C15.279 53.282 24.075 68.975 29.401 77.774 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M28.554 78.114 C25.103 67.361 20.564 48.159 19 39 C21.455 47.93 26.328 67.047 29.446 77.886 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M28.54 78.02 C27.309 65.45 26.701 43.384 27 33 C27.62 43.343 28.572 65.394 29.46 77.98 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M28.544 77.938 C29.558 65.527 32.867 44.017 35 34 C33.779 44.142 30.811 65.698 29.456 78.062 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M28.567 77.845 C31.854 66.697 39.065 47.713 43 39 C39.931 48.024 33.045 67.125 29.433 78.155 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-axis" d="M49 65 L49 62" fill="none" stroke="currentColor" stroke-width="2"/>
+  <path class="leaf-needle" d="M48.57 62.164 C44.302 52.884 38.28 36.091 36 28 C39.139 35.763 45.484 52.433 49.43 61.836 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M48.543 62.054 C46.475 50.374 44.395 29.75 44 20 C45.309 29.641 47.732 50.224 49.457 61.946 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M48.541 61.97 C48.71 49.046 50.552 26.531 52 16 C51.47 26.59 49.972 49.129 49.459 62.03 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M48.555 61.883 C50.984 49.953 56.735 29.467 60 20 C57.625 29.701 52.208 50.274 49.445 62.117 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M48.593 61.785 C53.318 51.391 62.958 33.925 68 26 C63.772 34.355 54.437 51.982 49.407 62.215 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-axis" d="M69 49 L69 46" fill="none" stroke="currentColor" stroke-width="2"/>
+  <path class="leaf-needle" d="M68.549 46.093 C65.931 36.708 62.866 19.973 62 12 C63.767 19.788 67.17 36.453 69.451 45.907 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M68.54 46 C67.868 34.8 68.24 15.2 69 6 C69.16 15.2 69.132 34.8 69.46 46 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M68.549 45.908 C70.131 34.852 74.416 15.817 77 7 C75.317 16.002 71.37 35.107 69.451 46.092 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M68.579 45.814 C72.164 36.023 79.855 19.513 84 12 C80.696 19.885 73.321 36.533 69.421 46.186 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M68.642 45.711 C73.999 38.008 84.579 25.502 90 20 C85.294 26.081 74.983 38.803 69.358 46.289 Z" fill="currentColor" stroke="none"/>
+</svg>

@@ -1,8 +1,8 @@
 {
   "name": "blatt-und-nadel",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "private": true,
-  "description": "68 woody species found in Central Europe in two SVG optical sizes",
+  "description": "84 woody species found in Central Europe in two SVG optical sizes",
   "author": "Oliver Simon",
   "license": "SEE LICENSE IN LICENSES/README.md",
   "type": "module",

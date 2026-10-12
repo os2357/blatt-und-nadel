@@ -1,0 +1,17 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Zweigriffeliger Weißdorn · Crataegus laevigata">
+  <title>Zweigriffeliger Weißdorn · Crataegus laevigata</title>
+  <path class="leaf-blade" d="M48 72 C39 68 29 63 24 54 L20 51 L22 48 L18 44 L21 42 L18 38 L22 37 L21 33 L25 34 Q29 27 33 28 L35 25 L38 28 Q42 38 43 33 L42 26 L44 23 L42 20 L46 20 L47 16 L51 18 L54 15 L56 19 L61 18 L60 23 L64 24 L62 29 Q58 38 63 34 L68 29 L70 32 L74 31 L74 36 L79 35 L77 40 L81 42 L78 45 L81 49 L77 52 Q67 67 48 72 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M39 91 Q45 83 48 72" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M48 72 Q49 42 51 21" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M48 67 C34 60 29 46 29 36" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.3 55 Q40 44 37 32" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 67 C64 59 71 46 71 36" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.3 55 Q60 43 65 35" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.8 42 Q46 33 46 28" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.8 42 Q55 33 58 27" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M31 48 Q24 44 23 40" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M69 46 Q74 43 75 40" fill="none" stroke="currentColor" stroke-width="1.12"/>
+</svg>

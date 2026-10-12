@@ -1,0 +1,553 @@
+{
+  "release": "1.4.0",
+  "baselineRelease": "1.3.0",
+  "date": "2026-10-12",
+  "existingSpecies": 68,
+  "existingSourceSVGs": 136,
+  "unchangedSourceSVGs": [
+    {
+      "file": "icons/detail/fichte.svg",
+      "sha256": "cc54f82af0fe43ba4ca078a224d7215e9e93b384ffcd248665aa0ae8f06832fa"
+    },
+    {
+      "file": "icons/compact/fichte.svg",
+      "sha256": "63b8bfabb5c8e5b3282890929200ded3c8a40493868b72eb6b588b20cdafe891"
+    },
+    {
+      "file": "icons/detail/kiefer.svg",
+      "sha256": "57a4cd9b9fdef5c6a305c1ee740d5215ef3ad55d0b332b72df32dc2fd439cd93"
+    },
+    {
+      "file": "icons/compact/kiefer.svg",
+      "sha256": "1231fa9800b582e0df636b03aa90f9e82ee7ac90691d016655578d0a63ff410a"
+    },
+    {
+      "file": "icons/detail/laerche.svg",
+      "sha256": "06189f50aa8afdf45e914b10f4074e299420affa90fe73bd7ae0bfce0f250888"
+    },
+    {
+      "file": "icons/compact/laerche.svg",
+      "sha256": "11c7c8b2a1203879c5a0b60b19a95b7ce0e1523aa63a21594617f9ca3136a8c1"
+    },
+    {
+      "file": "icons/detail/tanne.svg",
+      "sha256": "82d44a80cf996bab4d7c9034e1d555cff8a4add98db02601265b4cf09a7854df"
+    },
+    {
+      "file": "icons/compact/tanne.svg",
+      "sha256": "33964d1ab66ef3481508dbec8aa72a170aefbfc4bf1d8f5afa25b721b54525ff"
+    },
+    {
+      "file": "icons/detail/douglasie.svg",
+      "sha256": "d3c3d2484fa3cbb3ea9352f12527a5db799d810418899c662b63aba7100be992"
+    },
+    {
+      "file": "icons/compact/douglasie.svg",
+      "sha256": "b728b24e0c54b73ec2643dc8c1f4087ff38e5b4846f7815e2fb419a50f67dd58"
+    },
+    {
+      "file": "icons/detail/eibe.svg",
+      "sha256": "f091cdad3d31e009d5336f006174c0b987df7c8e58d5f6c006a6d7458dd22742"
+    },
+    {
+      "file": "icons/compact/eibe.svg",
+      "sha256": "b0437694269391c498eb7e7c1d4d06906ee5653709f324cbb66e2c49098f0466"
+    },
+    {
+      "file": "icons/detail/wacholder.svg",
+      "sha256": "6e4ebe72af9e3abb00a4199bee8152f216c15b1a4a2417905a922d3d8b77a748"
+    },
+    {
+      "file": "icons/compact/wacholder.svg",
+      "sha256": "62d539d79bc17efbc8535831ac2cf1a57514cc7c70d1647e60a4fcd36a85f17c"
+    },
+    {
+      "file": "icons/detail/stieleiche.svg",
+      "sha256": "74730f8900617de96366f8575b8a6f4e8f849ccd0862d304a76353a74a86430f"
+    },
+    {
+      "file": "icons/compact/stieleiche.svg",
+      "sha256": "0f2337a43457153b168c151d679efc4327f32779390a40b338eba53a74aee939"
+    },
+    {
+      "file": "icons/detail/traubeneiche.svg",
+      "sha256": "12da8a2ce7e307bf8e311d14b58c8b786df6c3ecf14be49791d570880d25512c"
+    },
+    {
+      "file": "icons/compact/traubeneiche.svg",
+      "sha256": "14632d57965524b529d07e671aed9c100234faef6a234efd15f936a9ef9a9cac"
+    },
+    {
+      "file": "icons/detail/rotbuche.svg",
+      "sha256": "ee0cb4ca16d534769e5ee2f73507fa60af89fbe08754b6d66b11bbd5744c0810"
+    },
+    {
+      "file": "icons/compact/rotbuche.svg",
+      "sha256": "4730119d6c72cf25918c1a34fb90a74c5e224ef482fde0789f04ba452550fc73"
+    },
+    {
+      "file": "icons/detail/haengebirke.svg",
+      "sha256": "8855d84cb90ecd7f8701cc9f5d396929c551900102eafa1a31aa718e64f668ef"
+    },
+    {
+      "file": "icons/compact/haengebirke.svg",
+      "sha256": "8f7349603e4affedc55b17abef8a7cb4fd9c89041aff9c5fcca9295a77ef7e71"
+    },
+    {
+      "file": "icons/detail/schwarzpappel.svg",
+      "sha256": "0461e8771d4c30ed1f0b31d1f17c60b0caf36c55355945d05c9caf1cbca99b48"
+    },
+    {
+      "file": "icons/compact/schwarzpappel.svg",
+      "sha256": "7439a69e39742d7e0cb34fbb525e4c4e1d8d1ef55fc62b59657dadfa18558a55"
+    },
+    {
+      "file": "icons/detail/espe.svg",
+      "sha256": "f811ecf09cb81945217c53da09a79dfbd27a7dd4bc7fd639782d65d06ca9ab6c"
+    },
+    {
+      "file": "icons/compact/espe.svg",
+      "sha256": "78720b5cb9f5b1da4c59d64994e28ffdca24828bba52ef86fc4b474aa287df4b"
+    },
+    {
+      "file": "icons/detail/schwarzerle.svg",
+      "sha256": "38714a699863c590789b64bda52508f8768b1050f9e5a61e1b4cd5cb30b6b404"
+    },
+    {
+      "file": "icons/compact/schwarzerle.svg",
+      "sha256": "72a93a95a9bc5f30b58cfa6e3053328bc8b44652096983d4f977f9ac7f22de42"
+    },
+    {
+      "file": "icons/detail/hainbuche.svg",
+      "sha256": "4bcebd581b978331744883944375588f436e95b4cdcc31f7cdcddea94a2cf5eb"
+    },
+    {
+      "file": "icons/compact/hainbuche.svg",
+      "sha256": "7f4f070fdce1147216a7f4d2ed5672f320cd9298e8abe763f757e630fafc9741"
+    },
+    {
+      "file": "icons/detail/winterlinde.svg",
+      "sha256": "f91ad4d5cab6bbcb8ce8ab05f3c3f04936402149408d8885f5eef038ba6a5c82"
+    },
+    {
+      "file": "icons/compact/winterlinde.svg",
+      "sha256": "4801b7ece3dbe869bd2635d936f6f5360aaffc92af34bce14d6b76350285d71d"
+    },
+    {
+      "file": "icons/detail/hasel.svg",
+      "sha256": "bf7e975ecf55680310f4b9ab29ff459e0274d9804a7568aecc852d00baee2046"
+    },
+    {
+      "file": "icons/compact/hasel.svg",
+      "sha256": "92b8efba847ffb7db3de9f2a01a023ed634b84ce7a62b162242f53633ffd3c94"
+    },
+    {
+      "file": "icons/detail/bergahorn.svg",
+      "sha256": "6edb5e16c7cd2c87c45884cdbf435a060e1e95be7e8276f51c87d324c063e59e"
+    },
+    {
+      "file": "icons/compact/bergahorn.svg",
+      "sha256": "5fb381069e1498344134374a12c31194e36441a6af6eb2a1ad3b92f83869da3f"
+    },
+    {
+      "file": "icons/detail/spitzahorn.svg",
+      "sha256": "a0ef3faa5934b806b5e9fc3780d9e94fbc1deb455c2a089bb0b1fab931e9d7f6"
+    },
+    {
+      "file": "icons/compact/spitzahorn.svg",
+      "sha256": "3055228298396fed6434e3d8cff65ba1a14bc9c63b4e070541f8d49aaf55f0b3"
+    },
+    {
+      "file": "icons/detail/feldahorn.svg",
+      "sha256": "65a23be2d04b575c3a0c661d55ac72d2f90f54a0d13b135a542fa625c9ce02e1"
+    },
+    {
+      "file": "icons/compact/feldahorn.svg",
+      "sha256": "9f3e3c55c5676e18b93e817185c63a8f736e503b99f748a0206dd2eb6a72baa9"
+    },
+    {
+      "file": "icons/detail/esche.svg",
+      "sha256": "b1866ed243317095d0a3bb908018b044faf0ba58e7af667d05adf2570abe6cb5"
+    },
+    {
+      "file": "icons/compact/esche.svg",
+      "sha256": "ed93f2bfa7416e5266a9b6ec6cdf0e255ff8f3929a0aef4b52131d92b1b29ed8"
+    },
+    {
+      "file": "icons/detail/bergulme.svg",
+      "sha256": "968901c845b02f87809c426515cd275335549b4d525546f460780e161aeac264"
+    },
+    {
+      "file": "icons/compact/bergulme.svg",
+      "sha256": "3cd17f23861cadaf1435119afa418066d3230c35da452a454ed90e08cad2e695"
+    },
+    {
+      "file": "icons/detail/salweide.svg",
+      "sha256": "5e73e4d3861a0f9e2b6a7f9ed05f4fbc812fc9dc6e75c61bdd31626fa6d4fb06"
+    },
+    {
+      "file": "icons/compact/salweide.svg",
+      "sha256": "4b01b0a58a1a2f9236a9b0e4df4931b9ee0eead1a0ccb9391caa9712bc251310"
+    },
+    {
+      "file": "icons/detail/silberweide.svg",
+      "sha256": "c8b1af6d0a98932db017f4e403fa29519e33990131e7bdb566282d4ec7fe708d"
+    },
+    {
+      "file": "icons/compact/silberweide.svg",
+      "sha256": "2ba4a4231658c1f36aacb35c1cf20bca4504405970b54f75308269dbff42a73b"
+    },
+    {
+      "file": "icons/detail/rosskastanie.svg",
+      "sha256": "15b44f56197a561608448a027fe71d31b7dbe38343b6a20f0cbd76d893aad831"
+    },
+    {
+      "file": "icons/compact/rosskastanie.svg",
+      "sha256": "7d367dda4fd4c485c793ddc6bc70e34157f4e83e8ff3ba3828fc8288ad7e875f"
+    },
+    {
+      "file": "icons/detail/edelkastanie.svg",
+      "sha256": "7834a63810b85c4b9425ad58f8628f15ba6b8762010523d54494c2d1a9cb0d87"
+    },
+    {
+      "file": "icons/compact/edelkastanie.svg",
+      "sha256": "269db844eaa5f732af382f8e91c19d73465992f8a2b46902ce6ad46a5b568dd5"
+    },
+    {
+      "file": "icons/detail/vogelbeere.svg",
+      "sha256": "fff0fe95bb353e25243c46e12dae29c99a1277069d38db65ea9fdeb1a1f2689f"
+    },
+    {
+      "file": "icons/compact/vogelbeere.svg",
+      "sha256": "2ac0a1f1469141c1b04f655aa9fc00a735797dbe2c04c9247f03ac404c52d6f5"
+    },
+    {
+      "file": "icons/detail/robinie.svg",
+      "sha256": "bcd3b24adbaed6f3295452690641052538c5147887ab5a89b6d7a2a5e9c85a09"
+    },
+    {
+      "file": "icons/compact/robinie.svg",
+      "sha256": "905d2203dd3280b1064c61e70ee1e5c8fef6f6df5bd6a747fad0eca9ae4c4101"
+    },
+    {
+      "file": "icons/detail/schwarzer-holunder.svg",
+      "sha256": "c597c5f18a50716193f44b0907f574e2f53104b8f0acc4d60e4763e20b1ee31a"
+    },
+    {
+      "file": "icons/compact/schwarzer-holunder.svg",
+      "sha256": "5e9bd1a1e21c8f3aa74626d868ba22efcb3fd5ec9ed7b329e648a9ee5271eb3e"
+    },
+    {
+      "file": "icons/detail/eingriffeliger-weissdorn.svg",
+      "sha256": "d4c28dbf11795edaad128b0aae890246b21536fe8f317440dfe0d5106b0fd269"
+    },
+    {
+      "file": "icons/compact/eingriffeliger-weissdorn.svg",
+      "sha256": "86ad7ea3dc190a8f0c6a3a76854fe9009cd286922b13245cb736d573a160ca1a"
+    },
+    {
+      "file": "icons/detail/schlehe.svg",
+      "sha256": "3afc9367decfdb7856ecac37cf64b9514601f6ec96d14f1e7eadb038592be8f1"
+    },
+    {
+      "file": "icons/compact/schlehe.svg",
+      "sha256": "1c63620501298084ad7b2098e90a28334210cd25de5591036e43e47ab52f2c10"
+    },
+    {
+      "file": "icons/detail/roter-hartriegel.svg",
+      "sha256": "53bbec205e19f35cdaa2e78391b53cb938e790fb082188f01927fb330221b5e1"
+    },
+    {
+      "file": "icons/compact/roter-hartriegel.svg",
+      "sha256": "3142e6dc76f0ebbc260593e4cdc4848a000561ca6e9ae6e2c08d00e28538fde8"
+    },
+    {
+      "file": "icons/detail/gewoehnlicher-schneeball.svg",
+      "sha256": "7c05bc0f0949cd0a6f16a698ffea42368bbd9714f2ce10f44e51a00de47d01a4"
+    },
+    {
+      "file": "icons/compact/gewoehnlicher-schneeball.svg",
+      "sha256": "582773bc034cfea7c94c3f68bffbc48c546e6703cf0fb2656b6f8c54e5c8b205"
+    },
+    {
+      "file": "icons/detail/stechpalme.svg",
+      "sha256": "c6e99f747c4c1a6bbf4a2ed4c04cfeafdfb6b61ea60f73d1a59f3d429ead3987"
+    },
+    {
+      "file": "icons/compact/stechpalme.svg",
+      "sha256": "440bad6c3d1e2610910b4a70b77a28ca5790b4abdbc705466c886585dc7c0829"
+    },
+    {
+      "file": "icons/detail/faulbaum.svg",
+      "sha256": "2f980f38edd5d367fed772ccfd4eb3f6d1265777d109b94109c44a6012045fb3"
+    },
+    {
+      "file": "icons/compact/faulbaum.svg",
+      "sha256": "83534374fc82b41047fdd0063f0942f0a646874a853405baa4782e97714b4a68"
+    },
+    {
+      "file": "icons/detail/pfaffenhuetchen.svg",
+      "sha256": "d9b8f71227f10fc44d6eb6eeefd8ebd51a4e5d986f4070a76c8e9a28642e64ce"
+    },
+    {
+      "file": "icons/compact/pfaffenhuetchen.svg",
+      "sha256": "bf21bef4fda595d96713971180e2c2898e0800a20f7605475dcbd1fdbd75905d"
+    },
+    {
+      "file": "icons/detail/hundsrose.svg",
+      "sha256": "a261379205e172fb7d610caf91ac8ebe61383030c9d13906cc786f6c889b135d"
+    },
+    {
+      "file": "icons/compact/hundsrose.svg",
+      "sha256": "99865891528f78719e653089af7a72d4503e2f55a46a319c92f11177e94af0a8"
+    },
+    {
+      "file": "icons/detail/kornelkirsche.svg",
+      "sha256": "a4308715d7a4390d2a15dac43c69c6ff8ba93453144a8a5dc5fded1ac7e80323"
+    },
+    {
+      "file": "icons/compact/kornelkirsche.svg",
+      "sha256": "c6fae03410a96fd90c4b3a15cf4e43c3f3545fe8b0ba6ed746ca33513396e614"
+    },
+    {
+      "file": "icons/detail/vogelkirsche.svg",
+      "sha256": "861bc47d873e1049067a3b1447c4cf448499ae831e1899d0fd3dc5e3afd90106"
+    },
+    {
+      "file": "icons/compact/vogelkirsche.svg",
+      "sha256": "3fa9473c12f90eee085d0816483d471977ff0ad27052095397d0beb09993b832"
+    },
+    {
+      "file": "icons/detail/sommerlinde.svg",
+      "sha256": "5d99b46e49caf8c59cf226aec835f91c23f2c1ce2f3a496dd747d2e84067a309"
+    },
+    {
+      "file": "icons/compact/sommerlinde.svg",
+      "sha256": "f45d3f94f406524518857520558fc56c451ec94eec4433dbaaa7a8a59cfa6ae0"
+    },
+    {
+      "file": "icons/detail/walnuss.svg",
+      "sha256": "09b37a1cdbcb716ada50badef52389ceb82321e2b161076bd7ee49bfe34f9a4a"
+    },
+    {
+      "file": "icons/compact/walnuss.svg",
+      "sha256": "a6ff9d8d300470f2237dea39ce1c1f43188551fb178b07262f3887d835051966"
+    },
+    {
+      "file": "icons/detail/moorbirke.svg",
+      "sha256": "16cdc2e74068a95c5bf3a0a778e1f6d114d6406e693678561b775aecd227c9ca"
+    },
+    {
+      "file": "icons/compact/moorbirke.svg",
+      "sha256": "c9db4d818e81a7710951062d328cf228474ff5e171b0674873c1a8c2e8053964"
+    },
+    {
+      "file": "icons/detail/flatterulme.svg",
+      "sha256": "172460cdd6aaf215787b2b12c67635013a5b05ea94f146ac7f24a02385263e88"
+    },
+    {
+      "file": "icons/compact/flatterulme.svg",
+      "sha256": "5960e95299c5513ea4fec4fe64d5690d537bc299c102c7ea24f14529cc739333"
+    },
+    {
+      "file": "icons/detail/elsbeere.svg",
+      "sha256": "85899700ed6e466ce1bd6d662c3c73996b0120e9479bb89676f90c1a753b1794"
+    },
+    {
+      "file": "icons/compact/elsbeere.svg",
+      "sha256": "c9fb00519f350fd7436ea168dfec90615e542df8fa1ac58cc6bf6073a1cedc72"
+    },
+    {
+      "file": "icons/detail/franzoesischer-ahorn.svg",
+      "sha256": "bc6df4270668515b6deee6e47034e0d3ff04bee05c1abd16b009e5952d4f5d73"
+    },
+    {
+      "file": "icons/compact/franzoesischer-ahorn.svg",
+      "sha256": "a77bcc6c618a2570657813d88db1278ca276d76dd482c3c16f9248de4bc5df01"
+    },
+    {
+      "file": "icons/detail/eschenahorn.svg",
+      "sha256": "194f50ecb01f42cb1e419bf5b1df6bce3618160f3a2619d453c610ff9fe3f3c4"
+    },
+    {
+      "file": "icons/compact/eschenahorn.svg",
+      "sha256": "57b4e27db36deac9ae224da51c685b8abf49e4ae4d39e1cfc9f529b76676e65b"
+    },
+    {
+      "file": "icons/detail/liguster.svg",
+      "sha256": "cc2d7a5bea198930ee9f48bf8c98dc52c3f57264dd3c4e85e52d5abb6cb1b325"
+    },
+    {
+      "file": "icons/compact/liguster.svg",
+      "sha256": "aebf48859a47905a03bcc1462facd083de3f6b76d258b34c5a417de4eb172024"
+    },
+    {
+      "file": "icons/detail/berberitze.svg",
+      "sha256": "32b893333305481479dea016a6943c6f969568ce7c8a98a28dbdc7997f53b775"
+    },
+    {
+      "file": "icons/compact/berberitze.svg",
+      "sha256": "8f5d4b38527ab39d5851fbd5997ec24d5daf446ae66059e20d41aa9819769919"
+    },
+    {
+      "file": "icons/detail/rote-heckenkirsche.svg",
+      "sha256": "7b6758cf0f874eb09dc5a81f3b455e80b9bbc777219fa1272ed0a83e29f9a8aa"
+    },
+    {
+      "file": "icons/compact/rote-heckenkirsche.svg",
+      "sha256": "833ba9f811bb9860ddc5e76c99ca4bf4d1281bbeb629a6bc295cf5a85feaf1f4"
+    },
+    {
+      "file": "icons/detail/kreuzdorn.svg",
+      "sha256": "4b219f31e1bd7d80aff1592c6e9002ef2ff9f05622f2ff3da265b3206f98b65b"
+    },
+    {
+      "file": "icons/compact/kreuzdorn.svg",
+      "sha256": "70e98dbd1ee41c074873125deb09f7c303f8928935a666e2e6291612d86dc51a"
+    },
+    {
+      "file": "icons/detail/felsenbirne.svg",
+      "sha256": "d6039563203d04c0e5bdc3ee15c5a817dd104f52f9ce1cc0f02447f3becfed70"
+    },
+    {
+      "file": "icons/compact/felsenbirne.svg",
+      "sha256": "ab41c0a5a886ca5be1d6f955a0d12487dcc172be4031a84e9fd7604baa21fed6"
+    },
+    {
+      "file": "icons/detail/traubenkirsche.svg",
+      "sha256": "8b024f18ec2f78bb3295e6cfabaf227ed7fb017521cddacbfb7fc8b32ea5af95"
+    },
+    {
+      "file": "icons/compact/traubenkirsche.svg",
+      "sha256": "d966e4f299d99cfd6e00608c36ab1b4489da79252cb9b032c823de19e96992ee"
+    },
+    {
+      "file": "icons/detail/feldulme.svg",
+      "sha256": "df64db01c3e5eb5c8f94412c0286545cf94d33e287f69e536bacc8564062de33"
+    },
+    {
+      "file": "icons/compact/feldulme.svg",
+      "sha256": "45a20fbfb4365c0304e8ec48f914c2b5de61552c7418bf6323e70d14a50dbd4b"
+    },
+    {
+      "file": "icons/detail/grauerle.svg",
+      "sha256": "6ed5a45144709f4c89ddc1a160fa9d4b9ffcd7dc0695e8930ed74af506498edf"
+    },
+    {
+      "file": "icons/compact/grauerle.svg",
+      "sha256": "2e750555fae98d09f57c463ef506597e29255d3291167727a5014e6fcd6f8ad4"
+    },
+    {
+      "file": "icons/detail/mehlbeere.svg",
+      "sha256": "68f1b84880e20753a5cf5aa445e7677be9dc49a35f17bbfefc3f8fd544a45994"
+    },
+    {
+      "file": "icons/compact/mehlbeere.svg",
+      "sha256": "c2a32542c60103487fa19dfd84bea5947536f7a0d12202fe29f648191a8eb8f6"
+    },
+    {
+      "file": "icons/detail/wildapfel.svg",
+      "sha256": "a62a67cd73a8c6889e50f422ff1460e68b03fbd4c423026c4a6fe42c86acc9d2"
+    },
+    {
+      "file": "icons/compact/wildapfel.svg",
+      "sha256": "eba0154795ef41390ee0e7e5eb54f8afe4687559757186d5bdbcfbe21f39a56d"
+    },
+    {
+      "file": "icons/detail/wildbirne.svg",
+      "sha256": "0fa4367160bf4387b67b222394f6ae2874952fec204400af6dfc20b660c54182"
+    },
+    {
+      "file": "icons/compact/wildbirne.svg",
+      "sha256": "98b4c138de374031c8806027b81177ca60ea416304bd1d9858be98b869720149"
+    },
+    {
+      "file": "icons/detail/wolliger-schneeball.svg",
+      "sha256": "a8910e62676cbff5ef29bb7fc8e80585235b9a15d6b71fcde7d8a36f741d60cd"
+    },
+    {
+      "file": "icons/compact/wolliger-schneeball.svg",
+      "sha256": "0f8382874f4be0189db629d67aa17f8f6c462997a0ac1998f7b639c795b111f5"
+    },
+    {
+      "file": "icons/detail/silberpappel.svg",
+      "sha256": "b561960fb82c10c7e0c26db8af271c2b2f2212d1cbef253307bcacc7cd5aa3b4"
+    },
+    {
+      "file": "icons/compact/silberpappel.svg",
+      "sha256": "0faa2dfcd29711b8d9daefad0a0e3e7bef0818afd77cf99c75a67165578d4815"
+    },
+    {
+      "file": "icons/detail/speierling.svg",
+      "sha256": "acff8a835dc6f44874177718ab849d20f2d8935f52ffe43dedb349cb5104d592"
+    },
+    {
+      "file": "icons/compact/speierling.svg",
+      "sha256": "840a2ca7f44db985289163669f74ea5b5a631e190d4701051ad7e40722280a5c"
+    },
+    {
+      "file": "icons/detail/ginkgo.svg",
+      "sha256": "9e056d25ae00ff50bd2ce5d55e31c39cb7b3fe42afe9ea86315686a80dec5f78"
+    },
+    {
+      "file": "icons/compact/ginkgo.svg",
+      "sha256": "cb45f05decacd127923f68a0aad9087fdc67cca9b9805e06910145b6453f55e6"
+    },
+    {
+      "file": "icons/detail/ahornblaettrige-platane.svg",
+      "sha256": "c3cf1462b80eb9d41c42e047e43d12801262c0dae93f703a4ee167300370177a"
+    },
+    {
+      "file": "icons/compact/ahornblaettrige-platane.svg",
+      "sha256": "2fab89adfb1f79125238fc56ba0a0c6e95ab123784fe998919e24b5c95601ec6"
+    },
+    {
+      "file": "icons/detail/tulpenbaum.svg",
+      "sha256": "43642c197a403932c63b9e967075c5cb515b26567ea1f6cff1f602f6bd99ed6d"
+    },
+    {
+      "file": "icons/compact/tulpenbaum.svg",
+      "sha256": "880b385b1909904bf14235cbe2f1d4af76998a93c6c4e3af9c2ec33b4db8f6b9"
+    },
+    {
+      "file": "icons/detail/amberbaum.svg",
+      "sha256": "90a8b04e4369e5de1b380bb895902071e3d7cecd774e97f3e3a780cb5b32edee"
+    },
+    {
+      "file": "icons/compact/amberbaum.svg",
+      "sha256": "596105dbb40592cafd978b57f1f300ec6e906b569c1fda3d17c0db6366293791"
+    },
+    {
+      "file": "icons/detail/faecherahorn.svg",
+      "sha256": "bbe99e2894073b38d41b4d4e8e9a0e3380abecce9c22a91d269cfdd5092ec0e1"
+    },
+    {
+      "file": "icons/compact/faecherahorn.svg",
+      "sha256": "33e933b9a2432fe28c31036c997eae48ada6b0c714cc8b51ff0b74e6eb4aa809"
+    },
+    {
+      "file": "icons/detail/schneeballblaettriger-ahorn.svg",
+      "sha256": "044f3fafef92f18b0846b645579a28cf6e77df31e9151c28fb3e06e234f2bd69"
+    },
+    {
+      "file": "icons/compact/schneeballblaettriger-ahorn.svg",
+      "sha256": "5c154f30c639a232ba346365f59fa0a0d63b0ede03d5e1245d8a9a77c8540447"
+    },
+    {
+      "file": "icons/detail/efeu.svg",
+      "sha256": "daf7fb643fa807254839a783d52171031a1101ded45cb60cfc6eb8a6f843b32d"
+    },
+    {
+      "file": "icons/compact/efeu.svg",
+      "sha256": "71fc38a420387a7bce09f07043c5e72e2fd20725bad904914b576a3f56c4dff9"
+    },
+    {
+      "file": "icons/detail/baumhasel.svg",
+      "sha256": "ce13d93790a26a554a139cba1775f5cfe791bb207e2d71500d04e13568c40a47"
+    },
+    {
+      "file": "icons/compact/baumhasel.svg",
+      "sha256": "a3b748b8d72173ed51ac761a4f43f27bc6b90c9568d8fe2841827c3b8f1552d8"
+    }
+  ]
+}

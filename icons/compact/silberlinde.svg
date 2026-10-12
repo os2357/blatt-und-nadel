@@ -1,0 +1,13 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Silberlinde · Tilia tomentosa">
+  <title>Silberlinde · Tilia tomentosa</title>
+  <path class="leaf-blade" d="M48 68 Q44.986 69.877 44.013 70.477 L42.758 70.685 Q39.322 71.61 38.214 71.973 L36.946 71.625 Q33.388 71.449 32.204 71.508 L31.132 70.692 Q27.78 69.476 26.607 69.222 L25.857 68.069 Q22.981 65.96 21.901 65.411 L21.542 64.057 Q19.357 61.234 18.449 60.415 L18.519 58.998 Q17.196 55.681 16.533 54.648 L17.016 53.299 Q16.629 49.749 16.246 48.578 L17.045 47.4 Q17.397 43.845 17.277 42.614 L18.356 41.655 Q19.738 38.36 20.002 37.153 L21.317 36.565 Q23.602 33.822 24.18 32.743 L25.588 32.499 Q28.422 30.336 29.194 29.403 L30.604 29.38 Q33.71 27.642 34.582 26.823 L35.967 26.898 Q39.18 25.378 40.085 24.622 L41.443 24.667 Q44.37 22.787 44.856 21.77 L45.955 21.06 Q47.436 17.85 47.609 16.72 L48.391 15.688 Q49.33 12.269 49.464 11.144 L50 10 L50.665 11.023 Q50.92 12.087 52.134 15.283 L52.963 16.227 Q53.168 17.317 54.543 20.444 L55.547 21.242 Q55.839 22.317 57.943 24.96 L59.222 25.201 Q59.925 26.078 62.801 27.924 L64.146 27.966 Q64.9 28.845 67.714 30.807 L69.078 30.95 Q69.715 31.937 72.18 34.333 L73.516 34.718 Q73.926 35.832 75.777 38.734 L76.994 39.425 Q77.109 40.613 78.183 43.883 L79.204 44.842 Q79.037 46.021 79.554 49.409 L80.404 50.52 Q80.036 51.663 79.618 55.083 L80.061 56.408 Q79.359 57.375 77.858 60.474 L77.825 61.852 Q76.862 62.55 74.468 65.024 L73.99 66.297 Q72.883 66.69 69.885 68.377 L69.049 69.416 Q67.894 69.521 64.562 70.364 L63.474 71.081 Q62.34 70.931 58.908 70.931 L57.684 71.258 Q56.62 70.895 53.285 70.098 L52.065 69.983 Q51.087 69.479 48 68 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M36 91 Q44 81 48 68" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 68 Q49 38 50 15" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48 67 C37 72 23 64 20 54" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 66 Q30 49 24 39" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 67 C61 73 74 63 77 53" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 66 Q67 49 73 40" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

@@ -35,6 +35,10 @@ test('compound additions retain their selected leaflet counts in both optical si
       hundsrose: 7,
       eschenahorn: 3,
       speierling: 13,
+      'roter-holunder': 5,
+      himbeere: 3,
+      goetterbaum: 9,
+      essigbaum: 11,
     }))
       assert.equal(counts(id, variant)['leaf-blade'], expected, `${id}/${variant}`);
 });
@@ -96,5 +100,62 @@ test('Ginkgo has a branching vein tree without a dicot midrib or isolated branch
       assert.ok(n.outgoing === 0 || n.outgoing === 2, 'Each branching node bifurcates');
     }
     assert.equal(degrees.filter((n) => n.outgoing === 0).length, variant === 'detail' ? 8 : 4);
+  }
+});
+
+// Closed needle ribbons start at one side of their base and return on the other.
+function needleBases(id, variant) {
+  return paths(id, variant)
+    .filter((p) => p.class === 'leaf-needle')
+    .map((path) => {
+      const points = flattenPath(path.d)[0].points;
+      const base = points[0].map((v, i) => (v + points.at(-2)[i]) / 2);
+      return { base, points };
+    });
+}
+
+test('pine fascicles preserve five- versus two-needle groups in both sizes', () => {
+  for (const variant of variants) {
+    for (const [id, perBundle, bundleCount] of [
+      ['zirbelkiefer', 5, 3],
+      ['bergkiefer', 2, 4],
+    ]) {
+      const groups = [];
+      for (const { base } of needleBases(id, variant)) {
+        const group = groups.find((g) => Math.hypot(g[0][0] - base[0], g[0][1] - base[1]) < 1.5);
+        if (group) group.push(base);
+        else groups.push([base]);
+      }
+      assert.equal(groups.length, bundleCount, id + ': separated origins');
+      assert.ok(
+        groups.every((g) => g.length === perBundle),
+        id + ': bundle membership',
+      );
+    }
+    assert.equal(counts('bergkiefer', variant)['leaf-sheath'], 4);
+    assert.equal(
+      counts('zirbelkiefer', variant)['leaf-sheath'] || 0,
+      0,
+      'Selected mature fascicles',
+    );
+  }
+});
+
+test('dawn redwood needles meet in opposite pairs instead of alternate rows', () => {
+  for (const variant of variants) {
+    const groups = new Map();
+    for (const { base, points } of needleBases('urweltmammutbaum', variant)) {
+      const key = base.map((v) => v.toFixed(2)).join(',');
+      const farthest = points.reduce((a, b) =>
+        Math.abs(a[0] - base[0]) > Math.abs(b[0] - base[0]) ? a : b,
+      );
+      if (!groups.has(key)) groups.set(key, []);
+      groups.get(key).push(farthest[0] - base[0]);
+    }
+    assert.equal(groups.size, variant === 'detail' ? 14 : 9);
+    for (const directions of groups.values()) {
+      assert.equal(directions.length, 2, 'Exactly two needles share each insertion level');
+      assert.ok(directions[0] * directions[1] < 0, 'The paired needles extend to opposite sides');
+    }
   }
 });

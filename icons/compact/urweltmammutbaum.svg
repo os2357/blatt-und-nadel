@@ -1,0 +1,25 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Urweltmammutbaum · Metasequoia glyptostroboides">
+  <title>Urweltmammutbaum · Metasequoia glyptostroboides</title>
+  <path class="leaf-axis" d="M48 91 L48 10" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-needle" d="M47.915 82.592 C45.957 83.299 37.277 82.059 34.26 81.183 Q33.86 79.98 34.58 78.937 C37.723 78.941 46.403 80.181 48.085 81.408 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.915 81.408 C49.597 80.181 58.277 78.941 61.42 78.937 Q62.14 79.98 61.74 81.183 C58.723 82.059 50.043 83.299 48.085 82.592 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.946 74.096 C44.997 74.809 31.357 73.569 26.557 72.689 Q25.78 71.48 26.763 70.431 C31.643 70.431 45.283 71.671 48.054 72.904 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.946 72.904 C50.717 71.671 64.357 70.431 69.237 70.431 Q70.22 71.48 69.443 72.689 C64.643 73.569 51.003 74.809 48.054 74.096 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.954 65.597 C44.499 66.31 28.379 65.07 22.693 64.191 Q21.74 62.98 22.867 61.929 C28.621 61.93 44.741 63.17 48.046 64.403 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.954 64.403 C51.259 63.17 67.379 61.93 73.133 61.929 Q74.26 62.98 73.307 64.191 C67.621 65.07 51.501 66.31 48.046 65.597 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.91 57.092 C44.773 57.602 30.513 55.432 25.519 54.226 Q24.77 52.965 25.861 51.984 C30.987 52.318 45.247 54.488 48.09 55.908 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.91 55.908 C50.753 54.488 65.013 52.318 70.139 51.984 Q71.23 52.965 70.481 54.226 C65.487 55.432 51.227 57.602 48.09 57.092 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.92 48.593 C44.41 49.106 28.29 46.936 22.629 45.729 Q21.74 44.465 22.931 43.481 C28.71 43.814 44.83 45.984 48.08 47.407 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.92 47.407 C51.17 45.984 67.29 43.814 73.069 43.481 Q74.26 44.465 73.371 45.729 C67.71 46.936 51.59 49.106 48.08 48.593 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.906 40.091 C44.893 40.6 31.253 38.43 26.482 37.225 Q25.78 35.965 26.838 34.985 C31.747 35.32 45.387 37.49 48.094 38.909 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.906 38.909 C50.613 37.49 64.253 35.32 69.162 34.985 Q70.22 35.965 69.518 37.225 C64.747 38.43 51.107 40.6 48.094 40.091 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.892 31.589 C45.245 32.094 33.465 29.924 29.365 28.72 Q28.81 27.465 29.775 26.49 C34.035 26.826 45.815 28.996 48.108 30.411 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.892 30.411 C50.185 28.996 61.965 26.826 66.225 26.49 Q67.19 27.465 66.635 28.72 C62.535 29.924 50.755 32.094 48.108 31.589 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.855 23.081 C45.798 23.573 37.118 21.403 34.145 20.205 Q33.86 18.965 34.695 18.005 C37.882 18.347 46.562 20.517 48.145 21.919 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.855 21.919 C49.438 20.517 58.118 18.347 61.305 18.005 Q62.14 18.965 61.855 20.205 C58.882 21.403 50.202 23.573 48.145 23.081 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.732 14.535 C46.386 14.954 42.046 12.784 40.703 11.619 Q40.93 10.465 41.717 9.591 C43.454 9.966 47.794 12.136 48.268 13.465 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M47.732 13.465 C48.206 12.136 52.546 9.966 54.283 9.591 Q55.07 10.465 55.297 11.619 C53.954 12.784 49.614 14.954 48.268 14.535 Z" fill="currentColor" stroke="none"/>
+</svg>

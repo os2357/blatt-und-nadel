@@ -1,0 +1,24 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Götterbaum · Ailanthus altissima">
+  <title>Götterbaum · Ailanthus altissima</title>
+  <path class="leaf-rachis" d="M47 92 Q48 74 48 21" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-petiole" d="M48 82 L44 81" fill="none" stroke="currentColor" stroke-width="2"/>
+  <path class="leaf-blade" d="M44 81 Q42.502 83.93 39.8 83.775 L38.162 86.126 L36.283 83.587 C29.181 83.508 22.397 79.681 18 75 C23.969 72.868 32.631 73.307 38.926 75.695 L41.327 73.597 L41.892 77.082 Q44.095 78.214 44 81 Z" fill="none" stroke="currentColor" stroke-width="2.15"/>
+  <path class="leaf-petiole" d="M48 82 L52 81" fill="none" stroke="currentColor" stroke-width="2"/>
+  <path class="leaf-blade" d="M52 81 Q52.062 77.71 54.56 76.665 L55.002 73.834 L57.803 75.293 C64.221 72.252 71.997 72.719 78 75 C73.569 79.532 65.591 82.933 58.886 83.545 L57.647 86.483 L55.612 83.598 Q53.135 83.546 52 81 Z" fill="none" stroke="currentColor" stroke-width="2.15"/>
+  <path class="leaf-petiole" d="M48 62.66666666666667 L44 61.667" fill="none" stroke="currentColor" stroke-width="2"/>
+  <path class="leaf-blade" d="M44 61.667 Q42.452 64.624 39.168 64.472 L37.398 66.847 L34.896 64.29 C26.296 64.224 17.742 60.377 12 55.667 C19.03 53.505 29.55 53.931 37.382 56.328 L40.099 54.208 L41.096 57.72 Q43.864 58.858 44 61.667 Z" fill="none" stroke="currentColor" stroke-width="2.15"/>
+  <path class="leaf-petiole" d="M48 62.66666666666667 L52 61.667" fill="none" stroke="currentColor" stroke-width="2"/>
+  <path class="leaf-blade" d="M52 61.667 Q52.372 58.349 55.488 57.301 L56.278 54.447 L59.536 55.924 C67.576 52.87 76.942 53.356 84 55.667 C78.23 60.228 68.27 63.642 60.102 64.246 L58.339 67.205 L56.136 64.293 Q53.144 64.236 52 61.667 Z" fill="none" stroke="currentColor" stroke-width="2.15"/>
+  <path class="leaf-petiole" d="M48 43.333333333333336 L44 42.333" fill="none" stroke="currentColor" stroke-width="2"/>
+  <path class="leaf-blade" d="M44 42.333 Q42.491 45.274 39.596 45.12 L37.918 47.481 L35.828 44.935 C28.23 44.861 20.852 41.026 16 36.333 C22.317 34.189 31.595 34.623 38.404 37.015 L40.905 34.908 L41.621 38.404 Q44.013 39.538 44 42.333 Z" fill="none" stroke="currentColor" stroke-width="2.15"/>
+  <path class="leaf-petiole" d="M48 43.333333333333336 L52 42.333" fill="none" stroke="currentColor" stroke-width="2"/>
+  <path class="leaf-blade" d="M52 42.333 Q52.171 39.032 54.876 37.986 L55.438 35.145 L58.388 36.612 C65.35 33.566 73.652 34.041 80 36.333 C75.117 40.877 66.475 44.284 59.284 44.892 L57.865 47.839 L55.781 44.943 Q53.133 44.889 52 42.333 Z" fill="none" stroke="currentColor" stroke-width="2.15"/>
+  <path class="leaf-petiole" d="M48 29 L44 28" fill="none" stroke="currentColor" stroke-width="2"/>
+  <path class="leaf-blade" d="M44 28 Q41.91 30.49 39.888 29.889 L37.877 31.814 L37.253 29.12 C31.835 27.849 27.865 23.122 26 18 C31.261 17.01 37.759 18.882 41.816 22.179 L44.331 20.62 L43.644 23.977 Q44.969 25.408 44 28 Z" fill="none" stroke="currentColor" stroke-width="2.15"/>
+  <path class="leaf-petiole" d="M48 29 L52 28" fill="none" stroke="currentColor" stroke-width="2"/>
+  <path class="leaf-blade" d="M52 28 Q50.99 24.91 52.568 23.511 L51.997 20.786 L54.613 21.68 C58.555 17.751 64.665 16.878 70 18 C68.061 22.99 63.039 27.518 58.096 29.221 L58.091 32.18 L55.604 29.823 Q53.689 30.192 52 28 Z" fill="none" stroke="currentColor" stroke-width="2.15"/>
+  <path class="leaf-blade" d="M48 19 Q45.851 18.405 45.64 16.884 L43.864 16.163 L45.354 14.906 C44.577 10.937 46.361 6.837 49 4 C51.135 7.156 51.853 12.025 50.98 15.733 L52.674 16.901 L50.393 17.502 Q49.888 18.825 48 19 Z" fill="none" stroke="currentColor" stroke-width="2.15"/>
+</svg>

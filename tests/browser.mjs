@@ -102,7 +102,10 @@ try {
       assert.ok(await page.locator('#empty').isVisible());
       await page.locator('#search').fill('');
       await page.locator('#group').selectOption('Nadelgehölze');
-      assert.equal(await page.locator('.card:visible').count(), 7);
+      assert.equal(
+        await page.locator('.card:visible').count(),
+        catalog.icons.filter((icon) => icon.group === 'conifer').length,
+      );
       await page.locator('#group').selectOption('');
       await page.locator('#variant').selectOption('compact');
       assert.equal(
