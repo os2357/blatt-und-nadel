@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Rote Heckenkirsche · Lonicera xylosteum">
+  <title>Rote Heckenkirsche · Lonicera xylosteum</title>
+  <path class="leaf-blade" d="M48 81 C25 78 21 58 26 40 C32 24 43 23 51 14 C57 23 66 26 72 39 C79 56 70 79 48 81 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M46 90 Q47.5 86 48 81" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 81 L50.82 18.02" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.42 71.62 Q38.877 69.363 31.069 66.604" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.42 71.62 Q57.815 69.737 65.503 67.435" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.065 57.215 Q37.962 53.243 28.878 48.388" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.065 57.215 Q60.498 53.944 69.853 49.945" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.71 42.81 Q41.418 37.528 34.634 31.071" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.71 42.81 Q58.128 38.262 65.015 32.703" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

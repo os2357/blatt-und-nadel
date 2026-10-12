@@ -1,0 +1,17 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Felsenbirne · Amelanchier ovalis">
+  <title>Felsenbirne · Amelanchier ovalis</title>
+  <path class="leaf-blade" d="M48 76 Q44.526 76.632 43.417 76.885 L42.171 76.621 Q38.637 76.428 37.469 76.469 L36.397 75.674 Q33.093 74.391 31.935 74.092 L31.259 72.888 Q28.552 70.594 27.507 69.977 L27.302 68.578 Q25.326 65.63 24.436 64.788 L24.628 63.362 Q23.314 60.065 22.574 59.081 L23.067 57.706 Q22.312 54.24 21.716 53.157 L22.436 51.871 Q22.169 48.336 21.714 47.175 L22.609 46.003 Q22.795 42.461 22.487 41.26 L23.522 40.203 Q24.153 36.715 24.007 35.483 L25.159 34.565 Q26.292 31.205 26.358 29.973 L27.618 29.237 Q29.32 26.126 29.636 24.943 L30.98 24.431 Q33.299 21.749 33.893 20.692 L35.282 20.449 Q38.198 18.437 39.075 17.621 L40.45 17.698 Q43.887 16.841 44.882 16.434 L46.119 16.379 Q48.424 13.75 48.963 12.747 L50 12 L50.992 12.697 Q51.48 13.663 53.277 16.467 L54.369 16.995 Q54.97 17.804 58.084 18.854 L59.4 18.909 Q60.116 19.799 62.584 22.063 L63.879 22.439 Q64.288 23.517 66.157 26.296 L67.402 26.881 Q67.571 28.034 68.942 31.089 L70.128 31.829 Q70.11 33.003 71.078 36.207 L72.215 37.052 Q72.054 38.231 72.585 41.541 L73.573 42.564 Q73.212 43.696 73.202 47.049 L74.025 48.212 Q73.494 49.276 72.99 52.589 L73.617 53.856 Q72.948 54.833 71.962 58.037 L72.364 59.38 Q71.57 60.245 70.097 63.256 L70.231 64.629 Q69.323 65.36 67.331 68.056 L67.137 69.394 Q66.128 69.946 63.589 72.135 L63.019 73.314 Q61.924 73.631 58.888 75.042 L57.95 75.891 Q56.835 75.927 53.52 76.35 L52.362 76.69 Q51.298 76.493 48 76 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M43 91 Q47 85 48 76" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 76 L49.88 15.84" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.28 67.04 Q38.104 65.832 29.778 64.355" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.28 67.04 Q57.651 65.722 65.319 64.112" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.567 57.867 Q36.827 55.246 27.222 52.043" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.567 57.867 Q59.564 55.492 68.562 52.589" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.853 48.693 Q37.544 44.525 28.292 39.43" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.853 48.693 Q59.51 45.034 68.229 40.562" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.14 39.52 Q40.076 34.19 32.66 27.675" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.14 39.52 Q57.585 34.886 64.495 29.223" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

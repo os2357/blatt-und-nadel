@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Berberitze · Berberis vulgaris">
+  <title>Berberitze · Berberis vulgaris</title>
+  <path class="leaf-blade" d="M48 82 Q46.076 79.449 45.329 78.742 L44.9 77.67 Q42.845 75.219 41.985 74.606 L41.677 73.431 Q39.549 71.039 38.622 70.479 L38.398 69.234 Q36.25 66.856 35.284 66.319 L35.145 65.018 Q33.035 62.6 32.053 62.053 L32.018 60.708 Q30.023 58.19 29.05 57.593 L29.153 56.221 Q27.373 53.54 26.446 52.853 L26.729 51.482 Q25.299 48.595 24.464 47.781 L24.969 46.461 Q24.031 43.378 23.347 42.425 L24.085 41.217 Q23.722 38.015 23.22 36.96 L24.155 35.899 Q24.368 32.684 24.084 31.557 L25.181 30.682 Q26.029 27.573 25.998 26.421 L27.221 25.773 Q28.713 22.92 28.95 21.807 L30.244 21.401 Q32.319 18.942 32.811 17.935 L34.118 17.761 Q36.674 15.815 37.391 14.983 L38.666 15.011 Q41.594 13.698 42.496 13.119 L43.705 13.324 Q46.869 12.835 47.892 12.64 L49 13 L50.114 12.544 Q51.185 12.646 54.494 12.875 L55.725 12.588 Q56.702 13.111 59.81 14.288 L61.122 14.218 Q61.906 15.035 64.629 16.948 L65.974 17.11 Q66.521 18.125 68.737 20.613 L70.067 21.02 Q70.349 22.158 71.959 25.078 L73.211 25.738 Q73.214 26.927 74.137 30.134 L75.248 31.042 Q74.973 32.208 75.134 35.545 L76.02 36.694 Q75.466 37.758 74.886 41.046 L75.532 42.347 Q74.775 43.28 73.6 46.404 L74.01 47.785 Q73.116 48.585 71.499 51.5 L71.708 52.915 Q70.739 53.597 68.82 56.32 L68.867 57.728 Q67.861 58.33 65.747 60.9 L65.663 62.276 Q64.646 62.833 62.411 65.293 L62.213 66.623 Q61.209 67.16 58.906 69.553 L58.604 70.819 Q57.629 71.365 55.3 73.727 L54.892 74.911 Q53.967 75.494 51.649 77.863 L51.099 78.923 Q50.263 79.583 48 82 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M46 90 Q48 86 48 82" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 82 L49 18" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.14 72.34 Q41.096 67.515 35.332 61.618" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.14 72.34 Q55.868 67.591 62.191 61.788" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.355 57.505 Q37.569 51.687 28.745 44.577" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.355 57.505 Q60.097 51.648 69.704 44.489" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.57 42.67 Q39.139 35.388 31.423 26.487" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.57 42.67 Q58.936 35.124 67.418 25.902" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

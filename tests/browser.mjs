@@ -271,7 +271,9 @@ try {
         name +
           ' ' +
           browser.version() +
-          ': gallery interactions, downloads, responsive layouts and all 56 sprite/inline pairs passed.',
+          ': gallery interactions, downloads, responsive layouts and all ' +
+          icons.length * 2 +
+          ' sprite/inline pairs passed.',
       );
       await context.close();
     } finally {

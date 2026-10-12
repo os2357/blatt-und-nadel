@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Kreuzdorn · Rhamnus cathartica">
+  <title>Kreuzdorn · Rhamnus cathartica</title>
+  <path class="leaf-blade" d="M48 77 Q44.443 77.039 43.3 77.109 L42.103 76.652 Q38.607 75.959 37.435 75.857 L36.45 74.953 Q33.229 73.415 32.077 73.067 L31.435 71.844 Q28.711 69.532 27.65 68.934 L27.4 67.536 Q25.298 64.647 24.368 63.836 L24.493 62.395 Q23.038 59.13 22.26 58.156 L22.709 56.761 Q21.885 53.283 21.282 52.189 L22.002 50.893 Q21.798 47.323 21.383 46.141 L22.333 44.992 Q22.756 41.443 22.561 40.198 L23.698 39.241 Q24.776 35.833 24.823 34.578 L26.117 33.849 Q27.909 30.753 28.272 29.557 L29.685 29.147 Q32.211 26.617 32.882 25.577 L34.329 25.504 Q37.412 23.701 38.323 22.89 L39.724 23.104 Q43.142 22.082 44.221 21.553 L45.526 22.013 Q47.88 19.644 48.083 18.529 L48.947 17.545 Q49.982 14.144 50.224 13.022 L51 12 L51.562 13.083 Q51.653 14.168 52.519 17.446 L53.357 18.389 Q53.506 19.476 55.425 22.043 L56.729 21.736 Q57.679 22.398 60.753 23.879 L62.122 23.871 Q62.845 24.795 65.47 26.977 L66.846 27.232 Q67.318 28.323 69.392 31.037 L70.719 31.55 Q70.932 32.728 72.418 35.805 L73.653 36.545 Q73.572 37.792 74.211 41.15 L75.224 42.178 Q74.883 43.339 74.898 46.756 L75.716 47.947 Q75.177 49.027 74.607 52.398 L75.196 53.704 Q74.489 54.684 73.35 57.905 L73.674 59.289 Q72.822 60.128 71.122 63.094 L71.141 64.49 Q70.166 65.171 67.925 67.747 L67.611 69.079 Q66.545 69.564 63.817 71.617 L63.17 72.782 Q62.058 73.066 58.959 74.492 L58.034 75.384 Q56.915 75.486 53.601 76.271 L52.489 76.783 Q51.392 76.78 48 77 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M43 91 Q47 85 48 77" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 77 L50.82 15.9" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.21 72.45 C31.913 66.982 27.323 52.894 27.938 42.267" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.21 72.45 C63.79 67.09 69.434 53.993 69.923 43.765" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.945 56.525 C27.346 46.225 29.256 37.575 34.541 28.61" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.945 56.525 C70.079 47.612 69.163 39.137 64.912 30.075" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.68 40.6 C36.058 27.111 38.026 25.522 46.881 21.582" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.68 40.6 C63.659 28.443 62.012 26.637 54.157 21.567" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

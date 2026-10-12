@@ -1,0 +1,18 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Stechpalme · Ilex aquifolium">
+  <title>Stechpalme · Ilex aquifolium</title>
+  <path class="leaf-blade" d="M48 82 C43 83 39 79 35 76 Q40 68 26 66 Q33 59 22 53 Q32 48 22 40 Q35 41 28 27 Q40 32 40 19 Q47 22 50 9 Q55 24 62 21 Q60 35 72 32 Q65 43 77 46 Q65 52 75 60 Q61 60 66 73 Q55 71 58 79 Q52 79 48 82 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M46 90 Q48 86 48 82" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M48 82 Q50 48 50 13" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M48.5 74 Q40 73 37 74" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.7 65 Q35 57 28 54" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.2 52 Q37 45 29 42" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.7 39 Q42 30 39 27" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.8 34 Q54 29 59 25" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.6 43 Q59 39 68 35" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.2 55 Q61 49 70 47" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.9 65 Q61 61 68 61" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.5 74 Q53 74 55 76" fill="none" stroke="currentColor" stroke-width="1.12"/>
+</svg>

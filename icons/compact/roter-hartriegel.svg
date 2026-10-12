@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Roter Hartriegel · Cornus sanguinea">
+  <title>Roter Hartriegel · Cornus sanguinea</title>
+  <path class="leaf-blade" d="M48 79 C24 72 18 51 27 35 C34 23 46 18 51 9 C55 19 64 24 70 36 C78 51 69 72 48 79 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M44 89 Q47 85 48 79" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 79 L50.82 13.2" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.21 74.1 C33.09 66.481 28.182 52.703 28.885 42.2" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.21 74.1 C62.199 66.444 67.769 53.491 68.214 43.403" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.945 56.95 C28.218 46.104 30.302 37.596 35.368 28.575" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.945 56.95 C68.438 47.196 67.266 38.881 63.233 29.801" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.68 39.8 C36.661 26.876 38.282 24.904 45.092 17.37" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.68 39.8 C62.196 28.029 60.888 25.952 55.4 17.852" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

@@ -1,11 +1,11 @@
 {
   "name": "Blatt & Nadel",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": "Oliver Simon",
   "copyright": "Copyright 2026 Oliver Simon",
   "license": "CC-BY-4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-  "updated": "2026-10-06",
+  "updated": "2026-10-12",
   "viewBox": "0 0 96 96",
   "variants": {
     "compact": {
@@ -490,6 +490,414 @@
       "files": {
         "detail": "icons/detail/robinie.svg",
         "compact": "icons/compact/robinie.svg"
+      }
+    },
+    {
+      "id": "schwarzer-holunder",
+      "name": {
+        "en": "Black elder",
+        "de": "Schwarzer Holunder"
+      },
+      "scientificName": "Sambucus nigra",
+      "group": "broadleaf",
+      "description": "Unpaarig gefiedertes Blatt mit fünf zugespitzten, fein gesägten Teilblättern; zwei Paare und eine Endfieder.",
+      "source": "https://www.infoflora.ch/de/flora/sambucus-nigra.html",
+      "since": "1.2.0",
+      "symbol": "leaf-schwarzer-holunder",
+      "files": {
+        "detail": "icons/detail/schwarzer-holunder.svg",
+        "compact": "icons/compact/schwarzer-holunder.svg"
+      }
+    },
+    {
+      "id": "eingriffeliger-weissdorn",
+      "name": {
+        "en": "Common hawthorn",
+        "de": "Eingriffeliger Weißdorn"
+      },
+      "scientificName": "Crataegus monogyna",
+      "group": "broadleaf",
+      "description": "Tief in fünf Lappen geteilte Spreite mit keilförmigem Grund; Zähne vor allem an den Lappenenden, untere Nerven nach außen gebogen.",
+      "source": "https://www.infoflora.ch/de/flora/crataegus-monogyna.html",
+      "since": "1.2.0",
+      "symbol": "leaf-eingriffeliger-weissdorn",
+      "files": {
+        "detail": "icons/detail/eingriffeliger-weissdorn.svg",
+        "compact": "icons/compact/eingriffeliger-weissdorn.svg"
+      }
+    },
+    {
+      "id": "schlehe",
+      "name": {
+        "en": "Blackthorn",
+        "de": "Schlehe"
+      },
+      "scientificName": "Prunus spinosa",
+      "group": "broadleaf",
+      "description": "Schmale bis elliptische, fein gesägte Spreite mit keilförmigem Grund und kurzem Blattstiel.",
+      "source": "https://www.infoflora.ch/de/flora/prunus-spinosa.html",
+      "since": "1.2.0",
+      "symbol": "leaf-schlehe",
+      "files": {
+        "detail": "icons/detail/schlehe.svg",
+        "compact": "icons/compact/schlehe.svg"
+      }
+    },
+    {
+      "id": "roter-hartriegel",
+      "name": {
+        "en": "Common dogwood",
+        "de": "Roter Hartriegel"
+      },
+      "scientificName": "Cornus sanguinea",
+      "group": "broadleaf",
+      "description": "Ganzrandige, breite eiförmige Spreite mit vier Paaren bogiger Seitennerven in Detail, drei in Compact.",
+      "source": "https://www.infoflora.ch/de/flora/cornus-sanguinea.html",
+      "since": "1.2.0",
+      "symbol": "leaf-roter-hartriegel",
+      "files": {
+        "detail": "icons/detail/roter-hartriegel.svg",
+        "compact": "icons/compact/roter-hartriegel.svg"
+      }
+    },
+    {
+      "id": "gewoehnlicher-schneeball",
+      "name": {
+        "en": "Guelder rose",
+        "de": "Gewöhnlicher Schneeball"
+      },
+      "scientificName": "Viburnum opulus",
+      "group": "broadleaf",
+      "description": "Dreilappige, grob gezähnte Spreite mit handförmigen Hauptnerven und langem Stiel; zwei sitzende Blattstieldrüsen in Detail.",
+      "source": "https://www.infoflora.ch/de/flora/viburnum-opulus.html",
+      "since": "1.2.0",
+      "symbol": "leaf-gewoehnlicher-schneeball",
+      "files": {
+        "detail": "icons/detail/gewoehnlicher-schneeball.svg",
+        "compact": "icons/compact/gewoehnlicher-schneeball.svg"
+      }
+    },
+    {
+      "id": "stechpalme",
+      "name": {
+        "en": "European holly",
+        "de": "Stechpalme"
+      },
+      "scientificName": "Ilex aquifolium",
+      "group": "broadleaf",
+      "description": "Ausgewähltes stachelig gezähntes Blatt mit gewelltem Rand und kurzem Stiel; ganzrandige Blätter kommen ebenfalls vor.",
+      "source": "https://www.infoflora.ch/de/flora/ilex-aquifolium.html",
+      "since": "1.2.0",
+      "symbol": "leaf-stechpalme",
+      "files": {
+        "detail": "icons/detail/stechpalme.svg",
+        "compact": "icons/compact/stechpalme.svg"
+      }
+    },
+    {
+      "id": "faulbaum",
+      "name": {
+        "en": "Alder buckthorn",
+        "de": "Faulbaum"
+      },
+      "scientificName": "Frangula alnus",
+      "group": "broadleaf",
+      "description": "Ovale, ganzrandige Spreite mit kurzer Spitze und acht bogigen Seitennervenpaaren in Detail; vier in Compact.",
+      "source": "https://www.infoflora.ch/de/flora/frangula-alnus.html",
+      "since": "1.2.0",
+      "symbol": "leaf-faulbaum",
+      "files": {
+        "detail": "icons/detail/faulbaum.svg",
+        "compact": "icons/compact/faulbaum.svg"
+      }
+    },
+    {
+      "id": "pfaffenhuetchen",
+      "name": {
+        "en": "European spindle",
+        "de": "Pfaffenhütchen"
+      },
+      "scientificName": "Euonymus europaeus",
+      "group": "broadleaf",
+      "description": "Fein gesägte, breit-lanzettliche Spreite mit keilförmigem Grund, ausgezogener Spitze und kurzem Stiel.",
+      "source": "https://www.infoflora.ch/de/flora/euonymus-europaeus.html",
+      "since": "1.2.0",
+      "symbol": "leaf-pfaffenhuetchen",
+      "files": {
+        "detail": "icons/detail/pfaffenhuetchen.svg",
+        "compact": "icons/compact/pfaffenhuetchen.svg"
+      }
+    },
+    {
+      "id": "hundsrose",
+      "name": {
+        "en": "Dog rose",
+        "de": "Hundsrose"
+      },
+      "scientificName": "Rosa canina",
+      "group": "broadleaf",
+      "description": "Unpaarig gefiedertes Blatt mit sieben gesägten Teilblättern und zwei dem Blattstiel angewachsenen Nebenblättern.",
+      "source": "https://www.infoflora.ch/de/flora/rosa-canina.html",
+      "since": "1.2.0",
+      "symbol": "leaf-hundsrose",
+      "files": {
+        "detail": "icons/detail/hundsrose.svg",
+        "compact": "icons/compact/hundsrose.svg"
+      }
+    },
+    {
+      "id": "kornelkirsche",
+      "name": {
+        "en": "Cornelian cherry",
+        "de": "Kornelkirsche"
+      },
+      "scientificName": "Cornus mas",
+      "group": "broadleaf",
+      "description": "Ganzrandige, zugespitzte breit-lanzettliche Spreite mit vier Paaren bogiger Seitennerven in Detail, drei in Compact.",
+      "source": "https://www.infoflora.ch/de/flora/cornus-mas.html",
+      "since": "1.2.0",
+      "symbol": "leaf-kornelkirsche",
+      "files": {
+        "detail": "icons/detail/kornelkirsche.svg",
+        "compact": "icons/compact/kornelkirsche.svg"
+      }
+    },
+    {
+      "id": "vogelkirsche",
+      "name": {
+        "en": "Wild cherry",
+        "de": "Vogelkirsche"
+      },
+      "scientificName": "Prunus avium",
+      "group": "broadleaf",
+      "description": "Zugespitzte, ungleich gesägte Spreite mit langem Stiel; zwei Blattstieldrüsen in Detail, in Compact ausgelassen.",
+      "source": "https://www.infoflora.ch/de/flora/prunus-avium.html",
+      "since": "1.2.0",
+      "symbol": "leaf-vogelkirsche",
+      "files": {
+        "detail": "icons/detail/vogelkirsche.svg",
+        "compact": "icons/compact/vogelkirsche.svg"
+      }
+    },
+    {
+      "id": "sommerlinde",
+      "name": {
+        "en": "Large-leaved lime",
+        "de": "Sommerlinde"
+      },
+      "scientificName": "Tilia platyphyllos",
+      "group": "broadleaf",
+      "description": "Breit herzförmige, ungleichseitige Spreite mit ausgezogener Spitze, gesägtem Rand und langem Stiel; Behaarung nicht dargestellt.",
+      "source": "https://www.infoflora.ch/de/flora/tilia-platyphyllos.html",
+      "since": "1.2.0",
+      "symbol": "leaf-sommerlinde",
+      "files": {
+        "detail": "icons/detail/sommerlinde.svg",
+        "compact": "icons/compact/sommerlinde.svg"
+      }
+    },
+    {
+      "id": "walnuss",
+      "name": {
+        "en": "Common walnut",
+        "de": "Walnuss"
+      },
+      "scientificName": "Juglans regia",
+      "group": "broadleaf",
+      "description": "Unpaarig gefiedertes Blatt mit sieben breiten, ganzrandigen Teilblättern; unterstes Paar kleiner, Endfieder vorhanden.",
+      "source": "https://www.infoflora.ch/de/flora/juglans-regia.html",
+      "since": "1.2.0",
+      "symbol": "leaf-walnuss",
+      "files": {
+        "detail": "icons/detail/walnuss.svg",
+        "compact": "icons/compact/walnuss.svg"
+      }
+    },
+    {
+      "id": "moorbirke",
+      "name": {
+        "en": "Downy birch",
+        "de": "Moorbirke"
+      },
+      "scientificName": "Betula pubescens",
+      "group": "broadleaf",
+      "description": "Eiförmige, kurz zugespitzte Spreite mit gerundetem Grund; doppelte Sägung in Detail, vereinfachte Zähne in Compact.",
+      "source": "https://www.infoflora.ch/de/flora/betula-pubescens.html",
+      "since": "1.2.0",
+      "symbol": "leaf-moorbirke",
+      "files": {
+        "detail": "icons/detail/moorbirke.svg",
+        "compact": "icons/compact/moorbirke.svg"
+      }
+    },
+    {
+      "id": "flatterulme",
+      "name": {
+        "en": "European white elm",
+        "de": "Flatterulme"
+      },
+      "scientificName": "Ulmus laevis",
+      "group": "broadleaf",
+      "description": "Einspitzige, doppelt gesägte Spreite mit deutlich ungleichem Grund, mittlerer Maximalbreite und kurzem Stiel; Detail mit 14 ungegabelten Seitennerven je Seite.",
+      "source": "https://www.infoflora.ch/de/flora/ulmus-laevis.html",
+      "since": "1.2.0",
+      "symbol": "leaf-flatterulme",
+      "files": {
+        "detail": "icons/detail/flatterulme.svg",
+        "compact": "icons/compact/flatterulme.svg"
+      }
+    },
+    {
+      "id": "elsbeere",
+      "name": {
+        "en": "Wild service tree",
+        "de": "Elsbeere"
+      },
+      "scientificName": "Sorbus torminalis",
+      "group": "broadleaf",
+      "description": "Breit eiförmiges Blatt mit drei ungleichen spitzen Lappen je Seite; das unterste Paar weit abstehend, fiedernervig, langer Stiel.",
+      "source": "https://www.infoflora.ch/de/flora/sorbus-torminalis.html",
+      "since": "1.2.0",
+      "symbol": "leaf-elsbeere",
+      "files": {
+        "detail": "icons/detail/elsbeere.svg",
+        "compact": "icons/compact/elsbeere.svg"
+      }
+    },
+    {
+      "id": "franzoesischer-ahorn",
+      "name": {
+        "en": "Montpellier maple",
+        "de": "Französischer Ahorn"
+      },
+      "scientificName": "Acer monspessulanum",
+      "group": "broadleaf",
+      "description": "Breite, dreilappige Spreite mit ganzrandigen Lappen und langem Blattstiel; ausgewählte typische Form.",
+      "source": "https://www.infoflora.ch/de/flora/acer-monspessulanum.html",
+      "since": "1.2.0",
+      "symbol": "leaf-franzoesischer-ahorn",
+      "files": {
+        "detail": "icons/detail/franzoesischer-ahorn.svg",
+        "compact": "icons/compact/franzoesischer-ahorn.svg"
+      }
+    },
+    {
+      "id": "eschenahorn",
+      "name": {
+        "en": "Box elder",
+        "de": "Eschenahorn"
+      },
+      "scientificName": "Acer negundo",
+      "group": "broadleaf",
+      "description": "Ausgewähltes dreizählig gefiedertes Blatt mit grob gezähnten Seitenfiedern, gelappter Endfieder und langem gemeinsamen Stiel.",
+      "source": "https://www.infoflora.ch/de/flora/acer-negundo.html",
+      "since": "1.2.0",
+      "symbol": "leaf-eschenahorn",
+      "files": {
+        "detail": "icons/detail/eschenahorn.svg",
+        "compact": "icons/compact/eschenahorn.svg"
+      }
+    },
+    {
+      "id": "liguster",
+      "name": {
+        "en": "Wild privet",
+        "de": "Liguster"
+      },
+      "scientificName": "Ligustrum vulgare",
+      "group": "broadleaf",
+      "description": "Ganzrandige, schmal lanzettliche bis verkehrt-eilanzettliche Spreite mit kurzem Stiel; Blattstellung und ledrige Oberfläche nicht dargestellt.",
+      "source": "https://www.infoflora.ch/de/flora/ligustrum-vulgare.html",
+      "since": "1.2.0",
+      "symbol": "leaf-liguster",
+      "files": {
+        "detail": "icons/detail/liguster.svg",
+        "compact": "icons/compact/liguster.svg"
+      }
+    },
+    {
+      "id": "berberitze",
+      "name": {
+        "en": "Common barberry",
+        "de": "Berberitze"
+      },
+      "scientificName": "Berberis vulgaris",
+      "group": "broadleaf",
+      "description": "Verkehrt-eiförmige, fein spitz gezähnte Spreite mit gerundeter Spitze und keilförmigem Grund; kurzer Stiel, einzeln gezeigtes Blatt.",
+      "source": "https://www.infoflora.ch/de/flora/berberis-vulgaris.html",
+      "since": "1.2.0",
+      "symbol": "leaf-berberitze",
+      "files": {
+        "detail": "icons/detail/berberitze.svg",
+        "compact": "icons/compact/berberitze.svg"
+      }
+    },
+    {
+      "id": "rote-heckenkirsche",
+      "name": {
+        "en": "Fly honeysuckle",
+        "de": "Rote Heckenkirsche"
+      },
+      "scientificName": "Lonicera xylosteum",
+      "group": "broadleaf",
+      "description": "Breit eiförmige, ganzrandige Spreite mit kurzer Spitze und kurzem Stiel; weiche Behaarung und gegenständige Anordnung nicht dargestellt.",
+      "source": "https://www.infoflora.ch/de/flora/lonicera-xylosteum.html",
+      "since": "1.2.0",
+      "symbol": "leaf-rote-heckenkirsche",
+      "files": {
+        "detail": "icons/detail/rote-heckenkirsche.svg",
+        "compact": "icons/compact/rote-heckenkirsche.svg"
+      }
+    },
+    {
+      "id": "kreuzdorn",
+      "name": {
+        "en": "Common buckthorn",
+        "de": "Kreuzdorn"
+      },
+      "scientificName": "Rhamnus cathartica",
+      "group": "broadleaf",
+      "description": "Breit-ovale, fein gezähnte Spreite mit aufgesetzter Spitze; vier bogige Nervenpaare in Detail, drei in Compact.",
+      "source": "https://www.infoflora.ch/de/flora/rhamnus-cathartica.html",
+      "since": "1.2.0",
+      "symbol": "leaf-kreuzdorn",
+      "files": {
+        "detail": "icons/detail/kreuzdorn.svg",
+        "compact": "icons/compact/kreuzdorn.svg"
+      }
+    },
+    {
+      "id": "felsenbirne",
+      "name": {
+        "en": "Snowy mespilus",
+        "de": "Felsenbirne"
+      },
+      "scientificName": "Amelanchier ovalis",
+      "group": "broadleaf",
+      "description": "Breit-ovale, fein gezähnte Spreite mit gerundetem Grund und kurzer Spitze; die vorübergehende filzige Behaarung wird nicht gezeigt.",
+      "source": "https://www.infoflora.ch/de/flora/amelanchier-ovalis.html",
+      "since": "1.2.0",
+      "symbol": "leaf-felsenbirne",
+      "files": {
+        "detail": "icons/detail/felsenbirne.svg",
+        "compact": "icons/compact/felsenbirne.svg"
+      }
+    },
+    {
+      "id": "traubenkirsche",
+      "name": {
+        "en": "Bird cherry",
+        "de": "Traubenkirsche"
+      },
+      "scientificName": "Prunus padus",
+      "group": "broadleaf",
+      "description": "Zugespitzte, fein und gleichmäßig gesägte Spreite mit gerundetem Grund; zehn Nervenpaare und zwei Blattstieldrüsen in Detail.",
+      "source": "https://www.infoflora.ch/de/flora/prunus-padus.html",
+      "since": "1.2.0",
+      "symbol": "leaf-traubenkirsche",
+      "files": {
+        "detail": "icons/detail/traubenkirsche.svg",
+        "compact": "icons/compact/traubenkirsche.svg"
       }
     }
   ]

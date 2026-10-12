@@ -1,0 +1,27 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Walnuss · Juglans regia">
+  <title>Walnuss · Juglans regia</title>
+  <path class="leaf-rachis" d="M45 92 Q48 77 48 34" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-petiole" d="M48 78 L42 78" fill="none" stroke="currentColor" stroke-width="2.35"/>
+  <path class="leaf-blade" d="M42 78 C39.666 86.519 22.383 81.816 19 73 C25.737 66.384 43.644 69.331 42 78 Z" fill="none" stroke="currentColor" stroke-width="2.65"/>
+  <path class="leaf-midrib" d="M42 78 L21.07 73.45" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <path class="leaf-petiole" d="M48 78 L54 78" fill="none" stroke="currentColor" stroke-width="2.35"/>
+  <path class="leaf-blade" d="M54 78 C52.586 69.281 70.263 66.384 77 73 C73.617 81.816 56.104 86.569 54 78 Z" fill="none" stroke="currentColor" stroke-width="2.65"/>
+  <path class="leaf-midrib" d="M54 78 L74.93 73.45" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <path class="leaf-petiole" d="M48 59 L41 59" fill="none" stroke="currentColor" stroke-width="2.35"/>
+  <path class="leaf-blade" d="M41 59 C37.515 69.942 14.255 62.699 10 51 C19.385 42.821 43.555 47.818 41 59 Z" fill="none" stroke="currentColor" stroke-width="2.65"/>
+  <path class="leaf-midrib" d="M41 59 L12.79 51.72" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <path class="leaf-petiole" d="M48 59 L55 59" fill="none" stroke="currentColor" stroke-width="2.35"/>
+  <path class="leaf-blade" d="M55 59 C52.755 47.738 76.615 42.821 86 51 C81.745 62.699 58.175 70.022 55 59 Z" fill="none" stroke="currentColor" stroke-width="2.65"/>
+  <path class="leaf-midrib" d="M55 59 L83.21 51.72" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <path class="leaf-petiole" d="M48 41 L38 41" fill="none" stroke="currentColor" stroke-width="2.35"/>
+  <path class="leaf-blade" d="M38 41 C32.92 50.302 14.4 40.182 13 29 C22.6 23.098 42.33 31.338 38 41 Z" fill="none" stroke="currentColor" stroke-width="2.65"/>
+  <path class="leaf-midrib" d="M38 41 L15.25 30.08" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <path class="leaf-petiole" d="M48 41 L58 41" fill="none" stroke="currentColor" stroke-width="2.35"/>
+  <path class="leaf-blade" d="M58 41 C53.92 31.218 73.4 23.098 83 29 C81.6 40.182 62.83 50.422 58 41 Z" fill="none" stroke="currentColor" stroke-width="2.65"/>
+  <path class="leaf-midrib" d="M58 41 L80.75 30.08" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <path class="leaf-blade" d="M48 34 C33.328 32.91 35.627 10.162 49 4 C61.933 11.038 62.702 34.19 48 34 Z" fill="none" stroke="currentColor" stroke-width="2.65"/>
+  <path class="leaf-midrib" d="M48 34 L48.91 6.7" fill="none" stroke="currentColor" stroke-width="1.8"/>
+</svg>

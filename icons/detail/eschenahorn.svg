@@ -1,0 +1,29 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Eschenahorn · Acer negundo">
+  <title>Eschenahorn · Acer negundo</title>
+  <path class="leaf-rachis" d="M43 91 Q47 82 48 72 L49 44" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M48 72 L40 71" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M48 72 L57 70" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-blade" d="M40 71 Q34.557 71.647 32.737 71.937 L30.995 70.795 Q25.748 69.135 23.82 68.878 L22.919 66.765 Q18.616 63.317 16.797 62.493 L16.789 60.107 Q13.721 55.537 12.203 54.241 L12.839 51.951 Q11.07 46.753 10.017 45.135 L10.978 43.075 Q10.514 37.624 10.091 35.863 L11 34 L13.064 33.568 Q14.708 34.405 20.005 36.167 L22.272 35.722 Q23.632 37.128 28.407 40.057 L30.811 39.951 Q31.782 41.728 35.696 45.754 L38.051 46.279 Q38.509 48.262 41.014 53.299 L42.882 54.704 Q42.681 56.68 42.871 62.294 L43.418 64.355 Q42.546 66.021 40 71 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M40 71 L13.61 37.33" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M34.49 63.97 Q34.241 58.789 35.252 52.622" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M34.49 63.97 Q29.519 62.491 23.288 61.998" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M29.27 57.31 Q29.021 52.129 30.032 45.962" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M29.27 57.31 Q24.299 55.831 18.068 55.338" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M24.05 50.65 Q23.801 45.469 24.812 39.302" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M24.05 50.65 Q19.079 49.171 12.848 48.678" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-blade" d="M57 70 Q54.978 64.703 54.239 62.952 L54.91 60.915 Q55.252 55.233 55.048 53.24 L56.903 51.793 Q59.312 46.624 59.718 44.615 L62.081 43.994 Q65.951 39.819 66.912 38.008 L69.343 38.064 Q74.17 35.069 75.563 33.653 L77.848 34.1 Q83.236 32.367 84.914 31.545 L87 32 L87.921 33.909 Q87.5 35.713 86.991 41.298 L87.916 43.418 Q86.829 45.061 84.917 50.358 L85.477 52.716 Q83.92 54.002 80.692 58.632 L80.618 61.065 Q78.776 61.891 74.381 65.438 L73.474 67.59 Q71.523 67.905 66.198 69.769 L64.439 70.97 Q62.567 70.726 57 70 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M57 70 L84.3 35.42" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M62.7 62.78 Q67.872 61.312 74.363 60.885" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M62.7 62.78 Q62.928 57.408 61.837 50.995" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M68.1 55.94 Q73.272 54.472 79.763 54.045" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M68.1 55.94 Q68.328 50.568 67.237 44.155" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M73.5 49.1 Q78.672 47.632 85.163 47.205" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M73.5 49.1 Q73.728 43.728 72.637 37.315" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-blade" d="M49 44 Q38 43 31 31 L35 27 L31 21 L39 23 L39 17 L44 19 Q47 12 50 7 Q55 13 56 18 L61 17 L59 23 L66 21 L64 27 L70 29 L65 34 Q60 42 49 44 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M49 44 Q50 26 50 11" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.5 35 L37 27" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.5 35 L62 27" fill="none" stroke="currentColor" stroke-width="1.12"/>
+</svg>

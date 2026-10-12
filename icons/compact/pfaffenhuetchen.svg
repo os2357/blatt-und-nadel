@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Pfaffenhütchen · Euonymus europaeus">
+  <title>Pfaffenhütchen · Euonymus europaeus</title>
+  <path class="leaf-blade" d="M48 83 Q45.278 80.928 44.366 80.317 L43.655 79.324 Q41.2 76.936 40.305 76.27 L39.845 75.095 Q37.7 72.421 36.847 71.677 L36.624 70.402 Q34.825 67.483 34.035 66.649 L34.041 65.33 Q32.623 62.206 31.921 61.284 L32.148 59.962 Q31.152 56.677 30.561 55.674 L31.001 54.387 Q30.47 50.995 30.016 49.913 L30.657 48.707 Q30.634 45.273 30.347 44.135 L31.172 43.04 Q31.688 39.643 31.588 38.478 L32.573 37.526 Q33.64 34.261 33.73 33.102 L34.825 32.299 Q36.346 29.222 36.618 28.097 L37.787 27.439 Q39.703 24.596 40.117 23.531 L41.303 22.96 Q43.402 20.257 43.868 19.235 L44.999 18.626 Q46.995 15.854 47.413 14.833 L48.39 14.053 Q49.998 11.044 50.318 10.005 L51 9 L51.624 10.001 Q51.859 11.03 53.066 14.108 L53.893 15 Q54.112 16.051 55.466 19.068 L56.423 19.871 Q56.641 20.939 58.073 23.923 L59.104 24.679 Q59.294 25.768 60.675 28.781 L61.728 29.547 Q61.85 30.66 63.056 33.75 L64.088 34.571 Q64.114 35.699 64.958 38.915 L65.856 39.903 Q65.651 41.028 65.826 44.349 L66.531 45.482 Q66.126 46.552 65.75 49.854 L66.27 51.082 Q65.718 52.074 64.9 55.295 L65.241 56.572 Q64.584 57.492 63.4 60.594 L63.565 61.889 Q62.831 62.739 61.335 65.701 L61.32 66.984 Q60.531 67.766 58.753 70.567 L58.55 71.806 Q57.72 72.525 55.675 75.135 L55.266 76.287 Q54.407 76.947 52.097 79.322 L51.446 80.311 Q50.578 80.924 48 83 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M46.5 89 Q47.5 86 48 83" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 83 L50.82 13.44" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.42 72.64 Q41.71 68.568 36.22 63.592" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.42 72.64 Q54.566 68.73 59.595 63.951" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.065 56.73 Q40.871 51.881 34.167 45.955" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.065 56.73 Q56.697 52.338 62.941 46.971" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.71 40.82 Q43.977 35.521 39.286 29.044" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.71 40.82 Q55.006 36.037 59.338 30.192" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

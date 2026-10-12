@@ -1,0 +1,17 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Traubenkirsche · Prunus padus">
+  <title>Traubenkirsche · Prunus padus</title>
+  <path class="leaf-blade" d="M48 78 Q44.814 78.536 43.789 78.747 L42.658 78.476 Q39.433 78.169 38.356 78.152 L37.42 77.374 Q34.475 76.012 33.433 75.669 L32.89 74.53 Q30.553 72.278 29.629 71.657 L29.513 70.37 Q27.835 67.591 27.05 66.788 L27.276 65.492 Q26.163 62.442 25.504 61.527 L25.986 60.278 Q25.335 57.097 24.791 56.102 L25.464 54.93 Q25.209 51.695 24.772 50.641 L25.593 49.557 Q25.69 46.314 25.365 45.218 L26.299 44.229 Q26.729 41.012 26.545 39.88 L27.604 39.017 Q28.597 35.924 28.643 34.783 L29.833 34.133 Q31.415 31.298 31.686 30.2 L32.949 29.759 Q34.967 27.222 35.395 26.194 L36.667 25.878 Q38.899 23.536 39.397 22.562 L40.635 22.249 Q42.877 19.925 43.373 18.975 L44.537 18.55 Q46.611 16.082 47.054 15.129 L48.078 14.507 Q49.842 11.811 50.226 10.855 L51 10 L51.651 10.928 Q51.9 11.909 53.269 14.76 L54.194 15.489 Q54.503 16.473 56.239 19.118 L57.337 19.649 Q57.719 20.63 59.694 23.107 L60.885 23.511 Q61.286 24.509 63.275 26.985 L64.501 27.394 Q64.826 28.443 66.557 31.114 L67.757 31.666 Q67.899 32.773 69.124 35.717 L70.224 36.48 Q70.132 37.601 70.954 40.667 L71.991 41.521 Q71.792 42.631 72.207 45.79 L73.122 46.775 Q72.771 47.849 72.742 51.037 L73.504 52.141 Q73.009 53.155 72.523 56.306 L73.097 57.511 Q72.464 58.44 71.501 61.479 L71.841 62.754 Q71.083 63.57 69.611 66.399 L69.67 67.7 Q68.795 68.368 66.79 70.848 L66.52 72.091 Q65.541 72.575 63.013 74.515 L62.394 75.586 Q61.346 75.837 58.398 77.04 L57.47 77.8 Q56.42 77.812 53.263 78.187 L52.163 78.509 Q51.153 78.35 48 78 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M43 91 Q47 85 48 78" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 78 L50.82 14.08" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.42 68.48 Q39.051 66.896 31.386 64.96" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.42 68.48 Q57.85 67.209 65.566 65.657" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.85 58.733 Q38.333 56 29.728 52.659" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.85 58.733 Q59.631 56.52 68.453 53.816" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.28 48.987 Q39.341 45.07 31.208 40.283" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.28 48.987 Q59.287 45.671 67.475 41.619" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.71 39.24 Q42.438 34.738 36.489 29.235" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.71 39.24 Q57.137 35.224 63.214 30.315" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

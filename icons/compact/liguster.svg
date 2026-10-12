@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Liguster · Ligustrum vulgare">
+  <title>Liguster · Ligustrum vulgare</title>
+  <path class="leaf-blade" d="M48 82 C38 69 32 53 37 37 C41 25 48 17 50 11 C53 18 57 27 60 40 C63 54 57 71 48 82 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M46 90 Q47 86 48 82" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 82 L49.88 15.26" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.28 72.06 Q43.452 67.813 39.502 62.623" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.28 72.06 Q52.778 67.95 56.458 62.927" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.71 56.795 Q42.68 52.138 37.746 46.447" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.71 56.795 Q54.179 52.411 58.654 47.053" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.14 41.53 Q44.876 36.625 41.388 30.629" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.14 41.53 Q53.008 36.903 56.173 31.247" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

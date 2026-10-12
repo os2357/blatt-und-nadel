@@ -1,0 +1,13 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Sommerlinde · Tilia platyphyllos">
+  <title>Sommerlinde · Tilia platyphyllos</title>
+  <path class="leaf-blade" d="M47 65 C40 69 33 74 27 70 Q24.154 68.554 23.183 68.16 L22.527 67.178 Q20.139 65.041 19.209 64.45 L19.077 63.181 Q17.447 60.414 16.662 59.587 L17.066 58.297 Q16.28 55.18 15.68 54.178 L16.504 53.037 Q16.433 49.824 16.007 48.717 L17.114 47.777 Q17.606 44.6 17.337 43.427 L18.624 42.699 Q19.57 39.627 19.449 38.425 L20.853 37.89 Q22.195 34.969 22.226 33.756 L23.693 33.415 Q25.624 30.841 25.945 29.673 L27.449 29.686 Q29.789 27.485 30.28 26.394 L31.747 26.584 Q34.299 24.65 34.865 23.628 L36.286 23.841 Q38.831 21.921 39.361 20.917 L40.742 20.968 Q43.071 18.804 43.492 17.787 L44.792 17.552 Q46.767 15.064 47.085 14.045 L48.216 13.51 Q49.848 10.782 50.148 9.799 L51 9 L51.736 9.782 Q51.897 10.711 53.049 13.365 L54.042 13.978 Q54.149 14.958 55.49 17.522 L56.661 17.929 Q56.814 18.938 58.465 21.312 L59.759 21.462 Q60.017 22.481 61.969 24.622 L63.323 24.564 Q63.66 25.596 65.733 27.638 L67.124 27.514 Q67.454 28.575 69.477 30.678 L70.894 30.589 Q71.167 31.685 72.87 34.09 L74.291 34.291 Q74.312 35.433 75.558 38.088 L76.917 38.529 Q76.756 39.654 77.556 42.471 L78.796 43.135 Q78.471 44.214 78.794 47.127 L79.849 48.012 Q79.369 49.008 79.152 51.929 L79.933 52.999 Q79.303 53.885 78.473 56.693 L78.882 57.891 Q78.123 58.62 76.652 61.144 L76.621 62.326 Q75.775 62.885 73.744 64.975 L73.262 65.944 Q72.41 66.382 70 68 C62 72 53 69 47 65 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M37 91 Q45 81 47 65" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M47 65 Q50 36 51 14" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M47 65 C33 64 25 52 22 42" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M47 65 C64 63 73 52 76 43" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M47 65 C36 71 31 70 25 65" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M47 65 C57 70 64 69 71 63" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

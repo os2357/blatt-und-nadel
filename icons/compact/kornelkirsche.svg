@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Kornelkirsche · Cornus mas">
+  <title>Kornelkirsche · Cornus mas</title>
+  <path class="leaf-blade" d="M48 80 C32 71 25 48 34 31 C40 22 48 15 51 8 C54 17 61 23 65 33 C72 49 63 73 48 80 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M45 90 Q47.5 85.5 48 80" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 80 L50.82 12.32" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.21 74.96 C37.068 64.857 33.864 51.415 34.131 41.572" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.21 74.96 C59.387 65.49 63.363 52.452 63.964 42.775" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.945 57.32 C33.771 45.254 35.008 37.146 38.787 28.223" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.945 57.32 C63.981 46.417 63.502 38.357 60.745 29.177" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.68 39.68 C39.839 26.517 41.138 24.497 46.458 16.52" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.68 39.68 C59.956 27.357 58.939 25.213 54.552 16.836" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

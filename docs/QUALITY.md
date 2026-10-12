@@ -1,12 +1,14 @@
 # Quality checks
 
-Release **1.1.0** · 6 October 2026
+Release **1.2.0** · 12 October 2026
 
 ## Artwork review
 
-All 28 species were inspected in Detail and Compact, enlarged and at 24/32 px Compact and 48/64 px Detail on light and dark backgrounds. Closely related species were compared together. All 28 species were compared with their Info Flora morphological descriptions. The review covers characteristic leaf and needle shapes, relative petiole lengths, vein placement, leaflet spacing and small-size legibility. The oaks were additionally compared with the LWF reference linked in the botanical notes. Spruce and Scots pine were additionally checked against the Hohenheim, Göttingen and LWF references listed there. The species table records variant-specific retained and omitted features.
+The 24 additions were compared with their species-specific Info Flora / Flora Helvetica descriptions on 12 October 2026. The 16-species first round was reviewed before drawing the eight-species second round, which received the same review. Both optical sizes were inspected enlarged, then at 24/32 px Compact and 48/64 px Detail on light and dark backgrounds. Similar species were compared together, including both elms, both birches, both limes, lobed leaves and compound leaves. [The expansion review](EXPANSION-1.2.md) records the choices, corrections and additional sources.
 
-Compact uses separately simplified geometry, including all three maples. The [botanical notes](BOTANY.md) document the chosen forms, references and deliberate reductions.
+The original 28 species retain their earlier botanical review below. A byte comparison against the canonical v1.1.0 archive confirms that all 56 existing source SVGs are unchanged, including Stieleiche and Bergulme. All 104 current files were included in the automated geometry and browser checks.
+
+Compact retains characteristic outlines and simplifies veins and teeth separately. Surface hairs, texture, three-dimensional structures and most shoot insertion patterns are outside the scope of isolated monochrome leaves. Closely related species can remain similar; no invented distinction is added to force uniqueness.
 
 ## v1.1 focused review
 
@@ -36,15 +38,15 @@ Both outlines have no detected self-crossings. Full-stroke containment at 1536 �
 
 `npm test` verifies:
 
-- The catalog and both icon directories agree: 28 species and 56 files.
+- The catalog and both icon directories agree: 52 species and 104 files.
 - XML uses the supported element and attribute allowlists, with valid nesting and no unchecked transforms.
 - Every source has the expected dimensions, viewBox, image role, accessible name and exactly one matching title before the paths.
 - Geometry is nonempty; license notices are present.
 - No embedded images, scripts, event handlers, remote references or editor-specific objects are included.
-- Blade, filled-needle, sheath and bud contours explicitly close and contain no detected proper self-crossings.
+- Blade, filled-needle, sheath, bud, gland and stipule contours explicitly close and contain no detected proper self-crossings.
 - Each of the 14 conifer SVGs forms one connected painted component: no detached needle or twig fragments.
 - Separate leaf blades have no detected crossings, nesting or overlaps between their painted outlines.
-- All **357 internal vein and midrib paths** remain inside the leaf blades within the stated numerical tolerance.
+- All **912 internal vein and midrib paths** remain inside the leaf blades within the stated numerical tolerance.
 - Rendered strokes do not touch the canvas edge.
 - Generated sprites, the manifest, gallery and SVG overview match the current sources.
 
@@ -53,6 +55,8 @@ The checker adaptively flattens Bezier curves to a 0.01-unit error bound and sam
 Twelve regression tests cover concave notches, curves with in-bounds endpoints that bulge outside, independent subpaths, relative/smooth paths, malformed input, self-crossings, numerical tolerance, midrib coverage, thick strokes protruding despite in-bounds centerlines, inter-leaflet crossings/nesting and overlap caused by outline width, a rounded needle cap folding across its return edge, and a needle that misses a curved twig. For separate blades, the checker compares flattened contour segments, tests containment and subtracts the combined half-widths of the outlines from their minimum distance. A clearance below −0.06 units fails. External connecting stalks are excluded intentionally. The checker accepts line and Bezier geometry; elliptical arcs must first be converted.
 
 The conifer connectivity check rasterizes at 1536 × 1536 px, uses alpha ≥ 64 and eight-neighbour connectivity, and ignores isolated specks smaller than 0.05 viewBox square units. It detects unintended gaps between needles and their supporting twig. It does not validate phyllotaxis, confirm specimen identity or treat legitimate overlaps between projected needles as errors.
+
+Four artwork regressions additionally protect the selected 5/7/7/3 leaflet counts, the two petiolar glands in each relevant Detail icon and their deliberate Compact omission, the paired rose stipules, and the declared vein counts for both dogwoods, buckthorn, alder buckthorn, white elm and bird cherry. These lock intentional drawing choices; they do not claim that every natural specimen has those counts.
 
 ## Browser checks
 
@@ -63,7 +67,7 @@ The conifer connectivity check rasterizes at 1536 × 1536 px, uses alpha ≥ 64 
 - Copy feedback; clipboard contents additionally verified in Chromium.
 - Size/color controls, dark mode and initial keyboard focus.
 - Layout at 1440, 768, 480, 375 and 320 CSS pixels, including card contents.
-- All 56 external sprite symbols compared with their inline rendering in the same browser.
+- All 104 external sprite symbols compared with their inline rendering in the same browser.
 - A standalone SVG via `<img>` and a light icon on a dark background.
 - No uncaught JavaScript errors.
 
@@ -76,7 +80,7 @@ Sprite and inline captures use the same device-pixel origin. The comparison allo
 | Chromium, headless | 153.0.8010.0 | Passed |
 | Firefox, headless  | 153.0        | Passed |
 
-Both engines completed the workflow above. The 56-file geometry checks and all twelve checker regressions passed.
+Both engines completed the workflow above. The 104-file geometry checks, all twelve geometry regressions and four semantic artwork regressions passed.
 
 ## Release archive checks
 

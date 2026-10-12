@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Schlehe · Prunus spinosa">
+  <title>Schlehe · Prunus spinosa</title>
+  <path class="leaf-blade" d="M48 82 Q44.626 80.488 43.515 80.059 L42.565 79.132 Q39.501 77.054 38.415 76.503 L37.777 75.281 Q35.135 72.681 34.118 71.977 L33.81 70.589 Q31.683 67.55 30.768 66.687 L30.795 65.235 Q29.247 61.861 28.475 60.857 L28.818 59.416 Q27.901 55.817 27.298 54.69 L27.931 53.334 Q27.669 49.63 27.267 48.41 L28.147 47.192 Q28.542 43.499 28.356 42.231 L29.436 41.182 Q30.457 37.613 30.437 36.389 L31.574 35.415 Q32.883 31.942 33.046 30.684 L34.302 29.906 Q36.158 26.698 36.524 25.501 L37.827 24.867 Q40.052 21.909 40.56 20.788 L41.85 20.212 Q44.256 17.406 44.839 16.351 L46.052 15.716 Q48.418 12.883 49.005 11.863 L50 11 L50.863 11.918 Q51.288 12.961 53.122 15.964 L54.185 16.735 Q54.557 17.826 56.339 20.867 L57.468 21.624 Q57.724 22.775 59.242 25.961 L60.368 26.783 Q60.472 27.976 61.655 31.304 L62.75 32.209 Q62.711 33.418 63.811 36.753 L64.96 37.634 Q64.902 38.854 65.643 42.316 L66.64 43.378 Q66.363 44.572 66.509 48.11 L67.317 49.318 Q66.852 50.453 66.433 53.968 L67.026 55.282 Q66.401 56.336 65.458 59.746 L65.813 61.124 Q65.057 62.077 63.622 65.31 L63.714 66.707 Q62.856 67.546 60.95 70.524 L60.752 71.875 Q59.809 72.589 57.444 75.216 L56.928 76.434 Q55.919 77.012 53.108 79.15 L52.249 80.085 Q51.201 80.526 48 82 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M46 90 Q47.7 86 48 82" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 82 L49.88 15.26" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.28 72.06 Q40.433 68.757 34.013 64.72" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.28 72.06 Q55.217 68.784 60.893 64.781" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.71 56.795 Q39.464 52.446 31.899 47.132" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.71 56.795 Q56.765 52.785 63.356 47.884" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.14 41.53 Q42.49 36.416 37.049 30.166" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.14 41.53 Q54.802 36.931 59.435 31.311" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

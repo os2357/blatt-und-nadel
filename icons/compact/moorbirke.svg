@@ -1,0 +1,17 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Moorbirke · Betula pubescens">
+  <title>Moorbirke · Betula pubescens</title>
+  <path class="leaf-blade" d="M48 72 Q44.456 72.09 43.308 72.215 L42.124 71.681 Q38.629 71.026 37.428 70.995 L36.504 69.957 Q33.296 68.403 32.091 68.1 L31.596 66.729 Q28.943 64.342 27.819 63.754 L27.803 62.24 Q25.85 59.248 24.865 58.414 L25.292 56.921 Q24.072 53.562 23.265 52.533 L24.063 51.167 Q23.586 47.624 23.001 46.443 L24.105 45.283 Q24.43 41.719 24.132 40.432 L25.492 39.568 Q26.7 36.2 26.746 34.88 L28.275 34.389 Q30.286 31.436 30.644 30.182 L32.216 30.018 Q34.735 27.499 35.277 26.344 L36.818 26.338 Q39.531 24.048 40.126 22.958 L41.615 22.909 Q44.234 20.534 44.748 19.449 L46.136 19.134 Q48.206 16.301 48.441 15.157 L49.541 14.358 Q50.911 11.098 51.145 9.975 L52 9 L52.468 10.106 Q52.495 11.168 53.672 14.312 L54.718 15.111 Q54.849 16.235 56.414 19.198 L57.715 19.632 Q58.061 20.731 60.238 23.304 L61.665 23.526 Q62.053 24.659 64.231 27.252 L65.707 27.493 Q65.994 28.691 67.888 31.509 L69.366 31.918 Q69.454 33.169 70.837 36.279 L72.241 36.948 Q72.069 38.205 72.816 41.523 L74.038 42.502 Q73.556 43.691 73.341 47.097 L74.256 48.362 Q73.5 49.38 72.51 52.639 L73.102 54.06 Q72.168 54.898 70.541 57.888 L70.791 59.37 Q69.734 60.019 67.546 62.626 L67.423 64.083 Q66.293 64.528 63.613 66.618 L63.113 67.928 Q61.946 68.164 58.878 69.613 L58.029 70.639 Q56.88 70.679 53.575 71.419 L52.478 71.997 Q51.376 71.918 48 72 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M40 90 Q45 85 48 72" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 72 L51.76 12.78" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.56 63.18 Q38.884 61.603 30.968 59.675" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.56 63.18 Q57.593 61.804 64.984 60.122" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.133 54.15 Q37.819 51.412 28.562 48.065" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.133 54.15 Q59.958 52.017 68.815 49.411" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.707 45.12 Q39.489 41.225 31.129 36.464" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.707 45.12 Q59.725 41.949 67.922 38.073" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M50.28 36.09 Q43.676 32.133 38.274 27.297" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M50.28 36.09 Q57.103 32.53 62.686 28.18" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

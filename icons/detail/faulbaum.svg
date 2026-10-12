@@ -1,0 +1,25 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Faulbaum · Frangula alnus">
+  <title>Faulbaum · Frangula alnus</title>
+  <path class="leaf-blade" d="M48 78 C24 72 23 51 27 35 C30 22 41 17 45 17 C48 17 49 14 50 12 C51 14 52 18 54 18 C57 18 66 22 69 35 C75 50 69 73 48 78 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M43 91 Q47 85 48 78" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M48 78 L49.88 15.96" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M48.16 72.72 Q39.75 70.359 32.869 67.472" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.16 72.72 Q56.056 70.392 62.517 67.546" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.317 67.534 Q38.091 64.836 29.723 61.539" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.317 67.534 Q57.922 65.008 65.78 61.921" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.474 62.349 Q37.232 59.033 28.033 54.98" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.474 62.349 Q59.163 59.37 67.907 55.729" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.631 57.163 Q37.053 53.128 27.58 48.197" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.631 57.163 Q59.78 53.596 68.901 49.236" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.789 51.977 Q37.405 47.223 28.091 41.413" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.789 51.977 Q59.768 47.787 68.752 42.665" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.946 46.791 Q38.168 41.364 29.35 34.731" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.946 46.791 Q59.094 42.048 67.397 36.251" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.103 41.606 Q39.536 35.661 31.708 28.396" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.103 41.606 Q58.115 36.379 65.489 29.99" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.26 36.42 Q41.749 30.361 35.604 22.955" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.26 36.42 Q56.469 30.969 62.366 24.307" fill="none" stroke="currentColor" stroke-width="1.12"/>
+</svg>

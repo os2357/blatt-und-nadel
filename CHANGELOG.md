@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.2.0 — 2026-10-12
+
+Compatible expansion from 28 to 52 species: 104 standalone SVGs in two optical sizes. All 56 existing source SVGs are byte-identical to v1.1.0.
+
+### Added
+
+- First review round: Black elder, Common hawthorn, Blackthorn, Common dogwood, Guelder rose, European holly, Alder buckthorn, European spindle, Dog rose, Cornelian cherry, Wild cherry, Large-leaved lime, Common walnut, Downy birch, European white elm and Wild service tree.
+- Second review round: Montpellier maple, Box elder, Wild privet, Common barberry, Fly honeysuckle, Common buckthorn, Snowy mespilus and Bird cherry.
+- Species-specific botanical notes and a [two-round expansion review](docs/EXPANSION-1.2.md), with explicit optical-size omissions.
+- Closed `leaf-gland` and `leaf-stipule` drawing roles, validated for self-crossings. Semantic artwork regression tests protect selected leaflet/vein counts and small diagnostic structures.
+
+### Updated
+
+- Both READMEs, gallery, sprites, manifest, SVG/PNG overview and size reference for all 52 species.
+- Browser test reporting derives the symbol count from the catalog. No changes to existing IDs, paths, licenses or prior artwork.
+
 ## 1.1.0 — 2026-10-06
 
 Compatible artwork refresh: species IDs, paths and the 28-species catalog are unchanged.

@@ -1,8 +1,8 @@
 {
   "name": "blatt-und-nadel",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "private": true,
-  "description": "28 Central European tree and shrub icons in two SVG styles",
+  "description": "52 Central European tree and shrub species in two SVG optical sizes",
   "author": "Oliver Simon",
   "license": "SEE LICENSE IN LICENSES/README.md",
   "type": "module",
@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "node scripts/build.mjs",
-    "check": "node --test tests/geometry.test.mjs && node scripts/validate.mjs && node scripts/build.mjs --check",
+    "check": "node --test tests/geometry.test.mjs tests/artwork.test.mjs && node scripts/validate.mjs && node scripts/build.mjs --check",
     "test": "npm run check",
     "serve": "node scripts/serve.mjs",
     "format": "prettier --write .",

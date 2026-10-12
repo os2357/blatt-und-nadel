@@ -1,0 +1,17 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Faulbaum · Frangula alnus">
+  <title>Faulbaum · Frangula alnus</title>
+  <path class="leaf-blade" d="M48 78 C24 72 23 51 27 35 C30 22 41 17 45 17 C48 17 49 14 50 12 C51 14 52 18 54 18 C57 18 66 22 69 35 C75 50 69 73 48 78 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M43 91 Q47 85 48 78" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 78 L49.88 15.96" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.28 68.76 Q39.3 66.035 31.953 62.705" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.28 68.76 Q56.728 66.157 63.64 62.976" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.567 59.3 Q38.092 55.528 29.521 50.918" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.567 59.3 Q58.633 55.91 66.87 51.767" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.853 49.84 Q38.683 44.88 30.361 38.817" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.853 49.84 Q58.635 45.431 66.637 40.042" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.14 40.38 Q40.814 34.529 34.001 27.378" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.14 40.38 Q57.042 35.169 63.507 28.8" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>
