@@ -115,6 +115,9 @@ test('relative, smooth and cubic paths are supported; malformed paths fail', () 
   assert.ok(shape[0].closed && shape[0].points.length > 10);
   assert.throws(() => flattenPath('M1 2 Q3 4 5'), /Incomplete/);
   assert.throws(() => flattenPath('M1 2 A3 4 0 0 1 5 6'), /convert arcs/);
+  for (const value of ['NaN', 'Infinity', 'undefined', '1e999']) {
+    assert.throws(() => flattenPath(`M1 2 L${value} 5`));
+  }
 });
 
 test('rounding tolerance is small and does not conceal whole-unit protrusions', () => {

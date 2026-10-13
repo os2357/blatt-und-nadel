@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Rauschbeere · Vaccinium uliginosum">
+  <title>Rauschbeere · Vaccinium uliginosum</title>
+  <path class="leaf-blade" d="M48 84 C33 78 21 58 24 37 C26 20 35 10 49 11 C63 10 70 21 73 37 C76 59 66 78 48 84 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M47.4 90 Q48 87 48 84" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 84 L48.94 15.38" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.119 75.321 Q37.693 70.372 32.787 65.101" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.412 53.896 Q34.897 48.946 28.536 43.676" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.704 32.573 Q38.125 27.623 33.146 22.353" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.105 76.36 Q59.072 71.41 64.233 66.14" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.399 54.887 Q62.084 49.937 68.525 44.667" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.693 33.438 Q59.211 28.488 64.161 23.218" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

@@ -1,6 +1,6 @@
 {
   "name": "Blatt & Nadel",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "author": "Oliver Simon",
   "copyright": "Copyright 2026 Oliver Simon",
   "license": "CC-BY-4.0",
@@ -2156,6 +2156,142 @@
       "files": {
         "detail": "icons/detail/lorbeer.svg",
         "compact": "icons/compact/lorbeer.svg"
+      }
+    },
+    {
+      "id": "ohrweide",
+      "name": {
+        "en": "Eared willow",
+        "de": "Ohrweide"
+      },
+      "scientificName": "Salix aurita",
+      "group": "broadleaf",
+      "description": "Breit verkehrt-eiförmiges Blatt mit kurzer schiefer Spitze, wellig gekerbtem Rand, kurzem Stiel und auffälligen Nebenblättern. Detail deutet das Nervennetz an; Behaarung und Randrollung fehlen.",
+      "source": "https://www.infoflora.ch/de/flora/salix-aurita.html",
+      "since": "1.8.0",
+      "symbol": "leaf-ohrweide",
+      "files": {
+        "detail": "icons/detail/ohrweide.svg",
+        "compact": "icons/compact/ohrweide.svg"
+      }
+    },
+    {
+      "id": "grauweide",
+      "name": {
+        "en": "Grey willow",
+        "de": "Grauweide"
+      },
+      "scientificName": "Salix cinerea",
+      "group": "broadleaf",
+      "description": "Länglich verkehrt-eiförmiges Blatt mit größter Breite über der Mitte, kurzer gerader Spitze, schwach wellig gekerbtem Rand und kurzem Stiel. Nebenblätter in Detail; Behaarung und vollständiges Nervennetz ausgelassen.",
+      "source": "https://www.infoflora.ch/de/flora/salix-cinerea.html",
+      "since": "1.8.0",
+      "symbol": "leaf-grauweide",
+      "files": {
+        "detail": "icons/detail/grauweide.svg",
+        "compact": "icons/compact/grauweide.svg"
+      }
+    },
+    {
+      "id": "mandelweide",
+      "name": {
+        "en": "Almond willow",
+        "de": "Mandelweide"
+      },
+      "scientificName": "Salix triandra",
+      "group": "broadleaf",
+      "description": "Schmales lanzettliches Blatt mit langer Spitze, regelmäßigen feinen Zähnen und deutlichem Stiel. Detail mit zwei stiftförmigen Petiolardrüsen und nierenförmigen Nebenblättern; Compact lässt diese kleinen Anhänge aus.",
+      "source": "https://www.infoflora.ch/de/flora/salix-triandra.html",
+      "since": "1.8.0",
+      "symbol": "leaf-mandelweide",
+      "files": {
+        "detail": "icons/detail/mandelweide.svg",
+        "compact": "icons/compact/mandelweide.svg"
+      }
+    },
+    {
+      "id": "lorbeerweide",
+      "name": {
+        "en": "Bay willow",
+        "de": "Lorbeerweide"
+      },
+      "scientificName": "Salix pentandra",
+      "group": "broadleaf",
+      "description": "Breit lanzettlich-eiförmiges Blatt mit ausgezogener Spitze und dichtem feinem Zahnrand. Detail mit vereinfachter Drüsengruppe am oberen Stiel; Compact reduziert Zähne und lässt Drüsen aus. Glanz, Behaarung und Nebenblätter sind nicht dargestellt.",
+      "source": "https://www.infoflora.ch/de/flora/salix-pentandra.html",
+      "since": "1.8.0",
+      "symbol": "leaf-lorbeerweide",
+      "files": {
+        "detail": "icons/detail/lorbeerweide.svg",
+        "compact": "icons/compact/lorbeerweide.svg"
+      }
+    },
+    {
+      "id": "zwergbirke",
+      "name": {
+        "en": "Dwarf birch",
+        "de": "Zwergbirke"
+      },
+      "scientificName": "Betula nana",
+      "group": "broadleaf",
+      "description": "Rundliche, etwas breiter als lange Spreite mit stumpfen Kerbzähnen, sehr kurzem Stiel und drei Seitennervenpaaren. Europäische Form; absolute Blattgröße und feine Oberflächenmerkmale sind nicht dargestellt.",
+      "source": "https://www.infoflora.ch/de/flora/betula-nana.html",
+      "since": "1.8.0",
+      "symbol": "leaf-zwergbirke",
+      "files": {
+        "detail": "icons/detail/zwergbirke.svg",
+        "compact": "icons/compact/zwergbirke.svg"
+      }
+    },
+    {
+      "id": "rauschbeere",
+      "name": {
+        "en": "Bog bilberry",
+        "de": "Rauschbeere"
+      },
+      "scientificName": "Vaccinium uliginosum",
+      "group": "broadleaf",
+      "description": "Ganzrandiges ovales Blatt mit stumpf gerundeter Spitze und sehr kurzem Stiel. Ausgewählte Form von Vaccinium uliginosum im engeren mitteleuropäischen Sinn; feines Nervennetz und bläuliche Färbung sind ausgelassen.",
+      "source": "https://www.infoflora.ch/de/flora/vaccinium-uliginosum.html",
+      "since": "1.8.0",
+      "symbol": "leaf-rauschbeere",
+      "files": {
+        "detail": "icons/detail/rauschbeere.svg",
+        "compact": "icons/compact/rauschbeere.svg"
+      }
+    },
+    {
+      "id": "netzweide",
+      "name": {
+        "en": "Net-leaved willow",
+        "de": "Netzweide"
+      },
+      "scientificName": "Salix reticulata",
+      "group": "broadleaf",
+      "description": "Breit elliptisches, ganzrandiges Blatt mit stumpfer Spitze und deutlichem Stiel. Zwei basale Aderpaare und verbundene Queradern deuten das eingesenkte Nervennetz an; Compact reduziert die Maschen. Randrollung und Haare fehlen.",
+      "source": "https://www.infoflora.ch/de/flora/salix-reticulata.html",
+      "since": "1.8.0",
+      "symbol": "leaf-netzweide",
+      "files": {
+        "detail": "icons/detail/netzweide.svg",
+        "compact": "icons/compact/netzweide.svg"
+      }
+    },
+    {
+      "id": "krautweide",
+      "name": {
+        "en": "Dwarf willow",
+        "de": "Krautweide"
+      },
+      "scientificName": "Salix herbacea",
+      "group": "broadleaf",
+      "description": "Rundlich-ovales Blatt mit gerundeter Spitze, feinem Kerbzahnrand und kurzem Stiel. Zwei nahe der Basis entspringende Aderpaare biegen nach oben; das feinere Nervennetz und die kriechende Wuchsform sind ausgelassen.",
+      "source": "https://www.infoflora.ch/de/flora/salix-herbacea.html",
+      "since": "1.8.0",
+      "symbol": "leaf-krautweide",
+      "files": {
+        "detail": "icons/detail/krautweide.svg",
+        "compact": "icons/compact/krautweide.svg"
       }
     }
   ]

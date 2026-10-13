@@ -1,12 +1,12 @@
 # Quality checks
 
-Release **1.7.0** · 13 October 2026
+Release **1.8.0** · 13 October 2026
 
 ## Artwork review
 
-The current release contains **126 taxa / 252 source SVGs**. All taxa and both optical sizes received a fresh source-guided review, including enlarged photograph comparison and final target-size inspection on light/dark backgrounds. See the [full v1.7 report](AUDIT-1.7.md), [machine-readable record](audit-1.7.json) and [two expansion rounds](EXPANSION-1.7.md).
+The current release contains **134 taxa / 268 source SVGs**. All taxa and both optical sizes received a fresh source-guided review, including enlarged photograph comparison and target-size inspection on light/dark backgrounds. See the [full v1.8 report](AUDIT-1.8.md), [machine-readable record](audit-1.8.json) and [two expansion rounds](EXPANSION-1.8.md).
 
-Fourteen existing SVGs changed; 222 remain byte-identical to the canonical v1.6.1 baseline. Sixteen new SVGs were added. Ginkgo, Stieleiche and every conifer retain their previously corrected artwork.
+All 252 previous SVGs remain byte-identical to the canonical v1.7.0 baseline. Sixteen new SVGs were added. Earlier corrections, including Ginkgo, Stieleiche and Bergulme, are preserved.
 
 ### Required review gates
 
@@ -45,7 +45,7 @@ In v1.7 both Wych elm variants received an unequal rounded basal lobe and a very
 
 `npm test` verifies:
 
-- The catalog and both icon directories agree: 126 taxa and 252 files.
+- The catalog and both icon directories agree: 134 taxa and 268 files.
 - XML uses the supported element and attribute allowlists, with valid nesting and no unchecked transforms.
 - Every source has the expected dimensions, viewBox, image role, accessible name and exactly one matching title before the paths.
 - Geometry is nonempty; license notices are present.
@@ -53,14 +53,14 @@ In v1.7 both Wych elm variants received an unequal rounded basal lobe and a very
 - Blade, filled-needle, scale, sheath, bud, gland and stipule contours explicitly close and contain no detected proper self-crossings.
 - Each of the 24 conifer and four heath SVGs forms one connected painted component: no detached needle or twig fragments.
 - Separate leaf blades have no detected crossings, nesting or overlaps between their painted outlines.
-- All **2398 internal vein and midrib paths** remain inside the leaf blades within the stated numerical tolerance.
+- All **2578 internal vein and midrib paths** remain inside the leaf blades within the stated numerical tolerance.
 - Every vein origin must visibly touch another vascular path (vein, midrib, petiole or rachis), with a 0.06-unit numerical tolerance after stroke widths. Contact with the blade outline alone does not count. This detects visible gaps; it does not establish a full biologically correct vein network.
 - Rendered strokes do not touch the canvas edge.
 - Generated sprites, the manifest, gallery and SVG overview match the current sources.
 
 The checker adaptively flattens Bezier curves to a 0.01-unit error bound and samples vein segments at intervals no larger than 0.2 units. Outside excursions above 0.06 units fail the build. This is a numerical drawing check, not a formal geometric proof. Both lateral veins and separately marked midribs are checked. A second check rasterizes their complete strokes at 1536 × 1536 px, including round caps, round joins and stroke widths, and compares the paint with the filled blade plus its outline. One raster pixel of antialiasing tolerance is allowed; more than that fails. A vein may intentionally meet the outline at a tooth. External petioles and rachises are explicitly separate; broadleaf files must not use the ambiguous `leaf-axis` role.
 
-Twelve regression tests cover concave notches, curves with in-bounds endpoints that bulge outside, independent subpaths, relative/smooth paths, malformed input, self-crossings, numerical tolerance, midrib coverage, thick strokes protruding despite in-bounds centerlines, inter-leaflet crossings/nesting and overlap caused by outline width, a rounded needle cap folding across its return edge, and a needle that misses a curved twig. For separate blades, the checker compares flattened contour segments, tests containment and subtracts the combined half-widths of the outlines from their minimum distance. A clearance below −0.06 units fails. External connecting stalks are excluded intentionally. The checker accepts line and Bezier geometry; elliptical arcs must first be converted.
+Thirteen regression tests cover concave notches, curves with in-bounds endpoints that bulge outside, independent subpaths, relative/smooth paths, malformed input (including nonfinite numeric tokens and overflow), self-crossings, numerical tolerance, midrib coverage, thick strokes protruding despite in-bounds centerlines, inter-leaflet crossings/nesting and overlap caused by outline width, a rounded needle cap folding across its return edge, and a needle that misses a curved twig. For separate blades, the checker compares flattened contour segments, tests containment and subtracts the combined half-widths of the outlines from their minimum distance. A clearance below −0.06 units fails. External connecting stalks are excluded intentionally. The checker accepts line and Bezier geometry; elliptical arcs must first be converted.
 
 The shoot connectivity check rasterizes at 1536 × 1536 px, uses alpha ≥ 64 and eight-neighbour connectivity, and ignores isolated specks smaller than 0.05 viewBox square units. It detects unintended gaps between needles and their supporting twig. It does not validate phyllotaxis, confirm specimen identity or treat legitimate overlaps between projected needles as errors.
 
@@ -75,7 +75,7 @@ Thirteen artwork regressions additionally protect the selected compound-leaf cou
 - Copy feedback; clipboard contents additionally verified in Chromium.
 - Size/color controls, dark mode and initial keyboard focus.
 - Layout at 1440, 768, 480, 375 and 320 CSS pixels, including card contents.
-- All 252 external sprite symbols compared with their inline rendering in the same browser.
+- All 268 external sprite symbols compared with their inline rendering in the same browser.
 - A standalone SVG via `<img>` and a light icon on a dark background.
 - No uncaught JavaScript errors.
 
@@ -88,7 +88,9 @@ Sprite and inline captures use the same device-pixel origin. The comparison allo
 | Chromium, headless | 153.0.8010.0 | Passed |
 | Firefox, headless  | 153.0        | Passed |
 
-Both engines completed the workflow above. The 252-file geometry checks, all thirteen geometry regressions and thirteen semantic artwork regressions passed.
+Both engines completed the workflow above. The 268-file geometry checks, all thirteen geometry regressions and thirteen semantic artwork regressions passed.
+
+The final screenshot review found low-contrast default-blue footer links in dark mode. A scoped footer rule now uses the theme's text colour. After rebuilding, a targeted follow-up in both engines verified and captured both footer links in light and dark themes; the gallery layout and artwork were unchanged.
 
 ## Release archive checks
 

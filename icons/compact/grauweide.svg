@@ -1,0 +1,17 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Grauweide · Salix cinerea">
+  <title>Grauweide · Salix cinerea</title>
+  <path class="leaf-blade" d="M48 81 Q44.999 77.087 44.114 75.8 L43.172 74.353 Q40.625 70.126 39.772 68.804 L39.225 67.148 Q37.206 62.643 36.494 61.236 L36.208 59.506 Q34.772 54.783 34.231 53.298 L34.207 51.539 Q33.425 46.664 33.088 45.117 L33.331 43.372 Q33.276 38.434 33.179 36.853 L33.687 35.167 Q34.278 30.265 34.382 28.685 L35.103 27.076 Q36.791 22.438 37.416 20.978 L38.644 19.715 Q42.088 16.188 43.256 15.13 L44.81 14.336 Q48.751 11.382 49.801 10.236 L51 9 L52.08 10.347 Q53.042 11.571 56.821 14.752 L58.328 15.646 Q59.417 16.795 62.508 20.653 L63.602 22.041 Q64.083 23.558 65.407 28.331 L66.034 29.982 Q66.057 31.57 66.504 36.499 L66.9 38.224 Q66.689 39.798 66.231 44.731 L66.311 46.497 Q65.83 48.01 64.557 52.798 L64.348 54.549 Q63.65 55.975 61.708 60.531 L61.236 62.225 Q60.376 63.553 57.895 67.838 L57.184 69.438 Q56.206 70.675 53.285 74.673 L52.228 76.045 Q51.247 77.266 48 81 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M47 91 Q48 87 48 81" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 81 L50.82 13.32" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.325 73.21 Q42.664 66.975 39.194 60.25" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.858 60.414 Q41.544 54.179 37.061 47.454" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.401 47.383 Q41.953 41.148 37.388 34.423" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.923 34.851 Q44.068 28.616 40.48 21.891" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.3 73.8 Q54.697 67.68 58.618 61.026" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.815 61.451 Q57.011 55.216 62.035 48.491" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.358 48.412 Q57.667 42.177 62.76 35.452" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.889 35.658 Q56.442 29.423 60.458 22.698" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

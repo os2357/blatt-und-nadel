@@ -1,5 +1,24 @@
 # Changelog
 
+## 1.8.0 — 2026-10-13
+
+### Added
+
+- Eared willow, Grey willow, Almond willow, Bay willow, Dwarf birch, Bog bilberry, Net-leaved willow and Dwarf willow in Detail and Compact: **134 taxa / 268 source SVGs**.
+- [Two-stage expansion review](docs/EXPANSION-1.8.md), [fresh full collection audit](docs/AUDIT-1.8.md), per-variant hashes and source/photo records.
+
+### Fixed
+
+- Gallery license links follow the light/dark theme instead of retaining the browser's low-contrast default blue in dark mode.
+- SVG validation no longer mistakes the scientific label “Betula nana” for a NaN value. Invalid-number detection is scoped to path geometry; whole-source XML safety checks remain. Malformed-path regressions cover NaN, Infinity, undefined and numeric overflow.
+
+### Preserved and checked
+
+- **All 252 previous SVGs are byte-identical to v1.7.0; 16 were added.** No previous drawing was regenerated or reverted.
+- Fresh review of all 134 taxa in both optical sizes, including photographs and target sizes on light/dark backgrounds.
+- Updated both READMEs, botanical limits, previews, catalog, manifest, gallery and sprites. Existing IDs and licenses remain unchanged.
+- Automated and browser release results are recorded in [QUALITY.md](docs/QUALITY.md).
+
 ## 1.7.0 — 2026-10-13
 
 ### Added

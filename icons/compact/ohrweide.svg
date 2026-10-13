@@ -1,0 +1,17 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Ohrweide · Salix aurita">
+  <title>Ohrweide · Salix aurita</title>
+  <path class="leaf-blade" d="M48 78 Q43.32 73.841 41.915 72.441 L40.404 70.853 Q36.178 66.22 34.692 64.853 L33.799 62.778 Q30.187 57.648 28.847 56.114 L28.371 53.874 Q25.68 48.201 24.636 46.432 L24.717 44.121 Q23.602 37.938 23.149 35.919 L24.022 33.761 Q25.484 27.659 26.06 25.665 L27.874 24.205 Q32.14 19.601 33.545 18.099 L35.768 17.496 Q41.591 15.167 43.554 14.566 L45.779 15.104 Q51.553 15.357 52.432 13.6 L54 12 L55.607 13.048 Q56.808 14.284 61.195 17.495 L63.057 18.165 Q64.252 19.468 68.03 23.394 L69.635 24.65 Q70.092 26.407 71.454 31.699 L72.468 33.474 Q72.209 35.269 71.81 40.716 L72.217 42.719 Q71.425 44.342 69.641 49.5 L69.584 51.533 Q68.495 52.958 65.824 57.715 L65.396 59.679 Q64.136 60.94 60.835 65.279 L60.061 67.1 Q58.701 68.224 54.883 72.111 L53.516 73.438 Q52.245 74.601 48 78 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M46.8 91 Q48 86 48 78" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 78 L53.64 15.96" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.76 69.638 Q39.977 64.072 34.593 57.758" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M50.627 49.106 Q37.763 43.541 29.879 37.226" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M52.247 31.285 Q44.426 25.72 39.633 19.405" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.6 71.4 Q56.204 66.337 60.864 60.331" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M50.152 54.324 Q60.653 48.759 67.088 42.444" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M51.832 35.85 Q59.727 30.285 64.566 23.97" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-stipule" d="M46.9 88 C44.7 84.4 45 81.8 41.4 82 Q37.2 81 38.5 85 C38.6 89.5 43.4 91 46.9 88 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-stipule" d="M47.9 88 C50.3 84.7 50 82.7 53.9 82 Q58 82 56.5 86.4 C55 90 51 91.1 47.9 88 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+</svg>

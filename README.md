@@ -1,14 +1,14 @@
 # Blatt & Nadel
 
-**126 woody species found in Central Europe · 252 SVG icons · v1.7.0**
+**134 woody species found in Central Europe · 268 SVG icons · v1.8.0**
 
 Leaf, needle and twig icons for nature websites, species profiles and filters. Two optical sizes pair distinctive botanical forms with clear, consistent linework.
 
 [Deutsch](docs/README.de.md) · [Usage](docs/USAGE.md) · [Botanical notes](docs/BOTANY.md) · [Quality checks](docs/QUALITY.md) · [Changelog](CHANGELOG.md)
 
-![All 126 species in the Detail variant](docs/preview.png)
+![All 134 species in the Detail variant](docs/preview.png)
 
-Version 1.7 adds eight fruit and Mediterranean garden trees, refines three existing leaf forms and repairs detached vein origins. Every species and both optical sizes received a fresh source-guided review. [Full review](docs/AUDIT-1.7.md) · [Expansion](docs/EXPANSION-1.7.md) · [Collection scope](docs/SCOPE.md).
+Version 1.8 adds four riparian willows and four alpine or moorland dwarf shrubs. Every species and both optical sizes received a fresh source-guided review; all previous artwork is preserved. [Full review](docs/AUDIT-1.8.md) · [Expansion](docs/EXPANSION-1.8.md) · [Collection scope](docs/SCOPE.md).
 
 ## Use the icons
 
@@ -217,6 +217,14 @@ IDs use stable German ASCII names. The manifest includes English and German comm
 | `mandel`                      | Almond                 | Mandelbaum                  | _Prunus dulcis_                |
 | `mispel`                      | Medlar                 | Mispel                      | _Mespilus germanica_           |
 | `lorbeer`                     | Bay laurel             | Echter Lorbeer              | _Laurus nobilis_               |
+| `ohrweide`                    | Eared willow           | Ohrweide                    | _Salix aurita_                 |
+| `grauweide`                   | Grey willow            | Grauweide                   | _Salix cinerea_                |
+| `mandelweide`                 | Almond willow          | Mandelweide                 | _Salix triandra_               |
+| `lorbeerweide`                | Bay willow             | Lorbeerweide                | _Salix pentandra_              |
+| `zwergbirke`                  | Dwarf birch            | Zwergbirke                  | _Betula nana_                  |
+| `rauschbeere`                 | Bog bilberry           | Rauschbeere                 | _Vaccinium uliginosum_         |
+| `netzweide`                   | Net-leaved willow      | Netzweide                   | _Salix reticulata_             |
+| `krautweide`                  | Dwarf willow           | Krautweide                  | _Salix herbacea_               |
 
 ## Botanical scope
 

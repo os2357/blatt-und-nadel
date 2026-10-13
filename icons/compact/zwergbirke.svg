@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Zwergbirke · Betula nana">
+  <title>Zwergbirke · Betula nana</title>
+  <path class="leaf-blade" d="M48 77 Q44.865 77.693 41.409 77.848 Q37.436 77.721 35.313 77.137 Q31.921 77.76 28.489 76.808 Q24.696 75.242 23.332 73.128 Q19.972 72.272 17.301 69.863 Q14.674 66.676 14.492 64.166 Q11.96 61.804 10.735 58.446 Q9.809 54.462 10.702 52.119 Q9.308 48.968 9.395 45.431 Q9.852 41.408 11.425 39.466 Q10.98 36.088 11.971 32.679 Q13.541 28.901 15.643 27.526 Q16.457 24.162 18.811 21.45 Q21.926 18.75 24.429 18.494 Q26.7 15.883 30.004 14.533 Q33.934 13.431 36.316 14.199 Q39.375 12.623 42.898 12.471 Q46.932 12.606 49 14 Q51.035 12.575 55.059 12.438 Q58.568 12.65 61.557 14.321 Q63.958 13.652 67.804 14.948 Q71 16.475 73.095 19.197 Q75.564 19.572 78.524 22.364 Q80.779 25.088 81.562 28.427 Q83.672 29.748 85.338 33.42 Q86.462 36.783 86.002 40.164 Q87.537 42.119 87.88 46.133 Q87.832 49.655 86.287 52.715 Q87.043 55.093 85.865 58.984 Q84.413 62.225 81.724 64.368 Q81.377 66.844 78.585 69.822 Q75.835 72.066 72.477 72.79 Q71.09 74.864 67.337 76.387 Q63.954 77.354 60.582 76.785 Q58.492 77.415 54.558 77.649 Q51.128 77.598 48 77 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M45 90 Q48 85 48 77" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 77 L48.94 17.78" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.13 68.81 Q33.462 67.941 19.922 64.255" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.35 54.95 Q31.469 51.655 15.887 45.728" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.57 41.09 Q34.216 35.442 20.967 27.343" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.13 68.81 Q62.769 68 76.282 64.368" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.35 54.95 Q65.507 51.951 81.344 46.298" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.57 41.09 Q62.971 35.85 76.265 28.128" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

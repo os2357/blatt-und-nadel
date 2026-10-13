@@ -269,6 +269,10 @@ pre {
   box-shadow: 0 8px 30px #0002;
 }
 
+footer a {
+  color: var(--ink);
+}
+
 footer {
   padding-top: 20px;
   padding-bottom: 40px;

@@ -67,7 +67,7 @@ for (const variant of variants) {
       name + ': license',
     );
     assert.ok(
-      !/NaN|Infinity|undefined|<!DOCTYPE|<!ENTITY|<\?xml-stylesheet/i.test(source),
+      !/<!DOCTYPE|<!ENTITY|<\?xml-stylesheet/i.test(source),
       name + ': unsafe or invalid content',
     );
     const parser = sax.parser(true);
@@ -129,6 +129,11 @@ for (const variant of variants) {
             assert.equal(node.attributes[key], 'round', name + ': path ' + key);
         }
         assert.ok(node.attributes.d?.length, name + ': empty path');
+        // Numeric sentinels belong to geometry, not labels (e.g. Betula nana).
+        assert.ok(
+          !/NaN|Infinity|undefined/i.test(node.attributes.d),
+          name + ': invalid path number',
+        );
         assert.ok(
           [
             'leaf-blade',
