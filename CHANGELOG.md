@@ -1,5 +1,26 @@
 # Changelog
 
+## 1.7.0 — 2026-10-13
+
+### Added
+
+- Olive, Common fig, Quince, Cultivated pear, Apricot, Almond, Medlar and Bay laurel in Detail and Compact: **126 taxa / 252 source SVGs**.
+- [Two-stage expansion review](docs/EXPANSION-1.7.md), a [fresh full collection audit](docs/AUDIT-1.7.md) and per-variant hashes, geometry and source/photo references.
+- Permanent validation of visible vein-origin attachment, including a regression for branches and false contour-only contact.
+
+### Fixed
+
+- Wych elm: unequal rounded basal lobe and very short partly concealed petiole, preserving the selected three-point apex.
+- European hornbeam: rounded slightly unequal base on the retained elongated blade.
+- Sweet cherry: more elongated selected blade proportions; petiole and Detail glands retained.
+- Fourteen detached vein origins in eight Detail drawings reconnected to their parent curves; their outlines and Compact variants are unchanged.
+
+### Preserved and checked
+
+- **222 existing SVGs are byte-identical to v1.6.1; 14 were revised and 16 added.** Stieleiche, Ginkgo, Schwarzpappel and all conifers are preserved.
+- All 252 variants received final target-size review; 26 regression tests, full geometry/metadata checks, generated-file checks and Chromium/Firefox workflows pass.
+- Updated both READMEs, previews, catalog, manifest, gallery and sprites. Existing IDs and licenses remain in place.
+
 ## 1.6.1 — 2026-10-13
 
 ### Added

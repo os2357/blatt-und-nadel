@@ -1,0 +1,13 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Mandelbaum · Prunus dulcis">
+  <title>Mandelbaum · Prunus dulcis</title>
+  <path class="leaf-blade" d="M48 71 Q45.404 70.022 44.622 69.6 L43.922 68.908 Q42.014 66.886 41.422 66.216 L41.076 65.284 Q39.839 62.791 39.404 62.006 L39.315 61.009 Q38.559 58.331 38.235 57.491 L38.327 56.488 Q37.921 53.735 37.684 52.866 L37.91 51.878 Q37.784 49.098 37.62 48.209 L37.951 47.248 Q38.066 44.467 37.972 43.568 L38.39 42.638 Q38.726 39.875 38.699 38.975 L39.168 38.073 Q39.7 35.34 39.757 34.436 L40.328 33.591 Q41.16 30.935 41.309 30.045 L41.947 29.253 Q42.988 26.673 43.203 25.8 L43.87 25.04 Q45.023 22.509 45.271 21.649 L45.931 20.892 Q47.093 18.367 47.345 17.513 L47.955 16.726 Q49.01 14.156 49.228 13.298 L49.734 12.451 Q50.537 9.793 50.685 8.925 L51 8 L51.343 8.908 Q51.497 9.769 52.196 12.435 L52.633 13.313 Q52.767 14.183 53.493 16.842 L53.98 17.703 Q54.094 18.58 54.808 21.244 L55.322 22.098 Q55.411 22.982 56.086 25.656 L56.609 26.512 Q56.671 27.401 57.294 30.088 L57.817 30.95 Q57.852 31.842 58.419 34.542 L58.933 35.411 Q58.945 36.306 59.474 39.013 L59.952 39.908 Q59.905 40.804 60.126 43.557 L60.491 44.503 Q60.34 45.387 60.241 48.147 L60.486 49.128 Q60.241 49.989 59.83 52.72 L59.945 53.718 Q59.61 54.549 58.881 57.212 L58.85 58.211 Q58.426 58.997 57.35 61.539 L57.145 62.51 Q56.623 63.23 55.137 65.556 L54.711 66.445 Q54.07 67.057 52.066 68.952 L51.355 69.619 Q50.574 70.027 48 71 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M44 91 Q47 80 48 71" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 71 L50.82 11.78" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.533 59.798 Q42.225 54.44 39.892 49.718" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.499 60.513 Q55.494 55.155 58.081 50.433" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.611 37.172 Q45.646 31.814 44.18 27.092" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.582 37.775 Q53.911 32.417 55.512 27.695" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

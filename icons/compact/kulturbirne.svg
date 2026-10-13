@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Kulturbirne · Pyrus communis">
+  <title>Kulturbirne · Pyrus communis</title>
+  <path class="leaf-blade" d="M48 61 Q44.328 61.072 43.157 61.05 L41.904 60.718 Q38.338 59.824 37.198 59.517 L36.135 58.746 Q33.046 56.753 32.061 56.083 L31.394 54.936 Q29.315 51.901 28.66 50.901 L28.541 49.57 Q27.775 45.971 27.503 44.807 L27.857 43.516 Q28.179 39.85 28.203 38.655 L28.861 37.491 Q29.726 33.915 29.919 32.735 L30.744 31.68 Q32.402 28.395 32.874 27.3 L33.913 26.459 Q36.226 23.6 36.893 22.62 L38.035 21.943 Q40.675 19.387 41.426 18.479 L42.574 17.838 Q45.244 15.318 45.983 14.411 L47.054 13.669 Q49.48 10.917 50.129 9.952 L51 9 L51.726 9.992 Q52.213 10.987 54.06 13.951 L54.936 14.832 Q55.447 15.823 57.402 18.718 L58.336 19.556 Q58.821 20.568 60.683 23.527 L61.604 24.395 Q62.006 25.449 63.626 28.549 L64.489 29.483 Q64.784 30.575 66.117 33.809 L66.906 34.809 Q67.102 35.926 68.008 39.307 L68.599 40.441 Q68.545 41.582 68.563 45.083 L68.794 46.342 Q68.403 47.417 67.268 50.728 L67.017 51.976 Q66.28 52.846 64.021 55.52 L63.315 56.567 Q62.333 57.135 59.312 58.899 L58.29 59.618 Q57.197 59.885 53.799 60.71 L52.608 61.033 Q51.494 61.053 48 61 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M34 91 C42 82 46 74 48 61" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 61 L50.82 12.12" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.288 56 Q37.839 53.491 32.922 50.692" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.288 56 Q58.343 54.011 63.075 51.458" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.116 41.663 Q38.503 37.106 33.509 33.343" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.019 43.333 Q59.047 38.775 63.766 35.013" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.946 27.276 Q45.178 22.718 42.935 18.956" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.895 28.16 Q54.67 23.602 56.917 19.84" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

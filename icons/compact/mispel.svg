@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Mispel · Mespilus germanica">
+  <title>Mispel · Mespilus germanica</title>
+  <path class="leaf-blade" d="M48 83 Q45.76 81.215 45.093 80.599 L44.378 79.896 Q42.453 77.774 41.879 77.071 L41.262 76.281 Q39.601 73.946 39.105 73.186 L38.574 72.335 Q37.147 69.85 36.724 69.047 L36.271 68.152 Q35.068 65.551 34.714 64.715 L34.339 63.785 Q33.356 61.093 33.073 60.231 L32.775 59.273 Q32.019 56.509 31.809 55.626 L31.593 54.647 Q31.076 51.828 30.945 50.93 L30.816 49.936 Q30.556 47.082 30.507 46.176 L30.474 45.173 Q30.387 42.304 30.234 41.385 L30.601 40.4 Q30.815 37.537 30.753 36.616 L31.191 35.662 Q31.656 32.829 31.703 31.898 L32.259 31.01 Q33.146 28.28 33.35 27.372 L34.034 26.582 Q35.382 24.047 35.75 23.195 L36.544 22.525 Q38.292 20.249 38.793 19.473 L39.655 18.905 Q41.659 16.853 42.237 16.139 L43.117 15.615 Q45.211 13.658 45.811 12.97 L46.657 12.409 Q48.68 10.38 49.255 9.677 L50 9 L50.743 9.691 Q51.314 10.406 53.312 12.492 L54.147 13.083 Q54.728 13.797 56.75 15.861 L57.607 16.435 Q58.152 17.184 60.055 19.359 L60.891 19.977 Q61.355 20.784 63.011 23.155 L63.783 23.861 Q64.125 24.731 65.412 27.322 L66.081 28.133 Q66.27 29.051 67.111 31.82 L67.652 32.726 Q67.68 33.665 68.105 36.526 L68.575 37.474 Q68.521 38.412 68.689 41.3 L69.028 42.302 Q68.844 43.225 68.624 46.11 L68.532 47.117 Q68.428 48.026 67.96 50.875 L67.75 51.864 Q67.541 52.754 66.763 55.535 L66.449 56.496 Q66.149 57.36 65.1 60.051 L64.697 60.978 Q64.318 61.81 63.035 64.397 L62.554 65.287 Q62.107 66.085 60.618 68.559 L60.069 69.408 Q59.561 70.169 57.888 72.522 L57.277 73.328 Q56.714 74.049 54.869 76.271 L54.201 77.029 Q53.585 77.705 51.576 79.78 L50.849 80.482 Q50.18 81.106 48 83 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M46 91 Q47.5 87 48 83" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 83 L49.88 13.44" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.344 70.258 Q38.705 62.534 35.14 56.938" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.326 70.945 Q58.928 63.221 62.849 57.625" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.726 56.128 Q37.849 48.404 33.825 42.808" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.706 56.882 Q60.743 49.158 65.195 43.562" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.104 42.156 Q39.644 34.432 36.145 28.836" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.087 42.787 Q59.36 35.064 63.16 29.467" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

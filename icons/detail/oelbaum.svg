@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Ölbaum · Olea europaea">
+  <title>Ölbaum · Olea europaea</title>
+  <path class="leaf-blade" d="M48 82 C39 68 36 48 40 31 C43 20 48 13 51 9 C53 12 55 19 57 30 C60 47 56 67 48 82 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M46.5 91 Q47.5 87 48 82" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M48 82 L50.82 13.38" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M48.409 72.05 Q43.121 65.208 40.633 60.37" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.396 72.376 Q52.917 65.533 55.045 60.696" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.214 52.455 Q42.759 45.612 39.722 40.775" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.179 53.315 Q54.551 46.472 57.079 41.635" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.996 33.422 Q46.024 26.58 44.154 21.742" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.961 34.287 Q53.358 27.445 54.957 22.607" fill="none" stroke="currentColor" stroke-width="1.12"/>
+</svg>

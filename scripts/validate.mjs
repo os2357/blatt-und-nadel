@@ -11,6 +11,7 @@ import {
   geometryFindings,
   contourCrossings,
   bladeSeparationFindings,
+  veinAttachmentFindings,
 } from './geometry.mjs';
 import { paintedStrokeExcursion, paintedComponents } from './paint.mjs';
 
@@ -199,6 +200,15 @@ for (const variant of variants) {
         name + ': separate external stalks from internal midribs',
       );
       veinsChecked += geometry.filter((p) => ['leaf-vein', 'leaf-midrib'].includes(p.class)).length;
+      for (const finding of veinAttachmentFindings(geometry))
+        failures.push(
+          name +
+            ': detached vein origin at path ' +
+            finding.path +
+            ' (painted gap ' +
+            finding.gap.toFixed(3) +
+            ' units)',
+        );
       for (const finding of bladeSeparationFindings(geometry))
         failures.push(
           name +

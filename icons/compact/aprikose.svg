@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Aprikose · Prunus armeniaca">
+  <title>Aprikose · Prunus armeniaca</title>
+  <path class="leaf-blade" d="M48 65 Q44.735 66.719 43.642 67.169 L42.343 67.307 Q38.658 67.561 37.464 67.577 L36.239 67.073 Q32.742 65.874 31.608 65.483 L30.675 64.523 Q27.758 62.248 26.78 61.546 L26.208 60.324 Q24.04 57.325 23.268 56.396 L23.066 55.054 Q21.72 51.606 21.186 50.519 L21.335 49.165 Q20.825 45.498 20.541 44.321 L20.999 43.034 Q21.064 39.333 20.956 38.126 L21.604 36.921 Q22.468 33.321 22.645 32.121 L23.557 31.102 Q25.286 27.828 25.766 26.717 L26.897 25.954 Q29.401 23.229 30.15 22.284 L31.42 21.805 Q34.507 19.766 35.463 19.039 L36.794 18.836 Q40.266 17.564 41.368 17.1 L42.702 17.168 Q45.743 15.393 46.376 14.414 L47.332 13.525 Q49.058 10.271 49.418 9.159 L50 8 L50.566 9.121 Q50.899 10.203 52.429 13.426 L53.281 14.366 Q53.773 15.387 56.507 17.306 L57.804 17.372 Q58.806 17.955 61.961 19.646 L63.213 20.018 Q64.022 20.854 66.704 23.226 L67.87 23.833 Q68.471 24.835 70.602 27.712 L71.638 28.531 Q72.014 29.641 73.521 32.89 L74.388 33.893 Q74.531 35.057 75.388 38.534 L76.058 39.679 Q75.985 40.849 76.158 44.427 L76.557 45.693 Q76.211 46.818 75.465 50.322 L75.509 51.645 Q74.891 52.644 73.264 55.836 L72.944 57.115 Q72.102 57.927 69.716 60.597 L69.059 61.728 Q68.05 62.31 65.054 64.27 L64.096 65.144 Q62.977 65.452 59.551 66.482 L58.364 66.965 Q57.21 66.948 53.637 66.807 L52.373 66.753 Q51.29 66.387 48 65 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M39 91 C44 83 47 74 48 65" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 65 L49.88 11.42" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48.175 60 Q32.7 55.621 26.976 51.262" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.175 60 Q63.895 56.19 69.71 52.042" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.67 45.905 Q32.483 41.247 26.497 36.785" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.624 47.219 Q64.74 42.561 70.701 38.099" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.119 33.105 Q37.131 28.447 32.697 23.985" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.072 34.441 Q60.904 29.784 65.281 25.321" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

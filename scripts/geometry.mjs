@@ -155,6 +155,37 @@ export function boundaryDistance(point, polygon) {
   return distance;
 }
 
+// Check the proximal end of every vein, including subordinate branches.
+// The painted strokes must meet another vascular/stalk path. A nearby blade
+// outline is not a substitute for a parent vein. This detects visible gaps;
+// it does not certify the botanical course or full topology of venation.
+export function veinAttachmentFindings(paths, tolerance = 0.06) {
+  const vascular = paths.flatMap((path, index) =>
+    ['leaf-vein', 'leaf-midrib', 'leaf-petiole', 'leaf-rachis'].includes(path.class)
+      ? [{ ...path, index, subpaths: flattenPath(path.d) }]
+      : [],
+  );
+  const findings = [];
+  for (const vein of vascular) {
+    if (vein.class !== 'leaf-vein') continue;
+    for (const subpath of vein.subpaths) {
+      const origin = subpath.points[0];
+      let gap = Infinity;
+      for (const parent of vascular) {
+        if (parent.index === vein.index) continue;
+        for (const branch of parent.subpaths)
+          gap = Math.min(
+            gap,
+            boundaryDistance(origin, branch.points) -
+              (Number(vein['stroke-width']) + Number(parent['stroke-width'])) / 2,
+          );
+      }
+      if (gap > tolerance) findings.push({ path: vein.index, point: origin, gap });
+    }
+  }
+  return findings;
+}
+
 // A closed blade may have concave lobes, but its contour must not cross itself.
 export function contourCrossings(polygon) {
   const cross = (a, b, c) => (b[0] - a[0]) * (c[1] - a[1]) - (b[1] - a[1]) * (c[0] - a[0]);

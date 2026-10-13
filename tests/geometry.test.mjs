@@ -7,6 +7,7 @@ import {
   geometryFindings,
   contourCrossings,
   bladeSeparationFindings,
+  veinAttachmentFindings,
 } from '../scripts/geometry.mjs';
 import { paintedStrokeExcursion, paintedComponents } from '../scripts/paint.mjs';
 
@@ -18,6 +19,17 @@ test('a needle must touch the curved twig, not merely sit near it', async () => 
 });
 
 const box = { class: 'leaf-blade', d: 'M0 0 H10 V10 H0 Z' };
+
+test('veins must join a vascular path, including branches, rather than the outline', () => {
+  const midrib = { class: 'leaf-midrib', d: 'M5 10 L5 0', 'stroke-width': 1 };
+  const vein = { class: 'leaf-vein', d: 'M5 8 Q7 6 9 5', 'stroke-width': 1 };
+  const branch = { class: 'leaf-vein', d: 'M7 6.25 L8 3', 'stroke-width': 1 };
+  assert.deepEqual(veinAttachmentFindings([box, midrib, vein, branch]), []);
+  const floating = { ...branch, d: 'M9 8 L9 7' };
+  assert.equal(veinAttachmentFindings([box, midrib, vein, floating]).length, 1);
+  const outlineOnly = { ...branch, d: 'M0 5 L2 3' };
+  assert.equal(veinAttachmentFindings([box, midrib, outlineOnly]).length, 1);
+});
 
 test('a rounded filled-needle cap must not fold back across its return edge', () => {
   const folded = 'M39 79 Q29 78.83 14 65.33 Q14.82 64.34 14 63.93 Q28.5 75.53 39 79 Z';

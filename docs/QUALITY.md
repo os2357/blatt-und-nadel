@@ -1,12 +1,12 @@
 # Quality checks
 
-Release **1.6.1** · 13 October 2026
+Release **1.7.0** · 13 October 2026
 
 ## Artwork review
 
-The current release contains 118 species / 236 source SVGs. The two new Cultivated apple variants received a focused primary-description and photograph review, an enlarged comparison with neighboring fruit-tree icons, and target-size inspection on light/dark backgrounds. The [v1.6.1 review](AUDIT-1.6.1.md) and [machine-readable record](audit-1.6.1.json) document the selected form, omitted characters and current hashes.
+The current release contains **126 taxa / 252 source SVGs**. All taxa and both optical sizes received a fresh source-guided review, including enlarged photograph comparison and final target-size inspection on light/dark backgrounds. See the [full v1.7 report](AUDIT-1.7.md), [machine-readable record](audit-1.7.json) and [two expansion rounds](EXPANSION-1.7.md).
 
-All 234 existing source SVGs are byte-identical to v1.6.0. Their botanical and optical review is inherited from the [full v1.6 review](AUDIT-1.6.md), not claimed as a new full collection review. That release corrected Ginkgo after the earlier visual acceptance proved too lenient. The silhouette and before/after requirements below remain in force.
+Fourteen existing SVGs changed; 222 remain byte-identical to the canonical v1.6.1 baseline. Sixteen new SVGs were added. Ginkgo, Stieleiche and every conifer retain their previously corrected artwork.
 
 ### Required review gates
 
@@ -39,15 +39,13 @@ In 1.0.1, the other 54 source SVGs were byte-identical to the clean 1.0.0 releas
 
 ## Wych elm review
 
-Both Wych elm variants were checked against the botanical references linked in [BOTANY.md](BOTANY.md), enlarged and at their intended small sizes on light and dark backgrounds. Detail has 13 main lateral veins per side and six upper branches; Compact has five main lateral veins per side. All 42 lateral-vein/branch endpoints meet the blade contour. The selected form has a very short petiole, its greatest width above the midpoint, a mildly unequal base and two lateral apex points.
-
-Both outlines have no detected self-crossings. Full-stroke containment at 1536 × 1536 px found zero uncovered stroke pixels beyond the stated antialiasing tolerance.
+In v1.7 both Wych elm variants received an unequal rounded basal lobe and a very short partly concealed petiole. Detail retains 13 lateral veins per side and six fork branches; Compact has six lateral veins per side. The three-point upper blade is preserved. [Before/after and source assessment](AUDIT-1.7.md).
 
 ## Automated geometry and asset checks
 
 `npm test` verifies:
 
-- The catalog and both icon directories agree: 118 species and 236 files.
+- The catalog and both icon directories agree: 126 taxa and 252 files.
 - XML uses the supported element and attribute allowlists, with valid nesting and no unchecked transforms.
 - Every source has the expected dimensions, viewBox, image role, accessible name and exactly one matching title before the paths.
 - Geometry is nonempty; license notices are present.
@@ -55,7 +53,8 @@ Both outlines have no detected self-crossings. Full-stroke containment at 1536 �
 - Blade, filled-needle, scale, sheath, bud, gland and stipule contours explicitly close and contain no detected proper self-crossings.
 - Each of the 24 conifer and four heath SVGs forms one connected painted component: no detached needle or twig fragments.
 - Separate leaf blades have no detected crossings, nesting or overlaps between their painted outlines.
-- All **2255 internal vein and midrib paths** remain inside the leaf blades within the stated numerical tolerance.
+- All **2398 internal vein and midrib paths** remain inside the leaf blades within the stated numerical tolerance.
+- Every vein origin must visibly touch another vascular path (vein, midrib, petiole or rachis), with a 0.06-unit numerical tolerance after stroke widths. Contact with the blade outline alone does not count. This detects visible gaps; it does not establish a full biologically correct vein network.
 - Rendered strokes do not touch the canvas edge.
 - Generated sprites, the manifest, gallery and SVG overview match the current sources.
 
@@ -76,7 +75,7 @@ Thirteen artwork regressions additionally protect the selected compound-leaf cou
 - Copy feedback; clipboard contents additionally verified in Chromium.
 - Size/color controls, dark mode and initial keyboard focus.
 - Layout at 1440, 768, 480, 375 and 320 CSS pixels, including card contents.
-- All 236 external sprite symbols compared with their inline rendering in the same browser.
+- All 252 external sprite symbols compared with their inline rendering in the same browser.
 - A standalone SVG via `<img>` and a light icon on a dark background.
 - No uncaught JavaScript errors.
 
@@ -89,7 +88,7 @@ Sprite and inline captures use the same device-pixel origin. The comparison allo
 | Chromium, headless | 153.0.8010.0 | Passed |
 | Firefox, headless  | 153.0        | Passed |
 
-Both engines completed the workflow above. The 236-file geometry checks, all twelve geometry regressions and thirteen semantic artwork regressions passed.
+Both engines completed the workflow above. The 252-file geometry checks, all thirteen geometry regressions and thirteen semantic artwork regressions passed.
 
 ## Release archive checks
 

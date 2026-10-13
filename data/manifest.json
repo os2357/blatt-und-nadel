@@ -1,6 +1,6 @@
 {
   "name": "Blatt & Nadel",
-  "version": "1.6.1",
+  "version": "1.7.0",
   "author": "Oliver Simon",
   "copyright": "Copyright 2026 Oliver Simon",
   "license": "CC-BY-4.0",
@@ -262,7 +262,7 @@
       },
       "scientificName": "Carpinus betulus",
       "group": "broadleaf",
-      "description": "Länglich-eiförmig, doppelt gesägt; zwölf deutliche Seitennervenpaare in der Detailstufe.",
+      "description": "Länglich-eiförmige Spreite mit rundlichem, leicht ungleichem Grund und doppelter Sägung; zwölf deutliche Seitennervenpaare in Detail, sechs in Compact.",
       "source": "https://www.infoflora.ch/de/flora/carpinus-betulus.html",
       "since": "1.0.0",
       "symbol": "leaf-hainbuche",
@@ -381,7 +381,7 @@
       },
       "scientificName": "Ulmus glabra",
       "group": "broadleaf",
-      "description": "Längliche, oberhalb der Mitte breitere Spreite, doppelte Zähnung, leicht schiefer Grund und sehr kurzer Stiel; Detail mit 13 Seitennerven je Seite und sechs oberen Gabelungen, deren Enden in Randzähne laufen.",
+      "description": "Längliche Spreite mit ungleich gerundetem Blattgrund, sehr kurzem teilweise verdecktem Stiel, doppelter Zähnung und zwei Nebenspitzen. Detail mit 13 Seitennerven je Seite und sechs Gabelästen; Compact reduziert auf sechs Seitennerven je Seite.",
       "source": "https://www.infoflora.ch/de/flora/ulmus-glabra.html",
       "since": "1.0.0",
       "symbol": "leaf-bergulme",
@@ -2020,6 +2020,142 @@
       "files": {
         "detail": "icons/detail/kulturapfel.svg",
         "compact": "icons/compact/kulturapfel.svg"
+      }
+    },
+    {
+      "id": "oelbaum",
+      "name": {
+        "en": "Olive",
+        "de": "Ölbaum"
+      },
+      "scientificName": "Olea europaea",
+      "group": "broadleaf",
+      "description": "Schmales, ganzrandiges, kurz gestieltes Blatt mit beidseits verjüngter Spreite; ausgewähltes reifes Blatt des mediterranen Ölbaums. Schuppenhaare und silbrige Unterseite sind nicht dargestellt.",
+      "source": "https://www.infoflora.ch/de/flora/olea-europaea.html",
+      "since": "1.7.0",
+      "symbol": "leaf-oelbaum",
+      "files": {
+        "detail": "icons/detail/oelbaum.svg",
+        "compact": "icons/compact/oelbaum.svg"
+      }
+    },
+    {
+      "id": "feige",
+      "name": {
+        "en": "Common fig",
+        "de": "Echte Feige"
+      },
+      "scientificName": "Ficus carica",
+      "group": "broadleaf",
+      "description": "Fünflappiges, handnerviges Blatt mit tiefen gerundeten Buchten, breiten stumpfen Lappen und langem Stiel. Eine ausgewählte Form innerhalb der starken Blattvariabilität.",
+      "source": "https://www.infoflora.ch/de/flora/ficus-carica.html",
+      "since": "1.7.0",
+      "symbol": "leaf-feige",
+      "files": {
+        "detail": "icons/detail/feige.svg",
+        "compact": "icons/compact/feige.svg"
+      }
+    },
+    {
+      "id": "quitte",
+      "name": {
+        "en": "Quince",
+        "de": "Quitte"
+      },
+      "scientificName": "Cydonia oblonga",
+      "group": "broadleaf",
+      "description": "Ganzrandiges ovales Blatt mit rundlichem bis schwach herzförmigem Grund, kleiner Spitze und kurzem Stiel. Dicht filzige Unterseite und junge Nebenblätter sind nicht dargestellt.",
+      "source": "https://www.infoflora.ch/de/flora/cydonia-oblonga.html",
+      "since": "1.7.0",
+      "symbol": "leaf-quitte",
+      "files": {
+        "detail": "icons/detail/quitte.svg",
+        "compact": "icons/compact/quitte.svg"
+      }
+    },
+    {
+      "id": "kulturbirne",
+      "name": {
+        "en": "Cultivated pear",
+        "de": "Kulturbirne"
+      },
+      "scientificName": "Pyrus communis",
+      "group": "broadleaf",
+      "description": "Eiförmiges Blatt mit rundlichem Grund, kurzer Spitze, feinem Kerbrand und langem Stiel. Kultivierte Birnen sind variabel; keine sichere Trennung von der Wildbirne anhand der Silhouette.",
+      "source": "https://floranorthamerica.org/Pyrus_communis",
+      "since": "1.7.0",
+      "symbol": "leaf-kulturbirne",
+      "files": {
+        "detail": "icons/detail/kulturbirne.svg",
+        "compact": "icons/compact/kulturbirne.svg"
+      }
+    },
+    {
+      "id": "aprikose",
+      "name": {
+        "en": "Apricot",
+        "de": "Aprikose"
+      },
+      "scientificName": "Prunus armeniaca",
+      "group": "broadleaf",
+      "description": "Breit eiförmiges bis rundliches Blatt mit schwach herzförmigem Grund, abrupt kurzer Spitze, feinem Kerbsägerand und langem Stiel; zwei Stieldrüsen in Detail. Sortenvariation und Behaarung sind nicht dargestellt.",
+      "source": "https://www.infoflora.ch/de/flora/prunus-armeniaca.html",
+      "since": "1.7.0",
+      "symbol": "leaf-aprikose",
+      "files": {
+        "detail": "icons/detail/aprikose.svg",
+        "compact": "icons/compact/aprikose.svg"
+      }
+    },
+    {
+      "id": "mandel",
+      "name": {
+        "en": "Almond",
+        "de": "Mandelbaum"
+      },
+      "scientificName": "Prunus dulcis",
+      "group": "broadleaf",
+      "description": "Lanzettliches, lang zugespitztes Blatt mit stumpfem Grund, feinen stumpfen Zähnen und relativ langem drüsigem Stiel. Detail zeigt zwei Drüsen; Compact lässt sie zugunsten der Lesbarkeit weg.",
+      "source": "https://www.infoflora.ch/de/flora/prunus-dulcis.html",
+      "since": "1.7.0",
+      "symbol": "leaf-mandel",
+      "files": {
+        "detail": "icons/detail/mandel.svg",
+        "compact": "icons/compact/mandel.svg"
+      }
+    },
+    {
+      "id": "mispel",
+      "name": {
+        "en": "Medlar",
+        "de": "Mispel"
+      },
+      "scientificName": "Mespilus germanica",
+      "group": "broadleaf",
+      "description": "Kurz gestieltes, länglich-elliptisches Blatt mit verjüngtem Grund und nur in der vorderen Hälfte feinen Zähnen. Die Seitennerven biegen zum Rand hin aufwärts; Filzbehaarung und feines Nervennetz sind nicht dargestellt.",
+      "source": "https://www.infoflora.ch/de/flora/mespilus-germanica.html",
+      "since": "1.7.0",
+      "symbol": "leaf-mispel",
+      "files": {
+        "detail": "icons/detail/mispel.svg",
+        "compact": "icons/compact/mispel.svg"
+      }
+    },
+    {
+      "id": "lorbeer",
+      "name": {
+        "en": "Bay laurel",
+        "de": "Echter Lorbeer"
+      },
+      "scientificName": "Laurus nobilis",
+      "group": "broadleaf",
+      "description": "Ganzrandiges, länglich-lanzettliches Blatt mit schwach welligem Rand, zugespitztem Ende und kurzem Stiel. Eine ausgewählte reife Blattform; lederige Oberfläche und ätherische Öle werden nicht abgebildet.",
+      "source": "https://www.infoflora.ch/de/flora/laurus-nobilis.html",
+      "since": "1.7.0",
+      "symbol": "leaf-lorbeer",
+      "files": {
+        "detail": "icons/detail/lorbeer.svg",
+        "compact": "icons/compact/lorbeer.svg"
       }
     }
   ]

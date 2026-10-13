@@ -1,0 +1,21 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Echter Lorbeer · Laurus nobilis">
+  <title>Echter Lorbeer · Laurus nobilis</title>
+  <path class="leaf-blade" d="M48 83 C43 78 39 75 37 68 C34 61 37 58 33 51 C30 45 33 42 34 35 C35 24 46 18 51 9 C56 18 63 24 64 34 C63 40 67 43 64 50 C61 57 63 60 60 66 C57 73 54 77 48 83 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M46.5 91 Q47.4 87 48 83" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M48 83 L50.82 13.44" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M48.264 76.5 Q40.162 68.236 37.165 62.44" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.237 77.159 Q56.556 68.895 59.633 63.099" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.61 67.946 Q39.51 59.682 36.143 53.886" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.575 68.811 Q57.56 60.547 60.883 54.751" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.943 59.746 Q37.919 51.482 33.842 45.686" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.904 60.701 Q59.288 52.437 63.128 46.641" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.286 51.288 Q39.275 43.024 35.573 37.228" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.243 52.343 Q58.794 44.079 62.326 38.283" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.625 42.915 Q40.809 34.652 37.549 28.855" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.582 43.977 Q58.369 35.713 61.62 29.917" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.919 35.669 Q44.144 27.406 42.008 21.609" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.896 36.242 Q56.172 27.978 58.493 22.182" fill="none" stroke="currentColor" stroke-width="1.12"/>
+</svg>

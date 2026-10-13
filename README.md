@@ -1,14 +1,14 @@
 # Blatt & Nadel
 
-**118 woody species found in Central Europe · 236 SVG icons · v1.6.1**
+**126 woody species found in Central Europe · 252 SVG icons · v1.7.0**
 
 Leaf, needle and twig icons for nature websites, species profiles and filters. Two optical sizes pair distinctive botanical forms with clear, consistent linework.
 
 [Deutsch](docs/README.de.md) · [Usage](docs/USAGE.md) · [Botanical notes](docs/BOTANY.md) · [Quality checks](docs/QUALITY.md) · [Changelog](CHANGELOG.md)
 
-![All 118 species in the Detail variant](docs/preview.png)
+![All 126 species in the Detail variant](docs/preview.png)
 
-Version 1.6.1 adds Cultivated apple (`kulturapfel`) in both optical sizes. All existing artwork remains unchanged. [Apple review](docs/AUDIT-1.6.1.md) · [Full collection review from v1.6.0](docs/AUDIT-1.6.md) · [Collection scope](docs/SCOPE.md).
+Version 1.7 adds eight fruit and Mediterranean garden trees, refines three existing leaf forms and repairs detached vein origins. Every species and both optical sizes received a fresh source-guided review. [Full review](docs/AUDIT-1.7.md) · [Expansion](docs/EXPANSION-1.7.md) · [Collection scope](docs/SCOPE.md).
 
 ## Use the icons
 
@@ -209,6 +209,14 @@ IDs use stable German ASCII names. The manifest includes English and German comm
 | `pfirsich`                    | Peach                  | Pfirsich                    | _Prunus persica_               |
 | `pflaume`                     | European plum          | Pflaume                     | _Prunus domestica_             |
 | `kulturapfel`                 | Cultivated apple       | Kulturapfel                 | _Malus domestica_              |
+| `oelbaum`                     | Olive                  | Ölbaum                      | _Olea europaea_                |
+| `feige`                       | Common fig             | Echte Feige                 | _Ficus carica_                 |
+| `quitte`                      | Quince                 | Quitte                      | _Cydonia oblonga_              |
+| `kulturbirne`                 | Cultivated pear        | Kulturbirne                 | _Pyrus communis_               |
+| `aprikose`                    | Apricot                | Aprikose                    | _Prunus armeniaca_             |
+| `mandel`                      | Almond                 | Mandelbaum                  | _Prunus dulcis_                |
+| `mispel`                      | Medlar                 | Mispel                      | _Mespilus germanica_           |
+| `lorbeer`                     | Bay laurel             | Echter Lorbeer              | _Laurus nobilis_               |
 
 ## Botanical scope
 

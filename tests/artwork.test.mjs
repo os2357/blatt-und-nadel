@@ -49,7 +49,14 @@ test('compound additions retain their selected leaflet counts in both optical si
 });
 
 test('petiolar glands are retained in Detail and deliberately omitted in Compact', () => {
-  for (const id of ['vogelkirsche', 'traubenkirsche', 'gewoehnlicher-schneeball', 'pfirsich']) {
+  for (const id of [
+    'vogelkirsche',
+    'traubenkirsche',
+    'gewoehnlicher-schneeball',
+    'pfirsich',
+    'aprikose',
+    'mandel',
+  ]) {
     assert.equal(counts(id, 'detail')['leaf-gland'], 2, id);
     assert.equal(counts(id, 'compact')['leaf-gland'] || 0, 0, id);
   }

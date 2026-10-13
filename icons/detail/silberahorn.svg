@@ -12,8 +12,8 @@
   <path class="leaf-vein" d="M48 64 Q63 63 76 63" fill="none" stroke="currentColor" stroke-width="1.12"/>
   <path class="leaf-vein" d="M49 38 L40 24" fill="none" stroke="currentColor" stroke-width="1.12"/>
   <path class="leaf-vein" d="M49 38 L61 25" fill="none" stroke="currentColor" stroke-width="1.12"/>
-  <path class="leaf-vein" d="M29 43 L18 42" fill="none" stroke="currentColor" stroke-width="1.12"/>
-  <path class="leaf-vein" d="M69 43 L82 42" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M30.636 41.353 L18 42" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M67.009 40.494 L82 42" fill="none" stroke="currentColor" stroke-width="1.12"/>
   <path class="leaf-vein" d="M48.8 28 L45 21" fill="none" stroke="currentColor" stroke-width="1.12"/>
   <path class="leaf-vein" d="M48.8 28 L55 21" fill="none" stroke="currentColor" stroke-width="1.12"/>
 </svg>

@@ -1,0 +1,20 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Echte Feige · Ficus carica">
+  <title>Echte Feige · Ficus carica</title>
+  <path class="leaf-blade" d="M48 62 C41 61 42 72 31 73 C25 75 20 73 17 70 Q13 69 14 65 Q10 62 14 59 Q14 56 19 55 C24 53 30 50 26 47 C22 44 16 43 13 38 Q9 36 11 32 Q8 28 12 26 Q11 21 16 22 C22 20 28 29 33 35 C36 40 40 39 39 33 C37 26 37 18 40 15 Q39 10 44 11 Q48 6 52 11 Q57 9 58 15 C62 19 60 27 59 34 C58 40 62 40 65 35 C70 28 78 22 83 25 Q88 24 87 29 Q91 32 86 35 Q87 40 83 41 C80 45 74 47 70 49 C67 52 74 55 80 57 Q85 57 84 61 Q89 64 84 67 Q85 72 79 72 C75 76 67 76 62 73 C53 70 55 61 48 62 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M37 91 C43 82 47 72 48 62" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M48 62 Q49 39 49 15" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M48 62 Q35 46 17 28" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 62 Q64 45 81 29" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 62 Q30 61 18 65" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 62 Q65 61 80 65" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.6 46 Q42 35 41 24" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.8 33 Q52 24 56 20" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49 26 Q45 20 44 17" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.3 54 Q55 40 57 30" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M33.75 45.5 Q26 41 19 35" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M33.015 62.1125 Q30 68 27 70" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M62.895 62.1125 Q69 68 74 70" fill="none" stroke="currentColor" stroke-width="1.12"/>
+</svg>
