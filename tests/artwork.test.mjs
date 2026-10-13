@@ -425,8 +425,10 @@ test('revised broadleaf veins ascend from distinct origins on each side', () => 
 
 test('herb shoots retain paired leaves, narrow blades and an axillary rosemary branch', () => {
   for (const [id, count, min, max] of [
-    ['echter-lavendel', 8, 5.5, 7.5],
-    ['rosmarin', 16, 5.5, 12],
+    ['echter-lavendel', 8, 6, 9.5],
+    // Endpoint-axis width includes arch height: this protects the selected
+    // curved silhouette, not a flattened specimen's length-to-width ratio.
+    ['rosmarin', 16, 4.3, 10],
   ])
     for (const variant of variants) {
       const all = paths(id, variant),
@@ -464,5 +466,8 @@ test('herb shoots retain paired leaves, narrow blades and an axillary rosemary b
           0,
           'Open narrow interiors',
         );
+      else
+        for (const midrib of all.filter((p) => p.class === 'leaf-midrib'))
+          assert.match(midrib.d, /Q/, 'Midrib follows the curved blade');
     }
 });

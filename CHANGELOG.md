@@ -1,5 +1,15 @@
 # Changelog
 
+## 2.2.2 — 2026-10-13
+
+### Fixed
+
+- Refine Lavendel and Rosmarin in both optical sizes using the supplied Köhler botanical plates, existing foliage references and freshly checked modern descriptions.
+- Lavendel: longer, narrower ascending blades, gentle curvature and varied angles. Rosmarin: naturally arched, nearly parallel-sided blades with rounded tips and curved Detail midribs.
+- Retain opposite pairs, the axillary rosemary branch and open Compact interiors; resolve projected leaf contacts in both sizes.
+- Update the [focused review](docs/AUDIT-2.2.2.md), exact hashes, preview, gallery and sprites. **Four revised SVGs; 346 byte-identical to v2.2.1.**
+- Count remains 175 taxa / 350 SVGs; licenses and IDs unchanged.
+
 ## 2.2.1 — 2026-10-13
 
 ### Fixed

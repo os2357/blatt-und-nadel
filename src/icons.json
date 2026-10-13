@@ -2085,7 +2085,7 @@
       },
       "scientificName": "Lavandula angustifolia",
       "group": "broadleaf",
-      "description": "Aufrechter belaubter Trieb mit vier gegenständigen Blattpaaren. Ganzrandige schmal-lanzettliche Spreiten mit verschmälerter Basis; obere Blätter kleiner. Detail mit Mittelrippen, Compact mit offenen Blattflächen.",
+      "description": "Aufrechter belaubter Trieb mit vier gegenständigen Blattpaaren. Lange, schmal-lanzettliche, sanft gebogene Spreiten stehen überwiegend aufwärts; obere Blätter kleiner. Detail mit gebogenen Mittelrippen, Compact mit offenen Blattflächen.",
       "source": "https://www.infoflora.ch/de/flora/lavandula-angustifolia.html",
       "since": "2.2.0"
     },
@@ -2097,7 +2097,7 @@
       },
       "scientificName": "Salvia rosmarinus",
       "group": "broadleaf",
-      "description": "Belaubter Trieb mit einem blattachselständigen Seitenzweig: fünf Blattpaare am Haupttrieb, drei am Seitentrieb. Schmale fast parallelrandige, stumpfe Spreiten; Detail mit Mittelrippen der größeren Blätter.",
+      "description": "Belaubter Trieb mit blattachselständigem Seitenzweig: fünf gegenständige Blattpaare am Haupttrieb, drei am Seitentrieb. Sehr schmale, fast parallelrandige Spreiten mit abgerundeten Enden; untere Blätter bogenförmig ausgebreitet, obere stärker aufgerichtet.",
       "source": "https://www.infoflora.ch/de/flora/rosmarinus-officinalis.html",
       "since": "2.2.0"
     }
