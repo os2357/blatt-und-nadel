@@ -7,7 +7,7 @@
   --muted: #657565;
   --rule: #d3dbce;
   --accent: #34573e;
-  --icon-size: 112px;
+  --icon-size: 128px;
 }
 * {
   box-sizing: border-box;
@@ -132,6 +132,69 @@ header p {
 }
 .controls .grow {
   margin-left: auto;
+}
+.variant-control {
+  min-width: 0;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.variant-control legend {
+  margin-bottom: 6px;
+  padding: 0;
+  color: var(--muted);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+.variant-switch {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 38px;
+  gap: 2px;
+  padding: 2px;
+  border: 1px solid var(--rule);
+  border-radius: 5px;
+  background: var(--bg);
+}
+.variant-switch label {
+  position: relative;
+  display: grid;
+  gap: 0;
+  color: var(--ink);
+  font-size: 12px;
+  text-transform: none;
+  letter-spacing: normal;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.variant-switch input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+.variant-switch span {
+  display: grid;
+  place-items: center;
+  padding: 0 14px;
+  border-radius: 3px;
+}
+.variant-switch label:hover span {
+  background: var(--paper);
+}
+.variant-switch input:checked + span {
+  background: var(--ink);
+  color: var(--paper);
+}
+.variant-switch input:focus-visible + span {
+  outline: 3px solid #b58b47;
+  outline-offset: 2px;
 }
 .grid {
   display: grid;

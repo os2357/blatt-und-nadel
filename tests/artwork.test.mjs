@@ -294,3 +294,21 @@ test('dawn redwood needles meet in opposite pairs instead of alternate rows', ()
     }
   }
 });
+
+// A regression for the over-narrow lateral blades found in the v2.0 review.
+// These bounds protect the chosen form, not every naturally variable specimen.
+import { axisRatio } from '../scripts/measure.mjs';
+test('rowan leaflets preserve their revised oblong proportions and terminal size', () => {
+  for (const variant of variants) {
+    const blades = paths('vogelbeere', variant).filter((p) => p.class === 'leaf-blade');
+    assert.equal(blades.length, 11);
+    const dimensions = blades.map((p) => axisRatio(p.d));
+    for (const d of dimensions)
+      assert.ok(d.ratio >= 2.4 && d.ratio <= 3.8, variant + ': over-narrow rowan leaflet');
+    const lengths = dimensions.map((d) => d.length);
+    assert.ok(
+      Math.min(...lengths) / Math.max(...lengths) > 0.7,
+      variant + ': undersized terminal leaflet',
+    );
+  }
+});

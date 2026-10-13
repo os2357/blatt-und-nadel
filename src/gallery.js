@@ -17,6 +17,7 @@ function filter() {
 $('#search').addEventListener('input', filter);
 $('#group').addEventListener('change', filter);
 $('#variant').addEventListener('change', (e) => {
+  if (!e.target.matches('input[name="variant"]')) return;
   variant = e.target.value;
   for (const c of cards) {
     c.querySelector('[data-detail]').toggleAttribute('hidden', variant !== 'detail');

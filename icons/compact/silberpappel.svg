@@ -3,9 +3,9 @@
      Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
 <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Silberpappel · Populus alba">
   <title>Silberpappel · Populus alba</title>
-  <path class="leaf-blade" d="M48 66 Q37 72 25 63 Q18 59 13 51 Q21 49 25 44 Q20 37 22 30 Q33 31 37 40 Q42 30 41 25 Q42 17 49 9 Q57 21 58 28 Q55 32 60 39 Q69 29 77 29 Q77 39 72 44 Q77 49 84 50 Q73 65 59 69 Q53 69 48 66 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-blade" d="M48 66 Q37 72 25 63 Q18 59 13 51 Q21 49 25 44 Q20 37 22 30 Q30 31 35 36 Q38 32 37 26 Q41 26 43 20 Q46 16 49 12 Q55 17 57 23 Q59 25 62 24 Q60 30 62 35 Q70 29 77 29 Q77 39 72 44 Q77 49 84 50 Q73 65 59 69 Q53 69 48 66 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
   <path class="leaf-petiole" d="M36 91 Q44 80 48 66" fill="none" stroke="currentColor" stroke-width="3.3"/>
-  <path class="leaf-midrib" d="M48 66 Q49 34 49 14" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 66 Q49 34 49 17" fill="none" stroke="currentColor" stroke-width="3.3"/>
   <path class="leaf-vein" d="M48 65 Q32 54 18 53" fill="none" stroke="currentColor" stroke-width="2.25"/>
   <path class="leaf-vein" d="M48 65 Q65 55 80 53" fill="none" stroke="currentColor" stroke-width="2.25"/>
   <path class="leaf-vein" d="M48 63 Q36 48 26 34" fill="none" stroke="currentColor" stroke-width="2.25"/>

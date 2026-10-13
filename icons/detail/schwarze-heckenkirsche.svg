@@ -1,0 +1,19 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Schwarze Heckenkirsche · Lonicera nigra">
+  <title>Schwarze Heckenkirsche · Lonicera nigra</title>
+  <path class="leaf-blade" d="M48 84 C34 81 29 66 31 47 C32 32 40 20 50 9 C59 19 66 33 66 49 C66 68 60 80 48 84 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M46 91 Q48 88 48 84" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M48 84 L49.87 14" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M48.24 75 Q39.634 71.85 35 66" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.24 75 Q56.534 71.5 61 65" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.534 64 Q39.087 60.5 34 54" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.534 64 Q57.287 60.5 62 54" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.828 53 Q40.49 49.15 36 42" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.828 53 Q57.39 49.15 62 42" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.122 42 Q43.193 38.15 40 31" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.122 42 Q55.543 38.15 59 31" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.416 31 Q46.546 27.85 45 22" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.416 31 Q52.396 27.85 54 22" fill="none" stroke="currentColor" stroke-width="1.12"/>
+</svg>

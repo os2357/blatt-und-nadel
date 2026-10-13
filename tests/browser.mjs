@@ -121,7 +121,7 @@ try {
         ['besenheide', 'schneeheide'],
       );
       await page.locator('#group').selectOption('');
-      await page.locator('#variant').selectOption('compact');
+      await page.getByRole('radio', { name: 'Compact', exact: true }).check();
       assert.equal(
         await page.locator('.specimen [data-compact]:visible').count(),
         catalog.icons.length,
@@ -154,7 +154,7 @@ try {
         await fs.readFile(await download.path(), 'utf8'),
         await fs.readFile(path.join(root, 'icons/compact/fichte.svg'), 'utf8'),
       );
-      await page.locator('#variant').selectOption('detail');
+      await page.getByRole('radio', { name: 'Detail', exact: true }).check();
       await page.locator('#size').fill('128');
       assert.equal(await page.locator('#size-label').textContent(), '128 px');
       assert.equal(

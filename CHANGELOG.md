@@ -1,5 +1,27 @@
 # Changelog
 
+## 2.0.0 — 2026-10-13
+
+### Added
+
+- Schwarze Heckenkirsche, Alpen-Kreuzdorn, Breitblättriges Pfaffenhütchen, Fingerstrauch, Steineiche, Korkeiche, Westlicher Erdbeerbaum and Lorbeer-Schneeball in Detail and Compact: **150 taxa / 300 SVGs**.
+- [Two sequential expansion rounds](docs/EXPANSION-2.0.md) and [individual review of every SVG](docs/AUDIT-2.0.md), with source/photo references, optical limits, exact hashes and oriented blade measurements.
+- A Rowan regression for excessively narrow leaflets and an undersized terminal leaflet.
+
+### Fixed
+
+- Silberpappel: broad, continuous transition into the middle lobe in both sizes.
+- Vogelbeere: broader oblong-lanceolate leaflets, rounded slightly unequal bases, entire basal margins and a more comparable terminal leaflet.
+- Refined draft Fingerstrauch proportions and Korkeiche vein endpoints before accepting the additions.
+
+### Updated and preserved
+
+- **16 added, four revised and 280 byte-identical SVGs** compared with v1.9.0. Previous Stieleiche, Bergulme, Ginkgo and conifer revisions are preserved.
+- README species table now covers all 150 taxa. Updated sources, documentation, catalog, previews, sprites and gallery.
+- Package gallery adopts the already-approved hosted settings: 128 px default, Detail/Compact radio switch, Natur-Apps und Naturwebseiten introduction.
+- Version 2.0 marks the requested collection milestone; existing IDs, paths and viewBoxes remain compatible.
+- Geometry/raster and source review completed. Fresh browser integration execution is unavailable in this environment and remains outstanding, explicitly recorded in [QUALITY.md](docs/QUALITY.md). No independent botanical certification is claimed.
+
 ## 1.9.0 — 2026-10-13
 
 ### Added

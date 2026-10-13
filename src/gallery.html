@@ -17,7 +17,7 @@
       <h1>Blatt &amp; Nadel</h1>
       <p>
         {{count}} Gehölze, gezeichnet als zusammenhängendes SVG-System. Charakteristische Blätter,
-        Nadelbüschel und Zweige für Naturwebseiten.
+        Nadelbüschel und Zweige für Natur-Apps und Naturwebseiten. Open Source.
       </p>
       <div class="meta">
         <span>Version {{version}} · {{count}} Motive · {{files}} Einzeldateien</span
@@ -38,14 +38,23 @@
             <option>Laubgehölze</option>
             <option>Heidezweige</option>
           </select></label
-        ><label
-          >Zeichnung<select id="variant">
-            <option value="detail">Detail · ab 48 px</option>
-            <option value="compact">Compact · ab 24 px</option>
-          </select></label
-        ><label
-          >Größe <span id="size-label">112 px</span
-          ><input id="size" type="range" min="24" max="128" value="112" step="8" /></label
+        >
+        <fieldset id="variant" class="variant-control">
+          <legend>Zeichnung</legend>
+          <div class="variant-switch">
+            <label>
+              <input type="radio" name="variant" value="detail" checked />
+              <span>Detail</span>
+            </label>
+            <label>
+              <input type="radio" name="variant" value="compact" />
+              <span>Compact</span>
+            </label>
+          </div>
+        </fieldset>
+        <label
+          >Größe <span id="size-label">128 px</span
+          ><input id="size" type="range" min="24" max="128" value="128" step="8" /></label
         ><label>Farbe<input id="color" type="color" value="#34573e" /></label
         ><button id="theme" class="grow" type="button" aria-pressed="false">
           Dunkler Hintergrund

@@ -1,12 +1,12 @@
 # Quality checks
 
-Release **1.9.0** · 13 October 2026
+Release **2.0.0** · 13 October 2026
 
 ## Artwork review
 
-The current release contains **142 taxa / 284 source SVGs**. All taxa and both optical sizes received a fresh source-guided review, including enlarged photograph comparison and target-size inspection on light/dark backgrounds. See the [full v1.9 report](AUDIT-1.9.md), [machine-readable record](audit-1.9.json) and [two expansion rounds](EXPANSION-1.9.md).
+The current release contains **150 taxa / 300 source SVGs**. All taxa and both optical sizes received a fresh source-guided review, including enlarged photograph comparison and target-size inspection on light/dark backgrounds. See the [full v2.0 report](AUDIT-2.0.md), [machine-readable record](audit-2.0.json) and [two expansion rounds](EXPANSION-2.0.md).
 
-All 268 previous SVGs remain byte-identical to the canonical v1.8.0 baseline. Sixteen new SVGs were added. Earlier corrections, including Ginkgo, Stieleiche and Bergulme, are preserved.
+280 previous SVGs remain byte-identical to the canonical v1.9.0 baseline. Four SVGs (Silberpappel and Vogelbeere, both sizes) were revised; sixteen were added. Earlier corrections, including Ginkgo, Stieleiche and Bergulme, are preserved.
 
 ### Required review gates
 
@@ -45,7 +45,7 @@ In v1.7 both Wych elm variants received an unequal rounded basal lobe and a very
 
 `npm test` verifies:
 
-- The catalog and both icon directories agree: 142 taxa and 284 files.
+- The catalog and both icon directories agree: 150 taxa and 300 files.
 - XML uses the supported element and attribute allowlists, with valid nesting and no unchecked transforms.
 - Every source has the expected dimensions, viewBox, image role, accessible name and exactly one matching title before the paths.
 - Geometry is nonempty; license notices are present.
@@ -53,7 +53,7 @@ In v1.7 both Wych elm variants received an unequal rounded basal lobe and a very
 - Blade, filled-needle, scale, sheath, bud, gland and stipule contours explicitly close and contain no detected proper self-crossings.
 - Each of the 24 conifer and four heath SVGs forms one connected painted component: no detached needle or twig fragments.
 - Separate leaf blades have no detected crossings, nesting or overlaps between their painted outlines.
-- All **2912 internal vein and midrib paths** remain inside the leaf blades within the stated numerical tolerance.
+- All **3100 internal vein and midrib paths** remain inside the leaf blades within the stated numerical tolerance.
 - Every vein origin must visibly touch another vascular path (vein, midrib, petiole or rachis), with a 0.06-unit numerical tolerance after stroke widths. Contact with the blade outline alone does not count. This detects visible gaps; it does not establish a full biologically correct vein network.
 - Rendered strokes do not touch the canvas edge.
 - Generated sprites, the manifest, gallery and SVG overview match the current sources.
@@ -79,7 +79,7 @@ Thirteen artwork regressions additionally protect the selected compound-leaf cou
 - Copy feedback; clipboard contents additionally verified in Chromium.
 - Size/color controls, dark mode and initial keyboard focus.
 - Layout at 1440, 768, 480, 375 and 320 CSS pixels, including card contents.
-- All 284 external sprite symbols compared with their inline rendering in the same browser.
+- All 300 external sprite symbols compared with their inline rendering in the same browser.
 - A standalone SVG via `<img>` and a light icon on a dark background.
 - No uncaught JavaScript errors.
 
@@ -87,14 +87,12 @@ Sprite and inline captures use the same device-pixel origin. The comparison allo
 
 ## Release run
 
-| Engine             | Version      | Result |
-| ------------------ | ------------ | ------ |
-| Chromium, headless | 153.0.8010.0 | Passed |
-| Firefox, headless  | 153.0        | Passed |
+- Geometry, XML, metadata, stroke containment and generated-asset freshness: 300 source SVGs and 3,100 internal paths checked.
+- Regression suite: 31 tests (13 geometry, 14 artwork, four audit). The added Rowan regression checks longitudinal proportions and comparable terminal-leaflet size.
+- Archive regression and exact extracted-byte checks run when building the ZIP.
+- **Chromium and Firefox integration: not rerun for v2.0.** The managed publishing environment lacks the prescribed browser-control capability. No alternate preview server or browser path was used. The last completed browser run belongs to v1.9 (Chromium 153.0.8010.0 / Firefox 153.0); it does not verify the changed v2.0 assets. The current test suite uses the already-approved radio switch selectors and remains available for CI or local execution.
 
-Both engines completed the workflow above. The 284-file geometry checks and all 30 regressions passed: thirteen geometry, thirteen semantic artwork and four audit tests.
-
-The v1.8 theme-aware footer links remain preserved. The v1.9 review also checks current source bytes against the per-variant audit hashes. Four additional audit regressions verify valid coverage, a stale SVG, a missing Compact review and a mismatched release.
+The package now includes the previously approved hosted-gallery refinements: 128 px default size, the labeled Detail/Compact radio switch, and the introduction for Natur-Apps und Naturwebseiten. No redesign accompanies the release. This source integration was checked structurally; it is not represented as browser execution.
 
 ## Release archive checks
 
@@ -113,8 +111,8 @@ npx playwright install --with-deps chromium firefox
 npm run test:browser
 ```
 
-`BROWSERS=chromium` or `BROWSERS=firefox` selects one engine; `BROWSER_OUTPUT` changes the screenshot directory. An optional `CHROMIUM_EXECUTABLE_PATH` selects a locally installed Chromium binary. The release checks used a packaged Chromium binary. In the test container, Firefox required `MOZ_DISABLE_CONTENT_SANDBOX=1 FIREFOX_DISABLE_SANDBOX=1`; ordinary CI uses the default sandbox settings. These environment overrides affect the test browser only.
+`BROWSERS=chromium` or `BROWSERS=firefox` selects one engine; `BROWSER_OUTPUT` changes the screenshot directory. An optional `CHROMIUM_EXECUTABLE_PATH` selects a locally installed Chromium binary. The previous v1.9 checks used a packaged Chromium binary. In that test container, Firefox required `MOZ_DISABLE_CONTENT_SANDBOX=1 FIREFOX_DISABLE_SANDBOX=1`; ordinary CI uses the default sandbox settings. These environment overrides affect the test browser only.
 
 ## Limits
 
-The botanical review is source-guided design work, not independent specialist certification. Small icons cannot carry every identifying feature. No claim is made of full WCAG conformance or complete screen-reader testing. WebKit/Safari and physical mobile devices were not part of this release run; mobile sizes are desktop-engine viewport tests. PNG font rendering can vary between systems. Hosted CI results are reported separately by GitHub Actions.
+The botanical review is source-guided design work, not independent specialist certification. Small icons cannot carry every identifying feature. No claim is made of full WCAG conformance or complete screen-reader testing. WebKit/Safari and physical mobile devices are not verified for v2.0; when run, the included mobile-size tests use desktop-engine viewports. PNG font rendering can vary between systems. Hosted CI results are reported separately by GitHub Actions.

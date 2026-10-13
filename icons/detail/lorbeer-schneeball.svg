@@ -1,0 +1,17 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Lorbeer-Schneeball · Viburnum tinus">
+  <title>Lorbeer-Schneeball · Viburnum tinus</title>
+  <path class="leaf-blade" d="M48 81 C32 81 22 65 24 49 C25 34 35 23 44 19 Q48 16 50 11 Q56 20 63 26 C72 38 74 55 68 67 Q62 81 48 81 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M44 91 Q47 86 48 81" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M48 81 L49.85 16" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M48.256 72 Q35.74 66.75 29 57" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.256 72 Q60.44 66.4 67 56" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.598 60 Q36.509 54.05 30 43" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.598 60 Q60.559 54.05 67 43" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.968 47 Q39.889 41.75 35 32" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.968 47 Q56.789 41.4 61 31" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.338 34 Q45.218 30.15 43 23" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.338 34 Q53.018 30.15 55 23" fill="none" stroke="currentColor" stroke-width="1.12"/>
+</svg>
