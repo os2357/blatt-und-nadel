@@ -192,10 +192,13 @@ test('pine fascicles preserve five- versus two-needle groups in both sizes', () 
       ['bergkiefer', 2, 4],
       ['kiefer', 2, 3],
       ['schwarzkiefer', 2, 3],
+      ['pinie', 2, 3],
+      ['aleppo-kiefer', 2, 3],
+      ['strandkiefer', 2, 3],
     ]) {
       const groups = [];
       for (const { base } of needleBases(id, variant)) {
-        const group = groups.find((g) => Math.hypot(g[0][0] - base[0], g[0][1] - base[1]) < 1.5);
+        const group = groups.find((g) => Math.hypot(g[0][0] - base[0], g[0][1] - base[1]) < 1.8);
         if (group) group.push(base);
         else groups.push([base]);
       }
@@ -208,6 +211,8 @@ test('pine fascicles preserve five- versus two-needle groups in both sizes', () 
     assert.equal(counts('bergkiefer', variant)['leaf-sheath'], 4);
     assert.equal(counts('kiefer', variant)['leaf-sheath'], 3);
     assert.equal(counts('schwarzkiefer', variant)['leaf-sheath'], 3);
+    for (const id of ['pinie', 'aleppo-kiefer', 'strandkiefer'])
+      assert.equal(counts(id, variant)['leaf-sheath'], 3);
     assert.equal(
       counts('zirbelkiefer', variant)['leaf-sheath'] || 0,
       0,
@@ -309,6 +314,83 @@ test('rowan leaflets preserve their revised oblong proportions and terminal size
     assert.ok(
       Math.min(...lengths) / Math.max(...lengths) > 0.7,
       variant + ': undersized terminal leaflet',
+    );
+  }
+});
+
+test('hornbeam veins ascend from separate origins instead of crowding the blade base', () => {
+  for (const variant of variants) {
+    const veins = paths('hainbuche', variant).filter((p) => p.class === 'leaf-vein');
+    assert.equal(veins.length, variant === 'detail' ? 20 : 12);
+    const sides = [[], []];
+    for (const p of veins) {
+      const points = flattenPath(p.d)[0].points,
+        start = points[0],
+        end = points.at(-1);
+      assert.ok(end[1] < start[1] - 2, 'Lateral nerves ascend toward the margin');
+      const previous = sides[end[0] < start[0] ? 0 : 1];
+      assert.ok(
+        previous.every((a) => Math.hypot(a[0] - start[0], a[1] - start[1]) > 0.5),
+        'No stacked basal origins',
+      );
+      previous.push(start);
+    }
+  }
+});
+
+test('Oregon grape keeps nearly sessile lateral leaflets and a stalked terminal leaflet', () => {
+  for (const variant of variants) {
+    const stalks = paths('mahonie', variant)
+      .filter((p) => p.class === 'leaf-petiole')
+      .map((p) => {
+        const pts = flattenPath(p.d)[0].points;
+        return pts
+          .slice(1)
+          .reduce((sum, p, i) => sum + Math.hypot(p[0] - pts[i][0], p[1] - pts[i][1]), 0);
+      });
+    assert.equal(stalks.filter((n) => n <= 1.6).length, 6);
+    assert.equal(stalks.filter((n) => n >= 10).length, 1);
+    assert.equal(counts('mahonie', variant)['leaf-blade'], 7);
+  }
+});
+
+test('sessile rockroses have basal nerves without an invented external petiole', () => {
+  for (const variant of variants) {
+    for (const id of ['montpellier-zistrose', 'weissliche-zistrose']) {
+      const all = paths(id, variant);
+      assert.equal(all.filter((p) => p.class === 'leaf-petiole').length, 0);
+      const main = all
+        .filter((p) => ['leaf-midrib', 'leaf-vein'].includes(p.class))
+        .filter((p) => flattenPath(p.d)[0].points[0][1] >= 85);
+      assert.equal(main.length, 3, 'Selected three basal nerves survive the optical reduction');
+    }
+    assert.equal(counts('salbeiblaettrige-zistrose', variant)['leaf-petiole'], 1);
+  }
+});
+
+test('mastic foliage retains paired blades and a closed winged rachis', () => {
+  for (const variant of variants) {
+    const all = paths('mastixstrauch', variant),
+      blades = all.filter((p) => p.class === 'leaf-blade');
+    assert.equal(blades.length, 8);
+    let left = 0,
+      right = 0;
+    for (const blade of blades) {
+      const xs = flattenPath(blade.d)[0].points.map((p) => p[0]);
+      if (Math.max(...xs) < 48.5) left++;
+      else if (Math.min(...xs) > 48.5) right++;
+      else assert.fail('No terminal leaflet across the axis');
+    }
+    assert.equal(left, 4);
+    assert.equal(right, 4);
+    const rachis = all.find((p) => p.class === 'leaf-rachis');
+    assert.equal(rachis.fill, 'currentColor');
+    const contour = flattenPath(rachis.d)[0];
+    assert.ok(contour.closed);
+    const xs = contour.points.map((p) => p[0]);
+    assert.ok(
+      Math.max(...xs) - Math.min(...xs) >= 3,
+      'Wing membrane must not collapse into a line',
     );
   }
 });

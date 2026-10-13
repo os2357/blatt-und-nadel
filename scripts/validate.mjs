@@ -115,7 +115,10 @@ for (const variant of variants) {
       if (node.name === 'path') {
         paths++;
         geometry.push(node.attributes);
-        const filled = ['leaf-needle', 'leaf-sheath', 'leaf-scale'].includes(node.attributes.class);
+        // A winged compound-leaf rachis is a narrow membrane, not a uniform stroke.
+        const filled =
+          ['leaf-needle', 'leaf-sheath', 'leaf-scale'].includes(node.attributes.class) ||
+          (node.attributes.class === 'leaf-rachis' && node.attributes.fill === 'currentColor');
         assert.equal(node.attributes.fill, filled ? 'currentColor' : 'none', name + ': fill');
         assert.equal(node.attributes.stroke, filled ? 'none' : 'currentColor', name + ': stroke');
         if (!filled)
@@ -161,7 +164,8 @@ for (const variant of variants) {
             'leaf-bud',
             'leaf-gland',
             'leaf-stipule',
-          ].includes(node.attributes.class)
+          ].includes(node.attributes.class) ||
+          filled
         ) {
           for (const subpath of subpaths) {
             assert.ok(subpath.closed, name + ': filled or blade contour must explicitly close');

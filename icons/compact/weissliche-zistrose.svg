@@ -1,0 +1,10 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Weißliche Zistrose · Cistus albidus">
+  <title>Weißliche Zistrose · Cistus albidus</title>
+  <path class="leaf-blade" d="M44 86 C37 79 29 62 30 44 C31 29 38 15 48 10 C60 15 68 30 67 46 C67 61 60 79 54 86 Q49 88 44 86 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-midrib" d="M49 87 Q49 48 48 14" fill="none" stroke="currentColor" stroke-width="2.8"/>
+  <path class="leaf-vein" d="M49 86 C34 63 33 37 44 18" fill="none" stroke="currentColor" stroke-width="2.05"/>
+  <path class="leaf-vein" d="M49 86 C63 64 65 38 52 18" fill="none" stroke="currentColor" stroke-width="2.05"/>
+</svg>

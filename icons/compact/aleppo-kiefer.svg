@@ -1,0 +1,16 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Aleppo-Kiefer · Pinus halepensis">
+  <title>Aleppo-Kiefer · Pinus halepensis</title>
+  <path class="leaf-axis" d="M20 89 Q26 86 32 82 Q42 78 52 70 Q64 62 72 53 L74 51" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-needle" d="M28.392 75.547 Q14.85 52.472 10 26 Q16.929 51.659 30.069 74.892 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M29.882 74.93 Q22.812 46.41 21 17 Q25.013 46.037 31.657 74.63 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M30.798 82.343 L28.125 75.536 Q29.5 73.25 31.875 74.464 L33.202 81.657 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M50.308 63.117 Q43.519 36.034 44 8 Q45.732 35.745 52.092 62.883 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M51.917 62.823 Q59.747 37.869 63 12 Q61.936 38.307 53.683 63.177 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M50.75 70 L50.05 63 Q52 61.25 53.95 63 L53.25 70 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M74.528 46.156 Q79.876 30.393 90 17 Q81.875 31.385 76.141 46.956 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M76.099 46.745 Q84.89 41.908 92 35 Q86.296 43.641 77.233 48.143 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M70.96 52.307 L74.378 45.918 Q77 45.5 77.622 48.082 L73.04 53.693 Z" fill="currentColor" stroke="none"/>
+</svg>

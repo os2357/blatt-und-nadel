@@ -1,0 +1,275 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740"><rect width="1200" height="740" fill="#faf9f4"/><g fill="#254d39" font-family="DejaVu Sans"><text x="32" y="46" font-size="28">Blatt &amp; Nadel · 2.1</text><text x="32" y="77" font-size="15">Eight additions · Detail and Compact</text><svg x="4" y="112" width="190" height="190" viewBox="0 0 96 96" color="#254d39" stroke-linecap="round" stroke-linejoin="round">
+  <title>Pinie · Pinus pinea</title>
+  <path class="leaf-axis" d="M19 90 Q25 86 30 83 Q41 77 51 70 Q64 63 74 57 L78 54" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-needle" d="M26.498 76.378 Q18.729 46.018 14 15 Q20.547 45.625 27.964 76.061 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M28.021 75.834 Q26.255 42.9 24 10 Q28.11 42.765 29.517 75.726 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M29.087 83.261 L26.125 76.536 Q27.5 74.25 29.875 75.464 L30.913 82.739 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M51.481 62.783 Q50.385 33.897 52 5 Q52.245 33.89 52.981 62.777 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M53.029 63.096 Q58.256 35.588 63 8 Q60.091 35.895 54.509 63.343 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M50.087 69.739 L51.125 62.464 Q53.5 61.25 54.875 63.536 L51.913 70.261 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M76.593 50.44 Q79.156 29.041 84 8 Q80.993 29.329 78.075 50.672 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M77.966 51.173 Q84.932 34.067 92 17 Q86.666 34.738 79.365 51.715 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M73.21 56.473 L76.378 49.918 Q79 49.5 79.622 52.082 L74.79 57.527 Z" fill="currentColor" stroke="none"/>
+</svg>
+<svg x="203" y="200" width="78" height="78" viewBox="0 0 96 96" color="#254d39" stroke-linecap="round" stroke-linejoin="round">
+  <title>Pinie · Pinus pinea</title>
+  <path class="leaf-axis" d="M19 90 Q25 86 30 83 Q41 77 51 70 Q64 63 74 57 L78 54" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-needle" d="M26.18 76.447 Q18.335 46.103 14 15 Q20.941 45.54 28.282 75.993 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M27.697 75.858 Q25.853 42.929 24 10 Q28.512 42.736 29.841 75.702 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M28.798 83.343 L26.125 76.536 Q27.5 74.25 29.875 75.464 L31.202 82.657 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M51.156 62.785 Q49.982 33.899 52 5 Q52.648 33.888 53.306 62.776 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M52.709 63.043 Q57.859 35.522 63 8 Q60.488 35.962 54.83 63.397 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M49.798 69.657 L51.125 62.464 Q53.5 61.25 54.875 63.536 L52.202 70.343 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M76.272 50.39 Q78.757 28.979 84 8 Q81.391 29.392 78.396 50.723 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M77.663 51.056 Q84.556 33.921 92 17 Q87.042 34.884 79.668 51.832 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M72.96 56.307 L76.378 49.918 Q79 49.5 79.622 52.082 L75.04 57.693 Z" fill="currentColor" stroke="none"/>
+</svg>
+<text x="24" y="323" font-size="13">Pinie</text><text x="24" y="345" font-size="12" font-style="italic">Pinus pinea</text><text x="24" y="367" font-size="10" fill="#64756b">DETAIL</text><text x="204" y="367" font-size="10" fill="#64756b">COMPACT</text><svg x="304" y="112" width="190" height="190" viewBox="0 0 96 96" color="#254d39" stroke-linecap="round" stroke-linejoin="round">
+  <title>Aleppo-Kiefer · Pinus halepensis</title>
+  <path class="leaf-axis" d="M20 89 Q26 86 32 82 Q42 78 52 70 Q64 62 72 53 L74 51" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-needle" d="M28.742 75.411 Q15.283 52.302 10 26 Q16.496 51.829 29.72 75.029 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M30.252 74.868 Q23.271 46.332 21 17 Q24.554 46.115 31.287 74.693 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M31.087 82.261 L28.125 75.536 Q29.5 73.25 31.875 74.464 L32.913 81.739 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M50.679 63.068 Q43.98 35.974 44 8 Q45.271 35.805 51.721 62.932 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M52.285 62.897 Q60.203 37.961 63 12 Q61.48 38.216 53.315 63.103 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M51.05 70 L50.05 63 Q52 61.25 53.95 63 L52.95 70 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M74.864 46.323 Q80.292 30.6 90 17 Q81.459 31.179 75.805 46.79 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M76.335 47.036 Q85.183 42.269 92 35 Q86.003 43.28 76.996 47.851 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M71.21 52.473 L74.378 45.918 Q77 45.5 77.622 48.082 L72.79 53.527 Z" fill="currentColor" stroke="none"/>
+</svg>
+<svg x="503" y="200" width="78" height="78" viewBox="0 0 96 96" color="#254d39" stroke-linecap="round" stroke-linejoin="round">
+  <title>Aleppo-Kiefer · Pinus halepensis</title>
+  <path class="leaf-axis" d="M20 89 Q26 86 32 82 Q42 78 52 70 Q64 62 72 53 L74 51" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-needle" d="M28.392 75.547 Q14.85 52.472 10 26 Q16.929 51.659 30.069 74.892 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M29.882 74.93 Q22.812 46.41 21 17 Q25.013 46.037 31.657 74.63 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M30.798 82.343 L28.125 75.536 Q29.5 73.25 31.875 74.464 L33.202 81.657 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M50.308 63.117 Q43.519 36.034 44 8 Q45.732 35.745 52.092 62.883 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M51.917 62.823 Q59.747 37.869 63 12 Q61.936 38.307 53.683 63.177 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M50.75 70 L50.05 63 Q52 61.25 53.95 63 L53.25 70 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M74.528 46.156 Q79.876 30.393 90 17 Q81.875 31.385 76.141 46.956 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M76.099 46.745 Q84.89 41.908 92 35 Q86.296 43.641 77.233 48.143 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M70.96 52.307 L74.378 45.918 Q77 45.5 77.622 48.082 L73.04 53.693 Z" fill="currentColor" stroke="none"/>
+</svg>
+<text x="324" y="323" font-size="13">Aleppo-Kiefer</text><text x="324" y="345" font-size="12" font-style="italic">Pinus halepensis</text><text x="324" y="367" font-size="10" fill="#64756b">DETAIL</text><text x="504" y="367" font-size="10" fill="#64756b">COMPACT</text><svg x="604" y="112" width="190" height="190" viewBox="0 0 96 96" color="#254d39" stroke-linecap="round" stroke-linejoin="round">
+  <title>Salbeiblättrige Zistrose · Cistus salviifolius</title>
+  <path class="leaf-blade" d="M48 82 C32 77 25 61 28 44 C30 27 40 13 49 10 C59 11 70 28 70 46 C71 64 61 77 48 82 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M46 91 Q48 86 48 82" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M48 82 Q50 49 49 14" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M49 73 Q35 69 32 55" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49 73 Q63 69 66 54" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49 60 Q34 52 33 36" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49 60 Q63 49 65 35" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.3 45 Q39 37 39 24" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.3 45 Q60 34 61 23" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.3 30 Q44 24 44 17" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.3 30 Q55 23 55 17" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M35.447 63.575 Q34.261 54.498 35.074 45.421" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M62.552 63.152 Q63.522 53.403 62.491 43.653" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M35.415 46.22 Q36.735 39.014 40.055 31.808" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M62.13 44.432 Q61.748 37.236 59.367 30.04" fill="none" stroke="currentColor" stroke-width="0.85"/>
+</svg>
+<svg x="803" y="200" width="78" height="78" viewBox="0 0 96 96" color="#254d39" stroke-linecap="round" stroke-linejoin="round">
+  <title>Salbeiblättrige Zistrose · Cistus salviifolius</title>
+  <path class="leaf-blade" d="M48 82 C32 77 25 61 28 44 C30 27 40 13 49 10 C59 11 70 28 70 46 C71 64 61 77 48 82 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M46 91 Q48 86 48 82" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 82 Q50 49 49 14" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-vein" d="M49 73 Q35 69 32 55" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49 73 Q63 69 66 54" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49 60 Q34 52 33 36" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49 60 Q63 49 65 35" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.3 30 Q44 24 44 17" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.3 30 Q55 23 55 17" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>
+<text x="624" y="323" font-size="13">Salbeiblättrige Zistrose</text><text x="624" y="345" font-size="12" font-style="italic">Cistus salviifolius</text><text x="624" y="367" font-size="10" fill="#64756b">DETAIL</text><text x="804" y="367" font-size="10" fill="#64756b">COMPACT</text><svg x="904" y="112" width="190" height="190" viewBox="0 0 96 96" color="#254d39" stroke-linecap="round" stroke-linejoin="round">
+  <title>Montpellier-Zistrose · Cistus monspeliensis</title>
+  <path class="leaf-blade" d="M45 89 C42 80 40 65 40 49 C40 32 44 16 49 7 C54 16 57 31 57 48 C57 65 54 81 51 89 Q48 90 45 89 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M48 89 L49 11" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path class="leaf-vein" d="M48 89 C43 66 42 42 47 18" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48 89 C55 66 55 41 51 18" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.179 75 L45 72" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M48.179 75 L51.3 72" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M48.333 63 L43.7 59" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M48.333 63 L52.5 59" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M48.5 50 L43.2 46" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M48.5 50 L53.1 46" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M48.667 37 L43.8 34" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M48.667 37 L53.4 34" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M48.808 26 L45 23" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M48.808 26 L52 23" fill="none" stroke="currentColor" stroke-width="0.85"/>
+</svg>
+<svg x="1103" y="200" width="78" height="78" viewBox="0 0 96 96" color="#254d39" stroke-linecap="round" stroke-linejoin="round">
+  <title>Montpellier-Zistrose · Cistus monspeliensis</title>
+  <path class="leaf-blade" d="M45 89 C42 80 40 65 40 49 C40 32 44 16 49 7 C54 16 57 31 57 48 C57 65 54 81 51 89 Q48 90 45 89 Z" fill="none" stroke="currentColor" stroke-width="2.75"/>
+  <path class="leaf-midrib" d="M48 89 L49 11" fill="none" stroke="currentColor" stroke-width="2.05"/>
+  <path class="leaf-vein" d="M48 89 C43 66 42 42 47 18" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path class="leaf-vein" d="M48 89 C55 66 55 41 51 18" fill="none" stroke="currentColor" stroke-width="1.5"/>
+</svg>
+<text x="924" y="323" font-size="13">Montpellier-Zistrose</text><text x="924" y="345" font-size="12" font-style="italic">Cistus monspeliensis</text><text x="924" y="367" font-size="10" fill="#64756b">DETAIL</text><text x="1104" y="367" font-size="10" fill="#64756b">COMPACT</text><svg x="4" y="406" width="190" height="190" viewBox="0 0 96 96" color="#254d39" stroke-linecap="round" stroke-linejoin="round">
+  <title>Strandkiefer · Pinus pinaster</title>
+  <path class="leaf-axis" d="M19 91 Q24 87 30 84 Q42 78 53 70 Q66 64 75 58 L79 55" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-needle" d="M25.428 71.41 Q15.956 42.071 9 12 Q17.92 41.5 27.013 70.949 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M26.958 70.895 Q24.369 38.957 22 7 Q26.407 38.773 28.601 70.746 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M29.026 84.225 L25.1 71.438 Q26.55 69.05 28.9 70.562 L30.974 83.775 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M53.387 56.944 Q50.686 30.552 50 4 Q52.726 30.39 55.032 56.813 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M54.977 56.983 Q59.281 32.956 64 9 Q61.298 33.3 56.604 57.26 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M52.012 69.848 L53.073 56.703 Q55.3 55.05 56.927 57.297 L53.988 70.152 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M79.46 45.605 Q79.621 26.752 82 8 Q81.665 26.845 81.109 45.68 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M80.94 46.076 Q86.366 32.001 92 18 Q88.29 32.698 82.491 46.639 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M74.106 57.553 L79.256 45.128 Q81.9 44.2 82.744 46.872 L75.894 58.447 Z" fill="currentColor" stroke="none"/>
+</svg>
+<svg x="203" y="494" width="78" height="78" viewBox="0 0 96 96" color="#254d39" stroke-linecap="round" stroke-linejoin="round">
+  <title>Strandkiefer · Pinus pinaster</title>
+  <path class="leaf-axis" d="M19 91 Q24 87 30 84 Q42 78 53 70 Q66 64 75 58 L79 55" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-needle" d="M25.116 71.501 Q15.569 42.184 9 12 Q18.307 41.387 27.325 70.859 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M26.634 70.924 Q23.968 38.994 22 7 Q26.808 38.736 28.925 70.716 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M28.733 84.292 L25.1 71.438 Q26.55 69.05 28.9 70.562 L31.267 83.708 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M53.063 56.97 Q50.284 30.584 50 4 Q53.127 30.358 55.356 56.787 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M54.657 56.928 Q58.884 32.888 64 9 Q61.695 33.368 56.924 57.315 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M51.715 69.802 L53.073 56.703 Q55.3 55.05 56.927 57.297 L54.285 70.198 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M79.136 45.59 Q79.218 26.733 82 8 Q82.067 26.863 81.433 45.695 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M80.634 45.966 Q85.987 31.863 92 18 Q88.668 32.836 82.797 46.75 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M73.837 57.419 L79.256 45.128 Q81.9 44.2 82.744 46.872 L76.163 58.581 Z" fill="currentColor" stroke="none"/>
+</svg>
+<text x="24" y="617" font-size="13">Strandkiefer</text><text x="24" y="639" font-size="12" font-style="italic">Pinus pinaster</text><text x="24" y="661" font-size="10" fill="#64756b">DETAIL</text><text x="204" y="661" font-size="10" fill="#64756b">COMPACT</text><svg x="304" y="406" width="190" height="190" viewBox="0 0 96 96" color="#254d39" stroke-linecap="round" stroke-linejoin="round">
+  <title>Weißliche Zistrose · Cistus albidus</title>
+  <path class="leaf-blade" d="M44 86 C37 79 29 62 30 44 C31 29 38 15 48 10 C60 15 68 30 67 46 C67 61 60 79 54 86 Q49 88 44 86 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M49 87 Q49 48 48 14" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path class="leaf-vein" d="M49 86 C34 63 33 37 44 18" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49 86 C63 64 65 38 52 18" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.7 73 Q44.35 72 40 68" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M48.7 73 Q52.85 72 57 68" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M48.7 59 Q42.900000000000006 58 37.1 53" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M48.7 59 Q54.35 58 60 53" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M48.7 44 Q42.95 43 37.2 38" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M48.7 44 Q54.650000000000006 43 60.6 38" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M48.7 31 Q44.35 30 40 27" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M48.7 31 Q52.650000000000006 30 56.6 27" fill="none" stroke="currentColor" stroke-width="0.85"/>
+</svg>
+<svg x="503" y="494" width="78" height="78" viewBox="0 0 96 96" color="#254d39" stroke-linecap="round" stroke-linejoin="round">
+  <title>Weißliche Zistrose · Cistus albidus</title>
+  <path class="leaf-blade" d="M44 86 C37 79 29 62 30 44 C31 29 38 15 48 10 C60 15 68 30 67 46 C67 61 60 79 54 86 Q49 88 44 86 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-midrib" d="M49 87 Q49 48 48 14" fill="none" stroke="currentColor" stroke-width="2.8"/>
+  <path class="leaf-vein" d="M49 86 C34 63 33 37 44 18" fill="none" stroke="currentColor" stroke-width="2.05"/>
+  <path class="leaf-vein" d="M49 86 C63 64 65 38 52 18" fill="none" stroke="currentColor" stroke-width="2.05"/>
+</svg>
+<text x="324" y="617" font-size="13">Weißliche Zistrose</text><text x="324" y="639" font-size="12" font-style="italic">Cistus albidus</text><text x="324" y="661" font-size="10" fill="#64756b">DETAIL</text><text x="504" y="661" font-size="10" fill="#64756b">COMPACT</text><svg x="604" y="406" width="190" height="190" viewBox="0 0 96 96" color="#254d39" stroke-linecap="round" stroke-linejoin="round">
+  <title>Schmalblättrige Steinlinde · Phillyrea angustifolia</title>
+  <path class="leaf-blade" d="M48 83 C43 75 35 61 37 46 C39 29 46 16 50 9 C54 23 61 39 60 53 C59 68 53 79 48 83 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M46 91 Q48 87 48 83" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M48 83 L50 13" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M48.343 71 Q45 68 41 64" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.343 71 Q53 68 56 64" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.657 60 Q44 57 40.5 53" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.657 60 Q53 57 56.5 53" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.971 49 Q45 46 42 42" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.971 49 Q52 46 55 42" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.286 38 Q46.5 35 45 31" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.286 38 Q51.5 35 53 31" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.543 29 Q48 26 47 23.5" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.543 29 Q51 26 51.8 23.5" fill="none" stroke="currentColor" stroke-width="1.12"/>
+</svg>
+<svg x="803" y="494" width="78" height="78" viewBox="0 0 96 96" color="#254d39" stroke-linecap="round" stroke-linejoin="round">
+  <title>Schmalblättrige Steinlinde · Phillyrea angustifolia</title>
+  <path class="leaf-blade" d="M48 83 C43 75 35 61 37 46 C39 29 46 16 50 9 C54 23 61 39 60 53 C59 68 53 79 48 83 Z" fill="none" stroke="currentColor" stroke-width="2.75"/>
+  <path class="leaf-petiole" d="M46 91 Q48 87 48 83" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 83 L50 13" fill="none" stroke="currentColor" stroke-width="2.75"/>
+  <path class="leaf-vein" d="M48.343 71 Q45 68 41 64" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path class="leaf-vein" d="M48.343 71 Q53 68 56 64" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path class="leaf-vein" d="M48.971 49 Q45 46 42 42" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path class="leaf-vein" d="M48.971 49 Q52 46 55 42" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path class="leaf-vein" d="M49.543 29 Q48 26 47 23.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path class="leaf-vein" d="M49.543 29 Q51 26 51.8 23.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+</svg>
+<text x="624" y="617" font-size="13">Schmalblättrige Steinlinde</text><text x="624" y="639" font-size="12" font-style="italic">Phillyrea angustifolia</text><text x="624" y="661" font-size="10" fill="#64756b">DETAIL</text><text x="804" y="661" font-size="10" fill="#64756b">COMPACT</text><svg x="904" y="406" width="190" height="190" viewBox="0 0 96 96" color="#254d39" stroke-linecap="round" stroke-linejoin="round">
+  <title>Mastixstrauch · Pistacia lentiscus</title>
+  <path class="leaf-petiole" d="M47 92 Q48 87 48.5 81" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-rachis" d="M46.5 81 Q48 71 46.5 61 Q48 51 46.5 41 Q48 33 46.5 25 Q48.5 24 50.5 25 Q49 33 50.5 41 Q49 51 50.5 61 Q49 71 50.5 81 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-blade" d="M46.5 81 C40.059 86.259 20.972 83.772 14.644 75.238 Q11.492 71.595 16.046 70.022 C25.245 65.194 44.8 72.622 46.5 81 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M46.5 81 L17.02 73.08" fill="none" stroke="currentColor" stroke-width="1.05"/>
+  <path class="leaf-vein" d="M38.46 78.84 Q34.565 79.968 31.278 80.172" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M38.46 78.84 Q35.655 75.912 32.912 74.088" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M31.425 76.95 Q27.53 78.078 24.243 78.282" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M31.425 76.95 Q28.62 74.022 25.877 72.198" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M24.39 75.06 Q20.495 76.188 17.208 76.392" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M24.39 75.06 Q21.585 72.132 18.842 70.308" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-blade" d="M50.5 81 C53.117 73.466 69.765 66.146 79.078 70.12 Q83.417 71.595 80.512 75.14 C75.454 83.672 55.997 87.12 50.5 81 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M50.5 81 L78.22 73.08" fill="none" stroke="currentColor" stroke-width="1.05"/>
+  <path class="leaf-vein" d="M58.06 78.84 Q60.652 75.988 63.208 74.202" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M58.06 78.84 Q61.768 79.892 64.882 80.058" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M64.675 76.95 Q67.267 74.098 69.823 72.312" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M64.675 76.95 Q68.383 78.002 71.497 78.168" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M71.29 75.06 Q73.882 72.208 76.438 70.422" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M71.29 75.06 Q74.998 76.112 78.112 76.278" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-blade" d="M46.5 61 C39.05 65.751 18.091 61.083 11.619 51.538 Q8.358 47.415 13.491 46.282 C23.965 42.279 45.137 52.123 46.5 61 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M46.5 61 L14.38 49.56" fill="none" stroke="currentColor" stroke-width="1.05"/>
+  <path class="leaf-vein" d="M37.74 57.88 Q33.362 58.624 29.713 58.476" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M37.74 57.88 Q34.818 54.536 31.897 52.344" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M30.075 55.15 Q25.697 55.894 22.048 55.746" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M30.075 55.15 Q27.153 51.806 24.232 49.614" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M22.41 52.42 Q18.032 53.164 14.383 53.016" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M22.41 52.42 Q19.488 49.076 16.567 46.884" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-blade" d="M50.5 61 C52.549 52.503 70.473 41.837 81.473 44.491 Q86.552 45.325 83.697 49.609 C79.012 59.589 57.447 66.599 50.5 61 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M50.5 61 L80.86 47.8" fill="none" stroke="currentColor" stroke-width="1.05"/>
+  <path class="leaf-vein" d="M58.78 57.4 Q61.365 53.91 64.037 51.565" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M58.78 57.4 Q63.095 57.89 66.633 57.535" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M66.025 54.25 Q68.61 50.76 71.282 48.415" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M66.025 54.25 Q70.34 54.74 73.878 54.385" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M73.27 51.1 Q75.855 47.61 78.527 45.265" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M73.27 51.1 Q77.585 51.59 81.123 51.235" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-blade" d="M46.5 41 C38.964 43.95 20.459 36.116 15.955 26.448 Q13.583 22.19 18.455 22.072 C28.65 20.319 46.577 32.821 46.5 41 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M46.5 41 L18.78 25.16" fill="none" stroke="currentColor" stroke-width="1.05"/>
+  <path class="leaf-vein" d="M38.94 36.68 Q34.818 36.582 31.496 35.813" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M38.94 36.68 Q36.762 33.178 34.414 30.707" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M32.325 32.9 Q28.203 32.802 24.881 32.033" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M32.325 32.9 Q30.147 29.398 27.799 26.927" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M25.71 29.12 Q21.588 29.022 18.266 28.253" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M25.71 29.12 Q23.532 25.618 21.184 23.147" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-blade" d="M50.5 41 C51.87 32.901 68.544 20.397 79.453 21.154 Q84.463 21.145 81.997 25.506 C78.168 35.366 57.679 45.074 50.5 41 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M50.5 41 L79.1 24.28" fill="none" stroke="currentColor" stroke-width="1.05"/>
+  <path class="leaf-vein" d="M58.3 36.44 Q60.561 32.848 62.991 30.292" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M58.3 36.44 Q62.539 36.232 65.959 35.368" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M65.125 32.45 Q67.386 28.858 69.816 26.302" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M65.125 32.45 Q69.364 32.242 72.784 31.378" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M71.95 28.46 Q74.211 24.868 76.641 22.312" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M71.95 28.46 Q76.189 28.252 79.609 27.388" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-blade" d="M46.5 25 C39.858 25.63 28.152 15.428 27.674 6.898 Q27.168 3.055 30.916 4.042 C39.218 4.934 49.057 18.644 46.5 25 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M46.5 25 L30.22 6.52" fill="none" stroke="currentColor" stroke-width="1.05"/>
+  <path class="leaf-vein" d="M42.06 19.96 Q38.949 18.971 36.654 17.636" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M42.06 19.96 Q41.471 16.749 40.436 14.304" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M38.175 15.55 Q35.064 14.561 32.769 13.226" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M38.175 15.55 Q37.586 12.339 36.551 9.894" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M34.29 11.14 Q31.179 10.151 28.884 8.816" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M34.29 11.14 Q33.701 7.929 32.666 5.484" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-blade" d="M50.5 25 C49.038 18.49 57.682 5.592 66.084 4.042 Q69.832 3.055 69.326 6.898 C69.488 15.246 57.127 26.736 50.5 25 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M50.5 25 L66.78 6.52" fill="none" stroke="currentColor" stroke-width="1.05"/>
+  <path class="leaf-vein" d="M54.94 19.96 Q55.529 16.749 56.564 14.304" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M54.94 19.96 Q58.051 18.971 60.346 17.636" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M58.825 15.55 Q59.414 12.339 60.449 9.894" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M58.825 15.55 Q61.936 14.561 64.231 13.226" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M62.71 11.14 Q63.299 7.929 64.334 5.484" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M62.71 11.14 Q65.821 10.151 68.116 8.816" fill="none" stroke="currentColor" stroke-width="0.8"/>
+</svg>
+<svg x="1103" y="494" width="78" height="78" viewBox="0 0 96 96" color="#254d39" stroke-linecap="round" stroke-linejoin="round">
+  <title>Mastixstrauch · Pistacia lentiscus</title>
+  <path class="leaf-petiole" d="M47 92 Q48 87 48.5 81" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-rachis" d="M46.5 81 Q48 71 46.5 61 Q48 51 46.5 41 Q48 33 46.5 25 Q48.5 24 50.5 25 Q49 33 50.5 41 Q49 51 50.5 61 Q49 71 50.5 81 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-blade" d="M46.5 81 C40.059 86.259 20.972 83.772 14.644 75.238 Q11.492 71.595 16.046 70.022 C25.245 65.194 44.8 72.622 46.5 81 Z" fill="none" stroke="currentColor" stroke-width="2.85"/>
+  <path class="leaf-midrib" d="M46.5 81 L17.02 73.08" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <path class="leaf-blade" d="M50.5 81 C53.117 73.466 69.765 66.146 79.078 70.12 Q83.417 71.595 80.512 75.14 C75.454 83.672 55.997 87.12 50.5 81 Z" fill="none" stroke="currentColor" stroke-width="2.85"/>
+  <path class="leaf-midrib" d="M50.5 81 L78.22 73.08" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <path class="leaf-blade" d="M46.5 61 C39.05 65.751 18.091 61.083 11.619 51.538 Q8.358 47.415 13.491 46.282 C23.965 42.279 45.137 52.123 46.5 61 Z" fill="none" stroke="currentColor" stroke-width="2.85"/>
+  <path class="leaf-midrib" d="M46.5 61 L14.38 49.56" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <path class="leaf-blade" d="M50.5 61 C52.549 52.503 70.473 41.837 81.473 44.491 Q86.552 45.325 83.697 49.609 C79.012 59.589 57.447 66.599 50.5 61 Z" fill="none" stroke="currentColor" stroke-width="2.85"/>
+  <path class="leaf-midrib" d="M50.5 61 L80.86 47.8" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <path class="leaf-blade" d="M46.5 41 C38.964 43.95 20.459 36.116 15.955 26.448 Q13.583 22.19 18.455 22.072 C28.65 20.319 46.577 32.821 46.5 41 Z" fill="none" stroke="currentColor" stroke-width="2.85"/>
+  <path class="leaf-midrib" d="M46.5 41 L18.78 25.16" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <path class="leaf-blade" d="M50.5 41 C51.87 32.901 68.544 20.397 79.453 21.154 Q84.463 21.145 81.997 25.506 C78.168 35.366 57.679 45.074 50.5 41 Z" fill="none" stroke="currentColor" stroke-width="2.85"/>
+  <path class="leaf-midrib" d="M50.5 41 L79.1 24.28" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <path class="leaf-blade" d="M46.5 25 C39.858 25.63 28.152 15.428 27.674 6.898 Q27.168 3.055 30.916 4.042 C39.218 4.934 49.057 18.644 46.5 25 Z" fill="none" stroke="currentColor" stroke-width="2.85"/>
+  <path class="leaf-midrib" d="M46.5 25 L30.22 6.52" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <path class="leaf-blade" d="M50.5 25 C49.038 18.49 57.682 5.592 66.084 4.042 Q69.832 3.055 69.326 6.898 C69.488 15.246 57.127 26.736 50.5 25 Z" fill="none" stroke="currentColor" stroke-width="2.85"/>
+  <path class="leaf-midrib" d="M50.5 25 L66.78 6.52" fill="none" stroke="currentColor" stroke-width="1.8"/>
+</svg>
+<text x="924" y="617" font-size="13">Mastixstrauch</text><text x="924" y="639" font-size="12" font-style="italic">Pistacia lentiscus</text><text x="924" y="661" font-size="10" fill="#64756b">DETAIL</text><text x="1104" y="661" font-size="10" fill="#64756b">COMPACT</text><text x="32" y="718" font-size="12" fill="#64756b">158 taxa · 316 SVGs · Two optical sizes · CC BY 4.0</text></g></svg>

@@ -1,0 +1,16 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Pinie · Pinus pinea">
+  <title>Pinie · Pinus pinea</title>
+  <path class="leaf-axis" d="M19 90 Q25 86 30 83 Q41 77 51 70 Q64 63 74 57 L78 54" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-needle" d="M26.498 76.378 Q18.729 46.018 14 15 Q20.547 45.625 27.964 76.061 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M28.021 75.834 Q26.255 42.9 24 10 Q28.11 42.765 29.517 75.726 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M29.087 83.261 L26.125 76.536 Q27.5 74.25 29.875 75.464 L30.913 82.739 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M51.481 62.783 Q50.385 33.897 52 5 Q52.245 33.89 52.981 62.777 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M53.029 63.096 Q58.256 35.588 63 8 Q60.091 35.895 54.509 63.343 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M50.087 69.739 L51.125 62.464 Q53.5 61.25 54.875 63.536 L51.913 70.261 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M76.593 50.44 Q79.156 29.041 84 8 Q80.993 29.329 78.075 50.672 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M77.966 51.173 Q84.932 34.067 92 17 Q86.666 34.738 79.365 51.715 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M73.21 56.473 L76.378 49.918 Q79 49.5 79.622 52.082 L74.79 57.527 Z" fill="currentColor" stroke="none"/>
+</svg>

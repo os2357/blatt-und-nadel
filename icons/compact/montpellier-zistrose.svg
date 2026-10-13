@@ -1,0 +1,10 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Montpellier-Zistrose · Cistus monspeliensis">
+  <title>Montpellier-Zistrose · Cistus monspeliensis</title>
+  <path class="leaf-blade" d="M45 89 C42 80 40 65 40 49 C40 32 44 16 49 7 C54 16 57 31 57 48 C57 65 54 81 51 89 Q48 90 45 89 Z" fill="none" stroke="currentColor" stroke-width="2.75"/>
+  <path class="leaf-midrib" d="M48 89 L49 11" fill="none" stroke="currentColor" stroke-width="2.05"/>
+  <path class="leaf-vein" d="M48 89 C43 66 42 42 47 18" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path class="leaf-vein" d="M48 89 C55 66 55 41 51 18" fill="none" stroke="currentColor" stroke-width="1.5"/>
+</svg>

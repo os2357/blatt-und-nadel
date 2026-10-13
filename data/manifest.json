@@ -1,6 +1,6 @@
 {
   "name": "Blatt & Nadel",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "author": "Oliver Simon",
   "copyright": "Copyright 2026 Oliver Simon",
   "license": "CC-BY-4.0",
@@ -245,7 +245,7 @@
       },
       "scientificName": "Alnus glutinosa",
       "group": "broadleaf",
-      "description": "Verkehrt-eiförmige Spreite mit breit abgestumpfter, nur flach ausgerandeter Spitze und keilförmigem Grund; fünf Nervenpaare in Detail, drei in Compact.",
+      "description": "Verkehrt-eiförmige Spreite mit breit abgestumpfter, nur flach ausgerandeter Spitze und keilförmigem Grund; sechs Nervenpaare in Detail, drei in Compact.",
       "source": "https://www.infoflora.ch/de/flora/alnus-glutinosa.html",
       "since": "1.0.0",
       "symbol": "leaf-schwarzerle",
@@ -262,7 +262,7 @@
       },
       "scientificName": "Carpinus betulus",
       "group": "broadleaf",
-      "description": "Länglich-eiförmige Spreite mit rundlichem, leicht ungleichem Grund und doppelter Sägung; zwölf deutliche Seitennervenpaare in Detail, sechs in Compact.",
+      "description": "Länglich-eiförmige Spreite mit rundlichem, leicht ungleichem Grund und doppelter Sägung; zehn aufsteigende Seitennervenpaare in Detail, sechs in Compact.",
       "source": "https://www.infoflora.ch/de/flora/carpinus-betulus.html",
       "since": "1.0.0",
       "symbol": "leaf-hainbuche",
@@ -1537,7 +1537,7 @@
       },
       "scientificName": "Mahonia aquifolium",
       "group": "broadleaf",
-      "description": "Unpaarig gefiedertes Blatt mit sieben stachelig gezähnten, breiten Teilblättern; das Endteilblatt trägt einen deutlich längeren Stiel.",
+      "description": "Unpaarig gefiedertes Blatt mit sieben stachelig gezähnten, breiten Teilblättern; seitliche Fiedern nahezu sitzend, Endfieder mit deutlich längerem Stiel.",
       "source": "https://www.infoflora.ch/de/flora/mahonia-aquifolium.html",
       "since": "1.5.0",
       "symbol": "leaf-mahonie",
@@ -2564,6 +2564,142 @@
       "files": {
         "detail": "icons/detail/lorbeer-schneeball.svg",
         "compact": "icons/compact/lorbeer-schneeball.svg"
+      }
+    },
+    {
+      "id": "pinie",
+      "name": {
+        "de": "Pinie",
+        "en": "Italian stone pine"
+      },
+      "scientificName": "Pinus pinea",
+      "group": "conifer",
+      "description": "Drei ausgewählte Zweierbündel mit langen kräftigen Nadeln und gemeinsamer bleibender Nadelscheide; adulte Nadelblätter, keine Jugendblätter.",
+      "source": "https://landscapeplants.oregonstate.edu/plants/pinus-pinea",
+      "since": "2.1.0",
+      "symbol": "leaf-pinie",
+      "files": {
+        "detail": "icons/detail/pinie.svg",
+        "compact": "icons/compact/pinie.svg"
+      }
+    },
+    {
+      "id": "aleppo-kiefer",
+      "name": {
+        "de": "Aleppo-Kiefer",
+        "en": "Aleppo pine"
+      },
+      "scientificName": "Pinus halepensis",
+      "group": "conifer",
+      "description": "Drei ausgewählte Zweierbündel mit schlankeren, leicht gebogenen Nadeln aus gemeinsamen Scheiden; stark gelichteter Zweigausschnitt.",
+      "source": "https://landscapeplants.oregonstate.edu/plants/pinus-halepensis",
+      "since": "2.1.0",
+      "symbol": "leaf-aleppo-kiefer",
+      "files": {
+        "detail": "icons/detail/aleppo-kiefer.svg",
+        "compact": "icons/compact/aleppo-kiefer.svg"
+      }
+    },
+    {
+      "id": "salbeiblaettrige-zistrose",
+      "name": {
+        "de": "Salbeiblättrige Zistrose",
+        "en": "Sage-leaved rockrose"
+      },
+      "scientificName": "Cistus salviifolius",
+      "group": "broadleaf",
+      "description": "Kurz gestieltes, ganzrandiges ovales Blatt; fiedrige Hauptnerven und in Detail angedeutete Netzstruktur des runzeligen Blattes.",
+      "source": "https://www.infoflora.ch/de/flora/cistus-salviifolius.html",
+      "since": "2.1.0",
+      "symbol": "leaf-salbeiblaettrige-zistrose",
+      "files": {
+        "detail": "icons/detail/salbeiblaettrige-zistrose.svg",
+        "compact": "icons/compact/salbeiblaettrige-zistrose.svg"
+      }
+    },
+    {
+      "id": "montpellier-zistrose",
+      "name": {
+        "de": "Montpellier-Zistrose",
+        "en": "Montpellier rockrose"
+      },
+      "scientificName": "Cistus monspeliensis",
+      "group": "broadleaf",
+      "description": "Sitzende schmal lanzettlich-lineale Blattspreite mit drei vom Grund aufsteigenden Hauptnerven; in Detail ausgewählte Querverbindungen.",
+      "source": "https://www.snv.jussieu.fr/bmedia/arbres/ciste_montpellier.htm",
+      "since": "2.1.0",
+      "symbol": "leaf-montpellier-zistrose",
+      "files": {
+        "detail": "icons/detail/montpellier-zistrose.svg",
+        "compact": "icons/compact/montpellier-zistrose.svg"
+      }
+    },
+    {
+      "id": "strandkiefer",
+      "name": {
+        "de": "Strandkiefer",
+        "en": "Maritime pine"
+      },
+      "scientificName": "Pinus pinaster",
+      "group": "conifer",
+      "description": "Drei ausgewählte Bündel mit je zwei kräftigen, steifen Nadeln und langen gemeinsamen Nadelscheiden; gelichteter Ausschnitt adulter Benadelung.",
+      "source": "https://landscapeplants.oregonstate.edu/plants/pinus-pinaster",
+      "since": "2.1.0",
+      "symbol": "leaf-strandkiefer",
+      "files": {
+        "detail": "icons/detail/strandkiefer.svg",
+        "compact": "icons/compact/strandkiefer.svg"
+      }
+    },
+    {
+      "id": "weissliche-zistrose",
+      "name": {
+        "de": "Weißliche Zistrose",
+        "en": "Grey-leaved rockrose"
+      },
+      "scientificName": "Cistus albidus",
+      "group": "broadleaf",
+      "description": "Sitzendes ganzrandiges, länglich-elliptisches Blatt mit breitem Ansatz, Mittelrippe und zwei aufsteigenden basalen Seitennerven; Detail mit ausgewählten Querverbindungen.",
+      "source": "https://jardinbotanico.uma.es/jb-e3-03/",
+      "since": "2.1.0",
+      "symbol": "leaf-weissliche-zistrose",
+      "files": {
+        "detail": "icons/detail/weissliche-zistrose.svg",
+        "compact": "icons/compact/weissliche-zistrose.svg"
+      }
+    },
+    {
+      "id": "schmalblaettrige-steinlinde",
+      "name": {
+        "de": "Schmalblättrige Steinlinde",
+        "en": "Narrow-leaved mock privet"
+      },
+      "scientificName": "Phillyrea angustifolia",
+      "group": "broadleaf",
+      "description": "Kurz gestielte, ganzrandige lanzettliche Spreite; fünf schwache Seitennervenpaare in Detail, drei in Compact.",
+      "source": "https://flora.uniud.it/scheda.php?id=1209",
+      "since": "2.1.0",
+      "symbol": "leaf-schmalblaettrige-steinlinde",
+      "files": {
+        "detail": "icons/detail/schmalblaettrige-steinlinde.svg",
+        "compact": "icons/compact/schmalblaettrige-steinlinde.svg"
+      }
+    },
+    {
+      "id": "mastixstrauch",
+      "name": {
+        "de": "Mastixstrauch",
+        "en": "Mastic tree"
+      },
+      "scientificName": "Pistacia lentiscus",
+      "group": "broadleaf",
+      "description": "Paarig gefiedertes Blatt mit vier Paaren ganzrandiger elliptischer Fiederblättchen und geflügelter Blattachse; ohne Endfieder.",
+      "source": "https://apps.cals.arizona.edu/arboretum/taxon.aspx?id=216",
+      "since": "2.1.0",
+      "symbol": "leaf-mastixstrauch",
+      "files": {
+        "detail": "icons/detail/mastixstrauch.svg",
+        "compact": "icons/compact/mastixstrauch.svg"
       }
     }
   ]

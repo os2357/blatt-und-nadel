@@ -1,5 +1,29 @@
 # Changelog
 
+## 2.1.0 — 2026-10-13
+
+### Added
+
+- Pinie, Aleppo-Kiefer, Salbeiblättrige Zistrose, Montpellier-Zistrose, Strandkiefer, Weißliche Zistrose, Schmalblättrige Steinlinde and Mastixstrauch, each in Detail and Compact: **158 taxa / 316 SVGs**.
+- [Two sequential expansion rounds](docs/EXPANSION-2.1.md) and [individual review of every SVG](docs/AUDIT-2.1.md), including references, optical limits, exact artwork hashes and measurements.
+- Regression protection for basal Hainbuche veins, Mahonie petiolules, sessile rockroses, the even-pinnate Mastixstrauch leaf and all three new pine fascicles.
+- Closed, non-self-crossing filled winged rachises supported by the validator.
+
+### Fixed
+
+- Hainbuche Detail: removed four crowded basal veins; ten distinct ascending pairs remain.
+- Mahonie: near-sessile lateral leaflet insertions in both optical sizes; longer terminal stalk retained.
+- Schwarzerle catalog: six Detail vein pairs, correcting the former count of five. Artwork unchanged.
+- Gallery group selector: chevron inset and text clearance, with native keyboard behavior and forced-colors fallback.
+- Draft pine sheath connections and Steinlinde vein spacing refined before acceptance.
+
+### Preserved and verified
+
+- **16 added, three revised and 297 byte-identical SVGs** against v2.0.0. Earlier oak, elm, Ginkgo, conifer, Silberpappel and Vogelbeere corrections remain intact.
+- Updated README overview, catalog, sprites, gallery, source notes and previews. Stable IDs, file paths, viewBoxes and licensing retained.
+- Every source SVG passed geometry/stroke checks and enlarged/target-size raster review. The 149 existing HTML primary treatments were freshly retrieved; the Acer palmatum treatment text and existing reference photographs were transparently reused and rechecked.
+- Fresh browser integration execution was unavailable and remains outstanding, as recorded in [QUALITY.md](docs/QUALITY.md). No independent botanical certification is claimed.
+
 ## 2.0.0 — 2026-10-13
 
 ### Added
@@ -10,6 +34,7 @@
 
 ### Fixed
 
+- Gallery toolbar: size label/value now share one row; consistent 44 px controls and explicit desktop/tablet/mobile layouts replace arbitrary wrapping. Range control follows the theme and reports its pixel value accessibly.
 - Silberpappel: broad, continuous transition into the middle lobe in both sizes.
 - Vogelbeere: broader oblong-lanceolate leaflets, rounded slightly unequal bases, entire basal margins and a more comparable terminal leaflet.
 - Refined draft Fingerstrauch proportions and Korkeiche vein endpoints before accepting the additions.

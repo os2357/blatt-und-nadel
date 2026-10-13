@@ -186,12 +186,51 @@ try {
       );
       await galleryScreenshot(page, path.join(output, name + '-dark.png'));
       await page.locator('#theme').click();
-      for (const width of [1440, 768, 480, 375, 320]) {
+      for (const width of [1440, 1180, 1179, 1024, 768, 760, 480, 390, 380, 375, 320]) {
         await page.setViewportSize({ width, height: 900 });
         assert.ok(
           await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth),
           name + ': horizontal page overflow at ' + width,
         );
+        const toolbar = await page.locator('.controls').evaluate((panel) => {
+          const box = panel.getBoundingClientRect();
+          const fields = [...panel.querySelectorAll('.control, .variant-control, #theme')];
+          const overflow = fields
+            .filter((el) => {
+              const b = el.getBoundingClientRect();
+              return (
+                b.left < box.left ||
+                b.right > box.right ||
+                b.top < box.top ||
+                b.bottom > box.bottom ||
+                el.scrollWidth > el.clientWidth + 1
+              );
+            })
+            .map((el) => el.className || el.id);
+          const caption = panel.querySelector('.size-control .control-caption');
+          const text = caption.firstElementChild.getBoundingClientRect();
+          const value = caption.lastElementChild.getBoundingClientRect();
+          const inputs = [
+            ...panel.querySelectorAll('#search, #group, .variant-switch, #size, #color, #theme'),
+          ].map((el) => el.getBoundingClientRect());
+          return {
+            overflow,
+            sizeLabelOffset: Math.abs(text.top - value.top),
+            heights: inputs.map((b) => b.height),
+            tops: inputs.map((b) => b.top),
+          };
+        });
+        assert.deepEqual(toolbar.overflow, [], name + ': toolbar overflow at ' + width);
+        assert.ok(toolbar.sizeLabelOffset < 1, name + ': size caption split onto two rows');
+        assert.ok(
+          toolbar.heights.every((h) => Math.abs(h - 44) < 1),
+          name + ': inconsistent control heights',
+        );
+        if (width >= 1180)
+          assert.ok(
+            Math.max(...toolbar.tops) - Math.min(...toolbar.tops) < 1,
+            name + ': desktop controls misaligned',
+          );
         assert.deepEqual(
           await page.locator('.card').evaluateAll((cards) =>
             cards
@@ -297,7 +336,7 @@ try {
         version: browser.version(),
         species: icons.length,
         externalSymbols: icons.length * 2,
-        viewports: [1440, 768, 480, 375, 320],
+        viewports: [1440, 1180, 1179, 1024, 768, 760, 480, 390, 380, 375, 320],
         passed: true,
       });
       console.log(

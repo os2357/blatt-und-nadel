@@ -1,0 +1,16 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Strandkiefer · Pinus pinaster">
+  <title>Strandkiefer · Pinus pinaster</title>
+  <path class="leaf-axis" d="M19 91 Q24 87 30 84 Q42 78 53 70 Q66 64 75 58 L79 55" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-needle" d="M25.428 71.41 Q15.956 42.071 9 12 Q17.92 41.5 27.013 70.949 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M26.958 70.895 Q24.369 38.957 22 7 Q26.407 38.773 28.601 70.746 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M29.026 84.225 L25.1 71.438 Q26.55 69.05 28.9 70.562 L30.974 83.775 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M53.387 56.944 Q50.686 30.552 50 4 Q52.726 30.39 55.032 56.813 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M54.977 56.983 Q59.281 32.956 64 9 Q61.298 33.3 56.604 57.26 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M52.012 69.848 L53.073 56.703 Q55.3 55.05 56.927 57.297 L53.988 70.152 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M79.46 45.605 Q79.621 26.752 82 8 Q81.665 26.845 81.109 45.68 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M80.94 46.076 Q86.366 32.001 92 18 Q88.29 32.698 82.491 46.639 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-sheath" d="M74.106 57.553 L79.256 45.128 Q81.9 44.2 82.744 46.872 L75.894 58.447 Z" fill="currentColor" stroke="none"/>
+</svg>

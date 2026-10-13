@@ -25,40 +25,56 @@
       </div>
     </header>
     <main>
-      <div class="controls">
-        <label class="search"
-          >Art suchen<input
-            id="search"
-            type="search"
-            placeholder="Name, Art oder Merkmal …" /></label
-        ><label
-          >Gruppe<select id="group">
-            <option value="">Alle Gehölze</option>
-            <option>Nadelgehölze</option>
-            <option>Laubgehölze</option>
-            <option>Heidezweige</option>
-          </select></label
-        >
+      <div class="controls" role="group" aria-label="Sammlung filtern und Darstellung anpassen">
+        <label class="control search">
+          <span class="control-caption">Art suchen</span>
+          <input id="search" type="search" placeholder="Name, Art oder Merkmal …" />
+        </label>
+        <label class="control group-control">
+          <span class="control-caption">Gruppe</span>
+          <span class="select-wrap">
+            <select id="group">
+              <option value="">Alle Gehölze</option>
+              <option>Nadelgehölze</option>
+              <option>Laubgehölze</option>
+              <option>Heidezweige</option>
+            </select>
+          </span>
+        </label>
         <fieldset id="variant" class="variant-control">
           <legend>Zeichnung</legend>
           <div class="variant-switch">
-            <label>
-              <input type="radio" name="variant" value="detail" checked />
-              <span>Detail</span>
-            </label>
-            <label>
-              <input type="radio" name="variant" value="compact" />
-              <span>Compact</span>
-            </label>
+            <label
+              ><input type="radio" name="variant" value="detail" checked /><span
+                >Detail</span
+              ></label
+            >
+            <label><input type="radio" name="variant" value="compact" /><span>Compact</span></label>
           </div>
         </fieldset>
-        <label
-          >Größe <span id="size-label">128 px</span
-          ><input id="size" type="range" min="24" max="128" value="128" step="8" /></label
-        ><label>Farbe<input id="color" type="color" value="#34573e" /></label
-        ><button id="theme" class="grow" type="button" aria-pressed="false">
-          Dunkler Hintergrund
-        </button>
+        <label class="control size-control">
+          <span class="control-caption"
+            ><span>Größe</span
+            ><output id="size-label" for="size" aria-live="off">128 px</output></span
+          >
+          <input
+            id="size"
+            type="range"
+            min="24"
+            max="128"
+            value="128"
+            step="8"
+            aria-label="Icongröße"
+            aria-valuetext="128 Pixel"
+          />
+        </label>
+        <div class="appearance-controls">
+          <label class="control color-control">
+            <span class="control-caption">Farbe</span>
+            <input id="color" type="color" value="#34573e" />
+          </label>
+          <button id="theme" type="button" aria-pressed="false">Dunkler Hintergrund</button>
+        </div>
       </div>
       <div class="meta count">
         <span id="count" role="status" aria-live="polite">{{count}} Motive</span

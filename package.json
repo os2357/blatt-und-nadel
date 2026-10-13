@@ -1,8 +1,8 @@
 {
   "name": "blatt-und-nadel",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "private": true,
-  "description": "150 woody taxa in two SVG optical sizes",
+  "description": "158 woody taxa in two SVG optical sizes",
   "author": "Oliver Simon",
   "license": "SEE LICENSE IN LICENSES/README.md",
   "type": "module",
@@ -27,5 +27,5 @@
     "sax": "1.4.1",
     "sharp": "0.35.4"
   },
-  "botanicalAudit": "audit-2.0.json"
+  "botanicalAudit": "audit-2.1.json"
 }

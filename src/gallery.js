@@ -28,6 +28,7 @@ $('#variant').addEventListener('change', (e) => {
 $('#size').addEventListener('input', (e) => {
   document.documentElement.style.setProperty('--icon-size', e.target.value + 'px');
   $('#size-label').textContent = e.target.value + ' px';
+  e.target.setAttribute('aria-valuetext', e.target.value + ' Pixel');
 });
 $('#color').addEventListener('input', (e) =>
   document.documentElement.style.setProperty('--icon-color', e.target.value),
