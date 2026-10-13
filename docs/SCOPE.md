@@ -1,6 +1,6 @@
 # Collection scope
 
-Blatt & Nadel is a reusable icon collection for nature websites, species portraits and filters. Version 2.2.2 contains **175 woody taxa**, including nine maples and twenty-one conifers, in two optical sizes. It covers common woodland, hedgerow, riparian, garden and urban foliage, with selected alpine shrubs, planted trees and Mediterranean evergreens.
+Blatt & Nadel is a reusable icon collection for nature websites, species portraits and filters. Version 2.2.3 contains **175 woody taxa**, including nine maples and twenty-one conifers, in two optical sizes. It covers common woodland, hedgerow, riparian, garden and urban foliage, with selected alpine shrubs, planted trees and Mediterranean evergreens.
 
 ## When is the collection complete?
 

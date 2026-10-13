@@ -1,5 +1,15 @@
 # Changelog
 
+## 2.2.3 — 2026-10-13
+
+### Fixed
+
+- Atlas cedar in Detail and Compact: replace repeated flat stars with individually projected tufts on three explicit short shoots.
+- Give needles slender, nearly parallel bodies, gentle curvature and short pointed ends. Retain solitary needles on the terminal extension in both variants.
+- Add a regression for short-shoot origins, true curved-twig insertions and needle width before the terminal taper.
+- Update the [source review and comparison](docs/AUDIT-2.2.3.md), exact audit hashes, gallery, sprites and current previews. **Two revised SVGs; 348 byte-identical to v2.2.2**, including the refined herbs.
+- Count remains 175 taxa / 350 SVGs; licenses and IDs unchanged.
+
 ## 2.2.2 — 2026-10-13
 
 ### Fixed

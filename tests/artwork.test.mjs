@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 import test from 'node:test';
 import sax from 'sax';
 import { read, variants } from '../scripts/lib.mjs';
-import { flattenPath } from '../scripts/geometry.mjs';
+import { flattenPath, segmentDistance } from '../scripts/geometry.mjs';
 
 function paths(id, variant) {
   const result = [];
@@ -186,6 +186,61 @@ function needleBases(id, variant) {
       return { base, points };
     });
 }
+
+test('Atlas cedar needles arise from three short shoots or the terminal extension and retain linear bodies', () => {
+  for (const variant of variants) {
+    const axes = paths('atlas-zeder', variant).filter((p) => p.class === 'leaf-axis');
+    assert.equal(axes.length, 4, 'One main twig and three explicit short shoots');
+    const main = flattenPath(axes[0].d)[0].points;
+    const spurs = axes.slice(1).map((p) => flattenPath(p.d)[0].points);
+    const ends = spurs.map((p) => p.at(-1));
+    const onMain = (p) => Math.min(...main.slice(1).map((b, i) => segmentDistance(p, main[i], b)));
+    for (const spur of spurs) {
+      assert.ok(onMain(spur[0]) < 0.02, 'Short shoot starts on the parent twig');
+      assert.ok(onMain(spur.at(-1)) > 3, 'Rosette is visibly displaced from the parent axis');
+    }
+    const groups = [0, 0, 0];
+    let solitary = 0;
+    for (const { base, points } of needleBases('atlas-zeder', variant)) {
+      const group = ends.findIndex((p) => Math.hypot(p[0] - base[0], p[1] - base[1]) < 1);
+      if (group >= 0) groups[group]++;
+      else {
+        solitary++;
+        assert.ok(onMain(base) < 0.02, 'Solitary needle attaches to the actual curved twig');
+      }
+      const tip = points.reduce((a, b) =>
+        Math.hypot(a[0] - base[0], a[1] - base[1]) > Math.hypot(b[0] - base[0], b[1] - base[1])
+          ? a
+          : b,
+      );
+      const L = Math.hypot(tip[0] - base[0], tip[1] - base[1]);
+      const u = [(tip[0] - base[0]) / L, (tip[1] - base[1]) / L];
+      const local = points.map((p) => {
+        const x = p[0] - base[0],
+          y = p[1] - base[1];
+        return [x * u[0] + y * u[1], -x * u[1] + y * u[0]];
+      });
+      const width = (t) => {
+        const cuts = [];
+        const x = L * t;
+        for (let i = 1; i < local.length; i++) {
+          const a = local[i - 1],
+            b = local[i];
+          if ((a[0] <= x && b[0] > x) || (b[0] <= x && a[0] > x))
+            cuts.push(a[1] + ((b[1] - a[1]) * (x - a[0])) / (b[0] - a[0]));
+        }
+        assert.ok(cuts.length >= 2, 'Two margins intersect the transverse section');
+        return Math.max(...cuts) - Math.min(...cuts);
+      };
+      assert.ok(
+        width(0.7) / width(0.35) > 0.74,
+        'Needle retains near-parallel sides before the short terminal taper',
+      );
+    }
+    assert.deepEqual(groups, variant === 'detail' ? [22, 24, 21] : [12, 13, 11]);
+    assert.equal(solitary, variant === 'detail' ? 4 : 2);
+  }
+});
 
 test('pine fascicles preserve five- versus two-needle groups in both sizes', () => {
   for (const variant of variants) {

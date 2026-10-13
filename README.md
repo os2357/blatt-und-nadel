@@ -1,6 +1,6 @@
 # Blatt & Nadel
 
-**175 woody taxa · Central Europe and selected Mediterranean foliage · 350 SVG icons · v2.2.2**
+**175 woody taxa · Central Europe and selected Mediterranean foliage · 350 SVG icons · v2.2.3**
 
 Leaf, needle and twig icons for nature websites, species profiles and filters. Two optical sizes pair distinctive botanical forms with clear, consistent linework.
 
@@ -8,7 +8,7 @@ Leaf, needle and twig icons for nature websites, species profiles and filters. T
 
 ![All 175 species in the Detail variant](docs/preview.png)
 
-Version 2.2.2 refines Lavendel and Rosmarin against botanical plates and modern descriptions: narrower ascending lavender leaves and curved rosemary blades. Four SVGs changed; 346 remain byte-identical to v2.2.1. [Focused review and comparison](docs/AUDIT-2.2.2.md) · [Collection review](docs/AUDIT-2.2.md). Fresh browser integration verification remains outstanding; see [quality results](docs/QUALITY.md).
+Version 2.2.3 refines Atlas cedar in both optical sizes: explicit short shoots, varied rosette projections and slender, gently curved needles. Two SVGs changed; 348 remain byte-identical to v2.2.2. [Focused review and comparison](docs/AUDIT-2.2.3.md) · [Collection review](docs/AUDIT-2.2.md). Fresh browser integration verification remains outstanding; see [quality results](docs/QUALITY.md).
 
 ## Use the icons
 

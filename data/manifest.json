@@ -1,6 +1,6 @@
 {
   "name": "Blatt & Nadel",
-  "version": "2.2.2",
+  "version": "2.2.3",
   "author": "Oliver Simon",
   "copyright": "Copyright 2026 Oliver Simon",
   "license": "CC-BY-4.0",
@@ -2897,7 +2897,7 @@
       },
       "scientificName": "Cedrus atlantica",
       "group": "conifer",
-      "description": "Drei Kurztriebe mit steif zugespitzten Nadelrosetten; Detail zusätzlich mit einzelnen Nadeln am Langtrieb.",
+      "description": "Drei abgesetzte Kurztriebe mit unterschiedlich projizierten Nadelbüscheln; schlanke, leicht gebogene Nadeln mit weitgehend parallelen Rändern und kurzer Endspitze. Einzelne Nadeln am terminalen Langtrieb in beiden Varianten.",
       "source": "https://landscapeplants.oregonstate.edu/plants/cedrus-atlantica",
       "since": "2.2.0",
       "symbol": "leaf-atlas-zeder",

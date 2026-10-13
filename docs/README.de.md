@@ -1,6 +1,6 @@
 # Blatt & Nadel
 
-**175 Gehölzarten · 350 SVG-Icons · v2.2.2**
+**175 Gehölzarten · 350 SVG-Icons · v2.2.3**
 
 Blätter, Nadeln und Zweige für Naturwebseiten, Artenporträts und Baumfilter. Zwei optisch abgestimmte Varianten verbinden charakteristische Pflanzenformen mit einer einheitlichen Zeichensprache.
 
@@ -8,7 +8,7 @@ Blätter, Nadeln und Zweige für Naturwebseiten, Artenporträts und Baumfilter. 
 
 ![Alle 175 Arten in der Detail-Variante](preview.png)
 
-Version 2.2.2 verfeinert Lavendel und Rosmarin anhand botanischer Tafeln und aktueller Beschreibungen: schmalere aufgerichtete Lavendelblätter und gebogene Rosmarinblätter. Vier SVGs wurden überarbeitet; 346 bleiben bytegleich zu v2.2.1. [Gezielte Prüfung und Vergleich](AUDIT-2.2.2.md) · [Gesamtprüfung](AUDIT-2.2.md). Die erneute Browser-Integrationsprüfung steht weiterhin aus; siehe [Prüfergebnisse](QUALITY.md).
+Version 2.2.3 verfeinert die Atlas-Zeder in beiden Varianten: sichtbare Kurztriebe, unterschiedlich projizierte Nadelbüschel und schlanke, sanft gebogene Nadeln. Zwei SVGs wurden überarbeitet; 348 bleiben bytegleich zu v2.2.2. [Gezielte Prüfung und Vergleich](AUDIT-2.2.3.md) · [Gesamtprüfung](AUDIT-2.2.md). Die erneute Browser-Integrationsprüfung steht weiterhin aus; siehe [Prüfergebnisse](QUALITY.md).
 
 ## Sofort verwenden
 
