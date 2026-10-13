@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Steinweichsel · Prunus mahaleb">
+  <title>Steinweichsel · Prunus mahaleb</title>
+  <path class="leaf-blade" d="M48 70 Q44.908 70.223 44.152 70.59 L43.056 70.675 Q39.973 70.307 39.165 70.639 L38.072 70.527 Q35.137 69.507 34.267 69.718 L33.225 69.37 Q30.628 67.664 29.716 67.693 L28.795 67.094 Q26.741 64.76 25.834 64.574 L25.097 63.759 Q23.72 60.966 22.87 60.571 L22.352 59.603 Q21.679 56.555 20.918 55.986 L20.622 54.928 Q20.586 51.802 19.936 51.097 L19.84 50.003 Q20.352 46.915 19.819 46.11 L19.897 45.014 Q20.778 42.01 20.338 41.145 L20.554 40.068 Q21.95 37.274 21.694 36.348 L22.122 35.336 Q24.047 32.876 23.984 31.919 L24.603 31.012 Q26.945 28.941 27.061 27.994 L27.821 27.201 Q30.455 25.516 30.724 24.607 L31.591 23.932 Q34.415 22.591 34.809 21.74 L35.751 21.175 Q38.694 20.13 39.193 19.353 L40.189 18.889 Q43.209 18.11 43.796 17.421 L44.832 17.058 Q47.572 15.524 47.817 14.626 L48.42 13.709 Q49.859 10.942 49.785 10.077 L50 9  Q50.796 12.009 51.405 12.615 L51.938 13.572 Q53.58 16.243 54.456 16.505 L55.344 17.146 Q57.834 19.005 58.734 19.033 L59.668 19.606 Q61.996 21.682 62.92 21.729 L63.818 22.357 Q65.975 24.613 66.91 24.708 L67.751 25.41 Q69.656 27.881 70.587 28.062 L71.339 28.859 Q72.879 31.57 73.78 31.877 L74.396 32.783 Q75.427 35.722 76.262 36.185 L76.686 37.195 Q77.062 40.286 77.781 40.917 L77.972 41.996 Q77.662 45.096 78.232 45.867 L78.195 46.962 Q77.359 49.981 77.845 50.83 L77.701 51.916 Q76.531 54.805 76.859 55.705 L76.521 56.747 Q74.817 59.349 74.94 60.29 L74.384 61.234 Q72.147 63.389 72.032 64.318 L71.267 65.102 Q68.586 66.665 68.234 67.519 L67.301 68.094 Q64.334 68.997 63.779 69.719 L62.739 70.064 Q59.65 70.328 58.945 70.877 L57.856 70.996 Q54.775 70.69 53.975 71.038 L52.883 70.945 Q49.89 70.181 49.059 70.279 L48 70 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M40 91 Q47 81 48 70" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 70 L49.84 14" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-vein" d="M48.131 66 Q30 67 27 51" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.131 66 Q69 65 72 50" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.723 48 Q36.553 42.05 30 31" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.723 48 Q60.603 41.7 67 30" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.413 27 Q46.544 24.55 45 20" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M49.413 27 Q52.395 24.2 54 19" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

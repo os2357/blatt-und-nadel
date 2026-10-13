@@ -1,12 +1,12 @@
 # Quality checks
 
-Release **1.8.0** · 13 October 2026
+Release **1.9.0** · 13 October 2026
 
 ## Artwork review
 
-The current release contains **134 taxa / 268 source SVGs**. All taxa and both optical sizes received a fresh source-guided review, including enlarged photograph comparison and target-size inspection on light/dark backgrounds. See the [full v1.8 report](AUDIT-1.8.md), [machine-readable record](audit-1.8.json) and [two expansion rounds](EXPANSION-1.8.md).
+The current release contains **142 taxa / 284 source SVGs**. All taxa and both optical sizes received a fresh source-guided review, including enlarged photograph comparison and target-size inspection on light/dark backgrounds. See the [full v1.9 report](AUDIT-1.9.md), [machine-readable record](audit-1.9.json) and [two expansion rounds](EXPANSION-1.9.md).
 
-All 252 previous SVGs remain byte-identical to the canonical v1.7.0 baseline. Sixteen new SVGs were added. Earlier corrections, including Ginkgo, Stieleiche and Bergulme, are preserved.
+All 268 previous SVGs remain byte-identical to the canonical v1.8.0 baseline. Sixteen new SVGs were added. Earlier corrections, including Ginkgo, Stieleiche and Bergulme, are preserved.
 
 ### Required review gates
 
@@ -45,7 +45,7 @@ In v1.7 both Wych elm variants received an unequal rounded basal lobe and a very
 
 `npm test` verifies:
 
-- The catalog and both icon directories agree: 134 taxa and 268 files.
+- The catalog and both icon directories agree: 142 taxa and 284 files.
 - XML uses the supported element and attribute allowlists, with valid nesting and no unchecked transforms.
 - Every source has the expected dimensions, viewBox, image role, accessible name and exactly one matching title before the paths.
 - Geometry is nonempty; license notices are present.
@@ -53,7 +53,7 @@ In v1.7 both Wych elm variants received an unequal rounded basal lobe and a very
 - Blade, filled-needle, scale, sheath, bud, gland and stipule contours explicitly close and contain no detected proper self-crossings.
 - Each of the 24 conifer and four heath SVGs forms one connected painted component: no detached needle or twig fragments.
 - Separate leaf blades have no detected crossings, nesting or overlaps between their painted outlines.
-- All **2578 internal vein and midrib paths** remain inside the leaf blades within the stated numerical tolerance.
+- All **2912 internal vein and midrib paths** remain inside the leaf blades within the stated numerical tolerance.
 - Every vein origin must visibly touch another vascular path (vein, midrib, petiole or rachis), with a 0.06-unit numerical tolerance after stroke widths. Contact with the blade outline alone does not count. This detects visible gaps; it does not establish a full biologically correct vein network.
 - Rendered strokes do not touch the canvas edge.
 - Generated sprites, the manifest, gallery and SVG overview match the current sources.
@@ -66,6 +66,10 @@ The shoot connectivity check rasterizes at 1536 × 1536 px, uses alpha ≥ 64 an
 
 Thirteen artwork regressions additionally protect the selected compound-leaf counts, including the new 5/3/9/11 forms, the two petiolar glands in each relevant Detail icon and their deliberate Compact omission, the paired rose stipules, and the declared vein counts for both dogwoods, buckthorn, alder buckthorn, white elm, bird cherry, grey alder, whitebeam, Turkish hazel and field elm. Ginkgo additionally has no midrib, one connected vein origin, bifurcating branch nodes and sixteen/eight terminal veins; the regression rejects detached branches or merged nerves. New checks also verify five-needle origins in Swiss stone pine, paired origins and four shared sheaths in Mountain pine, and exactly opposite insertion levels in Dawn redwood. The conifer gallery filter uses the catalog count, not the former hardcoded seven. The 1.5 checks additionally verify alternating Bald cypress insertions, two-needle Black pine fascicles, the new compound-leaf counts, actual vein endpoints at marginal teeth in Sweet chestnut and Hop-hornbeam, and broad fan versus narrow lanceolate proportions. The 1.6 regressions also check four-needle Erica whorls, paired Calluna scale origins, no terminal Gleditsia leaflet, the selected Ginkgo lower-fan taper and the new compound counts/glands. Both browser workflows exercise the new Heidezweige filter. These lock intentional drawing choices; they do not claim that every natural specimen has those counts.
 
+## Audit freshness
+
+`npm test` also checks the audit named by `package.json.botanicalAudit`. It must cover every taxon and both optical variants, use the current scientific names and primary sources, and match every source SVG hash. Baseline classifications and release totals are checked. This prevents a stale review record from silently covering changed files; it does not automate botanical judgment.
+
 ## Browser checks
 
 `npm run test:browser` runs the same workflow in Chromium and Firefox:
@@ -75,7 +79,7 @@ Thirteen artwork regressions additionally protect the selected compound-leaf cou
 - Copy feedback; clipboard contents additionally verified in Chromium.
 - Size/color controls, dark mode and initial keyboard focus.
 - Layout at 1440, 768, 480, 375 and 320 CSS pixels, including card contents.
-- All 268 external sprite symbols compared with their inline rendering in the same browser.
+- All 284 external sprite symbols compared with their inline rendering in the same browser.
 - A standalone SVG via `<img>` and a light icon on a dark background.
 - No uncaught JavaScript errors.
 
@@ -88,9 +92,9 @@ Sprite and inline captures use the same device-pixel origin. The comparison allo
 | Chromium, headless | 153.0.8010.0 | Passed |
 | Firefox, headless  | 153.0        | Passed |
 
-Both engines completed the workflow above. The 268-file geometry checks, all thirteen geometry regressions and thirteen semantic artwork regressions passed.
+Both engines completed the workflow above. The 284-file geometry checks and all 30 regressions passed: thirteen geometry, thirteen semantic artwork and four audit tests.
 
-The final screenshot review found low-contrast default-blue footer links in dark mode. A scoped footer rule now uses the theme's text colour. After rebuilding, a targeted follow-up in both engines verified and captured both footer links in light and dark themes; the gallery layout and artwork were unchanged.
+The v1.8 theme-aware footer links remain preserved. The v1.9 review also checks current source bytes against the per-variant audit hashes. Four additional audit regressions verify valid coverage, a stale SVG, a missing Compact review and a mismatched release.
 
 ## Release archive checks
 

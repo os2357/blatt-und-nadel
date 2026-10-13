@@ -1,6 +1,6 @@
 {
   "name": "Blatt & Nadel",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "author": "Oliver Simon",
   "copyright": "Copyright 2026 Oliver Simon",
   "license": "CC-BY-4.0",
@@ -2292,6 +2292,142 @@
       "files": {
         "detail": "icons/detail/krautweide.svg",
         "compact": "icons/compact/krautweide.svg"
+      }
+    },
+    {
+      "id": "gruenerle",
+      "name": {
+        "en": "Green alder",
+        "de": "Grünerle"
+      },
+      "scientificName": "Alnus viridis",
+      "group": "broadleaf",
+      "description": "Breit eiförmiges, kurz zugespitztes Blatt mit doppelt gesägtem Rand, sechs Hauptnervenpaaren in Detail und erkennbarem Stiel; mitteleuropäische Grünerle (auch Alnus alnobetula).",
+      "source": "https://www.infoflora.ch/de/flora/alnus-viridis.html",
+      "since": "1.9.0",
+      "symbol": "leaf-gruenerle",
+      "files": {
+        "detail": "icons/detail/gruenerle.svg",
+        "compact": "icons/compact/gruenerle.svg"
+      }
+    },
+    {
+      "id": "steinweichsel",
+      "name": {
+        "en": "Mahaleb cherry",
+        "de": "Steinweichsel"
+      },
+      "scientificName": "Prunus mahaleb",
+      "group": "broadleaf",
+      "description": "Breit eiförmig-rundliches Blatt mit kurzer aufgesetzter Spitze, abgerundet bis schwach herzförmiger Basis und feiner stumpfer Zahnung; Detail mit zwei Stieldrüsen.",
+      "source": "https://www.infoflora.ch/de/flora/prunus-mahaleb.html",
+      "since": "1.9.0",
+      "symbol": "leaf-steinweichsel",
+      "files": {
+        "detail": "icons/detail/steinweichsel.svg",
+        "compact": "icons/compact/steinweichsel.svg"
+      }
+    },
+    {
+      "id": "pimpernuss",
+      "name": {
+        "en": "European bladdernut",
+        "de": "Pimpernuss"
+      },
+      "scientificName": "Staphylea pinnata",
+      "group": "broadleaf",
+      "description": "Unpaarig gefiedertes Blatt mit fünf fein gesägten, zugespitzten Fiederblättchen; Endfieder deutlich gestielt, seitliche Fiedern kurz gestielt.",
+      "source": "https://www.infoflora.ch/de/flora/staphylea-pinnata.html",
+      "since": "1.9.0",
+      "symbol": "leaf-pimpernuss",
+      "files": {
+        "detail": "icons/detail/pimpernuss.svg",
+        "compact": "icons/compact/pimpernuss.svg"
+      }
+    },
+    {
+      "id": "gewoehnliche-zwergmispel",
+      "name": {
+        "en": "Common cotoneaster",
+        "de": "Gewöhnliche Zwergmispel"
+      },
+      "scientificName": "Cotoneaster integerrimus",
+      "group": "broadleaf",
+      "description": "Ganzrandiges breit elliptisches Blatt mit gerundeter Basis, kleiner aufgesetzter Spitze und sehr kurzem Stiel; Filz der Unterseite ist nicht dargestellt.",
+      "source": "https://www.infoflora.ch/de/flora/cotoneaster-integerrimus.html",
+      "since": "1.9.0",
+      "symbol": "leaf-gewoehnliche-zwergmispel",
+      "files": {
+        "detail": "icons/detail/gewoehnliche-zwergmispel.svg",
+        "compact": "icons/compact/gewoehnliche-zwergmispel.svg"
+      }
+    },
+    {
+      "id": "schwarznuss",
+      "name": {
+        "en": "Black walnut",
+        "de": "Schwarznuss"
+      },
+      "scientificName": "Juglans nigra",
+      "group": "broadleaf",
+      "description": "Gefiedertes Blatt mit 15 gesägten, zugespitzten Fiederblättchen; seitliche Fiedern mit ungleicher Basis, Endfieder deutlich verkleinert.",
+      "source": "https://www.infoflora.ch/de/flora/juglans-nigra.html",
+      "since": "1.9.0",
+      "symbol": "leaf-schwarznuss",
+      "files": {
+        "detail": "icons/detail/schwarznuss.svg",
+        "compact": "icons/compact/schwarznuss.svg"
+      }
+    },
+    {
+      "id": "schwedische-mehlbeere",
+      "name": {
+        "en": "Swedish whitebeam",
+        "de": "Schwedische Mehlbeere"
+      },
+      "scientificName": "Sorbus intermedia",
+      "group": "broadleaf",
+      "description": "Breit ovales, einfaches Blatt mit stumpfen, gezähnten Seitenlappen, zur Spitze abnehmender Lappung und sieben Hauptnervenpaaren in Detail. Name nach FloraWeb; auch Scandosorbus intermedia.",
+      "source": "https://www.floraweb.de/php/artenhome.php?suchnr=5705",
+      "since": "1.9.0",
+      "symbol": "leaf-schwedische-mehlbeere",
+      "files": {
+        "detail": "icons/detail/schwedische-mehlbeere.svg",
+        "compact": "icons/compact/schwedische-mehlbeere.svg"
+      }
+    },
+    {
+      "id": "perueckenstrauch",
+      "name": {
+        "en": "Smoke tree",
+        "de": "Perückenstrauch"
+      },
+      "scientificName": "Cotinus coggygria",
+      "group": "broadleaf",
+      "description": "Ganzrandiges breit ovales bis verkehrt-eiförmiges Blatt mit gerundeter Spitze, sechs Hauptnervenpaaren in Detail und langem Stiel.",
+      "source": "https://www.infoflora.ch/de/flora/cotinus-coggygria.html",
+      "since": "1.9.0",
+      "symbol": "leaf-perueckenstrauch",
+      "files": {
+        "detail": "icons/detail/perueckenstrauch.svg",
+        "compact": "icons/compact/perueckenstrauch.svg"
+      }
+    },
+    {
+      "id": "blumenesche",
+      "name": {
+        "en": "Manna ash",
+        "de": "Blumenesche"
+      },
+      "scientificName": "Fraxinus ornus",
+      "group": "broadleaf",
+      "description": "Unpaarig gefiedertes Blatt mit sieben eiförmigen bis eilanzettlichen, fein gesägten Fiederblättchen; alle kurz gestielt, die Endfieder am längsten gestielt.",
+      "source": "https://www.infoflora.ch/de/flora/fraxinus-ornus.html",
+      "since": "1.9.0",
+      "symbol": "leaf-blumenesche",
+      "files": {
+        "detail": "icons/detail/blumenesche.svg",
+        "compact": "icons/compact/blumenesche.svg"
       }
     }
   ]

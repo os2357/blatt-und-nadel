@@ -6,6 +6,8 @@ Botanical corrections, clearer small-size shapes and useful species additions ar
 
 Use Node.js 24 (`.nvmrc`) and run `npm ci`. Edit `icons/detail/<id>.svg` and `icons/compact/<id>.svg` directly. These are the source artwork; there is no hidden illustration generator. Update `src/icons.json` for descriptions and references.
 
+After the drawing review, update the affected record in the audit selected by `package.json.botanicalAudit`: findings, references, optical reductions, geometry summary and the SHA-256 of each final SVG. Keep the original baseline hash and classify each variant as added, revised or unchanged. Hash replacement alone is not a review. For a new release, create a new audit file and retain previous reports. `npm test` rejects stale artwork hashes or incomplete variant coverage.
+
 ```sh
 npm run format
 npm run build

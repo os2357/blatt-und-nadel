@@ -1,8 +1,8 @@
 {
   "name": "blatt-und-nadel",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "private": true,
-  "description": "134 woody species found in Central Europe in two SVG optical sizes",
+  "description": "142 woody species found in Central Europe in two SVG optical sizes",
   "author": "Oliver Simon",
   "license": "SEE LICENSE IN LICENSES/README.md",
   "type": "module",
@@ -11,7 +11,7 @@
   },
   "scripts": {
     "build": "node scripts/build.mjs",
-    "check": "node --test tests/geometry.test.mjs tests/artwork.test.mjs && node scripts/validate.mjs && node scripts/build.mjs --check",
+    "check": "node --test tests/geometry.test.mjs tests/artwork.test.mjs tests/audit.test.mjs && node scripts/validate.mjs && node scripts/validate-audit.mjs && node scripts/build.mjs --check",
     "test": "npm run check",
     "serve": "node scripts/serve.mjs",
     "format": "prettier --write .",
@@ -26,5 +26,6 @@
     "prettier": "3.9.9",
     "sax": "1.4.1",
     "sharp": "0.35.4"
-  }
+  },
+  "botanicalAudit": "audit-1.9.json"
 }

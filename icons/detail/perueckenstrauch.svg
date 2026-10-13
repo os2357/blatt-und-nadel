@@ -1,0 +1,21 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Perückenstrauch · Cotinus coggygria">
+  <title>Perückenstrauch · Cotinus coggygria</title>
+  <path class="leaf-blade" d="M48 68 C32 67 18 53 20 33 C21 14 33 7 49 8 C69 7 80 21 78 38 C76 57 61 68 48 68 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M39 91 Q46 81 48 68" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M48 68 L48.9 13" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-vein" d="M48.082 63 Q33.729 58.1 26 49" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.082 63 Q63.629 57.4 72 47" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.213 55 Q31.824 48.7 23 37" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.213 55 Q65.624 48 75 35" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.36 46 Q33.176 39.7 25 28" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.36 46 Q64.376 39 73 26" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.507 37 Q35.828 31.4 29 21" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.507 37 Q61.828 30.7 69 19" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.638 29 Q39.773 24.1 35 15" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.638 29 Q58.623 24.1 64 15" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.769 21 Q45.019 18.025 43 12.5" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.769 21 Q54.119 18.025 57 12.5" fill="none" stroke="currentColor" stroke-width="1.12"/>
+</svg>

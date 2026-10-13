@@ -1,0 +1,17 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Schwedische Mehlbeere · Sorbus intermedia">
+  <title>Schwedische Mehlbeere · Sorbus intermedia</title>
+  <path class="leaf-blade" d="M48 80 Q45.946 79.623 44.074 78.986 L41.592 78.76 Q39.554 78.302 37.7 77.648 L35.273 77.135 Q33.302 76.442 31.679 75.279 L29.337 74.467 Q27.681 73.198 26.545 71.601 L25.19 69.579 Q25.095 67.568 26.94 66.669 L28.919 65.54 Q30.969 65.144 31.362 64.768 L28.714 64.145 Q26.761 63.406 25.256 62.057 L22.95 61.156 Q21.42 59.737 20.423 58.036 L19.014 56.032 Q19.609 54.207 21.703 53.96 L23.865 53.116 Q25.951 53.011 26.5 52.579 L24.187 51.114 Q22.617 49.738 21.716 47.919 L19.857 46.278 Q18.886 44.43 18.465 42.555 L18.866 40.461 Q20.845 39.849 22.846 40.317 L25.273 39.918 Q25.081 39.002 24.175 37.297 L22.88 35.18 Q22.464 33.138 23.04 31.204 L23.121 28.796 Q24.961 28.002 26.894 28.55 L28.964 28.749 Q28.805 26.668 29.519 24.817 L30.092 22.51 Q31.68 21.172 33.576 20.757 L35.923 20.964 Q36.206 19.011 37.225 17.308 L38.137 15.062 Q39.588 13.562 41.237 12.491 L43.208 11.006 Q45.036 9.997 46.905 9.348 L49 8  Q50.79 9.077 52.304 10.345 L54.507 11.501 Q56.167 12.769 57.493 14.215 L59.24 15.954 Q60.287 17.758 60.501 19.843 L62.01 20.581 Q64.069 20.39 65.67 21.492 L67.193 23.309 Q67.937 25.248 67.342 27.213 L67.454 28.859 Q69.489 28.399 71.401 28.685 L73.465 29.735 Q74.237 31.668 74.03 33.651 L74.153 36.021 Q73.136 37.838 71.575 39.169 L72.365 39.728 Q74.436 39.462 76.322 40.05 L78.594 40.495 Q79.078 42.469 78.387 44.337 L77.643 46.633 Q76.41 48.316 74.628 49.302 L73.068 51.219 Q71.291 52.315 70.211 52.934 L72.97 52.802 Q75.054 52.91 76.671 53.941 L78.09 55.452 Q77.228 57.322 75.798 58.692 L74.201 60.544 Q72.494 61.747 70.526 62.245 L68.541 63.754 Q66.586 64.489 65.053 64.931 L67.725 65.501 Q69.682 66.219 70.735 67.796 L71.059 69.874 Q69.778 71.518 68.237 72.745 L66.478 74.474 Q64.731 75.618 62.81 76.181 L60.752 77.573 Q58.787 78.282 56.856 78.654 L54.489 79.379 Q52.426 79.707 50.452 79.631 L48 80 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M43 91 Q47 86 48 80" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 80 L48.94 12.5" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-vein" d="M48.07 75 Q35.024 72.9 28 69" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.07 75 Q61.674 72.9 69 69" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.348 55 Q30.572 50.8 21 43" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.348 55 Q66.322 50.8 76 43" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.627 35 Q39.119 30.8 34 23" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.627 35 Q59.269 31.15 65 24" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.836 20 Q46.342 17.9 45 14" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48.836 20 Q51.542 17.9 53 14" fill="none" stroke="currentColor" stroke-width="2.25"/>
+</svg>

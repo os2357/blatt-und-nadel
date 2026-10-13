@@ -1,14 +1,14 @@
 # Blatt & Nadel
 
-**134 woody species found in Central Europe · 268 SVG icons · v1.8.0**
+**142 woody species found in Central Europe · 284 SVG icons · v1.9.0**
 
 Leaf, needle and twig icons for nature websites, species profiles and filters. Two optical sizes pair distinctive botanical forms with clear, consistent linework.
 
 [Deutsch](docs/README.de.md) · [Usage](docs/USAGE.md) · [Botanical notes](docs/BOTANY.md) · [Quality checks](docs/QUALITY.md) · [Changelog](CHANGELOG.md)
 
-![All 134 species in the Detail variant](docs/preview.png)
+![All 142 species in the Detail variant](docs/preview.png)
 
-Version 1.8 adds four riparian willows and four alpine or moorland dwarf shrubs. Every species and both optical sizes received a fresh source-guided review; all previous artwork is preserved. [Full review](docs/AUDIT-1.8.md) · [Expansion](docs/EXPANSION-1.8.md) · [Collection scope](docs/SCOPE.md).
+Version 1.9 adds Green alder, Mahaleb cherry, European bladdernut, Common cotoneaster, Black walnut, Swedish whitebeam, Smoke tree and Manna ash. Every species and both optical sizes received a fresh source-guided review; all previous artwork is preserved. [Full review](docs/AUDIT-1.9.md) · [Expansion](docs/EXPANSION-1.9.md) · [Collection scope](docs/SCOPE.md).
 
 ## Use the icons
 
@@ -57,7 +57,7 @@ npm test
 npm run format:check
 ```
 
-`npm test` checks XML, labels, license notices, catalog consistency, rendering, clipping, blade/needle/bud self-intersections, separation of leaflet outlines, vein/midrib containment, complete stroke footprints, connected conifer and heath shoots and generated-file freshness. Regression tests exercise the geometry checker and protect selected leaflet counts, venation counts, glands and stipules. Browser checks cover Chromium and Firefox:
+`npm test` checks XML, labels, license notices, catalog consistency, rendering, clipping, blade/needle/bud self-intersections, separation of leaflet outlines, vein/midrib containment, complete stroke footprints, connected conifer and heath shoots and generated-file freshness. It also verifies that the current botanical audit covers every SVG and matches its exact bytes. Regression tests exercise the geometry checker and protect selected leaflet counts, venation counts, glands and stipules. Browser checks cover Chromium and Firefox:
 
 ```sh
 npx playwright install --with-deps chromium firefox

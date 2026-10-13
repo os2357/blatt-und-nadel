@@ -1,14 +1,14 @@
 # Blatt & Nadel
 
-**134 Gehölzarten · 268 SVG-Icons · v1.8.0**
+**142 Gehölzarten · 284 SVG-Icons · v1.9.0**
 
 Blätter, Nadeln und Zweige für Naturwebseiten, Artenporträts und Baumfilter. Zwei optisch abgestimmte Varianten verbinden charakteristische Pflanzenformen mit einer einheitlichen Zeichensprache.
 
 [English](../README.md) · [Einbau](USAGE.md) · [Botanische Hinweise](BOTANY.md) · [Qualitätsprüfung](QUALITY.md) · [Changelog](../CHANGELOG.md)
 
-![Alle 134 Arten in der Detail-Variante](preview.png)
+![Alle 142 Arten in der Detail-Variante](preview.png)
 
-Version 1.8 ergänzt vier weitere Weiden und vier alpine beziehungsweise moortypische Zwergsträucher. Alle Arten und beide optischen Größen wurden erneut mit Quellen abgeglichen; sämtliche bisherigen Zeichnungen bleiben erhalten. [Gesamtprüfung](AUDIT-1.8.md) · [Erweiterung](EXPANSION-1.8.md) · [Umfang](SCOPE.md).
+Version 1.9 ergänzt Grünerle, Steinweichsel, Pimpernuss, Gewöhnliche Zwergmispel, Schwarznuss, Schwedische Mehlbeere, Perückenstrauch und Blumenesche. Alle Arten und beide optischen Größen wurden erneut mit Quellen abgeglichen; sämtliche bisherigen Zeichnungen bleiben erhalten. [Gesamtprüfung](AUDIT-1.9.md) · [Erweiterung](EXPANSION-1.9.md) · [Umfang](SCOPE.md).
 
 ## Sofort verwenden
 
@@ -61,13 +61,13 @@ npx playwright install --with-deps chromium firefox
 npm run test:browser
 ```
 
-Die automatischen Prüfungen erfassen unter anderem XML, Metadaten, Konturüberschneidungen und überlappende Teilblattstriche, aus der Blattfläche herausragende Adern und Mittelrippen einschließlich ihrer Strichbreite, unbeabsichtigt freistehende Nadeln, abgeschnittene Zeichnungen und veraltete generierte Dateien. Die Browserprüfung kontrolliert die Galerie und alle 268 Sprite-Symbole in Chromium und Firefox. [Prüfumfang und Grenzen](QUALITY.md).
+Die automatischen Prüfungen erfassen unter anderem XML, Metadaten, Konturüberschneidungen und überlappende Teilblattstriche, aus der Blattfläche herausragende Adern und Mittelrippen einschließlich ihrer Strichbreite, unbeabsichtigt freistehende Nadeln, abgeschnittene Zeichnungen und veraltete generierte Dateien. Zusätzlich muss der aktuelle botanische Prüfbericht jede SVG-Variante erfassen und über ihren SHA-256 mit der ausgelieferten Datei übereinstimmen. Die Browserprüfung kontrolliert die Galerie und alle 284 Sprite-Symbole in Chromium und Firefox. [Prüfumfang und Grenzen](QUALITY.md).
 
 Ein geprüftes Release-Archiv erzeugen `npm run test:release` und `npm run release`. Die [Release-Anleitung](PUBLISHING.md) erklärt den Ablauf.
 
 ## Botanische Einordnung
 
-Die Sammlung umfasst heimische, eingebürgerte und gepflanzte Bäume, Sträucher und Klettergehölze Mitteleuropas. Die Kataloggruppe `broadleaf` ordnet nach flächigen Blättern, nicht nach Abstammung; sie enthält auch den nacktsamigen Ginkgo. Die neue Gruppe `heath` enthält Besenheide und Schneeheide als Heidezweige. Diese Blütenpflanzen sind keine Nadelgehölze; die Gruppe bildet nicht die gesamte Familie der Heidekrautgewächse ab. Die Zeichnungen betonen Blattform, Blattstellung, Lappen und relative Stiellängen. Sie zeigen jeweils eine typische Ausprägung und bleiben botanisch informierte Stilisierungen. Natürliche Variation, Nadelquerschnitte, Behaarung und vollständige Nerven- oder Nadelzahlen sind in kleinen Icons nicht vollständig darstellbar. Die [botanischen Hinweise](BOTANY.md) dokumentieren für alle 134 Arten die Quellen sowie die erhaltenen und ausgelassenen Merkmale beider Varianten. Das Set ist keine unabhängig begutachtete wissenschaftliche Bildtafelserie und kein vollständiger Bestimmungsschlüssel.
+Die Sammlung umfasst heimische, eingebürgerte und gepflanzte Bäume, Sträucher und Klettergehölze Mitteleuropas. Die Kataloggruppe `broadleaf` ordnet nach flächigen Blättern, nicht nach Abstammung; sie enthält auch den nacktsamigen Ginkgo. Die neue Gruppe `heath` enthält Besenheide und Schneeheide als Heidezweige. Diese Blütenpflanzen sind keine Nadelgehölze; die Gruppe bildet nicht die gesamte Familie der Heidekrautgewächse ab. Die Zeichnungen betonen Blattform, Blattstellung, Lappen und relative Stiellängen. Sie zeigen jeweils eine typische Ausprägung und bleiben botanisch informierte Stilisierungen. Natürliche Variation, Nadelquerschnitte, Behaarung und vollständige Nerven- oder Nadelzahlen sind in kleinen Icons nicht vollständig darstellbar. Die [botanischen Hinweise](BOTANY.md) dokumentieren für alle 142 Arten die Quellen sowie die erhaltenen und ausgelassenen Merkmale beider Varianten. Das Set ist keine unabhängig begutachtete wissenschaftliche Bildtafelserie und kein vollständiger Bestimmungsschlüssel.
 
 ## Lizenz
 

@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.9.0 — 2026-10-13
+
+### Added
+
+- Green alder, Mahaleb cherry, European bladdernut, Common cotoneaster, Black walnut, Swedish whitebeam, Smoke tree and Manna ash in Detail and Compact: **142 taxa / 284 source SVGs**.
+- [Two-stage expansion review](docs/EXPANSION-1.9.md), [fresh complete audit](docs/AUDIT-1.9.md), per-variant hashes and source/photo records.
+- Release audit validation: all taxa and both variants must be covered, hashes must match the exact source SVGs, and baseline classifications and release totals must agree. Four regressions cover stale or incomplete evidence.
+
+### Preserved and checked
+
+- **All 268 previous SVGs remain byte-identical to v1.8.0; 16 were added.** No existing drawing was regenerated or reverted.
+- All 134 existing primary descriptions and reference photographs were retrieved anew; every old SVG received enlarged and target-size review. Both addition rounds were checked against descriptions, photos and neighboring species.
+- Refined draft leaflet spacing and vein endpoints before accepting the new compound leaves. Updated botanical limits, names, both READMEs, previews, catalog, manifest, gallery and sprites.
+- Sources use explicit regional taxonomic concepts; no claim of independent botanical certification. Release results are recorded in [QUALITY.md](docs/QUALITY.md).
+
 ## 1.8.0 — 2026-10-13
 
 ### Added
