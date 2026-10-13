@@ -146,6 +146,7 @@ for (const variant of variants) {
             'leaf-midrib',
             'leaf-petiole',
             'leaf-rachis',
+            'leaf-twig',
             'leaf-axis',
             'leaf-needle',
             'leaf-scale',
@@ -193,7 +194,10 @@ for (const variant of variants) {
     assert.equal(titles, 1, name + ': exactly one title');
     assert.equal(title, expectedLabel, name + ': title matches catalog');
     assert.ok(paths > 0, name + ': empty icon');
-    if (['conifer', 'heath'].includes(icon.group)) {
+    if (
+      ['conifer', 'heath'].includes(icon.group) ||
+      geometry.some((p) => p.class === 'leaf-twig')
+    ) {
       const components = await paintedComponents(source);
       assert.equal(
         components.length,

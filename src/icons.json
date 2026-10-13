@@ -2085,7 +2085,7 @@
       },
       "scientificName": "Lavandula angustifolia",
       "group": "broadleaf",
-      "description": "Schmal lanzettliches, ganzrandiges Blatt des verholzenden Halbstrauchs; stumpfer Scheitel, sehr kurzer Stiel und Mittelrippe.",
+      "description": "Aufrechter belaubter Trieb mit vier gegenständigen Blattpaaren. Ganzrandige schmal-lanzettliche Spreiten mit verschmälerter Basis; obere Blätter kleiner. Detail mit Mittelrippen, Compact mit offenen Blattflächen.",
       "source": "https://www.infoflora.ch/de/flora/lavandula-angustifolia.html",
       "since": "2.2.0"
     },
@@ -2097,7 +2097,7 @@
       },
       "scientificName": "Salvia rosmarinus",
       "group": "broadleaf",
-      "description": "Sehr schmales lineal-lanzettliches ganzrandiges Blatt des immergrünen Strauchs mit stumpfem Scheitel und fast parallelen Rändern.",
+      "description": "Belaubter Trieb mit einem blattachselständigen Seitenzweig: fünf Blattpaare am Haupttrieb, drei am Seitentrieb. Schmale fast parallelrandige, stumpfe Spreiten; Detail mit Mittelrippen der größeren Blätter.",
       "source": "https://www.infoflora.ch/de/flora/rosmarinus-officinalis.html",
       "since": "2.2.0"
     }

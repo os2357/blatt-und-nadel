@@ -58,3 +58,7 @@ Heath shoots use the `heath` catalog group and `leaf-scale` for filled Calluna s
 ### Adult scale foliage
 
 `leaf-scale` may be a closed `currentColor` fill or a closed unfilled stroked contour. A spray may use a continuous lateral outline plus internal overlapping facial-scale contours. State scale enlargement, reduced rows, projection and omitted insertion details in the audit. Closed-contour and shoot-connectivity checks still apply.
+
+### Leafy shoots
+
+Use `leaf-twig` for an external shoot axis, distinct from `leaf-rachis` for a compound leaf. Keep leaf pairs or other insertion patterns explicit, place lateral shoots at supported nodes, and document projection and density reductions. Broadleaf drawings with a twig must also pass the painted-connectivity check. Do not trade invented anatomical distinctions for visual uniqueness.

@@ -423,20 +423,46 @@ test('revised broadleaf veins ascend from distinct origins on each side', () => 
     }
 });
 
-test('narrow woody herbs preserve longitudinal proportions and open Compact interiors', () => {
-  for (const [id, min, max] of [
-    ['echter-lavendel', 6, 10],
-    ['rosmarin', 10, 16],
+test('herb shoots retain paired leaves, narrow blades and an axillary rosemary branch', () => {
+  for (const [id, count, min, max] of [
+    ['echter-lavendel', 8, 5.5, 7.5],
+    ['rosmarin', 16, 5.5, 12],
   ])
     for (const variant of variants) {
       const all = paths(id, variant),
-        blade = all.find((p) => p.class === 'leaf-blade');
-      const d = axisRatio(blade.d);
-      assert.ok(d.ratio >= min && d.ratio <= max, id + ': selected narrow leaf');
+        blades = all.filter((p) => p.class === 'leaf-blade'),
+        twigs = all.filter((p) => p.class === 'leaf-twig');
+      assert.equal(blades.length, count);
+      assert.equal(twigs.length, id === 'rosmarin' ? 2 : 1);
+      const nodes = [];
+      for (let i = 0; i < blades.length; i += 2) {
+        const a = flattenPath(blades[i].d)[0].points[0],
+          b = flattenPath(blades[i + 1].d)[0].points[0];
+        assert.ok(Math.abs(a[1] - b[1]) < 0.01, 'Opposite pair shares insertion level');
+        assert.ok(b[0] - a[0] > 2 && b[0] - a[0] < 3, 'Visible paired blade origins');
+        nodes.push([(a[0] + b[0]) / 2, a[1]]);
+      }
+      for (const blade of blades) {
+        const d = axisRatio(blade.d);
+        assert.ok(d.ratio >= min && d.ratio <= max, id + ': selected narrow proportions');
+      }
+      if (id === 'rosmarin') {
+        const origin = flattenPath(twigs[1].d)[0].points[0];
+        assert.ok(
+          nodes.some((n) => Math.hypot(n[0] - origin[0], n[1] - origin[1]) < 0.01),
+          'Lateral shoot begins at a leaf node, not between nodes',
+        );
+      }
       assert.equal(
-        all.filter((p) => p.class === 'leaf-midrib').length,
-        variant === 'detail' ? 1 : 0,
-        id + ': optical reduction',
+        all.filter((p) => p.class === 'leaf-rachis').length,
+        0,
+        'Shoot is not a compound leaf',
       );
+      if (variant === 'compact')
+        assert.equal(
+          all.filter((p) => p.class === 'leaf-midrib').length,
+          0,
+          'Open narrow interiors',
+        );
     }
 });

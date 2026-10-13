@@ -3,7 +3,19 @@
      Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
 <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Echter Lavendel · Lavandula angustifolia">
   <title>Echter Lavendel · Lavandula angustifolia</title>
-  <path class="leaf-blade" d="M47 86 C44 74 42 54 43 33 C43.4 17 46 7 49 7 C52 7 54 22 54 39 C54 58 51 76 49 86 Q48 88 47 86 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
-  <path class="leaf-petiole" d="M47 91 L48 87" fill="none" stroke="currentColor" stroke-width="1.9"/>
-  <path class="leaf-midrib" d="M48 87 Q49 48 49 12" fill="none" stroke="currentColor" stroke-width="1.05"/>
+  <path class="leaf-twig" d="M44 91 Q48 84 48 74 L48 19" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-blade" d="M46.6 74 C40.588 74.038 26.82 66.231 14.261 54.352 Q11.69 51.466 12 51 Q12.31 50.534 15.967 51.788 C31.78 58.769 44.308 68.442 46.6 74 Z" fill="none" stroke="currentColor" stroke-width="1.7"/>
+  <path class="leaf-midrib" d="M46.6 74 L16.498 53.99" fill="none" stroke="currentColor" stroke-width="0.9"/>
+  <path class="leaf-blade" d="M49.4 74 C51.637 68.359 64.147 58.319 80.008 50.895 Q83.681 49.54 84 50 Q84.319 50.46 81.764 53.425 C69.253 65.681 55.467 73.881 49.4 74 Z" fill="none" stroke="currentColor" stroke-width="1.7"/>
+  <path class="leaf-midrib" d="M49.4 74 L79.502 53.12" fill="none" stroke="currentColor" stroke-width="0.9"/>
+  <path class="leaf-blade" d="M46.6 54 C41.479 53.258 30.728 44.851 21.51 33.14 Q19.678 30.356 20 30 Q20.322 29.644 23.278 31.18 C35.872 39.149 45.337 48.982 46.6 54 Z" fill="none" stroke="currentColor" stroke-width="1.7"/>
+  <path class="leaf-midrib" d="M46.6 54 L23.458 33.12" fill="none" stroke="currentColor" stroke-width="0.9"/>
+  <path class="leaf-blade" d="M49.4 54 C50.779 48.865 60.622 38.654 73.63 30.272 Q76.678 28.644 77 29 Q77.322 29.356 75.402 32.228 C65.778 44.346 54.645 53.135 49.4 54 Z" fill="none" stroke="currentColor" stroke-width="1.7"/>
+  <path class="leaf-midrib" d="M49.4 54 L73.412 32.25" fill="none" stroke="currentColor" stroke-width="0.9"/>
+  <path class="leaf-blade" d="M46.6 36 C42.713 34.431 35.773 25.748 30.626 14.761 Q29.684 12.218 30 12 Q30.316 11.782 32.362 13.559 C40.827 22.252 46.503 31.809 46.6 36 Z" fill="none" stroke="currentColor" stroke-width="1.7"/>
+  <path class="leaf-midrib" d="M46.6 36 L32.158 15.12" fill="none" stroke="currentColor" stroke-width="0.9"/>
+  <path class="leaf-blade" d="M49.4 36 C49.604 31.588 55.656 21.278 64.542 11.748 Q66.682 9.785 67 10 Q67.318 10.215 66.29 12.932 C60.744 24.722 53.42 34.172 49.4 36 Z" fill="none" stroke="currentColor" stroke-width="1.7"/>
+  <path class="leaf-midrib" d="M49.4 36 L64.712 13.38" fill="none" stroke="currentColor" stroke-width="0.9"/>
+  <path class="leaf-blade" d="M46.6 19 C44.725 17.801 42.196 12.642 40.952 6.481 Q40.799 5.08 41 5 Q41.201 4.92 42.056 6.039 C45.404 11.358 47.131 16.839 46.6 19 Z" fill="none" stroke="currentColor" stroke-width="1.7"/>
+  <path class="leaf-blade" d="M49.4 19 C49.02 16.767 51.137 11.263 54.869 6.007 Q55.805 4.908 56 5 Q56.195 5.092 55.943 6.513 C54.263 12.737 51.364 17.873 49.4 19 Z" fill="none" stroke="currentColor" stroke-width="1.7"/>
 </svg>

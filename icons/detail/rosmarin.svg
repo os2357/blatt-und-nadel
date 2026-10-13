@@ -3,7 +3,35 @@
      Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
 <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Rosmarin · Salvia rosmarinus">
   <title>Rosmarin · Salvia rosmarinus</title>
-  <path class="leaf-blade" d="M46.5 86 C45 67 45 46 45.5 25 C45.7 13 47 7 49 7 C51 7 52 13 52 25 C52 47 50.5 70 49 86 Q47.8 88 46.5 86 Z" fill="none" stroke="currentColor" stroke-width="1.7"/>
-  <path class="leaf-petiole" d="M47 91 L48 87" fill="none" stroke="currentColor" stroke-width="1.7"/>
-  <path class="leaf-midrib" d="M48 87 Q49 45 49 12" fill="none" stroke="currentColor" stroke-width="1"/>
+  <path class="leaf-twig" d="M32 92 L38 80 L46 63 L52 49 L58 32 L63 15" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-twig" d="M38 80 L32 59 L25 41 L22 32" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path class="leaf-blade" d="M36.8 80 C34.982 80.319 32.72 79.138 19.468 71.075 Q16.3 69.155 17 68 Q17.7 66.845 20.868 68.765 C34.148 76.782 36.242 78.241 36.8 80 Z" fill="none" stroke="currentColor" stroke-width="1.15"/>
+  <path class="leaf-midrib" d="M36.8 80 L19.574 69.56" fill="none" stroke="currentColor" stroke-width="0.7"/>
+  <path class="leaf-blade" d="M39.2 80 C40.211 78.419 42.672 77.494 57.956 72.829 Q61.604 71.709 62 73 Q62.396 74.291 58.748 75.411 C43.48 80.126 40.925 80.741 39.2 80 Z" fill="none" stroke="currentColor" stroke-width="1.15"/>
+  <path class="leaf-midrib" d="M39.2 80 L59.036 73.91" fill="none" stroke="currentColor" stroke-width="0.7"/>
+  <path class="leaf-blade" d="M44.8 63 C43.681 61.672 43.655 59.353 44.485 45.284 Q44.677 41.924 46 42 Q47.323 42.076 47.131 45.436 C46.353 59.507 46.063 61.808 44.8 63 Z" fill="none" stroke="currentColor" stroke-width="1.15"/>
+  <path class="leaf-midrib" d="M44.8 63 L45.844 44.73" fill="none" stroke="currentColor" stroke-width="0.7"/>
+  <path class="leaf-blade" d="M47.2 63 C48.204 61.25 50.868 59.895 67.495 52.549 Q71.463 50.789 72 52 Q72.537 53.211 68.569 54.971 C51.964 62.365 49.172 63.43 47.2 63 Z" fill="none" stroke="currentColor" stroke-width="1.15"/>
+  <path class="leaf-midrib" d="M47.2 63 L68.776 53.43" fill="none" stroke="currentColor" stroke-width="0.7"/>
+  <path class="leaf-blade" d="M50.8 49 C49.449 47.831 48.983 45.431 47.134 30.687 Q46.686 27.167 48 27 Q49.314 26.833 49.762 30.353 C51.665 45.089 51.815 47.529 50.8 49 Z" fill="none" stroke="currentColor" stroke-width="1.15"/>
+  <path class="leaf-midrib" d="M50.8 49 L48.364 29.86" fill="none" stroke="currentColor" stroke-width="0.7"/>
+  <path class="leaf-blade" d="M53.2 49 C54.321 47.192 57.204 45.727 75.171 37.711 Q79.459 35.791 80 37 Q80.541 38.209 76.253 40.129 C58.308 48.193 55.295 49.368 53.2 49 Z" fill="none" stroke="currentColor" stroke-width="1.15"/>
+  <path class="leaf-midrib" d="M53.2 49 L76.516 38.56" fill="none" stroke="currentColor" stroke-width="0.7"/>
+  <path class="leaf-blade" d="M56.8 32 C55.56 30.661 55.313 28.137 54.804 12.726 Q54.676 9.046 56 9 Q57.324 8.954 57.452 12.634 C58.015 28.043 57.944 30.579 56.8 32 Z" fill="none" stroke="currentColor" stroke-width="1.15"/>
+  <path class="leaf-midrib" d="M56.8 32 L56.104 11.99" fill="none" stroke="currentColor" stroke-width="0.7"/>
+  <path class="leaf-blade" d="M59.2 32 C59.897 30.196 62.214 28.629 76.833 19.942 Q80.321 17.862 81 19 Q81.679 20.138 78.191 22.218 C63.598 30.951 61.119 32.244 59.2 32 Z" fill="none" stroke="currentColor" stroke-width="1.15"/>
+  <path class="leaf-midrib" d="M59.2 32 L78.166 20.69" fill="none" stroke="currentColor" stroke-width="0.7"/>
+  <path class="leaf-blade" d="M61.8 15 C61.135 14.312 61.168 13.2 61.989 6.502 Q62.181 4.902 63 5 Q63.819 5.098 63.627 6.698 C62.84 13.4 62.609 14.488 61.8 15 Z" fill="none" stroke="currentColor" stroke-width="1.15"/>
+  <path class="leaf-blade" d="M64.2 15 C64.318 13.945 65.334 12.988 71.91 7.641 Q73.478 6.361 74 7 Q74.522 7.639 72.954 8.919 C66.398 14.292 65.258 15.095 64.2 15 Z" fill="none" stroke="currentColor" stroke-width="1.15"/>
+  <path class="leaf-blade" d="M30.8 59 C29.31 59.706 26.99 59.291 13.059 55.918 Q9.731 55.118 10 54 Q10.269 52.882 13.597 53.682 C27.538 57.009 29.794 57.694 30.8 59 Z" fill="none" stroke="currentColor" stroke-width="1.15"/>
+  <path class="leaf-midrib" d="M30.8 59 L12.704 54.65" fill="none" stroke="currentColor" stroke-width="0.7"/>
+  <path class="leaf-blade" d="M33.2 59 C32.623 57.421 33.24 55.069 37.818 41.006 Q38.906 37.646 40 38 Q41.094 38.354 40.006 41.714 C35.472 55.791 34.593 58.059 33.2 59 Z" fill="none" stroke="currentColor" stroke-width="1.15"/>
+  <path class="leaf-midrib" d="M33.2 59 L39.116 40.73" fill="none" stroke="currentColor" stroke-width="0.7"/>
+  <path class="leaf-blade" d="M23.8 41 C22.286 41.251 20.37 40.264 9.125 33.545 Q6.437 31.945 7 31 Q7.563 30.055 10.251 31.655 C21.518 38.336 23.298 39.549 23.8 41 Z" fill="none" stroke="currentColor" stroke-width="1.15"/>
+  <path class="leaf-midrib" d="M23.8 41 L9.184 32.3" fill="none" stroke="currentColor" stroke-width="0.7"/>
+  <path class="leaf-blade" d="M26.2 41 C25.822 39.401 26.669 37.148 32.585 23.757 Q33.993 20.557 35 21 Q36.007 21.443 34.599 24.643 C28.723 38.052 27.634 40.199 26.2 41 Z" fill="none" stroke="currentColor" stroke-width="1.15"/>
+  <path class="leaf-midrib" d="M26.2 41 L33.856 23.6" fill="none" stroke="currentColor" stroke-width="0.7"/>
+  <path class="leaf-blade" d="M20.8 32 C19.647 31.357 18.799 29.639 14.26 18.912 Q13.172 16.352 14 16 Q14.828 15.648 15.916 18.208 C20.489 28.921 21.137 30.723 20.8 32 Z" fill="none" stroke="currentColor" stroke-width="1.15"/>
+  <path class="leaf-blade" d="M23.2 32 C22.566 30.688 22.767 28.473 24.661 15.075 Q25.109 11.875 26 12 Q26.891 12.125 26.443 15.325 C24.585 28.727 24.17 30.912 23.2 32 Z" fill="none" stroke="currentColor" stroke-width="1.15"/>
+  <path class="leaf-midrib" d="M23.2 32 L25.636 14.6" fill="none" stroke="currentColor" stroke-width="0.7"/>
 </svg>

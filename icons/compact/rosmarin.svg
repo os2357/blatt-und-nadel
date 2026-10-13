@@ -3,6 +3,22 @@
      Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
 <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Rosmarin · Salvia rosmarinus">
   <title>Rosmarin · Salvia rosmarinus</title>
-  <path class="leaf-blade" d="M46.5 86 C45 67 45 46 45.5 25 C45.7 13 47 7 49 7 C51 7 52 13 52 25 C52 47 50.5 70 49 86 Q47.8 88 46.5 86 Z" fill="none" stroke="currentColor" stroke-width="2.2"/>
-  <path class="leaf-petiole" d="M47 91 L48 87" fill="none" stroke="currentColor" stroke-width="2.2"/>
+  <path class="leaf-twig" d="M32 92 L38 80 L46 63 L52 49 L58 32 L63 15" fill="none" stroke="currentColor" stroke-width="2.65"/>
+  <path class="leaf-twig" d="M38 80 L32 59 L25 41 L22 32" fill="none" stroke="currentColor" stroke-width="2.2"/>
+  <path class="leaf-blade" d="M36.8 80 C34.938 80.392 32.67 79.22 19.419 71.155 Q16.251 69.235 17 68 Q17.749 66.765 20.917 68.685 C34.198 76.7 36.286 78.168 36.8 80 Z" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <path class="leaf-blade" d="M39.2 80 C40.186 78.337 42.644 77.401 57.928 72.739 Q61.576 71.619 62 73 Q62.424 74.381 58.776 75.501 C43.508 80.219 40.95 80.823 39.2 80 Z" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <path class="leaf-blade" d="M44.8 63 C43.598 61.667 43.56 59.348 44.393 45.279 Q44.585 41.919 46 42 Q47.415 42.081 47.223 45.441 C46.448 59.512 46.146 61.813 44.8 63 Z" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <path class="leaf-blade" d="M47.2 63 C48.171 61.174 50.83 59.808 67.457 52.464 Q71.425 50.704 72 52 Q72.575 53.296 68.607 55.056 C52.002 62.452 49.205 63.506 47.2 63 Z" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <path class="leaf-blade" d="M50.8 49 C49.366 47.841 48.889 45.443 47.042 30.699 Q46.594 27.179 48 27 Q49.406 26.821 49.854 30.341 C51.759 45.077 51.898 47.519 50.8 49 Z" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <path class="leaf-blade" d="M53.2 49 C54.287 47.115 57.165 45.64 75.133 37.626 Q79.421 35.706 80 37 Q80.579 38.294 76.291 40.214 C58.347 48.28 55.329 49.445 53.2 49 Z" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <path class="leaf-blade" d="M56.8 32 C55.477 30.664 55.219 28.14 54.711 12.729 Q54.583 9.049 56 9 Q57.417 8.951 57.545 12.631 C58.109 28.04 58.027 30.576 56.8 32 Z" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <path class="leaf-blade" d="M59.2 32 C59.854 30.124 62.165 28.548 76.786 19.862 Q80.274 17.782 81 19 Q81.726 20.218 78.238 22.298 C63.647 31.032 61.162 32.316 59.2 32 Z" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <path class="leaf-blade" d="M61.8 15 C61.083 14.305 61.11 13.193 61.932 6.495 Q62.124 4.895 63 5 Q63.876 5.105 63.684 6.705 C62.898 13.407 62.661 14.495 61.8 15 Z" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <path class="leaf-blade" d="M64.2 15 C64.286 13.905 65.297 12.942 71.874 7.596 Q73.442 6.316 74 7 Q74.558 7.684 72.99 8.964 C66.435 14.338 65.29 15.135 64.2 15 Z" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <path class="leaf-blade" d="M30.8 59 C29.293 59.777 26.971 59.37 13.04 55.996 Q9.712 55.196 10 54 Q10.288 52.804 13.616 53.604 C27.557 56.93 29.811 57.623 30.8 59 Z" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <path class="leaf-blade" d="M33.2 59 C32.554 57.399 33.162 55.043 37.741 40.981 Q38.829 37.621 40 38 Q41.171 38.379 40.083 41.739 C35.55 55.817 34.662 58.081 33.2 59 Z" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <path class="leaf-blade" d="M23.8 41 C22.25 41.31 20.33 40.332 9.086 33.611 Q6.398 32.011 7 31 Q7.602 29.989 10.29 31.589 C21.558 38.268 23.334 39.49 23.8 41 Z" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <path class="leaf-blade" d="M26.2 41 C25.758 39.373 26.597 37.116 32.515 23.726 Q33.923 20.526 35 21 Q36.077 21.474 34.669 24.674 C28.795 38.084 27.698 40.227 26.2 41 Z" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <path class="leaf-blade" d="M20.8 32 C19.594 31.379 18.74 29.664 14.202 18.937 Q13.114 16.377 14 16 Q14.886 15.623 15.974 18.183 C20.548 28.896 21.19 30.701 20.8 32 Z" fill="none" stroke="currentColor" stroke-width="1.6"/>
+  <path class="leaf-blade" d="M23.2 32 C22.51 30.68 22.703 28.464 24.598 15.066 Q25.046 11.866 26 12 Q26.954 12.134 26.506 15.334 C24.649 28.736 24.226 30.92 23.2 32 Z" fill="none" stroke="currentColor" stroke-width="1.6"/>
 </svg>

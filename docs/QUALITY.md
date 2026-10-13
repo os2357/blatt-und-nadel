@@ -1,8 +1,10 @@
 # Quality checks
 
-Release **2.2.0** · 13 October 2026
+Release **2.2.1** · 13 October 2026
 
 ## Artwork review
+
+Patch 2.2.1 redraws only Lavendel and Rosmarin, in both sizes, as referenced leafy shoots. Four SVGs changed and 346 remain byte-identical to v2.2.0; their v2.2 review is carried forward. See [focused review](AUDIT-2.2.1.md) and [current hash record](audit-2.2.1.json). The historical v2.2 scope below describes that expansion, not additional fresh review in this patch.
 
 The current release contains **175 taxa / 350 source SVGs**. Baseline treatments and photographs were reread from the same-day v2.1 cache; 17 additions and three targeted baseline clarifications received fresh source retrieval. All taxa and both optical sizes received a fresh source-guided review, including enlarged photograph comparison and target-size inspection on light/dark backgrounds. See the [full v2.2 report](AUDIT-2.2.md), [machine-readable record](audit-2.2.json) and [two expansion rounds](EXPANSION-2.2.md).
 
@@ -51,9 +53,9 @@ In v1.7 both Wych elm variants received an unequal rounded basal lobe and a very
 - Geometry is nonempty; license notices are present.
 - No embedded images, scripts, event handlers, remote references or editor-specific objects are included.
 - Blade, filled-needle, filled or outlined scale, sheath, bud, gland, stipule and filled winged-rachis contours explicitly close and contain no detected proper self-crossings.
-- Each of the 42 conifer and four heath SVGs forms one connected painted component: no detached needle or twig fragments.
+- Each of the 42 conifer, four heath and four broadleaf shoot SVGs forms one connected painted component: no detached needle or twig fragments.
 - Separate leaf blades have no detected crossings, nesting or overlaps between their painted outlines.
-- All **3448 internal vein and midrib paths** remain inside the leaf blades within the stated numerical tolerance.
+- All **3465 internal vein and midrib paths** remain inside the leaf blades within the stated numerical tolerance.
 - Every vein origin must visibly touch another vascular path (vein, midrib, petiole or rachis), with a 0.06-unit numerical tolerance after stroke widths. Contact with the blade outline alone does not count. This detects visible gaps; it does not establish a full biologically correct vein network.
 - Rendered strokes do not touch the canvas edge.
 - Generated sprites, the manifest, gallery and SVG overview match the current sources.
@@ -87,8 +89,8 @@ Sprite and inline captures use the same device-pixel origin. The comparison allo
 
 ## Release run
 
-- Geometry, XML, metadata, stroke containment and generated-asset freshness: 350 source SVGs and 3,448 internal paths checked.
-- Regression suite: 37 tests (13 geometry, 20 artwork, four audit). Regressions protect separate ascending vein origins, selected compound-leaf counts, two true five-needle Weymouth fascicles, narrow open Compact herbs, and previously corrected anatomy.
+- Geometry, XML, metadata, stroke containment and generated-asset freshness: 350 source SVGs and 3,465 internal paths checked.
+- Regression suite: 37 tests (13 geometry, 20 artwork, four audit). Regressions protect separate ascending vein origins, selected compound-leaf counts, two true five-needle Weymouth fascicles, paired herb shoots and their open Compact interiors, and previously corrected anatomy.
 - Archive regression and exact extracted-byte checks run when building the ZIP.
 - **Chromium and Firefox integration: not rerun for v2.2.** The managed publishing environment lacks the prescribed browser-control capability. No alternate preview server or browser path was used. The last completed browser run belongs to v1.9 (Chromium 153.0.8010.0 / Firefox 153.0); it does not verify the changed v2.2 assets. The current test suite uses the already-approved radio switch selectors and remains available for CI or local execution.
 

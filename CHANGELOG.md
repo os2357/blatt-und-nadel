@@ -1,5 +1,15 @@
 # Changelog
 
+## 2.2.1 — 2026-10-13
+
+### Fixed
+
+- Lavendel and Rosmarin in both variants: replace weak single-leaf silhouettes with source-guided leafy shoots, retaining opposite pairs and natural narrow blade shapes.
+- Lavendel selects an upright eight-leaf shoot; Rosmarin a sixteen-leaf branched shoot with a true axillary branch origin. Compact omits midribs for open interiors.
+- New explicit twig role and connected-shoot validation; regression protects the paired insertions, blade proportions and branch origin.
+- [Sources, limits and before/after review](docs/AUDIT-2.2.1.md), exact audit hashes, gallery, sprites and current previews updated. **Four revised SVGs; 346 byte-identical to v2.2.0.**
+- Historical v2.2 expansion records retained. Count remains 175 taxa / 350 SVGs; licenses and IDs unchanged.
+
 ## 2.2.0 — 2026-10-13
 
 ### Added
