@@ -1,0 +1,9 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Myrte · Myrtus communis">
+  <title>Myrte · Myrtus communis</title>
+  <path class="leaf-blade" d="M48 84 C38 76 32 60 34 45 C36 28 44 15 50 9 C56 22 64 36 63 51 C62 67 55 78 48 84 Z" fill="none" stroke="currentColor" stroke-width="3.1"/>
+  <path class="leaf-petiole" d="M46 91 Q48 87 48 84" fill="none" stroke="currentColor" stroke-width="3.1"/>
+  <path class="leaf-midrib" d="M48 84 L50 13" fill="none" stroke="currentColor" stroke-width="2.35"/>
+</svg>

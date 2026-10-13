@@ -44,6 +44,8 @@ test('compound additions retain their selected leaflet counts in both optical si
       besenginster: 3,
       waldrebe: 5,
       gleditschie: 16,
+      'terpentin-pistazie': 7,
+      goldregen: 3,
     }))
       assert.equal(counts(id, variant)['leaf-blade'], expected, `${id}/${variant}`);
 });
@@ -195,6 +197,7 @@ test('pine fascicles preserve five- versus two-needle groups in both sizes', () 
       ['pinie', 2, 3],
       ['aleppo-kiefer', 2, 3],
       ['strandkiefer', 2, 3],
+      ['weymouth-kiefer', 5, 2],
     ]) {
       const groups = [];
       for (const { base } of needleBases(id, variant)) {
@@ -208,6 +211,11 @@ test('pine fascicles preserve five- versus two-needle groups in both sizes', () 
         id + ': bundle membership',
       );
     }
+    assert.equal(
+      counts('weymouth-kiefer', variant)['leaf-sheath'] || 0,
+      0,
+      'Mature fascicles after sheath loss',
+    );
     assert.equal(counts('bergkiefer', variant)['leaf-sheath'], 4);
     assert.equal(counts('kiefer', variant)['leaf-sheath'], 3);
     assert.equal(counts('schwarzkiefer', variant)['leaf-sheath'], 3);
@@ -321,7 +329,7 @@ test('rowan leaflets preserve their revised oblong proportions and terminal size
 test('hornbeam veins ascend from separate origins instead of crowding the blade base', () => {
   for (const variant of variants) {
     const veins = paths('hainbuche', variant).filter((p) => p.class === 'leaf-vein');
-    assert.equal(veins.length, variant === 'detail' ? 20 : 12);
+    assert.equal(veins.length, variant === 'detail' ? 20 : 10);
     const sides = [[], []];
     for (const p of veins) {
       const points = flattenPath(p.d)[0].points,
@@ -393,4 +401,42 @@ test('mastic foliage retains paired blades and a closed winged rachis', () => {
       'Wing membrane must not collapse into a line',
     );
   }
+});
+
+// Protect the basal congestion corrected in the 2.2 source review.
+test('revised broadleaf veins ascend from distinct origins on each side', () => {
+  for (const variant of variants)
+    for (const id of ['rotbuche', 'hasel', 'salweide', 'pfeifenstrauch']) {
+      const sides = [[], []];
+      for (const p of paths(id, variant).filter((p) => p.class === 'leaf-vein')) {
+        const points = flattenPath(p.d)[0].points,
+          start = points[0],
+          end = points.at(-1);
+        assert.ok(end[1] < start[1] - 2, id + ': ascending course');
+        const side = sides[end[0] < start[0] ? 0 : 1];
+        assert.ok(
+          side.every((q) => Math.hypot(q[0] - start[0], q[1] - start[1]) > 2),
+          id + ': distinct origins',
+        );
+        side.push(start);
+      }
+    }
+});
+
+test('narrow woody herbs preserve longitudinal proportions and open Compact interiors', () => {
+  for (const [id, min, max] of [
+    ['echter-lavendel', 6, 10],
+    ['rosmarin', 10, 16],
+  ])
+    for (const variant of variants) {
+      const all = paths(id, variant),
+        blade = all.find((p) => p.class === 'leaf-blade');
+      const d = axisRatio(blade.d);
+      assert.ok(d.ratio >= min && d.ratio <= max, id + ': selected narrow leaf');
+      assert.equal(
+        all.filter((p) => p.class === 'leaf-midrib').length,
+        variant === 'detail' ? 1 : 0,
+        id + ': optical reduction',
+      );
+    }
 });

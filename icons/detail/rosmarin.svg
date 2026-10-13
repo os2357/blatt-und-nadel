@@ -1,0 +1,9 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Rosmarin · Salvia rosmarinus">
+  <title>Rosmarin · Salvia rosmarinus</title>
+  <path class="leaf-blade" d="M46.5 86 C45 67 45 46 45.5 25 C45.7 13 47 7 49 7 C51 7 52 13 52 25 C52 47 50.5 70 49 86 Q47.8 88 46.5 86 Z" fill="none" stroke="currentColor" stroke-width="1.7"/>
+  <path class="leaf-petiole" d="M47 91 L48 87" fill="none" stroke="currentColor" stroke-width="1.7"/>
+  <path class="leaf-midrib" d="M48 87 Q49 45 49 12" fill="none" stroke="currentColor" stroke-width="1"/>
+</svg>

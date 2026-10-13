@@ -1,0 +1,14 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Gewöhnlicher Goldregen · Laburnum anagyroides">
+  <title>Gewöhnlicher Goldregen · Laburnum anagyroides</title>
+  <path class="leaf-petiole" d="M42 92 Q47 80 48 65" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-rachis" d="M48 65 L48 54 M48 65 L41 63 M48 65 L55 63" fill="none" stroke="currentColor" stroke-width="2.8"/>
+  <path class="leaf-blade" d="M48 54 C35.651 47.824 35.383 19.562 50 7 C63.497 20.758 60.829 48.896 48 54 Z" fill="none" stroke="currentColor" stroke-width="2.85"/>
+  <path class="leaf-midrib" d="M48 54 L49.8 11.7" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <path class="leaf-blade" d="M41 63 C29.902 67.407 10.441 50.927 10 34 C26.919 33.313 44.658 51.633 41 63 Z" fill="none" stroke="currentColor" stroke-width="2.85"/>
+  <path class="leaf-midrib" d="M41 63 L13.1 36.9" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <path class="leaf-blade" d="M55 63 C51.831 51.407 70.799 33.061 88 34 C86.721 51.179 66.089 67.633 55 63 Z" fill="none" stroke="currentColor" stroke-width="2.85"/>
+  <path class="leaf-midrib" d="M55 63 L84.7 36.9" fill="none" stroke="currentColor" stroke-width="1.8"/>
+</svg>

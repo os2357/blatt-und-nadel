@@ -1,0 +1,22 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Terpentin-Pistazie · Pistacia terebinthus">
+  <title>Terpentin-Pistazie · Pistacia terebinthus</title>
+  <path class="leaf-petiole" d="M47 92 Q48 84 48 79" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-rachis" d="M48 79 L48 27 M48 79 L43 79 M48 79 L53 79 M48 58 L43 58 M48 58 L53 58 M48 37 L43 37 M48 37 L53 37" fill="none" stroke="currentColor" stroke-width="2.8"/>
+  <path class="leaf-blade" d="M43 79 C36.136 87.545 17.389 82.002 12 69 C23.971 61.598 42.031 69.273 43 79 Z" fill="none" stroke="currentColor" stroke-width="2.85"/>
+  <path class="leaf-midrib" d="M43 79 L15.1 70" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <path class="leaf-blade" d="M53 79 C53.786 68.026 72.842 61.568 85 69 C79.238 82.032 59.513 86.352 53 79 Z" fill="none" stroke="currentColor" stroke-width="2.85"/>
+  <path class="leaf-midrib" d="M53 79 L81.8 70" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <path class="leaf-blade" d="M43 58 C35.052 66.563 15.065 59.237 10 45 C23.415 38.043 42.529 47.583 43 58 Z" fill="none" stroke="currentColor" stroke-width="2.85"/>
+  <path class="leaf-midrib" d="M43 58 L13.3 46.3" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <path class="leaf-blade" d="M53 58 C52.972 46.317 72.585 38.043 86 45 C80.935 59.237 60.449 65.297 53 58 Z" fill="none" stroke="currentColor" stroke-width="2.85"/>
+  <path class="leaf-midrib" d="M53 58 L82.7 46.3" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <path class="leaf-blade" d="M43 37 C35.402 42.961 19.593 34.325 17 22 C28.967 18.075 43.798 28.409 43 37 Z" fill="none" stroke="currentColor" stroke-width="2.85"/>
+  <path class="leaf-midrib" d="M43 37 L19.6 23.5" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <path class="leaf-blade" d="M53 37 C52.129 27.302 68.731 17.932 81 22 C77.589 34.468 60.062 42.111 53 37 Z" fill="none" stroke="currentColor" stroke-width="2.85"/>
+  <path class="leaf-midrib" d="M53 37 L78.2 23.5" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <path class="leaf-blade" d="M48 27 C39.808 23.879 40.018 10.062 49 4 C57.422 10.818 55.393 24.556 48 27 Z" fill="none" stroke="currentColor" stroke-width="2.85"/>
+  <path class="leaf-midrib" d="M48 27 L48.9 6.3" fill="none" stroke="currentColor" stroke-width="1.8"/>
+</svg>

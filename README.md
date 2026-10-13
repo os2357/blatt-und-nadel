@@ -1,14 +1,14 @@
 # Blatt & Nadel
 
-**158 woody taxa · Central Europe and selected Mediterranean foliage · 316 SVG icons · v2.1.0**
+**175 woody taxa · Central Europe and selected Mediterranean foliage · 350 SVG icons · v2.2.0**
 
 Leaf, needle and twig icons for nature websites, species profiles and filters. Two optical sizes pair distinctive botanical forms with clear, consistent linework.
 
 [Deutsch](docs/README.de.md) · [Usage](docs/USAGE.md) · [Botanical notes](docs/BOTANY.md) · [Quality checks](docs/QUALITY.md) · [Changelog](CHANGELOG.md)
 
-![All 158 species in the Detail variant](docs/preview.png)
+![All 175 species in the Detail variant](docs/preview.png)
 
-Version 2.1 adds eight Mediterranean woody taxa in two reviewed groups. Hornbeam venation and Oregon grape leaflet insertions were refined; 297 previous SVGs remain byte-identical. All 158 taxa and both optical sizes were checked against botanical descriptions and foliage references. [Full review](docs/AUDIT-2.1.md) · [Expansion](docs/EXPANSION-2.1.md) · [Scope](docs/SCOPE.md). Fresh browser integration verification remains outstanding; see [quality results](docs/QUALITY.md).
+Version 2.2 adds 17 woody taxa in two reviewed groups, including scale conifers, Weymouth pine and contrasting garden and Mediterranean foliage. Venation in five existing taxa was refined; 307 previous SVGs remain byte-identical. Every taxon and both optical sizes were compared with botanical descriptions and foliage references. [Full review](docs/AUDIT-2.2.md) · [Expansion](docs/EXPANSION-2.2.md) · [Scope](docs/SCOPE.md). Fresh browser integration verification remains outstanding; see [quality results](docs/QUALITY.md).
 
 ## Use the icons
 
@@ -249,6 +249,23 @@ Stable German ASCII IDs are retained. The manifest provides both common names, s
 | `weissliche-zistrose`              | Grey-leaved rockrose      | Weißliche Zistrose             | _Cistus albidus_               |
 | `schmalblaettrige-steinlinde`      | Narrow-leaved mock privet | Schmalblättrige Steinlinde     | _Phillyrea angustifolia_       |
 | `mastixstrauch`                    | Mastic tree               | Mastixstrauch                  | _Pistacia lentiscus_           |
+| `judasbaum`                        | Judas tree                | Judasbaum                      | _Cercis siliquastrum_          |
+| `terpentin-pistazie`               | Terebinth                 | Terpentin-Pistazie             | _Pistacia terebinthus_         |
+| `breitblaettrige-steinlinde`       | Broad-leaved phillyrea    | Breitblättrige Steinlinde      | _Phillyrea latifolia_          |
+| `myrte`                            | Common myrtle             | Myrte                          | _Myrtus communis_              |
+| `granatapfel`                      | Pomegranate               | Granatapfel                    | _Punica granatum_              |
+| `oleander`                         | Oleander                  | Oleander                       | _Nerium oleander_              |
+| `goldregen`                        | Common laburnum           | Gewöhnlicher Goldregen         | _Laburnum anagyroides_         |
+| `schneebeere`                      | Common snowberry          | Gewöhnliche Schneebeere        | _Symphoricarpos albus_         |
+| `abendlaendischer-lebensbaum`      | Northern white cedar      | Abendländischer Lebensbaum     | _Thuja occidentalis_           |
+| `lawsons-scheinzypresse`           | Lawson cypress            | Lawsons Scheinzypresse         | _Chamaecyparis lawsoniana_     |
+| `mittelmeer-zypresse`              | Mediterranean cypress     | Mittelmeer-Zypresse            | _Cupressus sempervirens_       |
+| `atlas-zeder`                      | Atlas cedar               | Atlas-Zeder                    | _Cedrus atlantica_             |
+| `weymouth-kiefer`                  | Eastern white pine        | Weymouth-Kiefer                | _Pinus strobus_                |
+| `nordmanntanne`                    | Nordmann fir              | Nordmanntanne                  | _Abies nordmanniana_           |
+| `forsythie`                        | Border forsythia          | Garten-Forsythie               | _Forsythia × intermedia_       |
+| `echter-lavendel`                  | English lavender          | Echter Lavendel                | _Lavandula angustifolia_       |
+| `rosmarin`                         | Rosemary                  | Rosmarin                       | _Salvia rosmarinus_            |
 
 ## Botanical scope
 

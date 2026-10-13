@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Garten-Forsythie · Forsythia × intermedia">
+  <title>Garten-Forsythie · Forsythia × intermedia</title>
+  <path class="leaf-blade" d="M48 82 C39 77 32 65 31 50  Q30.944 47.873 31.486 45.895 L31.206 43.362 Q31.508 41.257 32.539 39.428 L32.503 36.848 Q33.126 34.814 34.474 33.178 L34.739 30.593 Q35.623 28.658 37.189 27.215 L37.743 24.666 Q38.842 22.844 40.536 21.567 L41.366 19.094 Q42.632 17.385 44.381 16.224 L45.481 13.875 Q46.886 12.277 48.601 11.147 L50 9  Q51.421 10.569 52.358 12.386 L54.348 13.986 Q55.672 15.639 56.358 17.611 L58.358 19.247 Q59.553 20.995 60.015 23.055 L61.922 24.819 Q62.945 26.673 63.177 28.779 L64.899 30.724 Q65.708 32.68 65.703 34.793 L67.147 36.942 Q67.692 38.988 67.471 41.065 L68.535 43.405 Q68.784 45.508 68.439 47.522 L69 50 C68 67 58 79 48 82 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M45 92 Q48 87 48 82" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 82 L50 13" fill="none" stroke="currentColor" stroke-width="2.8"/>
+  <path class="leaf-vein" d="M48.231884057971016 74 Q35 69 35 55" fill="none" stroke="currentColor" stroke-width="2"/>
+  <path class="leaf-vein" d="M48.231884057971016 74 Q65 69 65 54" fill="none" stroke="currentColor" stroke-width="2"/>
+  <path class="leaf-vein" d="M49.072463768115945 45 Q40 40 40 28" fill="none" stroke="currentColor" stroke-width="2"/>
+  <path class="leaf-vein" d="M49.072463768115945 45 Q61 40 61 29" fill="none" stroke="currentColor" stroke-width="2"/>
+  <path class="leaf-vein" d="M49.47826086956522 31 Q45 26 45 19" fill="none" stroke="currentColor" stroke-width="2"/>
+  <path class="leaf-vein" d="M49.47826086956522 31 Q55 26 55 19" fill="none" stroke="currentColor" stroke-width="2"/>
+</svg>

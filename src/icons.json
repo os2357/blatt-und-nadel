@@ -177,7 +177,7 @@
       },
       "scientificName": "Carpinus betulus",
       "group": "broadleaf",
-      "description": "Länglich-eiförmige Spreite mit rundlichem, leicht ungleichem Grund und doppelter Sägung; zehn aufsteigende Seitennervenpaare in Detail, sechs in Compact.",
+      "description": "Länglich-eiförmige Spreite mit rundlichem, leicht ungleichem Grund und doppelter Sägung; zehn aufsteigende Seitennervenpaare in Detail, fünf in Compact.",
       "source": "https://www.infoflora.ch/de/flora/carpinus-betulus.html",
       "since": "1.0.0"
     },
@@ -1896,6 +1896,210 @@
       "description": "Paarig gefiedertes Blatt mit vier Paaren ganzrandiger elliptischer Fiederblättchen und geflügelter Blattachse; ohne Endfieder.",
       "source": "https://apps.cals.arizona.edu/arboretum/taxon.aspx?id=216",
       "since": "2.1.0"
+    },
+    {
+      "id": "judasbaum",
+      "name": {
+        "de": "Judasbaum",
+        "en": "Judas tree"
+      },
+      "scientificName": "Cercis siliquastrum",
+      "group": "broadleaf",
+      "description": "Rundliches, ganzrandiges Blatt mit deutlich herzförmigem Grund, gerundetem Scheitel und handförmigen Basalnerven; keine lange Endspitze.",
+      "source": "https://landscapeplants.oregonstate.edu/plants/cercis-siliquastrum",
+      "since": "2.2.0"
+    },
+    {
+      "id": "terpentin-pistazie",
+      "name": {
+        "de": "Terpentin-Pistazie",
+        "en": "Terebinth"
+      },
+      "scientificName": "Pistacia terebinthus",
+      "group": "broadleaf",
+      "description": "Unpaarig gefiedertes Blatt mit sieben ganzrandigen elliptischen Fiedern und ungeflügelter Achse; deutliche Endfieder.",
+      "source": "https://flora.uniud.it/scheda.php?id=504",
+      "since": "2.2.0"
+    },
+    {
+      "id": "breitblaettrige-steinlinde",
+      "name": {
+        "de": "Breitblättrige Steinlinde",
+        "en": "Broad-leaved phillyrea"
+      },
+      "scientificName": "Phillyrea latifolia",
+      "group": "broadleaf",
+      "description": "Breit-ovales, kurz gestieltes Blatt mit schwacher Zahnung und bogenförmigen Seitennerven; eine der variablen adulten Formen.",
+      "source": "https://dryades.units.it/stagnisardi/index.php?id=3987&num=3501&procedure=taxon_page",
+      "since": "2.2.0"
+    },
+    {
+      "id": "myrte",
+      "name": {
+        "de": "Myrte",
+        "en": "Common myrtle"
+      },
+      "scientificName": "Myrtus communis",
+      "group": "broadleaf",
+      "description": "Ganzrandige eiförmig-lanzettliche Spreite mit kurzer Blattspitze und sehr kurzem Stiel; Detail mit randnaher Sammelader.",
+      "source": "https://landscapeplants.oregonstate.edu/plants/myrtus-communis",
+      "since": "2.2.0"
+    },
+    {
+      "id": "granatapfel",
+      "name": {
+        "de": "Granatapfel",
+        "en": "Pomegranate"
+      },
+      "scientificName": "Punica granatum",
+      "group": "broadleaf",
+      "description": "Länglich-verkehrteiförmiges, ganzrandiges Blatt mit gerundetem Scheitel, schmalem Grund und kurzem Stiel.",
+      "source": "https://landscapeplants.oregonstate.edu/plants/punica-granatum",
+      "since": "2.2.0"
+    },
+    {
+      "id": "oleander",
+      "name": {
+        "de": "Oleander",
+        "en": "Oleander"
+      },
+      "scientificName": "Nerium oleander",
+      "group": "broadleaf",
+      "description": "Schmale, ganzrandige lanzettliche Spreite mit kurzem Stiel, kräftiger Mittelrippe und im Detail zahlreichen fast quer verlaufenden Seitennerven.",
+      "source": "https://landscapeplants.oregonstate.edu/plants/nerium-oleander",
+      "since": "2.2.0"
+    },
+    {
+      "id": "goldregen",
+      "name": {
+        "de": "Gewöhnlicher Goldregen",
+        "en": "Common laburnum"
+      },
+      "scientificName": "Laburnum anagyroides",
+      "group": "broadleaf",
+      "description": "Lang gestieltes dreizähliges Blatt mit kurz gestielten, ganzrandigen breit-lanzettlichen Teilblättern.",
+      "source": "https://www.infoflora.ch/de/flora/laburnum-anagyroides.html",
+      "since": "2.2.0"
+    },
+    {
+      "id": "schneebeere",
+      "name": {
+        "de": "Gewöhnliche Schneebeere",
+        "en": "Common snowberry"
+      },
+      "scientificName": "Symphoricarpos albus",
+      "group": "broadleaf",
+      "description": "Breit-ovales, ganzrandiges, kurz gestieltes Blatt mit gerundetem Scheitel; ungelappte Form eines adulten Blattes.",
+      "source": "https://www.infoflora.ch/de/flora/symphoricarpos-albus.html",
+      "since": "2.2.0"
+    },
+    {
+      "id": "abendlaendischer-lebensbaum",
+      "name": {
+        "de": "Abendländischer Lebensbaum",
+        "en": "Northern white cedar"
+      },
+      "scientificName": "Thuja occidentalis",
+      "group": "conifer",
+      "description": "Ausgewählter flacher Zweigausschnitt mit dicht anliegenden überlappenden Schuppenblättern; adulte Oberseite, ohne weiße Unterseitenzeichnung.",
+      "source": "https://landscapeplants.oregonstate.edu/plants/thuja-occidentalis",
+      "since": "2.2.0"
+    },
+    {
+      "id": "lawsons-scheinzypresse",
+      "name": {
+        "de": "Lawsons Scheinzypresse",
+        "en": "Lawson cypress"
+      },
+      "scientificName": "Chamaecyparis lawsoniana",
+      "group": "conifer",
+      "description": "Flacher adulter Zweigausschnitt mit kleinen zugespitzten, gegenständigen überlappenden Schuppenblättern; ausgewählte Verzweigungen.",
+      "source": "https://landscapeplants.oregonstate.edu/plants/chamaecyparis-lawsoniana",
+      "since": "2.2.0"
+    },
+    {
+      "id": "mittelmeer-zypresse",
+      "name": {
+        "de": "Mittelmeer-Zypresse",
+        "en": "Mediterranean cypress"
+      },
+      "scientificName": "Cupressus sempervirens",
+      "group": "conifer",
+      "description": "Dreidimensional verzweigter adulter Trieb als Projektion, mit kleinen stumpferen rhombischen Schuppen; kein flacher Thuja-Fächer.",
+      "source": "https://landscapeplants.oregonstate.edu/plants/cupressus-sempervirens",
+      "since": "2.2.0"
+    },
+    {
+      "id": "atlas-zeder",
+      "name": {
+        "de": "Atlas-Zeder",
+        "en": "Atlas cedar"
+      },
+      "scientificName": "Cedrus atlantica",
+      "group": "conifer",
+      "description": "Drei Kurztriebe mit steif zugespitzten Nadelrosetten; Detail zusätzlich mit einzelnen Nadeln am Langtrieb.",
+      "source": "https://landscapeplants.oregonstate.edu/plants/cedrus-atlantica",
+      "since": "2.2.0"
+    },
+    {
+      "id": "weymouth-kiefer",
+      "name": {
+        "de": "Weymouth-Kiefer",
+        "en": "Eastern white pine"
+      },
+      "scientificName": "Pinus strobus",
+      "group": "conifer",
+      "description": "Zwei ausgewählte Bündel mit jeweils fünf schlanken, leicht gebogenen Nadeln; ausgewachsener Zustand nach Abfall der Nadelscheide.",
+      "source": "https://landscapeplants.oregonstate.edu/plants/pinus-strobus",
+      "since": "2.2.0"
+    },
+    {
+      "id": "nordmanntanne",
+      "name": {
+        "de": "Nordmanntanne",
+        "en": "Nordmann fir"
+      },
+      "scientificName": "Abies nordmanniana",
+      "group": "conifer",
+      "description": "Dicht und nach vorn gerichtete flache Nadeln mit stumpf eingekerbten Spitzen; seitliche und nach oben gerichtete Nadeln als gelichtete Projektion.",
+      "source": "https://landscapeplants.oregonstate.edu/plants/abies-nordmanniana",
+      "since": "2.2.0"
+    },
+    {
+      "id": "forsythie",
+      "name": {
+        "de": "Garten-Forsythie",
+        "en": "Border forsythia"
+      },
+      "scientificName": "Forsythia × intermedia",
+      "group": "broadleaf",
+      "description": "Einfaches eiförmig-lanzettliches Blatt mit ganzrandiger unterer und fein gesägter oberer Hälfte; eine typische Form der Gartenhybride.",
+      "source": "https://landscapeplants.oregonstate.edu/plants/forsythia-intermedia",
+      "since": "2.2.0"
+    },
+    {
+      "id": "echter-lavendel",
+      "name": {
+        "de": "Echter Lavendel",
+        "en": "English lavender"
+      },
+      "scientificName": "Lavandula angustifolia",
+      "group": "broadleaf",
+      "description": "Schmal lanzettliches, ganzrandiges Blatt des verholzenden Halbstrauchs; stumpfer Scheitel, sehr kurzer Stiel und Mittelrippe.",
+      "source": "https://www.infoflora.ch/de/flora/lavandula-angustifolia.html",
+      "since": "2.2.0"
+    },
+    {
+      "id": "rosmarin",
+      "name": {
+        "de": "Rosmarin",
+        "en": "Rosemary"
+      },
+      "scientificName": "Salvia rosmarinus",
+      "group": "broadleaf",
+      "description": "Sehr schmales lineal-lanzettliches ganzrandiges Blatt des immergrünen Strauchs mit stumpfem Scheitel und fast parallelen Rändern.",
+      "source": "https://www.infoflora.ch/de/flora/rosmarinus-officinalis.html",
+      "since": "2.2.0"
     }
   ]
 }

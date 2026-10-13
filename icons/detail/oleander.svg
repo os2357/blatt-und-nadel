@@ -1,0 +1,35 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Oleander · Nerium oleander">
+  <title>Oleander · Nerium oleander</title>
+  <path class="leaf-blade" d="M48 85 C42 73 40 55 41 39 C42 24 46 12 49 6 C53 17 57 34 56 49 C56 66 51 81 48 85 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M47 91 L48 85" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M48 85 L49 11" fill="none" stroke="currentColor" stroke-width="1.2"/>
+  <path class="leaf-vein" d="M48.86486486486486 21 L45.60668918060439 20.2" fill="none" stroke="currentColor" stroke-width="0.65"/>
+  <path class="leaf-vein" d="M48.86486486486486 21 L52.123040549125335 20.2" fill="none" stroke="currentColor" stroke-width="0.65"/>
+  <path class="leaf-vein" d="M48.804054054054056 25.5 L44.74381002155139 24.7" fill="none" stroke="currentColor" stroke-width="0.65"/>
+  <path class="leaf-vein" d="M48.804054054054056 25.5 L52.86429808655672 24.7" fill="none" stroke="currentColor" stroke-width="0.65"/>
+  <path class="leaf-vein" d="M48.74324324324324 30 L44.010608008488106 29.2" fill="none" stroke="currentColor" stroke-width="0.65"/>
+  <path class="leaf-vein" d="M48.74324324324324 30 L53.47587847799838 29.2" fill="none" stroke="currentColor" stroke-width="0.65"/>
+  <path class="leaf-vein" d="M48.682432432432435 34.5 L43.4285581491724 33.7" fill="none" stroke="currentColor" stroke-width="0.65"/>
+  <path class="leaf-vein" d="M48.682432432432435 34.5 L53.93630671569247 33.7" fill="none" stroke="currentColor" stroke-width="0.65"/>
+  <path class="leaf-vein" d="M48.62162162162162 39 L43.014307913965006 38.2" fill="none" stroke="currentColor" stroke-width="0.65"/>
+  <path class="leaf-vein" d="M48.62162162162162 39 L54.22893532927824 38.2" fill="none" stroke="currentColor" stroke-width="0.65"/>
+  <path class="leaf-vein" d="M48.560810810810814 43.5 L42.779145544525576 42.7" fill="none" stroke="currentColor" stroke-width="0.65"/>
+  <path class="leaf-vein" d="M48.560810810810814 43.5 L54.34247607709605 42.7" fill="none" stroke="currentColor" stroke-width="0.65"/>
+  <path class="leaf-vein" d="M48.5 48 L42.72863952696992 47.2" fill="none" stroke="currentColor" stroke-width="0.65"/>
+  <path class="leaf-vein" d="M48.5 48 L54.27136047303008 47.2" fill="none" stroke="currentColor" stroke-width="0.65"/>
+  <path class="leaf-vein" d="M48.439189189189186 52.5 L42.86246074409015 51.7" fill="none" stroke="currentColor" stroke-width="0.65"/>
+  <path class="leaf-vein" d="M48.439189189189186 52.5 L54.01591763428822 51.7" fill="none" stroke="currentColor" stroke-width="0.65"/>
+  <path class="leaf-vein" d="M48.37837837837838 57 L43.17439298678695 56.2" fill="none" stroke="currentColor" stroke-width="0.65"/>
+  <path class="leaf-vein" d="M48.37837837837838 57 L53.58236376996981 56.2" fill="none" stroke="currentColor" stroke-width="0.65"/>
+  <path class="leaf-vein" d="M48.317567567567565 61.5 L43.65253148899713 60.7" fill="none" stroke="currentColor" stroke-width="0.65"/>
+  <path class="leaf-vein" d="M48.317567567567565 61.5 L52.982603646138 60.7" fill="none" stroke="currentColor" stroke-width="0.65"/>
+  <path class="leaf-vein" d="M48.25675675675676 66 L44.27966314525556 65.2" fill="none" stroke="currentColor" stroke-width="0.65"/>
+  <path class="leaf-vein" d="M48.25675675675676 66 L52.233850368257954 65.2" fill="none" stroke="currentColor" stroke-width="0.65"/>
+  <path class="leaf-vein" d="M48.195945945945944 70.5 L45.03381626740247 69.7" fill="none" stroke="currentColor" stroke-width="0.65"/>
+  <path class="leaf-vein" d="M48.195945945945944 70.5 L51.358075624489416 69.7" fill="none" stroke="currentColor" stroke-width="0.65"/>
+  <path class="leaf-vein" d="M48.13513513513514 75 L45.88896232216142 74.2" fill="none" stroke="currentColor" stroke-width="0.65"/>
+  <path class="leaf-vein" d="M48.13513513513514 75 L50.381307948108855 74.2" fill="none" stroke="currentColor" stroke-width="0.65"/>
+</svg>

@@ -1,0 +1,23 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Granatapfel · Punica granatum">
+  <title>Granatapfel · Punica granatum</title>
+  <path class="leaf-blade" d="M48 83 C41 73 33 52 35 31 C36 18 42 12 49 12 C59 11 64 23 63 36 C62 56 54 76 48 83 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M46 91 Q48 87 48 83" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M48 83 L49 17" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path class="leaf-vein" d="M48.121212121212125 75 Q43 72 43 68" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.121212121212125 75 Q51.06060606060606 72 54 68" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.25757575757576 66 Q40 63 40 57" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.25757575757576 66 Q52.628787878787875 63 57 56" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.39393939393939 57 Q38 54 38 47" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.39393939393939 57 Q54.196969696969695 54 60 46" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.54545454545455 47 Q38 44 38 37" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.54545454545455 47 Q54.27272727272727 44 60 36" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.696969696969695 37 Q39 34 39 28" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.696969696969695 37 Q53.848484848484844 34 59 27" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.833333333333336 28 Q41 25 41 20" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.833333333333336 28 Q52.91666666666667 25 57 20" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.93939393939394 21 Q45 18 45 16" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.93939393939394 21 Q50.96969696969697 18 53 16" fill="none" stroke="currentColor" stroke-width="1.12"/>
+</svg>

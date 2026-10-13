@@ -1,0 +1,13 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Judasbaum · Cercis siliquastrum">
+  <title>Judasbaum · Cercis siliquastrum</title>
+  <path class="leaf-blade" d="M48 69 C35 84 16 76 11 56 C5 34 17 15 36 11 C43 10 47 12 50 12 C57 9 70 12 79 22 C93 37 91 57 80 70 C70 81 56 79 48 69 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M38 92 Q46 83 48 69" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 69 Q50 43 50 16" fill="none" stroke="currentColor" stroke-width="2.8"/>
+  <path class="leaf-vein" d="M48 69 C31 56 25 36 29 20" fill="none" stroke="currentColor" stroke-width="2.1"/>
+  <path class="leaf-vein" d="M48 69 C62 54 74 37 71 21" fill="none" stroke="currentColor" stroke-width="2.1"/>
+  <path class="leaf-vein" d="M48 69 Q27 67 16 48" fill="none" stroke="currentColor" stroke-width="2.1"/>
+  <path class="leaf-vein" d="M48 69 Q72 66 83 47" fill="none" stroke="currentColor" stroke-width="2.1"/>
+</svg>

@@ -115,9 +115,11 @@ for (const variant of variants) {
       if (node.name === 'path') {
         paths++;
         geometry.push(node.attributes);
+        // Scales may be outlined to show overlapping faces; needle ribbons and sheaths are filled.
         // A winged compound-leaf rachis is a narrow membrane, not a uniform stroke.
         const filled =
-          ['leaf-needle', 'leaf-sheath', 'leaf-scale'].includes(node.attributes.class) ||
+          ['leaf-needle', 'leaf-sheath'].includes(node.attributes.class) ||
+          (node.attributes.class === 'leaf-scale' && node.attributes.fill === 'currentColor') ||
           (node.attributes.class === 'leaf-rachis' && node.attributes.fill === 'currentColor');
         assert.equal(node.attributes.fill, filled ? 'currentColor' : 'none', name + ': fill');
         assert.equal(node.attributes.stroke, filled ? 'none' : 'currentColor', name + ': stroke');

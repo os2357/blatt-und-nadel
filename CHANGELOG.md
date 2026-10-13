@@ -1,5 +1,28 @@
 # Changelog
 
+## 2.2.0 — 2026-10-13
+
+### Added
+
+- 17 taxa in two sequential reviewed groups: Judasbaum, Terpentin-Pistazie, Breitblättrige Steinlinde, Myrte, Granatapfel, Oleander, Goldregen, Schneebeere, Abendländischer Lebensbaum, Lawsons Scheinzypresse, Mittelmeer-Zypresse, Atlas-Zeder, Weymouth-Kiefer, Nordmanntanne, Garten-Forsythie, Echter Lavendel and Rosmarin. **175 taxa / 350 SVGs**.
+- [Expansion record](docs/EXPANSION-2.2.md) and [individual audit of all 350 SVGs](docs/AUDIT-2.2.md), with primary descriptions, foliage references, selected forms, optical limitations, measurements and exact hashes.
+- Outlined overlapping scale contours, covered by closed-contour and connected-shoot validation.
+- Regression protection for the selected five-needle Weymouth fascicles, seven/three-leaflet additions, revised ascending veins and narrow Compact herbs.
+
+### Fixed
+
+- Rotbuche, Hasel and Salweide: separate ascending lateral vein origins in both variants.
+- Pfeifenstrauch: a stronger low ascending pair, supported by the primary references.
+- Hainbuche Compact: five more evenly spaced pairs; previously corrected Detail unchanged.
+- New draft leaflet contacts, scale outlines, cedar canvas clearance and small-size herb interiors corrected before acceptance.
+
+### Preserved and verified
+
+- **34 added, nine revised and 307 byte-identical SVGs** against v2.1.0. Previous oak, elm, Ginkgo, poplar and conifer corrections remain intact.
+- Every taxon and both optical variants received source-guided enlarged and target-size review. Same-day baseline sources were reread; new sources and three targeted baseline clarifications were freshly retrieved. All additions received neighboring-species comparisons.
+- README overview, catalog, sprites, gallery and previews updated; stable IDs, licensing and historical review records retained.
+- Geometry, stroke, connectivity, metadata, audit-hash and archive checks passed. Fresh browser integration execution remains unavailable, as disclosed in [QUALITY.md](docs/QUALITY.md); no independent botanical certification is claimed.
+
 ## 2.1.0 — 2026-10-13
 
 ### Added

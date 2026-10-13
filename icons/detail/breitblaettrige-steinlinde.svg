@@ -1,0 +1,17 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Breitblättrige Steinlinde · Phillyrea latifolia">
+  <title>Breitblättrige Steinlinde · Phillyrea latifolia</title>
+  <path class="leaf-blade" d="M48 83 Q46.56 82.502 45.395 81.589 L43.617 81.159 Q42.298 80.397 41.406 79.162 L39.664 78.518 Q38.511 77.522 37.918 76.085 L36.262 75.196 Q35.301 74.014 35.002 72.466 L33.464 71.35 Q32.694 70.036 32.663 68.439 L31.255 67.137 Q30.669 65.73 30.873 64.132 L29.607 62.672 Q29.19 61.207 29.593 59.638 L28.474 58.051 Q28.214 56.549 28.793 55.028 L27.823 53.336 Q27.713 51.817 28.448 50.358 L27.636 48.581 Q27.673 47.058 28.549 45.678 L27.91 43.83 Q28.096 42.318 29.103 41.031 L28.654 39.129 Q28.991 37.644 30.113 36.461 L29.862 34.526 Q30.344 33.081 31.561 32.009 L31.521 30.065 Q32.144 28.675 33.439 27.717 L33.607 25.788 Q34.361 24.464 35.716 23.62 L36.099 21.733 Q36.983 20.492 38.384 19.765 L38.991 17.953 Q39.996 16.808 41.426 16.198 L42.271 14.506 Q43.401 13.484 44.841 12.985 L45.94 11.477 Q47.194 10.613 48.619 10.206 L50 9  Q51.212 9.916 52.07 11.119 L53.687 11.988 Q54.804 13.018 55.444 14.399 L57.072 15.315 Q58.087 16.445 58.535 17.93 L60.132 18.942 Q61.041 20.16 61.307 21.712 L62.852 22.831 Q63.645 24.127 63.729 25.718 L65.2 26.956 Q65.864 28.323 65.765 29.926 L67.128 31.293 Q67.653 32.718 67.368 34.31 L68.605 35.802 Q68.975 37.276 68.504 38.831 L69.586 40.445 Q69.789 41.95 69.135 43.444 L70.041 45.168 Q70.069 46.687 69.242 48.102 L69.985 49.914 Q69.932 51.432 69.042 52.798 L69.655 54.648 Q69.446 56.153 68.427 57.419 L68.832 59.321 Q68.46 60.794 67.322 61.944 L67.493 63.874 Q66.95 65.292 65.703 66.304 L65.607 68.227 Q64.887 69.565 63.544 70.42 L63.169 72.296 Q62.265 73.518 60.843 74.19 L60.149 75.953 Q59.065 77.017 57.59 77.492 L56.573 79.067 Q55.316 79.92 53.819 80.181 L52.484 81.464 Q51.084 82.055 49.611 82.149 L48 83 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M46 91 Q48 87 48 83" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M48 83 L50 13" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path class="leaf-vein" d="M48.25714285714286 74 Q40.62857142857143 71 33 62" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.25714285714286 74 Q65 70 65 60" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.628571428571426 61 Q40.31428571428572 58 32 46" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M48.628571428571426 61 Q66 57 66 45" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49 48 Q42.5 45 36 32" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49 48 Q62 44 62 30" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.4 34 Q46.2 31 43 21" fill="none" stroke="currentColor" stroke-width="1.12"/>
+  <path class="leaf-vein" d="M49.4 34 Q57 30 57 21" fill="none" stroke="currentColor" stroke-width="1.12"/>
+</svg>

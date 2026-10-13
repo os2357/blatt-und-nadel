@@ -1,0 +1,15 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Breitblättrige Steinlinde · Phillyrea latifolia">
+  <title>Breitblättrige Steinlinde · Phillyrea latifolia</title>
+  <path class="leaf-blade" d="M48 83 Q45.293 81.979 43.088 80.344 L40.034 78.817 Q37.861 76.907 36.474 74.502 L33.975 72.154 Q32.493 69.668 31.919 66.932 L30.048 64.031 Q29.204 61.263 29.303 58.456 L28.024 55.23 Q27.744 52.349 28.395 49.611 L27.712 46.202 Q27.965 43.318 29.111 40.749 L29.08 37.273 Q29.873 34.49 31.462 32.174 L32.103 28.761 Q33.398 26.172 35.345 24.166 L36.646 20.954 Q38.404 18.654 40.641 17.009 L42.617 14.179 Q44.828 12.312 47.288 11.095 L50 9  Q52.277 10.773 54.013 12.895 L56.747 14.969 Q58.669 17.122 59.88 19.614 L62.339 22.033 Q63.857 24.487 64.544 27.189 L66.594 29.972 Q67.634 32.664 67.753 35.46 L69.257 38.575 Q69.727 41.422 69.233 44.183 L70.058 47.541 Q69.976 50.427 69.059 53.071 L69.389 56.528 Q68.824 59.358 67.41 61.774 L66.987 65.205 Q65.807 67.838 63.912 69.88 L62.608 73.062 Q60.775 75.291 58.439 76.771 L56.186 79.341 Q53.725 80.848 51.085 81.569 L48 83 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-petiole" d="M46 91 Q48 87 48 83" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-midrib" d="M48 83 L50 13" fill="none" stroke="currentColor" stroke-width="2.8"/>
+  <path class="leaf-vein" d="M48.25714285714286 74 Q40.62857142857143 71 33 62" fill="none" stroke="currentColor" stroke-width="2.1"/>
+  <path class="leaf-vein" d="M48.25714285714286 74 Q65 70 65 60" fill="none" stroke="currentColor" stroke-width="2.1"/>
+  <path class="leaf-vein" d="M49 48 Q42.5 45 36 32" fill="none" stroke="currentColor" stroke-width="2.1"/>
+  <path class="leaf-vein" d="M49 48 Q62 44 62 30" fill="none" stroke="currentColor" stroke-width="2.1"/>
+  <path class="leaf-vein" d="M49.4 34 Q46.2 31 43 21" fill="none" stroke="currentColor" stroke-width="2.1"/>
+  <path class="leaf-vein" d="M49.4 34 Q57 30 57 21" fill="none" stroke="currentColor" stroke-width="2.1"/>
+</svg>

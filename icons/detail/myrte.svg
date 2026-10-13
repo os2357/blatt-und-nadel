@@ -1,0 +1,19 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Myrte · Myrtus communis">
+  <title>Myrte · Myrtus communis</title>
+  <path class="leaf-blade" d="M48 84 C38 76 32 60 34 45 C36 28 44 15 50 9 C56 22 64 36 63 51 C62 67 55 78 48 84 Z" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-petiole" d="M46 91 Q48 87 48 84" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-midrib" d="M48 84 L50 13" fill="none" stroke="currentColor" stroke-width="1.35"/>
+  <path class="leaf-vein" d="M48 82 C39 70 36 56 38 43 C40 31 45 23 49 16" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M48 82 C57 70 60 56 59 43 C57 29 53 23 50 16" fill="none" stroke="currentColor" stroke-width="0.8"/>
+  <path class="leaf-vein" d="M48.33802816901409 72 L40.5 67" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M48.33802816901409 72 L55.5 67" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M48.70422535211267 59 L37.3 55" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M48.70422535211267 59 L59 54" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M49.070422535211264 46 L39 38" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M49.070422535211264 46 L58 37" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M49.436619718309856 33 L44 26" fill="none" stroke="currentColor" stroke-width="0.85"/>
+  <path class="leaf-vein" d="M49.436619718309856 33 L53.5 25" fill="none" stroke="currentColor" stroke-width="0.85"/>
+</svg>

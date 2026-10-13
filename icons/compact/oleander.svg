@@ -1,0 +1,9 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Oleander · Nerium oleander">
+  <title>Oleander · Nerium oleander</title>
+  <path class="leaf-blade" d="M48 85 C42 73 40 55 41 39 C42 24 46 12 49 6 C53 17 57 34 56 49 C56 66 51 81 48 85 Z" fill="none" stroke="currentColor" stroke-width="2.65"/>
+  <path class="leaf-petiole" d="M47 91 L48 85" fill="none" stroke="currentColor" stroke-width="2.65"/>
+  <path class="leaf-midrib" d="M48 85 L49 11" fill="none" stroke="currentColor" stroke-width="1.9"/>
+</svg>

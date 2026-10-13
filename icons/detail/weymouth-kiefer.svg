@@ -1,0 +1,17 @@
+<!-- SPDX-FileCopyrightText: 2026 Oliver Simon
+     SPDX-License-Identifier: CC-BY-4.0
+     Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Weymouth-Kiefer · Pinus strobus">
+  <title>Weymouth-Kiefer · Pinus strobus</title>
+  <path class="leaf-axis" d="M17 92 L29 82 L62 58 L78 44" fill="none" stroke="currentColor" stroke-width="1.9"/>
+  <path class="leaf-needle" d="M28.549 82.268 Q14.88 65.355 7 45 Q15.963 64.711 29.451 81.732 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M28.505 82.174 Q16.076 56.205 10 28 Q17.264 55.787 29.495 81.826 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M28.479 82.064 Q22.39 49.821 21 17 Q23.64 49.667 29.521 81.936 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M28.476 81.962 Q32.866 47.599 34 13 Q34.123 47.69 29.524 82.038 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M28.496 81.855 Q39.777 53.156 46 23 Q40.988 53.505 29.504 82.145 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M61.497 58.149 Q52.019 37.029 49 14 Q53.227 36.672 62.503 57.851 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M61.475 58 Q60.37 32 62 6 Q61.63 32 62.525 58 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M61.493 57.865 Q68.858 33.595 75 9 Q70.075 33.918 62.507 58.135 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M61.567 57.704 Q76.131 39.774 88 20 Q77.171 40.485 62.433 58.296 Z" fill="currentColor" stroke="none"/>
+  <path class="leaf-needle" d="M61.679 57.585 Q78.339 47.083 93 34 Q79.11 48.08 62.321 58.415 Z" fill="currentColor" stroke="none"/>
+</svg>

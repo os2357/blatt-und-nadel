@@ -54,3 +54,7 @@ Before a release, identify the latest canonical package and record hashes of exi
 Contribute original geometry or material you have permission to license. Do not trace third-party illustrations without a compatible grant. Contributions follow the license for the material: CC BY 4.0 for artwork/documentation/metadata and MIT for software. Keep existing notices and add contributor notices where appropriate.
 
 Heath shoots use the `heath` catalog group and `leaf-scale` for filled Calluna scale leaves. They receive the same contour and painted-connectivity checks as conifers, while remaining botanically separate. The groups are presentation categories, not a complete taxonomic classification. For a previously criticized icon, include a before/after rendering and a separate whole-silhouette finding against visible foliage references; matching feature counts alone is insufficient.
+
+### Adult scale foliage
+
+`leaf-scale` may be a closed `currentColor` fill or a closed unfilled stroked contour. A spray may use a continuous lateral outline plus internal overlapping facial-scale contours. State scale enlargement, reduced rows, projection and omitted insertion details in the audit. Closed-contour and shoot-connectivity checks still apply.
