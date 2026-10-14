@@ -1,14 +1,14 @@
 # Blatt & Nadel
 
-**175 Gehölzarten · 350 SVG-Icons · v2.2.3**
+**200 Gehölzarten · 400 SVG-Icons · v2.3.0**
 
 Blätter, Nadeln und Zweige für Naturwebseiten, Artenporträts und Baumfilter. Zwei optisch abgestimmte Varianten verbinden charakteristische Pflanzenformen mit einer einheitlichen Zeichensprache.
 
 [English](../README.md) · [Einbau](USAGE.md) · [Botanische Hinweise](BOTANY.md) · [Qualitätsprüfung](QUALITY.md) · [Changelog](../CHANGELOG.md)
 
-![Alle 175 Arten in der Detail-Variante](preview.png)
+![Alle 200 Arten in der Detail-Variante](preview.png)
 
-Version 2.2.3 verfeinert die Atlas-Zeder in beiden Varianten: sichtbare Kurztriebe, unterschiedlich projizierte Nadelbüschel und schlanke, sanft gebogene Nadeln. Zwei SVGs wurden überarbeitet; 348 bleiben bytegleich zu v2.2.2. [Gezielte Prüfung und Vergleich](AUDIT-2.2.3.md) · [Gesamtprüfung](AUDIT-2.2.md). Die erneute Browser-Integrationsprüfung steht weiterhin aus; siehe [Prüfergebnisse](QUALITY.md).
+Version 2.3.0 ergänzt 25 Arten, darunter Mistel, Sumpfeiche, Johannisbrotbaum, Riesenmammutbaum, Baumheide und Krähenbeere, und beginnt eine fotogestützte Neuprüfung in Familienblöcken. Alle 22 Nacktsamer sind neu geprüft; 13 davon wurden überarbeitet, etwa Fichtennadeln, Lärchen-Kurztriebe, Kiefern-Nadelscheiden und Eibennadeln. 50 SVGs sind neu, 26 überarbeitet und 324 bytegleich zu v2.2.3. Die übrigen 153 bestehenden Arten behalten ihre Prüfung aus v2.2.3, bis spätere Blöcke sie erreichen. [Prüfung und Überarbeitungen](AUDIT-2.3.md) · [Neue Arten](EXPANSION-2.3.md). Die Browser-Integrationsprüfung ist in Chromium bestanden; Firefox wurde in dieser Umgebung nicht geprüft. Siehe [Prüfergebnisse](QUALITY.md).
 
 ## Sofort verwenden
 
@@ -61,13 +61,13 @@ npx playwright install --with-deps chromium firefox
 npm run test:browser
 ```
 
-Die automatischen Prüfungen erfassen unter anderem XML, Metadaten, Konturüberschneidungen und überlappende Teilblattstriche, aus der Blattfläche herausragende Adern und Mittelrippen einschließlich ihrer Strichbreite, unbeabsichtigt freistehende Nadeln, abgeschnittene Zeichnungen und veraltete generierte Dateien. Zusätzlich muss der aktuelle botanische Prüfbericht jede SVG-Variante erfassen und über ihren SHA-256 mit der ausgelieferten Datei übereinstimmen. Die Browserprüfung kontrolliert die Galerie und alle 350 Sprite-Symbole in Chromium und Firefox. [Prüfumfang und Grenzen](QUALITY.md).
+Die automatischen Prüfungen erfassen unter anderem XML, Metadaten, Konturüberschneidungen und überlappende Teilblattstriche, aus der Blattfläche herausragende Adern und Mittelrippen einschließlich ihrer Strichbreite, unbeabsichtigt freistehende Nadeln, abgeschnittene Zeichnungen und veraltete generierte Dateien. Zusätzlich muss der aktuelle botanische Prüfbericht jede SVG-Variante erfassen und über ihren SHA-256 mit der ausgelieferten Datei übereinstimmen. Die Browserprüfung kontrolliert die Galerie und alle 400 Sprite-Symbole in Chromium und Firefox. [Prüfumfang und Grenzen](QUALITY.md).
 
 Ein geprüftes Release-Archiv erzeugen `npm run test:release` und `npm run release`. Die [Release-Anleitung](PUBLISHING.md) erklärt den Ablauf.
 
 ## Botanische Einordnung
 
-Die Sammlung umfasst heimische, eingebürgerte und gepflanzte Bäume, Sträucher und Klettergehölze Mitteleuropas sowie ausgewählte mediterrane Immergrüne. Die Kataloggruppe `broadleaf` ordnet nach flächigen Blättern, nicht nach Abstammung; sie enthält auch den nacktsamigen Ginkgo. Die neue Gruppe `heath` enthält Besenheide und Schneeheide als Heidezweige. Diese Blütenpflanzen sind keine Nadelgehölze; die Gruppe bildet nicht die gesamte Familie der Heidekrautgewächse ab. Die Zeichnungen betonen Blattform, Blattstellung, Lappen und relative Stiellängen. Sie zeigen jeweils eine typische Ausprägung und bleiben botanisch informierte Stilisierungen. Natürliche Variation, Nadelquerschnitte, Behaarung und vollständige Nerven- oder Nadelzahlen sind in kleinen Icons nicht vollständig darstellbar. Die [botanischen Hinweise](BOTANY.md) dokumentieren für alle 175 Arten die Quellen sowie die erhaltenen und ausgelassenen Merkmale beider Varianten. Das Set ist keine unabhängig begutachtete wissenschaftliche Bildtafelserie und kein vollständiger Bestimmungsschlüssel.
+Die Sammlung umfasst heimische, eingebürgerte und gepflanzte Bäume, Sträucher und Klettergehölze Mitteleuropas sowie ausgewählte mediterrane Immergrüne. Die Kataloggruppe `broadleaf` ordnet nach flächigen Blättern, nicht nach Abstammung; sie enthält auch den nacktsamigen Ginkgo. Die Gruppe `heath` enthält Besenheide, Schneeheide, Baumheide und Krähenbeere als Heidezweige. Diese Blütenpflanzen sind keine Nadelgehölze; die Gruppe bildet nicht die gesamte Familie der Heidekrautgewächse ab. Die Zeichnungen betonen Blattform, Blattstellung, Lappen und relative Stiellängen. Sie zeigen jeweils eine typische Ausprägung und bleiben botanisch informierte Stilisierungen. Natürliche Variation, Nadelquerschnitte, Behaarung und vollständige Nerven- oder Nadelzahlen sind in kleinen Icons nicht vollständig darstellbar. Die [botanischen Hinweise](BOTANY.md) dokumentieren für alle 200 Arten die Quellen sowie die erhaltenen und ausgelassenen Merkmale beider Varianten. Das Set ist keine unabhängig begutachtete wissenschaftliche Bildtafelserie und kein vollständiger Bestimmungsschlüssel.
 
 ## Lizenz
 

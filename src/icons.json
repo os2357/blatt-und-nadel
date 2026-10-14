@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "icons": [
     {
       "id": "fichte",
@@ -9,7 +9,7 @@
       },
       "scientificName": "Picea abies",
       "group": "conifer",
-      "description": "Schmale, spitze Einzelnadeln in räumlich angedeuteter Spiralstellung um den Zweig; 31 Nadeln in Detail, 17 in Compact.",
+      "description": "Schmale, spitze Einzelnadeln in räumlich angedeuteter Spiralstellung um den Zweig, mit kleiner Endknospe; 31 Nadeln in Detail, 17 in Compact.",
       "source": "https://www.infoflora.ch/de/flora/picea-abies.html",
       "since": "1.0.0"
     },
@@ -33,7 +33,7 @@
       },
       "scientificName": "Larix decidua",
       "group": "conifer",
-      "description": "Weiche Nadeln in getrennten Büscheln an Kurztrieben; 11 gezeichnete Nadeln je Büschel in Detail, 7 in Compact.",
+      "description": "Weiche, stumpfe Nadeln in unregelmäßig aufwärts geöffneten Büscheln auf kurzen, zylindrischen Kurztrieben; 13 + 14 gezeichnete Nadeln in Detail, 8 + 8 in Compact.",
       "source": "https://www.infoflora.ch/de/flora/larix-decidua.html",
       "since": "1.0.0"
     },
@@ -45,7 +45,7 @@
       },
       "scientificName": "Abies alba",
       "group": "conifer",
-      "description": "Flache, nahezu parallelrandige Nadeln am gescheitelten Schattenzweig; in Detail ausgerandete, in Compact stumpfe Spitzen.",
+      "description": "Flache, nahezu parallelrandige Nadeln am gescheitelten Schattenzweig; in Detail ausgerandete, in Compact stumpfe Spitzen. Stumpfe Endknospe, in Detail mit zwei Seitenknospen.",
       "source": "https://www.infoflora.ch/de/flora/abies-alba.html",
       "since": "1.0.0"
     },
@@ -69,7 +69,7 @@
       },
       "scientificName": "Taxus baccata",
       "group": "conifer",
-      "description": "Flache, zugespitzte Nadeln mit schmaler Basis.",
+      "description": "Flache, linealische Nadeln mit kurz verschmälerter Basis und allmählich zugespitztem, stachelspitzigem Ende, seitlich zweizeilig gescheitelt; 27 Nadeln in Detail, 18 in Compact.",
       "source": "https://www.infoflora.ch/de/flora/taxus-baccata.html",
       "since": "1.0.0"
     },
@@ -933,7 +933,7 @@
       },
       "scientificName": "Pinus mugo",
       "group": "conifer",
-      "description": "Vier Kurztriebe mit klaren Zweierbündeln und gemeinsamer Scheide; kurze, derbe, leicht gebogene Nadeln. Die Form steht für Pinus mugo im weiteren Sinn.",
+      "description": "Aufrechter Triebabschnitt mit dicht stehenden Zweierbündeln aus gemeinsamer Scheide, acht in Detail, vier in Compact; kurze, derbe, nach vorn gebogene Nadeln. Die Form steht für Pinus mugo im weiteren Sinn.",
       "source": "https://www.infoflora.ch/de/flora/pinus-mugo.html",
       "since": "1.4.0"
     },
@@ -1857,7 +1857,7 @@
       },
       "scientificName": "Pinus pinaster",
       "group": "conifer",
-      "description": "Drei ausgewählte Bündel mit je zwei kräftigen, steifen Nadeln und langen gemeinsamen Nadelscheiden; gelichteter Ausschnitt adulter Benadelung.",
+      "description": "Drei ausgewählte Bündel mit je zwei kräftigen, steifen Nadeln aus kurzer gemeinsamer Nadelscheide an kräftigem Zweig; gelichteter Ausschnitt adulter Benadelung.",
       "source": "https://landscapeplants.oregonstate.edu/plants/pinus-pinaster",
       "since": "2.1.0"
     },
@@ -2061,7 +2061,7 @@
       },
       "scientificName": "Abies nordmanniana",
       "group": "conifer",
-      "description": "Dicht und nach vorn gerichtete flache Nadeln mit stumpf eingekerbten Spitzen; seitliche und nach oben gerichtete Nadeln als gelichtete Projektion.",
+      "description": "Dicht und nach vorn gerichtete flache, parallelrandige Nadeln mit kurz verschmälerter Basis; in Detail stumpf ausgerandete, in Compact abgerundete Spitzen. Seitliche und nach oben gerichtete Nadeln als gelichtete Projektion.",
       "source": "https://landscapeplants.oregonstate.edu/plants/abies-nordmanniana",
       "since": "2.2.0"
     },
@@ -2100,6 +2100,306 @@
       "description": "Belaubter Trieb mit blattachselständigem Seitenzweig: fünf gegenständige Blattpaare am Haupttrieb, drei am Seitentrieb. Sehr schmale, fast parallelrandige Spreiten mit abgerundeten Enden; untere Blätter bogenförmig ausgebreitet, obere stärker aufgerichtet.",
       "source": "https://www.infoflora.ch/de/flora/rosmarinus-officinalis.html",
       "since": "2.2.0"
+    },
+    {
+      "id": "bruchweide",
+      "name": {
+        "de": "Bruchweide",
+        "en": "Crack willow"
+      },
+      "scientificName": "Salix euxina",
+      "group": "broadleaf",
+      "description": "Lanzettliches Blatt, etwa fünfmal so lang wie breit, größte Breite unterhalb der Mitte, lang ausgezogene, leicht schiefe Spitze; regelmäßig fein drüsig gesägt, kurzer Stiel mit Drüsenpaar am Spreitengrund.",
+      "source": "https://www.infoflora.ch/de/flora/salix-euxina.html",
+      "since": "2.3.0"
+    },
+    {
+      "id": "lavendelweide",
+      "name": {
+        "de": "Lavendelweide",
+        "en": "Olive willow"
+      },
+      "scientificName": "Salix elaeagnos",
+      "group": "broadleaf",
+      "description": "Lineale, über weite Strecken parallelrandige Spreite, etwa zehnmal so lang wie breit, keilförmiger Grund und lang ausgezogene Spitze; nur im vorderen Teil fein gezähnt, kurzer Stiel.",
+      "source": "https://www.infoflora.ch/de/flora/salix-elaeagnos.html",
+      "since": "2.3.0"
+    },
+    {
+      "id": "mistel",
+      "name": {
+        "de": "Mistel",
+        "en": "Mistletoe"
+      },
+      "scientificName": "Viscum album",
+      "group": "broadleaf",
+      "description": "Gabelig verzweigter grüner Spross; an den Endknoten je ein gegenständiges Paar ganzrandiger, lederiger, länglich-verkehrteiförmiger Blätter mit stumpfer Spitze, keilförmigem Grund und parallelen Längsnerven.",
+      "source": "https://www.infoflora.ch/de/flora/viscum-album.html",
+      "since": "2.3.0"
+    },
+    {
+      "id": "brombeere",
+      "name": {
+        "de": "Brombeere",
+        "en": "Bramble"
+      },
+      "scientificName": "Rubus fruticosus agg.",
+      "group": "broadleaf",
+      "description": "Fünfzählig fußförmiges Schösslingsblatt: großes, eiförmiges, zugespitztes Endteilblatt an einem Stielchen von etwa einem Drittel der Spreite, zwei kurz gestielte Seitenteilblätter und zwei sehr kurz gestielte Grundteilblätter; doppelt gesägt.",
+      "source": "https://www.infoflora.ch/de/flora/rubus-fruticosus-aggr.html",
+      "since": "2.3.0"
+    },
+    {
+      "id": "spaete-traubenkirsche",
+      "name": {
+        "de": "Spätblühende Traubenkirsche",
+        "en": "Black cherry"
+      },
+      "scientificName": "Prunus serotina",
+      "group": "broadleaf",
+      "description": "Länglich-lanzettliche, glänzende Spreite, etwa dreimal so lang wie breit, mit keilförmigem Grund und zugespitzter Spitze; fein gesägt mit einwärts gebogenen Zähnchen, Blattstiel mit Drüsen nahe der Spreite.",
+      "source": "https://www.infoflora.ch/de/flora/prunus-serotina.html",
+      "since": "2.3.0"
+    },
+    {
+      "id": "silberwurz",
+      "name": {
+        "de": "Silberwurz",
+        "en": "Mountain avens"
+      },
+      "scientificName": "Dryas octopetala",
+      "group": "broadleaf",
+      "description": "Länglich-eiförmiges, gestieltes Blatt eines Spalierstrauchs mit gestutztem bis schwach herzförmigem Grund, stumpfer Spitze und groben, abgerundeten Kerbzähnen; jeder Zahn mit einem geraden, eingesenkten Seitennerv.",
+      "source": "https://www.infoflora.ch/de/flora/dryas-octopetala.html",
+      "since": "2.3.0"
+    },
+    {
+      "id": "gagel",
+      "name": {
+        "de": "Gagel",
+        "en": "Sweet gale"
+      },
+      "scientificName": "Myrica gale",
+      "group": "broadleaf",
+      "description": "Schmal verkehrt-eiförmiges Blatt mit langem keilförmigem Grund und breit gerundeter Spitze; nur an der Spitze mit wenigen groben Zähnen, kurz gestielt.",
+      "source": "https://landscapeplants.oregonstate.edu/plants/myrica-gale",
+      "since": "2.3.0"
+    },
+    {
+      "id": "hemlocktanne",
+      "name": {
+        "de": "Kanadische Hemlocktanne",
+        "en": "Eastern hemlock"
+      },
+      "scientificName": "Tsuga canadensis",
+      "group": "conifer",
+      "description": "Verzweigter flacher Zweig mit kurzen, flachen, ungleich langen, zweizeilig gescheitelten Nadeln mit kurzem Stielchen und stumpfer Spitze; kleine, nach vorn angedrückte Nadeln liegen auf der Zweigoberseite.",
+      "source": "https://landscapeplants.oregonstate.edu/plants/tsuga-canadensis",
+      "since": "2.3.0"
+    },
+    {
+      "id": "riesenmammutbaum",
+      "name": {
+        "de": "Riesenmammutbaum",
+        "en": "Giant sequoia"
+      },
+      "scientificName": "Sequoiadendron giganteum",
+      "group": "conifer",
+      "description": "Verzweigter Trieb mit schnurartigen Zweiglein, dicht spiralig von anliegenden, pfriemlich zugespitzten Schuppenblättern umhüllt, deren freie Spitzen nach vorn weisen.",
+      "source": "https://www.infoflora.ch/de/flora/sequoiadendron-giganteum.html",
+      "since": "2.3.0"
+    },
+    {
+      "id": "sumpfeiche",
+      "name": {
+        "de": "Sumpfeiche",
+        "en": "Pin oak"
+      },
+      "scientificName": "Quercus palustris",
+      "group": "broadleaf",
+      "description": "Tief fiederspaltige Spreite mit sieben Lappen und weiten, U-förmigen Buchten bis nahe an die Mittelrippe; das mittlere Lappenpaar am längsten und fast rechtwinklig abstehend, alle Lappen mit grannenspitzigen Zähnen; keilförmiger Grund, langer Stiel.",
+      "source": "https://www.infoflora.ch/de/flora/quercus-palustris.html",
+      "since": "2.3.0"
+    },
+    {
+      "id": "schnurbaum",
+      "name": {
+        "de": "Schnurbaum",
+        "en": "Japanese pagoda tree"
+      },
+      "scientificName": "Styphnolobium japonicum",
+      "group": "broadleaf",
+      "description": "Unpaarig gefiedertes Blatt mit elf (Compact neun) ganzrandigen, eilanzettlichen, spitzen Fiederblättchen an kurzen Stielchen; Endfieder ähnlich groß, schlanke Spindel.",
+      "source": "https://landscapeplants.oregonstate.edu/plants/styphnolobium-japonicum",
+      "since": "2.3.0"
+    },
+    {
+      "id": "tatarischer-ahorn",
+      "name": {
+        "de": "Tatarischer Steppen-Ahorn",
+        "en": "Tatarian maple"
+      },
+      "scientificName": "Acer tataricum",
+      "group": "broadleaf",
+      "description": "Ungelapptes, eiförmiges Blatt mit gestutztem bis schwach herzförmigem Grund und lang ausgezogener Spitze; unregelmäßig doppelt gesägt, kräftiges basales Nervenpaar und fiederige Seitennerven, langer Stiel.",
+      "source": "https://landscapeplants.oregonstate.edu/plants/acer-tataricum",
+      "since": "2.3.0"
+    },
+    {
+      "id": "schmalblaettrige-esche",
+      "name": {
+        "de": "Schmalblättrige Esche",
+        "en": "Narrow-leaved ash"
+      },
+      "scientificName": "Fraxinus angustifolia",
+      "group": "broadleaf",
+      "description": "Unpaarig gefiedertes Blatt mit sieben sitzenden, schmal lanzettlichen Fiederblättchen; scharf und grob gesägt, etwa ein Zahn je Seitennerv, Endfieder kurz gestielt.",
+      "source": "https://hortflora.rbg.vic.gov.au/taxon/ada20a7e-5340-11e7-b82b-005056b0018f",
+      "since": "2.3.0"
+    },
+    {
+      "id": "kartoffelrose",
+      "name": {
+        "de": "Kartoffelrose",
+        "en": "Japanese rose"
+      },
+      "scientificName": "Rosa rugosa",
+      "group": "broadleaf",
+      "description": "Unpaarig gefiedertes Blatt mit sieben dicken, elliptisch-verkehrteiförmigen, gesägten Fiederblättchen mit gerundeter Spitze und dicht stehenden, tief eingesenkten Nerven (runzelig); große angewachsene Nebenblätter am Stielgrund.",
+      "source": "https://www.infoflora.ch/de/flora/rosa-rugosa.html",
+      "since": "2.3.0"
+    },
+    {
+      "id": "johannisbrotbaum",
+      "name": {
+        "de": "Johannisbrotbaum",
+        "en": "Carob"
+      },
+      "scientificName": "Ceratonia siliqua",
+      "group": "broadleaf",
+      "description": "Paarig gefiedertes Blatt ohne Endfieder mit drei Paaren breiter, ledriger, ganzrandiger, elliptischer bis verkehrteiförmiger Fiederblättchen mit gerundeter Spitze; kurze Stielchen, kräftige Spindel.",
+      "source": "https://landscapeplants.oregonstate.edu/plants/ceratonia-siliqua",
+      "since": "2.3.0"
+    },
+    {
+      "id": "moenchspfeffer",
+      "name": {
+        "de": "Mönchspfeffer",
+        "en": "Chaste tree"
+      },
+      "scientificName": "Vitex agnus-castus",
+      "group": "broadleaf",
+      "description": "Handförmig zusammengesetztes Blatt mit sieben (Compact fünf) schmal lanzettlichen, beidseits lang verschmälerten, ganzrandigen Teilblättchen an kurzen Stielchen; das mittlere am längsten, langer Blattstiel.",
+      "source": "https://landscapeplants.oregonstate.edu/plants/vitex-agnus-castus",
+      "since": "2.3.0"
+    },
+    {
+      "id": "kermes-eiche",
+      "name": {
+        "de": "Kermes-Eiche",
+        "en": "Kermes oak"
+      },
+      "scientificName": "Quercus coccifera",
+      "group": "broadleaf",
+      "description": "Kleines, steifes, oval-längliches immergrünes Blatt mit gerundetem bis schwach herzförmigem Grund und fünf stachelspitzigen Zähnen je Seite an welligem Rand; stachelige Spitze, kurzer Stiel.",
+      "source": "https://hortflora.rbg.vic.gov.au/taxon/426f1dd8-5385-4e25-9f4b-afd663079cb9",
+      "since": "2.3.0"
+    },
+    {
+      "id": "baerentraube",
+      "name": {
+        "de": "Echte Bärentraube",
+        "en": "Bearberry"
+      },
+      "scientificName": "Arctostaphylos uva-ursi",
+      "group": "broadleaf",
+      "description": "Ledriges, ganzrandiges, verkehrt-eiförmiges bis spateliges Blatt eines Spalierstrauchs mit breit gerundeter, nicht ausgerandeter Spitze und lang keilförmigem Grund; flacher Rand, sehr kurzer Stiel.",
+      "source": "https://www.infoflora.ch/de/flora/arctostaphylos-uva-ursi.html",
+      "since": "2.3.0"
+    },
+    {
+      "id": "pfriemenginster",
+      "name": {
+        "de": "Pfriemenginster",
+        "en": "Spanish broom"
+      },
+      "scientificName": "Spartium junceum",
+      "group": "broadleaf",
+      "description": "Binsenartige, runde grüne Ruten, vom Grund verzweigt und fast blattlos; nur wenige kleine, einfache, lineal-lanzettliche Blätter an den oberen Ruten.",
+      "source": "https://www.infoflora.ch/de/flora/spartium-junceum.html",
+      "since": "2.3.0"
+    },
+    {
+      "id": "baumheide",
+      "name": {
+        "de": "Baumheide",
+        "en": "Tree heath"
+      },
+      "scientificName": "Erica arborea",
+      "group": "heath",
+      "description": "Verzweigter Trieb mit kurzen, linealen, nadelartigen Rollblättern in Dreierquirlen, schräg aufwärts abstehend; dicht beblätterte Seitenzweige.",
+      "source": "https://www.nzflora.info/factsheet/Taxon/Erica-arborea.html",
+      "since": "2.3.0"
+    },
+    {
+      "id": "tamariske",
+      "name": {
+        "de": "Tamariske",
+        "en": "French tamarisk"
+      },
+      "scientificName": "Tamarix gallica",
+      "group": "broadleaf",
+      "description": "Federiger Zweig mit schlanken, rutenförmigen Zweiglein, dicht mit winzigen, anliegenden, spitzen Schuppenblättern besetzt.",
+      "source": "https://dendro.cnre.vt.edu/dendrology/syllabus/factsheet.cfm?ID=400",
+      "since": "2.3.0"
+    },
+    {
+      "id": "sumpfporst",
+      "name": {
+        "de": "Sumpfporst",
+        "en": "Marsh Labrador tea"
+      },
+      "scientificName": "Rhododendron tomentosum",
+      "group": "broadleaf",
+      "description": "Aufrechter Trieb mit wechselständigen, sehr schmal linealen, ledrigen Blättern mit stark eingerolltem Rand; zur Triebspitze gedrängt, untere abstehend bis hängend.",
+      "source": "https://flora.kadel.cz/ce/kvCard19803.html",
+      "since": "2.3.0"
+    },
+    {
+      "id": "kraehenbeere",
+      "name": {
+        "de": "Krähenbeere",
+        "en": "Crowberry"
+      },
+      "scientificName": "Empetrum nigrum",
+      "group": "heath",
+      "description": "Niederliegender Zwergstrauch-Trieb, dicht mit kurzen, stumpfen, länglich-linealen Rollblättern besetzt, die nach allen Seiten abstehen und sich oben überdecken; kurzer Seitentrieb.",
+      "source": "https://www.infoflora.ch/de/flora/empetrum-nigrum.html",
+      "since": "2.3.0"
+    },
+    {
+      "id": "kirschpflaume",
+      "name": {
+        "de": "Kirschpflaume",
+        "en": "Cherry plum"
+      },
+      "scientificName": "Prunus cerasifera",
+      "group": "broadleaf",
+      "description": "Elliptische bis eiförmige Spreite mit gerundetem bis keilförmigem Grund und kurz zugespitzter Spitze; fein kerbig gesägt, wenige bogige Nervenpaare, Stiel etwa ein Viertel der Spreite.",
+      "source": "https://www.infoflora.ch/de/flora/prunus-cerasifera.html",
+      "since": "2.3.0"
+    },
+    {
+      "id": "blaufichte",
+      "name": {
+        "de": "Blaufichte",
+        "en": "Blue spruce"
+      },
+      "scientificName": "Picea pungens",
+      "group": "conifer",
+      "description": "Kräftiger Trieb mit steifen, stechend spitzen, vierkantigen Nadeln, die fast rechtwinklig rundum abstehen und sich leicht nach vorn krümmen; Nadeln auf kurzen Stielchen.",
+      "source": "https://landscapeplants.oregonstate.edu/plants/picea-pungens",
+      "since": "2.3.0"
     }
   ]
 }

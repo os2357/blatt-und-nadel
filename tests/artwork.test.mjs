@@ -246,7 +246,7 @@ test('pine fascicles preserve five- versus two-needle groups in both sizes', () 
   for (const variant of variants) {
     for (const [id, perBundle, bundleCount] of [
       ['zirbelkiefer', 5, 3],
-      ['bergkiefer', 2, 4],
+      ['bergkiefer', 2, variant === 'detail' ? 8 : 4],
       ['kiefer', 2, 3],
       ['schwarzkiefer', 2, 3],
       ['pinie', 2, 3],
@@ -271,7 +271,7 @@ test('pine fascicles preserve five- versus two-needle groups in both sizes', () 
       0,
       'Mature fascicles after sheath loss',
     );
-    assert.equal(counts('bergkiefer', variant)['leaf-sheath'], 4);
+    assert.equal(counts('bergkiefer', variant)['leaf-sheath'], variant === 'detail' ? 8 : 4);
     assert.equal(counts('kiefer', variant)['leaf-sheath'], 3);
     assert.equal(counts('schwarzkiefer', variant)['leaf-sheath'], 3);
     for (const id of ['pinie', 'aleppo-kiefer', 'strandkiefer'])
@@ -525,4 +525,143 @@ test('herb shoots retain paired leaves, narrow blades and an axillary rosemary b
         for (const midrib of all.filter((p) => p.class === 'leaf-midrib'))
           assert.match(midrib.d, /Q/, 'Midrib follows the curved blade');
     }
+});
+
+// v2.3 conifer revisions: needle bodies, sheath proportions, short shoots and buds (selected forms, not species counts).
+function needleProfile(points) {
+  let best = [0, 0, 0];
+  for (let i = 0; i < points.length; i++)
+    for (let j = i + 1; j < points.length; j++) {
+      const d = Math.hypot(points[i][0] - points[j][0], points[i][1] - points[j][1]);
+      if (d > best[0]) best = [d, i, j];
+    }
+  const [length, i, j] = best,
+    a = points[i],
+    b = points[j];
+  const ux = (b[0] - a[0]) / length,
+    uy = (b[1] - a[1]) / length;
+  const width = (f) => {
+    let lo = Infinity,
+      hi = -Infinity;
+    for (let k = 0; k < points.length; k++) {
+      const p = points[k],
+        q = points[(k + 1) % points.length];
+      const tp = (p[0] - a[0]) * ux + (p[1] - a[1]) * uy,
+        tq = (q[0] - a[0]) * ux + (q[1] - a[1]) * uy,
+        t = f * length;
+      if ((tp - t) * (tq - t) <= 0 && tp !== tq) {
+        const s = (t - tp) / (tq - tp);
+        const n = (p[0] + s * (q[0] - p[0]) - a[0]) * -uy + (p[1] + s * (q[1] - p[1]) - a[1]) * ux;
+        lo = Math.min(lo, n);
+        hi = Math.max(hi, n);
+      }
+    }
+    return hi - lo;
+  };
+  return { length, width };
+}
+
+test('revised spruce, Douglas-fir and Nordmann fir needles keep parallel-sided bodies', () => {
+  for (const variant of variants)
+    for (const id of ['fichte', 'douglasie', 'nordmanntanne']) {
+      for (const { points } of needleBases(id, variant)) {
+        const { width } = needleProfile(points);
+        const body = [0.3, 0.4, 0.5, 0.6, 0.7].map(width);
+        const max = Math.max(...body);
+        assert.ok(
+          Math.min(...body) >= 0.93 * max,
+          `${id}/${variant}: needle body tapers or swells`,
+        );
+      }
+    }
+});
+
+test('two-needle pine sheaths keep natural proportions to the needles', () => {
+  for (const variant of variants)
+    for (const [id, min, max] of [
+      ['kiefer', 5.5, 12],
+      ['bergkiefer', 2.5, 5.5],
+      ['schwarzkiefer', 7, 14],
+      ['pinie', 8, 16],
+      ['aleppo-kiefer', 6, 12],
+      ['strandkiefer', 6, 12],
+    ]) {
+      const needle = Math.max(
+        ...needleBases(id, variant).map(({ points }) => needleProfile(points).length),
+      );
+      const sheaths = paths(id, variant)
+        .filter((p) => p.class === 'leaf-sheath')
+        .map((p) => needleProfile(flattenPath(p.d)[0].points).length);
+      const ratio = needle / Math.max(...sheaths);
+      assert.ok(
+        ratio >= min && ratio <= max,
+        `${id}/${variant}: needle : sheath ${ratio.toFixed(1)}`,
+      );
+    }
+});
+
+test('larch tufts arise from visible short shoots, and fir and spruce shoots end in buds', () => {
+  for (const variant of variants) {
+    const axes = paths('laerche', variant).filter((p) => p.class === 'leaf-axis');
+    const knobs = axes.filter((p) => Number(p['stroke-width']) >= (variant === 'detail' ? 3 : 4.4));
+    assert.equal(knobs.length, 2, 'two short shoots');
+    for (const knob of knobs) {
+      const [start, end] = flattenPath(knob.d)[0].points;
+      assert.ok(
+        Math.hypot(end[0] - start[0], end[1] - start[1]) >= 3.5,
+        'short shoot is a visible stub',
+      );
+      const tuft = axes.filter((p) => {
+        const s = flattenPath(p.d)[0].points[0];
+        return p !== knob && Math.hypot(s[0] - end[0], s[1] - end[1]) < 0.01;
+      });
+      assert.ok(
+        tuft.length >= (variant === 'detail' ? 13 : 8),
+        'needles originate at the short-shoot tip',
+      );
+    }
+    assert.equal(counts('tanne', variant)['leaf-bud'], variant === 'detail' ? 3 : 1);
+    assert.equal(counts('fichte', variant)['leaf-bud'], 1);
+    assert.equal(counts('douglasie', variant)['leaf-bud'], 1);
+  }
+});
+
+test('v2.3 additions keep their selected leaflet, leaf and stipule counts', () => {
+  for (const variant of variants) {
+    const D = variant === 'detail';
+    for (const [id, expected] of Object.entries({
+      brombeere: 5,
+      schnurbaum: D ? 11 : 9,
+      'schmalblaettrige-esche': 7,
+      kartoffelrose: 7,
+      johannisbrotbaum: 6,
+      moenchspfeffer: D ? 7 : 5,
+      mistel: 4,
+    }))
+      assert.equal(counts(id, variant)['leaf-blade'], expected, `${id}/${variant}`);
+    assert.equal(counts('kartoffelrose', variant)['leaf-stipule'], 2, 'rugosa stipules');
+    assert.equal(
+      counts('spaete-traubenkirsche', variant)['leaf-gland'] || 0,
+      D ? 2 : 0,
+      'black cherry glands',
+    );
+    assert.equal(
+      counts('bruchweide', variant)['leaf-gland'] || 0,
+      D ? 2 : 0,
+      'crack willow glands',
+    );
+  }
+});
+
+test('even-pinnate carob has no terminal leaflet and the new conifers keep their foliage types', () => {
+  for (const variant of variants) {
+    const blades = paths('johannisbrotbaum', variant).filter((p) => p.class === 'leaf-blade');
+    const tips = blades.map((p) => Math.min(...flattenPath(p.d)[0].points.map((q) => q[1])));
+    // two leaflets per pair: the highest pair shares the top position instead of a single terminal leaflet
+    const top = Math.min(...tips);
+    assert.equal(tips.filter((y) => y < top + 4).length, 2, `${variant}: paired top leaflets`);
+    assert.ok((counts('riesenmammutbaum', variant)['leaf-needle'] || 0) > 30, 'sequoia awl scales');
+    assert.ok((counts('blaufichte', variant)['leaf-needle'] || 0) > 20, 'blue spruce needles');
+    assert.equal(counts('hemlocktanne', variant)['leaf-sheath'] || 0, 0, 'hemlock without sheaths');
+  }
 });

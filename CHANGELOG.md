@@ -1,5 +1,28 @@
 # Changelog
 
+## 2.3.0 — 2026-10-14
+
+### Added
+
+- 25 taxa in three reviewed groups: Bruchweide, Lavendelweide, Mistel, Brombeere, Spätblühende Traubenkirsche, Silberwurz, Gagel, Kanadische Hemlocktanne, Riesenmammutbaum, Sumpfeiche, Schnurbaum, Tatarischer Steppen-Ahorn, Schmalblättrige Esche, Kartoffelrose, Johannisbrotbaum, Mönchspfeffer, Kermes-Eiche, Echte Bärentraube, Pfriemenginster, Baumheide, Tamariske, Sumpfporst, Krähenbeere, Kirschpflaume and Blaufichte. **200 taxa / 400 SVGs**.
+- Each addition: at least three full-size foliage photographs, a primary description, neighbor comparison and a final counter-review against a fresh photograph. [Expansion record](docs/EXPANSION-2.3.md) and [overview](docs/additions-2.3.png).
+- Baumheide and Krähenbeere join the `heath` group; Mistel, Pfriemenginster, Tamariske and Sumpfporst are connected twig-bearing shoots.
+
+### Changed
+
+- Start of a photo-guided re-review in family batches. Batches 1–2 cover all 22 gymnosperms; 13 taxa revised in both sizes (26 SVGs): [review and revisions](docs/AUDIT-2.3.md).
+- Fichte, Douglasie, Nordmanntanne: parallel-sided needle bodies with short tips; Fichte gains a terminal bud, Weißtanne an obtuse terminal bud (Detail with two lateral buds).
+- Waldkiefer, Schwarzkiefer, Pinie, Aleppo-Kiefer, Strandkiefer: short tubular sheaths in natural needle : sheath proportions instead of long collars. Bergkiefer redrawn as a dense upright candle shoot (eight / four fascicles).
+- Europäische Lärche redrawn with tufts on visible short shoots. Eibe redrawn with linear, gradually cuspidate needles spreading two-ranked at about 50–63°; a first draft with blunt tips and too wide an angle was corrected before release. Wacholder needles reprofiled.
+- Catalog descriptions of the revised conifers updated to match the drawings; BOTANY, README and quality notes updated.
+- Browser test: the heath filter expectation is derived from the catalog, and the Detail/Compact switch is operated through its visible label.
+
+### Preserved and verified
+
+- **50 added, 26 revised and 324 byte-identical SVGs** against v2.2.3. The other 153 existing taxa are not yet re-reviewed and keep their v2.2.3 record (`carried-over (v2.3 review pending)` in [audit-2.3.json](docs/audit-2.3.json)).
+- Five new artwork regressions: needle profiles, sheath proportions, short shoots and buds, the additions' leaflet, leaf, stipule and gland counts, even-pinnate carob and the new conifers' foliage types. 43 tests pass; audit hashes match all 400 SVGs.
+- IDs, paths, viewBoxes and licenses unchanged; photographs are linked, never traced or redistributed.
+
 ## 2.2.3 — 2026-10-13
 
 ### Fixed

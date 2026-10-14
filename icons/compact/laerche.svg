@@ -3,19 +3,24 @@
      Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
 <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Europäische Lärche · Larix decidua">
   <title>Europäische Lärche · Larix decidua</title>
-  <path class="leaf-axis" d="M22 88 Q27 83 32 78 Q53 64 71 45" fill="none" stroke="currentColor" stroke-width="3.3"/>
-  <path class="leaf-axis" d="M32 78 Q19.09 76.429 7.38 73.659" fill="none" stroke="currentColor" stroke-width="2.55"/>
-  <path class="leaf-axis" d="M32 78 Q19.811 72.176 8.823 65.153" fill="none" stroke="currentColor" stroke-width="2.55"/>
-  <path class="leaf-axis" d="M32 78 Q22.167 68.345 13.533 57.491" fill="none" stroke="currentColor" stroke-width="2.55"/>
-  <path class="leaf-axis" d="M32 78 Q25.93 65.713 21.06 52.226" fill="none" stroke="currentColor" stroke-width="2.55"/>
-  <path class="leaf-axis" d="M32 78 Q30.437 64.835 30.075 50.469" fill="none" stroke="currentColor" stroke-width="2.55"/>
-  <path class="leaf-axis" d="M32 78 Q34.829 65.801 38.859 52.403" fill="none" stroke="currentColor" stroke-width="2.55"/>
-  <path class="leaf-axis" d="M32 78 Q38.39 68.237 45.98 57.274" fill="none" stroke="currentColor" stroke-width="2.55"/>
-  <path class="leaf-axis" d="M71 45 Q58.369 41.691 46.938 37.182" fill="none" stroke="currentColor" stroke-width="2.55"/>
-  <path class="leaf-axis" d="M71 45 Q59.841 37.35 49.881 28.5" fill="none" stroke="currentColor" stroke-width="2.55"/>
-  <path class="leaf-axis" d="M71 45 Q63.008 33.771 56.216 21.341" fill="none" stroke="currentColor" stroke-width="2.55"/>
-  <path class="leaf-axis" d="M71 45 Q67.458 31.759 65.116 17.318" fill="none" stroke="currentColor" stroke-width="2.55"/>
-  <path class="leaf-axis" d="M71 45 Q72.341 31.787 74.883 17.373" fill="none" stroke="currentColor" stroke-width="2.55"/>
-  <path class="leaf-axis" d="M71 45 Q76.691 33.769 83.582 21.337" fill="none" stroke="currentColor" stroke-width="2.55"/>
-  <path class="leaf-axis" d="M71 45 Q79.801 37.135 89.802 28.071" fill="none" stroke="currentColor" stroke-width="2.55"/>
+  <path class="leaf-axis" d="M14 91 C20 86 25 81 29 78 C39 69 48 61 57 54" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-axis" d="M57 54 C63 48 69 41 74 34" fill="none" stroke="currentColor" stroke-width="2.65"/>
+  <path class="leaf-axis" d="M29 78 L27.292 74.163" fill="none" stroke="currentColor" stroke-width="4.4"/>
+  <path class="leaf-axis" d="M27.292 74.163 Q13.49 73.037 2.129 75.009" fill="none" stroke="currentColor" stroke-width="2.55"/>
+  <path class="leaf-axis" d="M27.292 74.163 Q15.722 70.127 5.734 68.538" fill="none" stroke="currentColor" stroke-width="2.55"/>
+  <path class="leaf-axis" d="M27.292 74.163 Q16.606 66.8 7.296 61.641" fill="none" stroke="currentColor" stroke-width="2.55"/>
+  <path class="leaf-axis" d="M27.292 74.163 Q21.206 67.952 16.029 63.067" fill="none" stroke="currentColor" stroke-width="2.55"/>
+  <path class="leaf-axis" d="M27.292 74.163 Q20.725 62.396 15.753 52.55" fill="none" stroke="currentColor" stroke-width="2.55"/>
+  <path class="leaf-axis" d="M27.292 74.163 Q23.361 61.439 21.244 50.718" fill="none" stroke="currentColor" stroke-width="2.55"/>
+  <path class="leaf-axis" d="M27.292 74.163 Q26.433 60.576 27.697 49.414" fill="none" stroke="currentColor" stroke-width="2.55"/>
+  <path class="leaf-axis" d="M27.292 74.163 Q28.924 61.648 32.645 51.849" fill="none" stroke="currentColor" stroke-width="2.55"/>
+  <path class="leaf-axis" d="M57 54 L55.984 49.925" fill="none" stroke="currentColor" stroke-width="4.4"/>
+  <path class="leaf-axis" d="M55.984 49.925 Q42.681 45.153 30.976 44.019" fill="none" stroke="currentColor" stroke-width="2.55"/>
+  <path class="leaf-axis" d="M55.984 49.925 Q43.774 42.875 32.742 39.11" fill="none" stroke="currentColor" stroke-width="2.55"/>
+  <path class="leaf-axis" d="M55.984 49.925 Q45.811 39.361 36.556 31.661" fill="none" stroke="currentColor" stroke-width="2.55"/>
+  <path class="leaf-axis" d="M55.984 49.925 Q51.627 41.814 47.88 35.277" fill="none" stroke="currentColor" stroke-width="2.55"/>
+  <path class="leaf-axis" d="M55.984 49.925 Q51.721 36.912 48.507 26.178" fill="none" stroke="currentColor" stroke-width="2.55"/>
+  <path class="leaf-axis" d="M55.984 49.925 Q55.996 35.815 57.411 24.31" fill="none" stroke="currentColor" stroke-width="2.55"/>
+  <path class="leaf-axis" d="M55.984 49.925 Q58.946 36.399 63.418 25.873" fill="none" stroke="currentColor" stroke-width="2.55"/>
+  <path class="leaf-axis" d="M55.984 49.925 Q62.773 36.963 71.071 28.013" fill="none" stroke="currentColor" stroke-width="2.55"/>
 </svg>

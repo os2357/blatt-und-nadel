@@ -1,14 +1,14 @@
 # Blatt & Nadel
 
-**175 woody taxa · Central Europe and selected Mediterranean foliage · 350 SVG icons · v2.2.3**
+**200 woody taxa · Central Europe and selected Mediterranean foliage · 400 SVG icons · v2.3.0**
 
 Leaf, needle and twig icons for nature websites, species profiles and filters. Two optical sizes pair distinctive botanical forms with clear, consistent linework.
 
 [Deutsch](docs/README.de.md) · [Usage](docs/USAGE.md) · [Botanical notes](docs/BOTANY.md) · [Quality checks](docs/QUALITY.md) · [Changelog](CHANGELOG.md)
 
-![All 175 species in the Detail variant](docs/preview.png)
+![All 200 species in the Detail variant](docs/preview.png)
 
-Version 2.2.3 refines Atlas cedar in both optical sizes: explicit short shoots, varied rosette projections and slender, gently curved needles. Two SVGs changed; 348 remain byte-identical to v2.2.2. [Focused review and comparison](docs/AUDIT-2.2.3.md) · [Collection review](docs/AUDIT-2.2.md). Fresh browser integration verification remains outstanding; see [quality results](docs/QUALITY.md).
+Version 2.3.0 adds 25 taxa, including mistletoe, pin oak, carob, giant sequoia, tree heath and crowberry, and starts a photo-guided re-review in family batches. All 22 gymnosperms are re-reviewed; 13 received revised artwork, for example spruce needles, larch short shoots, pine sheaths and yew needles. 50 SVGs are new, 26 revised and 324 byte-identical to v2.2.3. The other 153 existing taxa keep their v2.2.3 review until later batches reach them. [Review and revisions](docs/AUDIT-2.3.md) · [Additions](docs/EXPANSION-2.3.md). Browser integration passed in Chromium; Firefox was not run in this environment. See [quality results](docs/QUALITY.md).
 
 ## Use the icons
 
@@ -266,10 +266,35 @@ Stable German ASCII IDs are retained. The manifest provides both common names, s
 | `forsythie`                        | Border forsythia          | Garten-Forsythie               | _Forsythia × intermedia_       |
 | `echter-lavendel`                  | English lavender          | Echter Lavendel                | _Lavandula angustifolia_       |
 | `rosmarin`                         | Rosemary                  | Rosmarin                       | _Salvia rosmarinus_            |
+| `bruchweide`                       | Crack willow              | Bruchweide                     | _Salix euxina_                 |
+| `lavendelweide`                    | Olive willow              | Lavendelweide                  | _Salix elaeagnos_              |
+| `mistel`                           | Mistletoe                 | Mistel                         | _Viscum album_                 |
+| `brombeere`                        | Bramble                   | Brombeere                      | _Rubus fruticosus agg._        |
+| `spaete-traubenkirsche`            | Black cherry              | Spätblühende Traubenkirsche    | _Prunus serotina_              |
+| `silberwurz`                       | Mountain avens            | Silberwurz                     | _Dryas octopetala_             |
+| `gagel`                            | Sweet gale                | Gagel                          | _Myrica gale_                  |
+| `hemlocktanne`                     | Eastern hemlock           | Kanadische Hemlocktanne        | _Tsuga canadensis_             |
+| `riesenmammutbaum`                 | Giant sequoia             | Riesenmammutbaum               | _Sequoiadendron giganteum_     |
+| `sumpfeiche`                       | Pin oak                   | Sumpfeiche                     | _Quercus palustris_            |
+| `schnurbaum`                       | Japanese pagoda tree      | Schnurbaum                     | _Styphnolobium japonicum_      |
+| `tatarischer-ahorn`                | Tatarian maple            | Tatarischer Steppen-Ahorn      | _Acer tataricum_               |
+| `schmalblaettrige-esche`           | Narrow-leaved ash         | Schmalblättrige Esche          | _Fraxinus angustifolia_        |
+| `kartoffelrose`                    | Japanese rose             | Kartoffelrose                  | _Rosa rugosa_                  |
+| `johannisbrotbaum`                 | Carob                     | Johannisbrotbaum               | _Ceratonia siliqua_            |
+| `moenchspfeffer`                   | Chaste tree               | Mönchspfeffer                  | _Vitex agnus-castus_           |
+| `kermes-eiche`                     | Kermes oak                | Kermes-Eiche                   | _Quercus coccifera_            |
+| `baerentraube`                     | Bearberry                 | Echte Bärentraube              | _Arctostaphylos uva-ursi_      |
+| `pfriemenginster`                  | Spanish broom             | Pfriemenginster                | _Spartium junceum_             |
+| `baumheide`                        | Tree heath                | Baumheide                      | _Erica arborea_                |
+| `tamariske`                        | French tamarisk           | Tamariske                      | _Tamarix gallica_              |
+| `sumpfporst`                       | Marsh Labrador tea        | Sumpfporst                     | _Rhododendron tomentosum_      |
+| `kraehenbeere`                     | Crowberry                 | Krähenbeere                    | _Empetrum nigrum_              |
+| `kirschpflaume`                    | Cherry plum               | Kirschpflaume                  | _Prunus cerasifera_            |
+| `blaufichte`                       | Blue spruce               | Blaufichte                     | _Picea pungens_                |
 
 ## Botanical scope
 
-The collection includes native, naturalized and planted trees, shrubs and woody climbers of Central Europe, with selected Mediterranean evergreens. The `broadleaf` catalog group describes blade-bearing foliage; it includes Ginkgo, a gymnosperm, and is not an angiosperm classification. The added `heath` group contains Calluna and Erica shoots; these flowering plants are not conifers. It is a drawing group, not the complete Ericaceae family. The drawings preserve characteristic leaf shapes, arrangements, lobes and relative petiole lengths. They depict selected typical forms: for example, a rounded short-shoot leaf for aspen and a comb-like shade shoot for silver fir. Each species is scaled independently.
+The collection includes native, naturalized and planted trees, shrubs and woody climbers of Central Europe, with selected Mediterranean evergreens. The `broadleaf` catalog group describes blade-bearing foliage; it includes Ginkgo, a gymnosperm, and is not an angiosperm classification. The `heath` group contains Calluna, Erica and Empetrum shoots; these flowering plants are not conifers. It is a drawing group, not the complete Ericaceae family. The drawings preserve characteristic leaf shapes, arrangements, lobes and relative petiole lengths. They depict selected typical forms: for example, a rounded short-shoot leaf for aspen and a comb-like shade shoot for silver fir. Each species is scaled independently.
 
 These are botanically informed stylizations. Veins, teeth and needle counts are simplified for legibility; natural variation, surface hairs and three-dimensional features are not fully represented. Each species has a documented source and variant-specific limits. The collection is not a complete identification key or an independently reviewed scientific plate series. [Botanical notes](docs/BOTANY.md) explain the choices and sources.
 

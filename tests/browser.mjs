@@ -118,10 +118,18 @@ try {
             .locator('.card:visible')
             .evaluateAll((cards) => cards.map((card) => card.dataset.id))
         ).sort(),
-        ['besenheide', 'schneeheide'],
+        catalog.icons
+          .filter((icon) => icon.group === 'heath')
+          .map((icon) => icon.id)
+          .sort(),
       );
       await page.locator('#group').selectOption('');
-      await page.getByRole('radio', { name: 'Compact', exact: true }).check();
+      // The radio is visually hidden inside its label; click the visible label as a user would.
+      await page
+        .locator('.variant-switch label')
+        .filter({ has: page.locator('input[value="compact"]') })
+        .click();
+      assert.ok(await page.getByRole('radio', { name: 'Compact', exact: true }).isChecked());
       assert.equal(
         await page.locator('.specimen [data-compact]:visible').count(),
         catalog.icons.length,
@@ -154,7 +162,12 @@ try {
         await fs.readFile(await download.path(), 'utf8'),
         await fs.readFile(path.join(root, 'icons/compact/fichte.svg'), 'utf8'),
       );
-      await page.getByRole('radio', { name: 'Detail', exact: true }).check();
+      // The radio is visually hidden inside its label; click the visible label as a user would.
+      await page
+        .locator('.variant-switch label')
+        .filter({ has: page.locator('input[value="detail"]') })
+        .click();
+      assert.ok(await page.getByRole('radio', { name: 'Detail', exact: true }).isChecked());
       await page.locator('#size').fill('128');
       assert.equal(await page.locator('#size-label').textContent(), '128 px');
       assert.equal(

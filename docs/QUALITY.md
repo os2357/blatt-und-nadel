@@ -1,14 +1,18 @@
 # Quality checks
 
-Release **2.2.3** · 13 October 2026
+Release **2.3.0** · 14 October 2026
 
 ## Artwork review
 
-Patch 2.2.3 refines Atlas cedar in both optical sizes against three supplied foliage photographs and institutional descriptions. Two SVGs changed; 348 remain byte-identical to v2.2.2. See [focused review](AUDIT-2.2.3.md) and [current hash record](audit-2.2.3.json). The historical v2.2 scope below describes that expansion, not a new full botanical review in this patch.
+Release 2.3.0 contains **200 taxa / 400 source SVGs**. It adds 25 taxa and starts a photo-guided re-review of the existing collection in family batches. Batches 1–2 re-review all 22 gymnosperms in both optical sizes: each was compared with at least three foliage photographs inspected at full size, the primary treatment and independent descriptions, with needle and sheath measurements and neighbor boards. Thirteen taxa received revised artwork (26 SVGs); every revision passed the geometry and raster suite and a before/after comparison, and declined options are recorded. Each addition was checked the same way and then counter-reviewed against a fresh photograph not used while drawing. **50 SVGs are new, 26 revised and 324 byte-identical to v2.2.3.** See [review and revisions](AUDIT-2.3.md), [additions](EXPANSION-2.3.md) and [current hash record](audit-2.3.json).
 
-The current release contains **175 taxa / 350 source SVGs**. Baseline treatments and photographs were reread from the same-day v2.1 cache; 17 additions and three targeted baseline clarifications received fresh source retrieval. All taxa and both optical sizes received a fresh source-guided review, including enlarged photograph comparison and target-size inspection on light/dark backgrounds. See the [full v2.2 report](AUDIT-2.2.md), [machine-readable record](audit-2.2.json) and [two expansion rounds](EXPANSION-2.2.md).
+**Not re-reviewed in this release:** the other 153 existing taxa (all flowering plants). Their artwork is byte-identical to v2.2.3 and their records are carried over, marked `carried-over (v2.3 review pending)`. Their most recent full review is the v2.2 review described below.
 
-307 previous SVGs remain byte-identical to the canonical v2.1.0 baseline. Nine SVGs were revised: Rotbuche, Hasel, Salweide and Pfeifenstrauch in both variants, plus Hainbuche Compact. Thirty-four SVGs were added. Earlier corrections, including Ginkgo, Stieleiche and Bergulme, are preserved.
+### v2.2 collection review (historical)
+
+v2.2 contained **175 taxa / 350 source SVGs**. Baseline treatments and photographs were reread from the same-day v2.1 cache; 17 additions and three targeted baseline clarifications received fresh source retrieval. All taxa and both optical sizes received a fresh source-guided review, including enlarged photograph comparison and target-size inspection on light/dark backgrounds. See the [full v2.2 report](AUDIT-2.2.md), [machine-readable record](audit-2.2.json) and [two expansion rounds](EXPANSION-2.2.md).
+
+In v2.2, 307 previous SVGs remained byte-identical to the canonical v2.1.0 baseline. Nine SVGs were revised: Rotbuche, Hasel, Salweide and Pfeifenstrauch in both variants, plus Hainbuche Compact. Thirty-four SVGs were added. Earlier corrections, including Ginkgo, Stieleiche and Bergulme, are preserved.
 
 ### Required review gates
 
@@ -47,15 +51,15 @@ In v1.7 both Wych elm variants received an unequal rounded basal lobe and a very
 
 `npm test` verifies:
 
-- The catalog and both icon directories agree: 175 taxa and 350 files.
+- The catalog and both icon directories agree: 200 taxa and 400 files.
 - XML uses the supported element and attribute allowlists, with valid nesting and no unchecked transforms.
 - Every source has the expected dimensions, viewBox, image role, accessible name and exactly one matching title before the paths.
 - Geometry is nonempty; license notices are present.
 - No embedded images, scripts, event handlers, remote references or editor-specific objects are included.
 - Blade, filled-needle, filled or outlined scale, sheath, bud, gland, stipule and filled winged-rachis contours explicitly close and contain no detected proper self-crossings.
-- Each of the 42 conifer, four heath and four broadleaf shoot SVGs forms one connected painted component: no detached needle or twig fragments.
+- Each of the 48 conifer, eight heath and twelve twig-bearing broadleaf shoot SVGs forms one connected painted component: no detached needle or twig fragments.
 - Separate leaf blades have no detected crossings, nesting or overlaps between their painted outlines.
-- All **3466 internal vein and midrib paths** remain inside the leaf blades within the stated numerical tolerance.
+- All **4152 internal vein and midrib paths** remain inside the leaf blades within the stated numerical tolerance.
 - Every vein origin must visibly touch another vascular path (vein, midrib, petiole or rachis), with a 0.06-unit numerical tolerance after stroke widths. Contact with the blade outline alone does not count. This detects visible gaps; it does not establish a full biologically correct vein network.
 - Rendered strokes do not touch the canvas edge.
 - Generated sprites, the manifest, gallery and SVG overview match the current sources.
@@ -66,9 +70,11 @@ Thirteen regression tests cover concave notches, curves with in-bounds endpoints
 
 The shoot connectivity check rasterizes at 1536 × 1536 px, uses alpha ≥ 64 and eight-neighbour connectivity, and ignores isolated specks smaller than 0.05 viewBox square units. It detects unintended gaps between needles and their supporting twig. It does not validate phyllotaxis, confirm specimen identity or treat legitimate overlaps between projected needles as errors.
 
-Twenty-one artwork regressions additionally protect the selected compound-leaf counts, including the new 5/3/9/11 forms, the two petiolar glands in each relevant Detail icon and their deliberate Compact omission, the paired rose stipules, and the declared vein counts for both dogwoods, buckthorn, alder buckthorn, white elm, bird cherry, grey alder, whitebeam, Turkish hazel and field elm. Ginkgo additionally has no midrib, one connected vein origin, bifurcating branch nodes and sixteen/eight terminal veins; the regression rejects detached branches or merged nerves. New checks also verify five-needle origins in Swiss stone pine, paired origins and four shared sheaths in Mountain pine, and exactly opposite insertion levels in Dawn redwood. The conifer gallery filter uses the catalog count, not the former hardcoded seven. The 1.5 checks additionally verify alternating Bald cypress insertions, two-needle Black pine fascicles, the new compound-leaf counts, actual vein endpoints at marginal teeth in Sweet chestnut and Hop-hornbeam, and broad fan versus narrow lanceolate proportions. The 1.6 regressions also check four-needle Erica whorls, paired Calluna scale origins, no terminal Gleditsia leaflet, the selected Ginkgo lower-fan taper and the new compound counts/glands. The browser suite includes the Heidezweige filter. The 2.2 checks extend fascicle and leaflet-count coverage and protect revised vein spacing and narrow herb proportions. These lock intentional drawing choices; they do not claim that every natural specimen has those counts.
+Twenty-six artwork regressions additionally protect the selected compound-leaf counts, including the new 5/3/9/11 forms, the two petiolar glands in each relevant Detail icon and their deliberate Compact omission, the paired rose stipules, and the declared vein counts for both dogwoods, buckthorn, alder buckthorn, white elm, bird cherry, grey alder, whitebeam, Turkish hazel and field elm. Ginkgo additionally has no midrib, one connected vein origin, bifurcating branch nodes and sixteen/eight terminal veins; the regression rejects detached branches or merged nerves. New checks also verify five-needle origins in Swiss stone pine, paired origins and four shared sheaths in Mountain pine, and exactly opposite insertion levels in Dawn redwood. The conifer gallery filter uses the catalog count, not the former hardcoded seven. The 1.5 checks additionally verify alternating Bald cypress insertions, two-needle Black pine fascicles, the new compound-leaf counts, actual vein endpoints at marginal teeth in Sweet chestnut and Hop-hornbeam, and broad fan versus narrow lanceolate proportions. The 1.6 regressions also check four-needle Erica whorls, paired Calluna scale origins, no terminal Gleditsia leaflet, the selected Ginkgo lower-fan taper and the new compound counts/glands. The browser suite includes the Heidezweige filter. The 2.2 checks extend fascicle and leaflet-count coverage and protect revised vein spacing and narrow herb proportions. These lock intentional drawing choices; they do not claim that every natural specimen has those counts.
 
 The Atlas cedar regression additionally checks three real short-shoot axes, tuft origins, solitary needles attached to the terminal curve and transverse needle widths. It rejects continuously tapering triangular bodies even when those contours are otherwise valid.
+
+The 2.3 regressions check parallel-sided needle bodies in spruce, Douglas fir and Nordmann fir (widths between 30 % and 70 % of the needle at least 93 % of the maximum); needle : sheath ratios for the six two-needle pines; visible larch short shoots and terminal buds on fir, spruce and Douglas fir; the selected leaflet, leaf, stipule and gland counts of the additions; the even-pinnate carob without terminal leaflet; and the foliage types of the new conifers.
 
 ## Audit freshness
 
@@ -83,7 +89,7 @@ The Atlas cedar regression additionally checks three real short-shoot axes, tuft
 - Copy feedback; clipboard contents additionally verified in Chromium.
 - Size/color controls, dark mode and initial keyboard focus.
 - Layout at 1440, 1180, 1179, 1024, 768, 760, 480, 390, 380, 375 and 320 CSS pixels, including toolbar alignment and card contents.
-- All 350 external sprite symbols compared with their inline rendering in the same browser.
+- All 400 external sprite symbols compared with their inline rendering in the same browser.
 - A standalone SVG via `<img>` and a light icon on a dark background.
 - No uncaught JavaScript errors.
 
@@ -91,12 +97,13 @@ Sprite and inline captures use the same device-pixel origin. The comparison allo
 
 ## Release run
 
-- Geometry, XML, metadata, stroke containment and generated-asset freshness: 350 source SVGs and 3,466 internal paths checked.
-- Regression suite: 38 tests (13 geometry, 21 artwork, four audit). Regressions protect separate ascending vein origins, selected compound-leaf counts, two true five-needle Weymouth fascicles, paired herb shoots and their open Compact interiors, and previously corrected anatomy.
+- Geometry, XML, metadata, stroke containment and generated-asset freshness: 400 source SVGs and 4,152 internal paths checked.
+- Regression suite: 43 tests (13 geometry, 26 artwork, four audit). Regressions protect the revised conifer needles, sheaths, short shoots and buds, the counts selected for the additions, separate ascending vein origins, selected compound-leaf counts and previously corrected anatomy.
 - Archive regression and exact extracted-byte checks run when building the ZIP.
-- **Chromium and Firefox integration: not rerun for v2.2.3.** The managed publishing environment lacks the prescribed browser-control capability. No alternate preview server or browser path was used. The last completed browser run belongs to v1.9 (Chromium 153.0.8010.0 / Firefox 153.0); it does not verify the changed v2.2.3 assets. The current test suite uses the already-approved radio switch selectors and remains available for CI or local execution.
+- **Chromium integration: passed for v2.3.0** with Playwright 1.62.1 and the preinstalled Chromium 141.0.7390.37 (`BROWSERS=chromium`, `CHROMIUM_EXECUTABLE_PATH`): search, group filters including Heidezweige, Detail/Compact switching, downloads with byte comparison, copy feedback, size/colour/dark controls, all layout widths and all 400 sprite/inline pairs. Two outdated test expectations were corrected first: the heath filter list is now read from the catalog, and the visually hidden Detail/Compact radios are operated through their visible labels, as a user would.
+- **Firefox integration: not run for v2.3.0.** No Firefox build is available in this environment. The last completed Firefox run belongs to v1.9 (Firefox 153.0).
 
-The package now includes the previously approved hosted-gallery refinements: 128 px default size, the labeled Detail/Compact radio switch, and the introduction for Natur-Apps und Naturwebseiten. The final toolbar fix puts the size label and value on one line, uses consistent 44 px controls, and specifies desktop/tablet/mobile grid areas. The browser suite includes alignment, containment and label/value-row checks; these new assertions have not been executed here. The Alle Gehölze native select now has a decorative chevron inset 15 px with 36 px text clearance. It ignores pointer events, preserves native keyboard selection and restores the native arrow in forced-colors mode. This source integration was checked structurally; it is not represented as browser execution.
+The hosted-gallery refinements from earlier releases (128 px default size, labeled Detail/Compact radio switch, one-line size label and value, 44 px controls, responsive grid areas and the inset select chevron) are covered by the Chromium run above, including alignment, containment and label/value-row checks. Forced-colors mode was not tested.
 
 ## Release archive checks
 
@@ -119,4 +126,4 @@ npm run test:browser
 
 ## Limits
 
-The botanical review is source-guided design work, not independent specialist certification. Small icons cannot carry every identifying feature. No claim is made of full WCAG conformance or complete screen-reader testing. WebKit/Safari and physical mobile devices are not verified for v2.2; when run, the included mobile-size tests use desktop-engine viewports. PNG font rendering can vary between systems. Hosted CI results are reported separately by GitHub Actions.
+The botanical review is source-guided design work, not independent specialist certification. Small icons cannot carry every identifying feature. No claim is made of full WCAG conformance or complete screen-reader testing. WebKit/Safari, Firefox and physical mobile devices are not verified for v2.3; when run, the included mobile-size tests use desktop-engine viewports. PNG font rendering can vary between systems. Hosted CI results are reported separately by GitHub Actions.
