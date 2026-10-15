@@ -138,7 +138,7 @@ test('diagnostic venation reductions agree with the botanical notes', () => {
     traubenkirsche: [10, 4],
     grauerle: [12, 6],
     mehlbeere: [12, 6],
-    baumhasel: [6, 3],
+    baumhasel: [8, 3],
   };
   for (const [id, [detail, compact]] of Object.entries(pairs)) {
     assert.equal(counts(id, 'detail')['leaf-vein'], detail * 2, `${id}/detail`);
@@ -620,7 +620,23 @@ test('larch tufts arise from visible short shoots, and fir and spruce shoots end
         'needles originate at the short-shoot tip',
       );
     }
-    assert.equal(counts('tanne', variant)['leaf-bud'], variant === 'detail' ? 3 : 1);
+    assert.equal(counts('tanne', variant)['leaf-bud'], 1);
+    // silver fir: the distal needles are shorter, so the terminal bud projects beyond the foliage
+    const fir = paths('tanne', variant)
+      .filter((p) => p.class === 'leaf-needle')
+      .map((p) => {
+        const pts = flattenPath(p.d).flatMap((s) => s.points),
+          base = pts[0];
+        return {
+          y: base[1],
+          len: Math.max(...pts.map((q) => Math.hypot(q[0] - base[0], q[1] - base[1]))),
+        };
+      })
+      .sort((a, b) => a.y - b.y);
+    assert.ok(
+      fir[0].len < 0.75 * fir.at(-1).len && fir[1].len < 0.75 * fir.at(-1).len,
+      `tanne/${variant}: short distal needles`,
+    );
     assert.equal(counts('fichte', variant)['leaf-bud'], 1);
     assert.equal(counts('douglasie', variant)['leaf-bud'], 1);
   }
@@ -664,4 +680,167 @@ test('even-pinnate carob has no terminal leaflet and the new conifers keep their
     assert.ok((counts('blaufichte', variant)['leaf-needle'] || 0) > 20, 'blue spruce needles');
     assert.equal(counts('hemlocktanne', variant)['leaf-sheath'] || 0, 0, 'hemlock without sheaths');
   }
+});
+
+// Blade length : width along the midrib (outline including lobes and teeth); the midrib defines the axis.
+function bladeRatio(id, variant) {
+  const all = paths(id, variant),
+    outline = flattenPath(all.find((p) => p.class === 'leaf-blade').d).flatMap((s) => s.points),
+    mid = flattenPath(all.find((p) => p.class === 'leaf-midrib').d)[0].points,
+    a = mid[0],
+    b = mid.at(-1),
+    l = Math.hypot(b[0] - a[0], b[1] - a[1]),
+    t = [(b[0] - a[0]) / l, (b[1] - a[1]) / l],
+    along = outline.map((p) => (p[0] - a[0]) * t[0] + (p[1] - a[1]) * t[1]),
+    across = outline.map((p) => (p[0] - a[0]) * -t[1] + (p[1] - a[1]) * t[0]);
+  return (Math.max(...along) - Math.min(...along)) / (Math.max(...across) - Math.min(...across));
+}
+
+test('v2.4 oak, beech and silver maple outlines keep their measured proportions', () => {
+  for (const variant of variants) {
+    for (const [id, min, max] of [
+      ['roteiche', 1.35, 1.7],
+      ['zerreiche', 1.9, 2.6],
+      ['flaumeiche', 1.5, 2.0],
+      ['steineiche', 1.95, 2.6],
+      ['korkeiche', 1.7, 2.3],
+      ['rotbuche', 1.45, 1.8],
+      ['silberahorn', 0.9, 1.15],
+      ['silberpappel', 0.9, 1.15],
+      ['korbweide', 7, 11],
+    ]) {
+      const r = bladeRatio(id, variant);
+      assert.ok(r >= min && r <= max, `${id}/${variant}: length/width ${r.toFixed(2)}`);
+    }
+    // red oak is oblong; pin oak about as wide as long — the outline contrast between the two must survive
+    assert.ok(
+      bladeRatio('roteiche', variant) > bladeRatio('sumpfeiche', variant) + 0.3,
+      `${variant}: red oak longer than pin oak`,
+    );
+    // the two narrow riverside willows must not collapse into one outline
+    assert.ok(
+      bladeRatio('korbweide', variant) > bladeRatio('silberweide', variant) + 2,
+      `${variant}: osier narrower than white willow`,
+    );
+  }
+});
+
+test('beech keeps seven / four straight vein pairs at about 45–55 degrees', () => {
+  for (const variant of variants) {
+    const all = paths('rotbuche', variant),
+      mid = flattenPath(all.find((p) => p.class === 'leaf-midrib').d)[0].points,
+      t = [mid.at(-1)[0] - mid[0][0], mid.at(-1)[1] - mid[0][1]],
+      tl = Math.hypot(...t);
+    const veins = all.filter((p) => p.class === 'leaf-vein');
+    assert.equal(veins.length, variant === 'detail' ? 14 : 8);
+    for (const v of veins) {
+      const pts = flattenPath(v.d)[0].points,
+        d = [pts.at(-1)[0] - pts[0][0], pts.at(-1)[1] - pts[0][1]],
+        angle = (Math.acos((d[0] * t[0] + d[1] * t[1]) / (Math.hypot(...d) * tl)) * 180) / Math.PI;
+      assert.ok(angle >= 42 && angle <= 58, `rotbuche/${variant}: vein angle ${angle.toFixed(1)}`);
+    }
+  }
+});
+
+test('sweet chestnut teeth stand clear of the outline stroke', () => {
+  // every vein ends at a tooth apex, which must stand clear of the chord between its neighbouring sinuses
+  // (v2.3.0 measured 0.25 / 0.40 at the shallowest tooth; v2.4 0.90 / 0.80)
+  for (const [variant, minDepth] of [
+    ['detail', 0.8],
+    ['compact', 0.7],
+  ]) {
+    const all = paths('edelkastanie', variant),
+      outline = flattenPath(all.find((p) => p.class === 'leaf-blade').d)[0].points;
+    for (const v of all.filter((p) => p.class === 'leaf-vein')) {
+      const end = flattenPath(v.d)[0].points.at(-1);
+      const k = outline.findIndex((p) => Math.hypot(p[0] - end[0], p[1] - end[1]) < 0.02);
+      assert.ok(k >= 0, 'vein ends at an outline vertex');
+      // nearest local minima of the distance to the apex on both sides approximate the sinuses
+      const near = (dir) => {
+        let best = null;
+        for (let j = 1; j < 40; j++) {
+          const q = outline[(k + dir * j + outline.length) % outline.length];
+          const dq = Math.hypot(q[0] - end[0], q[1] - end[1]);
+          if (dq > 1.2 && (!best || dq < best.d + 0.8)) best = { q, d: dq };
+          if (dq > 4) break;
+        }
+        return best.q;
+      };
+      const s0 = near(-1),
+        s1 = near(1),
+        cl = Math.hypot(s1[0] - s0[0], s1[1] - s0[1]),
+        depth =
+          Math.abs((end[0] - s0[0]) * (s1[1] - s0[1]) - (end[1] - s0[1]) * (s1[0] - s0[0])) / cl;
+      assert.ok(depth >= minDepth, `edelkastanie/${variant}: tooth depth ${depth.toFixed(2)}`);
+    }
+  }
+});
+
+test('birch-family secondary veins ascend at the photographed 40–60 degrees', () => {
+  // v2.3.0 drew several of these at 70–85°, nearly perpendicular to the midrib. The basal pair of the two cordate hazels
+  // runs into the basal lobes and is exempt.
+  for (const variant of variants)
+    for (const id of [
+      'haengebirke',
+      'moorbirke',
+      'zwergbirke',
+      'schwarzerle',
+      'grauerle',
+      'gruenerle',
+      'hasel',
+      'baumhasel',
+      'hainbuche',
+      'hopfenbuche',
+    ]) {
+      const all = paths(id, variant),
+        mid = flattenPath(all.find((p) => p.class === 'leaf-midrib').d)[0].points,
+        t = [mid.at(-1)[0] - mid[0][0], mid.at(-1)[1] - mid[0][1]],
+        tl = Math.hypot(...t),
+        angles = all
+          .filter((p) => p.class === 'leaf-vein')
+          .map((v) => {
+            const pts = flattenPath(v.d)[0].points,
+              d = [pts.at(-1)[0] - pts[0][0], pts.at(-1)[1] - pts[0][1]];
+            return (
+              (Math.acos((d[0] * t[0] + d[1] * t[1]) / (Math.hypot(...d) * tl)) * 180) / Math.PI
+            );
+          });
+      const basal = id === 'hasel' || id === 'baumhasel' ? 2 : 0,
+        sorted = angles
+          .slice()
+          .sort((a, b) => b - a)
+          .slice(basal),
+        // the lowest alder and dwarf-birch pairs are steeper so that they diverge from the lower margin
+        max = id === 'zwergbirke' || id === 'grauerle' ? 65 : id === 'schwarzerle' ? 66 : 60;
+      for (const a of sorted)
+        assert.ok(a >= 36 && a <= max, `${id}/${variant}: vein at ${a.toFixed(1)}°`);
+    }
+});
+
+test('alder, birch and hazel veins end in their own marginal tooth', () => {
+  // craspedodromous venation: each secondary vein runs into a tooth apex (an outline vertex), one vein per tooth
+  for (const variant of variants)
+    for (const id of [
+      'grauerle',
+      'schwarzerle',
+      'zwergbirke',
+      'hasel',
+      'baumhasel',
+      'haengebirke',
+      'moorbirke',
+      'gruenerle',
+      'hainbuche',
+      'hopfenbuche',
+    ]) {
+      const all = paths(id, variant),
+        outline = flattenPath(all.find((p) => p.class === 'leaf-blade').d).flatMap((s) => s.points),
+        hits = new Set();
+      for (const v of all.filter((p) => p.class === 'leaf-vein')) {
+        const end = flattenPath(v.d)[0].points.at(-1),
+          k = outline.findIndex((p) => Math.hypot(p[0] - end[0], p[1] - end[1]) < 0.02);
+        assert.ok(k >= 0, `${id}/${variant}: vein ends at a tooth apex`);
+        assert.ok(!hits.has(k), `${id}/${variant}: one vein per tooth`);
+        hits.add(k);
+      }
+    }
 });

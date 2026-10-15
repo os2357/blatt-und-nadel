@@ -1,5 +1,22 @@
 # Changelog
 
+## 2.4.0 — 2026-10-15
+
+### Changed
+
+- Photo-guided batch re-review continued: 34 taxa in four batches, 22 revised in both sizes (44 SVGs). [Review and revisions](docs/AUDIT-2.4.md).
+- Batch 3, Fagaceae and Silberahorn: Rotbuche redrawn as an elliptic-ovate blade (L/W 1.6) with seven / four straight parallel vein pairs. Roteiche and Zerreiche (verdict A) redrawn with their measured outlines: bristle-tipped lobes with U-shaped sinuses, and narrow-oblong blades with irregular triangular lobes. Flaumeiche, Steineiche and Korkeiche redrawn in their measured proportions; Edelkastanie teeth stand clear of the margin. Silberahorn redrawn with deeply cut palmate lobes and coarse sharp teeth. Stieleiche and Traubeneiche confirmed.
+- Batch 4, Betulaceae: all ten taxa redrawn with a vein-first margin. Straight secondary veins ascend at the photographed angle of about 40–60° and each ends in a primary tooth, with smaller secondary teeth between. Outlines remeasured: for example Schwarzerle broadly obovate with a notched truncate apex, Hasel broadly ovate-obovate with a short cusp, Baumhasel ovate with rounded basal lobes, Zwergbirke round and crenate. A second pass after user review revised Zwergbirke, Schwarzerle, Grauerle, Hasel and Baumhasel again and then the remaining five.
+- Batch 5, Salicaceae: Korbweide redrawn as a linear-lanceolate blade (L/W 8.2, previously as broad as Silberweide); Silberpappel's lobed blade lengthened (L/W 1.03); Mandelweide lateral veins rebuilt. The other ten taxa are unchanged; an optional refinement of the Espe teeth (verdict C) was tried and declined.
+- Batch 6, Weißtanne after user review: the three-bud cluster at the shoot tip merged into a trefoil. The distal needle pairs are now shorter and turned forward, and a single ovoid, obtuse terminal bud projects beyond them.
+- Catalog descriptions, BOTANY table and README updated for all revised taxa.
+
+### Preserved and verified
+
+- **44 revised and 356 byte-identical SVGs** against v2.3.0. 80 of 200 taxa now carry a v2.3-or-later review; the other 120 keep their v2.2.3 record (`carried-over (review pending)` in [audit-2.4.json](docs/audit-2.4.json)).
+- Five new artwork regressions: measured blade proportions of oaks, beech, silver maple and willows; beech vein counts; clear chestnut teeth; birch-family vein angles of 36–60°; and veins ending in their own marginal tooth for ten Betulaceae. The silver fir checks cover the single terminal bud and shortened distal needles. 48 tests pass; audit hashes match all 400 SVGs.
+- IDs, paths, viewBoxes and licenses unchanged; photographs are linked, never traced or redistributed.
+
 ## 2.3.0 — 2026-10-14
 
 ### Added

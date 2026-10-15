@@ -1,6 +1,6 @@
 # Blatt & Nadel
 
-**200 Gehölzarten · 400 SVG-Icons · v2.3.0**
+**200 Gehölzarten · 400 SVG-Icons · v2.4.0**
 
 Blätter, Nadeln und Zweige für Naturwebseiten, Artenporträts und Baumfilter. Zwei optisch abgestimmte Varianten verbinden charakteristische Pflanzenformen mit einer einheitlichen Zeichensprache.
 
@@ -8,7 +8,7 @@ Blätter, Nadeln und Zweige für Naturwebseiten, Artenporträts und Baumfilter. 
 
 ![Alle 200 Arten in der Detail-Variante](preview.png)
 
-Version 2.3.0 ergänzt 25 Arten, darunter Mistel, Sumpfeiche, Johannisbrotbaum, Riesenmammutbaum, Baumheide und Krähenbeere, und beginnt eine fotogestützte Neuprüfung in Familienblöcken. Alle 22 Nacktsamer sind neu geprüft; 13 davon wurden überarbeitet, etwa Fichtennadeln, Lärchen-Kurztriebe, Kiefern-Nadelscheiden und Eibennadeln. 50 SVGs sind neu, 26 überarbeitet und 324 bytegleich zu v2.2.3. Die übrigen 153 bestehenden Arten behalten ihre Prüfung aus v2.2.3, bis spätere Blöcke sie erreichen. [Prüfung und Überarbeitungen](AUDIT-2.3.md) · [Neue Arten](EXPANSION-2.3.md). Die Browser-Integrationsprüfung ist in Chromium bestanden; Firefox wurde in dieser Umgebung nicht geprüft. Siehe [Prüfergebnisse](QUALITY.md).
+Version 2.4.0 setzt die fotogestützte Neuprüfung in Familienblöcken fort: Buchengewächse, Birkengewächse, Weidengewächse und Silberahorn. 34 Arten wurden neu geprüft, 22 davon in beiden Größen neu gezeichnet, etwa mit gemessenen Proportionen bei Eichen, Rotbuche und Weiden, mit Seitennerven, die bei Birken, Erlen und Haseln jeweils in einem eigenen Randzahn enden, und mit einer klareren Triebspitze der Weißtanne. 44 SVGs sind überarbeitet und 356 bytegleich zu v2.3.0. Zusammen mit v2.3.0 haben damit 80 der 200 Arten eine aktuelle Prüfung; die übrigen 120 behalten ihren Stand aus v2.2.3, bis spätere Blöcke sie erreichen. [Prüfung und Überarbeitungen](AUDIT-2.4.md) · [Prüfung und Neuzugänge v2.3](AUDIT-2.3.md). Die Browser-Integrationsprüfung ist in Chromium bestanden; Firefox wurde in dieser Umgebung nicht geprüft. Siehe [Prüfergebnisse](QUALITY.md).
 
 ## Sofort verwenden
 

@@ -3,11 +3,11 @@
      Blatt & Nadel — https://creativecommons.org/licenses/by/4.0/ -->
 <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round" role="img" aria-label="Silberpappel · Populus alba">
   <title>Silberpappel · Populus alba</title>
-  <path class="leaf-blade" d="M48 66 Q37 72 25 63 Q18 59 13 51 Q21 49 25 44 Q20 37 22 30 Q30 31 35 36 Q38 32 37 26 Q41 26 43 20 Q46 16 49 12 Q55 17 57 23 Q59 25 62 24 Q60 30 62 35 Q70 29 77 29 Q77 39 72 44 Q77 49 84 50 Q73 65 59 69 Q53 69 48 66 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
+  <path class="leaf-blade" d="M48 66 Q38.1 72.9 27.3 62.55 Q21 57.95 16.5 48.75 Q23.7 46.45 27.3 40.7 Q22.8 32.65 24.6 24.6 Q31.8 25.75 36.3 31.5 Q39 26.9 38.1 20 Q41.7 20 43.5 13.1 Q46.2 8.5 48.9 3.9 Q54.3 9.65 56.1 16.55 Q57.9 18.85 60.6 17.7 Q58.8 24.6 60.6 30.35 Q67.8 23.45 74.1 23.45 Q74.1 34.95 69.6 40.7 Q74.1 46.45 80.4 47.6 Q70.5 64.85 57.9 69.45 Q52.5 69.45 48 66 Z" fill="none" stroke="currentColor" stroke-width="3.45"/>
   <path class="leaf-petiole" d="M36 91 Q44 80 48 66" fill="none" stroke="currentColor" stroke-width="3.3"/>
-  <path class="leaf-midrib" d="M48 66 Q49 34 49 17" fill="none" stroke="currentColor" stroke-width="3.3"/>
-  <path class="leaf-vein" d="M48 65 Q32 54 18 53" fill="none" stroke="currentColor" stroke-width="2.25"/>
-  <path class="leaf-vein" d="M48 65 Q65 55 80 53" fill="none" stroke="currentColor" stroke-width="2.25"/>
-  <path class="leaf-vein" d="M48 63 Q36 48 26 34" fill="none" stroke="currentColor" stroke-width="2.25"/>
-  <path class="leaf-vein" d="M48 62 Q63 48 73 34" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-midrib" d="M48 66 Q48.9 29.2 48.9 9.65" fill="none" stroke="currentColor" stroke-width="3.3"/>
+  <path class="leaf-vein" d="M48 64.85 Q33.6 52.2 21 51.05" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 64.85 Q63.3 53.35 76.8 51.05" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 62.55 Q37.2 45.3 28.2 29.2" fill="none" stroke="currentColor" stroke-width="2.25"/>
+  <path class="leaf-vein" d="M48 61.4 Q61.5 45.3 70.5 29.2" fill="none" stroke="currentColor" stroke-width="2.25"/>
 </svg>

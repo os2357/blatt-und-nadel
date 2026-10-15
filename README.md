@@ -1,6 +1,6 @@
 # Blatt & Nadel
 
-**200 woody taxa · Central Europe and selected Mediterranean foliage · 400 SVG icons · v2.3.0**
+**200 woody taxa · Central Europe and selected Mediterranean foliage · 400 SVG icons · v2.4.0**
 
 Leaf, needle and twig icons for nature websites, species profiles and filters. Two optical sizes pair distinctive botanical forms with clear, consistent linework.
 
@@ -8,7 +8,7 @@ Leaf, needle and twig icons for nature websites, species profiles and filters. T
 
 ![All 200 species in the Detail variant](docs/preview.png)
 
-Version 2.3.0 adds 25 taxa, including mistletoe, pin oak, carob, giant sequoia, tree heath and crowberry, and starts a photo-guided re-review in family batches. All 22 gymnosperms are re-reviewed; 13 received revised artwork, for example spruce needles, larch short shoots, pine sheaths and yew needles. 50 SVGs are new, 26 revised and 324 byte-identical to v2.2.3. The other 153 existing taxa keep their v2.2.3 review until later batches reach them. [Review and revisions](docs/AUDIT-2.3.md) · [Additions](docs/EXPANSION-2.3.md). Browser integration passed in Chromium; Firefox was not run in this environment. See [quality results](docs/QUALITY.md).
+Version 2.4.0 continues the photo-guided re-review in family batches with the beech, birch and willow families and silver maple. 34 taxa were re-reviewed and 22 redrawn in both sizes, for example measured oak, beech and willow proportions, birch, alder and hazel veins that each end in their own marginal tooth, and a clearer silver fir shoot tip. 44 SVGs are revised and 356 byte-identical to v2.3.0. Together with v2.3.0, 80 of the 200 taxa now carry a current review; the other 120 keep their v2.2.3 record until later batches reach them. [Review and revisions](docs/AUDIT-2.4.md) · [v2.3 review and additions](docs/AUDIT-2.3.md). Browser integration passed in Chromium; Firefox was not run in this environment. See [quality results](docs/QUALITY.md).
 
 ## Use the icons
 
